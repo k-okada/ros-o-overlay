@@ -21,10 +21,8 @@ jobs:
           ROS_DISTRO: ${{ env.ROS_DISTRO }}
           DEB_DISTRO: ${{ env.DEB_DISTRO }}
           REPOS_FILE: sources.repos
-
-          #  rosdep.yaml - could be added below if additional rosdep keys are required
           ROSDEP_SOURCE: |
-            https://raw.githubusercontent.com/v4hn/ros-o-builder-experimental/main/rosdep.yaml
+            rosdep.yaml
             ${{ env.UPSTREAM }}/local.yaml
           DEB_REPOSITORY: |
             deb [trusted=yes] ${{ env.UPSTREAM }} ./
