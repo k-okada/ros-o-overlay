@@ -26,9 +26,7 @@ jobs:
             ${{ env.UPSTREAM }}/local.yaml
           DEB_REPOSITORY: |
             deb [trusted=yes] ${{ env.UPSTREAM }} ./
-
           CONTINUE_ON_ERROR: true
-
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PUSH_ON_ERROR: true
           SQUASH_HISTORY: true
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
