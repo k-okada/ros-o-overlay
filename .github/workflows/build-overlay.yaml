@@ -10,7 +10,7 @@ jobs:
     env:
       ROS_DISTRO: one
       DEB_DISTRO: jammy
-      UPSTREAM: https://raw.githubusercontent.com/v4hn/ros-o-builder-experimental/jammy-one/repository
+      UPSTREAM: https://raw.githubusercontent.com/v4hn/ros-o-builder/jammy-one/repository
     steps:
       - name: install Debian ROS packages
         run: |
