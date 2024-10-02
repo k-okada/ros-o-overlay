@@ -1,4 +1,4 @@
 # example entry
-python:
+python3-catkin-tools:
   ubuntu:
-    - python3
+    - python3-catkin-tools
