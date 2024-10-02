@@ -26,6 +26,7 @@ jobs:
             ${{ env.UPSTREAM }}/local.yaml
           DEB_REPOSITORY: |
             deb [trusted=yes] ${{ env.UPSTREAM }} ./
+          SBUILD_CONF: "$enable_network = 1;"
           CONTINUE_ON_ERROR: true
           PUSH_ON_ERROR: true
           SQUASH_HISTORY: true
