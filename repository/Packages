@@ -1,0 +1,54 @@
+Package: ros-one-hpp-fcl-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 2.4.5-788-g6b9f9c8e-2024.10.07.15.08
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-hpp-fcl
+Maintainer: Joseph Mirabel <jmirabel@laas.fr>
+Installed-Size: 79977
+Depends: ros-one-hpp-fcl (= 2.4.5-788-g6b9f9c8e-2024.10.07.15.08)
+Filename: ./ros-one-hpp-fcl-dbgsym_2.4.5-788-g6b9f9c8e-2024.10.07.15.08_amd64.ddeb
+Size: 72006608
+MD5sum: 0f3e578d675e5aea3ca2ce84b8f5119c
+SHA1: dfe176117d934265445b8bec3b16787f488f24ee
+SHA256: 4ff40edaf4fbdc881d794d931fd673dc81b7a2e78de4dd3a3d066a0e6ffce2d5
+SHA512: bfd52c7cfe9258a49fa53848aab521cfcf276c02b4a5c759937e4298911eb65bd5a541469b323f484b1472c05d8b5b7cff1ffcf847e1b99ca6db49899d8ec6a9
+Description: debug symbols for ros-one-hpp-fcl
+Build-Ids: 24fa37813c2128f3fe12b9dd74d6f64ee316b805 5c336c4fd02d95404dd92276ee12bde5f4eaed79
+
+Package: ros-one-hpp-fcl
+Architecture: amd64
+Version: 2.4.5-788-g6b9f9c8e-2024.10.07.15.08
+Priority: optional
+Section: misc
+Maintainer: Joseph Mirabel <jmirabel@laas.fr>
+Installed-Size: 12133
+Depends: libassimp5 (>= 5.2.2~ds0), libboost-filesystem1.74.0 (>= 1.74.0), libboost-python1.74.0 (>= 1.74.0), libboost-serialization1.74.0 (>= 1.74.0), libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), liboctomap1.9 (>= 1.9.7+dfsg), libstdc++6 (>= 11), catkin, libassimp-dev, libboost-all-dev, libeigen3-dev, libgmock-dev, libgtest-dev, liboctomap-dev, python3-dev, python3-numpy, ros-one-eigenpy
+Filename: ./ros-one-hpp-fcl_2.4.5-788-g6b9f9c8e-2024.10.07.15.08_amd64.deb
+Size: 2033238
+MD5sum: da904bdbd28b4891c0cc395bdf025c75
+SHA1: ae0ce5799d27b3738a3dde7940e5cc9616db4c81
+SHA256: e253cdecd76d1aaef1a154eb4fd5bbfffb963ea96b3153c80f31ab847bec3c81
+SHA512: 0d19f8fb3bca819d607fb33c14c16c088b8ddaeb59795174f6fa57b56396fe18fb61afb16b66268d52c0b156b1a8156e11278b880a1599f1f3c4505e4a8f501e
+Homepage: https://github.com/humanoid-path-planner/hpp-fcl
+Description: An extension of the Flexible Collision Library.
+
+Package: ros-one-pinocchio
+Architecture: amd64
+Version: 3.2.0-2024.10.07.15.15
+Priority: optional
+Section: misc
+Maintainer: Justin Carpentier <justin.carpentier@inria.fr>
+Installed-Size: 27453
+Depends: libboost-filesystem1.74.0 (>= 1.74.0), libboost-python1.74.0 (>= 1.74.0), libboost-serialization1.74.0 (>= 1.74.0), libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), liburdfdom-model3.0 (>= 3.0.1), liburdfdom-world3.0 (>= 3.0.1), catkin, libboost-all-dev, libeigen3-dev, libgmock-dev, libgtest-dev, liburdfdom-dev, python3-dev, python3-numpy, ros-one-eigenpy, ros-one-hpp-fcl, ros-one-ros-environment
+Filename: ./ros-one-pinocchio_3.2.0-2024.10.07.15.15_amd64.deb
+Size: 4461642
+MD5sum: 04414e892792dc7e97d680f29654ed07
+SHA1: b52643134331460671ba4e358ed1c8ed59625319
+SHA256: 62a50391a9def03e952536c6b5b24675849d5ebb3ba42fbf0d7994ea97c88df9
+SHA512: bc04952e6cb6415bf0646b02bc56dfa5c0f537b124c96323fd5d7d5f07f8453016f458550e89fce0a6385d0d99d060e622f01781eec6d19e72249bef0e26a27c
+Homepage: https://github.com/stack-of-tasks/pinocchio
+Description: A fast and flexible implementation of Rigid Body Dynamics algorithms and their analytical derivatives.
+

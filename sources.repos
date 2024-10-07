@@ -1,0 +1,9 @@
+repositories:
+  hpp-fcl:
+    type: git
+    url: https://github.com/humanoid-path-planner/hpp-fcl.git
+    version: 6b9f9c8eb42a2e857312fd849db624e35e00c079
+  pinocchio:
+    type: git
+    url: https://github.com/stack-of-tasks/pinocchio.git
+    version: 0b594a0fb803fcc2141856e6fb8c69bcf1e8981b

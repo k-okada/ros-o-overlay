@@ -1,0 +1,6 @@
+hpp-fcl:
+  ubuntu:
+  - ros-one-hpp-fcl
+pinocchio:
+  ubuntu:
+  - ros-one-pinocchio
