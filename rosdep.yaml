@@ -2,3 +2,5 @@
 python3-catkin-tools:
   ubuntu:
     - catkin-tools
+python-gdown-pip:
+  ubuntu: []
