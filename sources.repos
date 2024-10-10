@@ -1,8 +1,4 @@
 repositories:
-  mongodb_store:
-    type: git
-    url: https://github.com/ros-o/mongodb_store.git
-    version: obese-devel
   jsk_3rdparty:
     type: git
     url: https://github.com/jsk-ros-pkg/jsk_3rdparty.git
