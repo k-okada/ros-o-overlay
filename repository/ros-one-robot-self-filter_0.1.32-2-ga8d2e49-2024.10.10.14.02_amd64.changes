@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Fri, 07 Aug 2020 00:00:00 -0000
+Source: ros-one-robot-self-filter
+Binary: ros-one-robot-self-filter
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.1.32-2-ga8d2e49-2024.10.10.14.02
+Distribution: jammy
+Urgency: high
+Maintainer: Devon Ash <dash@clearpathrobotics.com>
+Changed-By: Devon Ash <dash@clearpathrobotics.com>
+Description:
+ ros-one-robot-self-filter - Filters the robot's body out of point clouds.
+Changes:
+ ros-one-robot-self-filter (0.1.32-2-ga8d2e49-2024.10.10.14.02) jammy; urgency=high
+ .
+   * PCL > 1.10 uses c++ 14
+   * find_package(Boost signals) no longer required for noetic, use find_package(Boost)
+   * remove indigo/lunar from .travis.yml
+   * add noetic and fix .travs.yml
+   * Contributors: Kei Okada
+Checksums-Sha1:
+ 581749fb5bd77711f281af1ade275176919d1783 3640608 ros-one-robot-self-filter-dbgsym_0.1.32-2-ga8d2e49-2024.10.10.14.02_amd64.ddeb
+ 9d4429576747d94f5b5063677c8d16483e64cae1 38944 ros-one-robot-self-filter_0.1.32-2-ga8d2e49-2024.10.10.14.02_amd64.buildinfo
+ 0141c3fd5bbc2c3aa6f9b559a02cc9aca6666730 185866 ros-one-robot-self-filter_0.1.32-2-ga8d2e49-2024.10.10.14.02_amd64.deb
+Checksums-Sha256:
+ ed10f0857cbf4baf6be73158f8f0f31c09bf7ee7772aae254b57cfbaebf7385d 3640608 ros-one-robot-self-filter-dbgsym_0.1.32-2-ga8d2e49-2024.10.10.14.02_amd64.ddeb
+ d351669ba0b68b4a795db38df5b9c2a61bf68859a79a28bbf5bdcf37ed7a70f2 38944 ros-one-robot-self-filter_0.1.32-2-ga8d2e49-2024.10.10.14.02_amd64.buildinfo
+ 14fc97439bd74cc10b9e92d15524b0d855ad326d975fd1ba61bd2f2a4cd25c48 185866 ros-one-robot-self-filter_0.1.32-2-ga8d2e49-2024.10.10.14.02_amd64.deb
+Files:
+ 35ee9ad3cac00ae00714d1642c6d2d06 3640608 debug optional ros-one-robot-self-filter-dbgsym_0.1.32-2-ga8d2e49-2024.10.10.14.02_amd64.ddeb
+ 870a2f45604875bdc788d462d9296762 38944 misc optional ros-one-robot-self-filter_0.1.32-2-ga8d2e49-2024.10.10.14.02_amd64.buildinfo
+ 00f5c78fafb107565a1c7c123ae5852c 185866 misc optional ros-one-robot-self-filter_0.1.32-2-ga8d2e49-2024.10.10.14.02_amd64.deb

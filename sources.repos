@@ -1,0 +1,5 @@
+repositories:
+  robot_self_filter:
+    type: git
+    url: https://github.com/PR2/robot_self_filter.git
+    version: a8d2e49f11be6517ec1619a39960d6b47cb6a4f4

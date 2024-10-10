@@ -1,0 +1,37 @@
+Package: ros-one-robot-self-filter-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0.1.32-2-ga8d2e49-2024.10.10.14.02
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-robot-self-filter
+Maintainer: Devon Ash <dash@clearpathrobotics.com>
+Installed-Size: 3824
+Depends: ros-one-robot-self-filter (= 0.1.32-2-ga8d2e49-2024.10.10.14.02)
+Filename: ./ros-one-robot-self-filter-dbgsym_0.1.32-2-ga8d2e49-2024.10.10.14.02_amd64.ddeb
+Size: 3640608
+MD5sum: 35ee9ad3cac00ae00714d1642c6d2d06
+SHA1: 581749fb5bd77711f281af1ade275176919d1783
+SHA256: ed10f0857cbf4baf6be73158f8f0f31c09bf7ee7772aae254b57cfbaebf7385d
+SHA512: 3f14613c065d41ca6a70dffd4a1b007fc518669f7a40f6bd834101df549fad6a5b90e4b176346feded2396757cb98c10b12497db18583836e05b5925310a2bd2
+Description: debug symbols for ros-one-robot-self-filter
+Build-Ids: 400eb930d15c38da18922a8a08971fd03b6946d7 5da9fa6e598a884b18d9c9b10ae932a0ff788327 64d4b1a4aa74818a08ca66a476535720a38fe16d d39c3ff5d70b4f3bbbf37928a15c470384fad310
+
+Package: ros-one-robot-self-filter
+Architecture: amd64
+Version: 0.1.32-2-ga8d2e49-2024.10.10.14.02
+Priority: optional
+Section: misc
+Maintainer: Devon Ash <dash@clearpathrobotics.com>
+Installed-Size: 679
+Depends: libassimp5 (>= 5.2.2~ds0), libboost-filesystem1.74.0 (>= 1.74.0), libboost-thread1.74.0 (>= 1.74.0), libbullet3.06 (>= 3.06+dfsg), libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libpcl-common1.12 (>= 1.12.1+dfsg), libstdc++6 (>= 11), libtinyxml2.6.2v5 (>= 2.6.2), liburdfdom-world3.0 (>= 3.0.1), libassimp-dev, libbullet-dev, libtinyxml-dev, ros-one-filters, ros-one-pcl-ros, ros-one-resource-retriever, ros-one-roscpp, ros-one-sensor-msgs, ros-one-tf, ros-one-urdf, ros-one-visualization-msgs
+Filename: ./ros-one-robot-self-filter_0.1.32-2-ga8d2e49-2024.10.10.14.02_amd64.deb
+Size: 185866
+MD5sum: 00f5c78fafb107565a1c7c123ae5852c
+SHA1: 0141c3fd5bbc2c3aa6f9b559a02cc9aca6666730
+SHA256: 14fc97439bd74cc10b9e92d15524b0d855ad326d975fd1ba61bd2f2a4cd25c48
+SHA512: 9310663eaea6550d3b5b2dfe0b821ca8fa319cfed93e64b346c218deb202fd6298f508e8c1edc06db88bfce56fb759cc2d44ce46cc55ad00956996a48241a86a
+Homepage: http://ros.org/wiki/robot_self_filter
+Description: Filters the robot's body out of point clouds.
+
