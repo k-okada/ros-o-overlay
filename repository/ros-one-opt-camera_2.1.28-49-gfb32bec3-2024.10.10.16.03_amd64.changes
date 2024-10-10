@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Mon, 24 Jul 2023 00:00:00 -0000
+Source: ros-one-opt-camera
+Binary: ros-one-opt-camera
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.1.28-49-gfb32bec3-2024.10.10.16.03
+Distribution: jammy
+Urgency: high
+Maintainer: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Changed-By: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Description:
+ ros-one-opt-camera - opt_camera
+Changes:
+ ros-one-opt-camera (2.1.28-49-gfb32bec3-2024.10.10.16.03) jammy; urgency=high
+Checksums-Sha1:
+ f03fb3e00b6c20bf2a9e2253870b6488b8c21480 1180028 ros-one-opt-camera-dbgsym_2.1.28-49-gfb32bec3-2024.10.10.16.03_amd64.ddeb
+ a5d1d9abcd3064734ef31eabb855c797fda02d7b 31583 ros-one-opt-camera_2.1.28-49-gfb32bec3-2024.10.10.16.03_amd64.buildinfo
+ 0b42781e09bffc4129d355dac5f2ba583b112f19 108272 ros-one-opt-camera_2.1.28-49-gfb32bec3-2024.10.10.16.03_amd64.deb
+Checksums-Sha256:
+ 0b57db025ebfff917c9ec0618ff46077327f0fb83ddb30ca29e8c818cb085573 1180028 ros-one-opt-camera-dbgsym_2.1.28-49-gfb32bec3-2024.10.10.16.03_amd64.ddeb
+ 3a70c095b379060d9976372994c91de0ffe3a899032924583a49100cc61a2858 31583 ros-one-opt-camera_2.1.28-49-gfb32bec3-2024.10.10.16.03_amd64.buildinfo
+ ced429d039bd73eaaa485cfa1c2fa8d650b2984143e9812d6a7dd6cf7a19bd68 108272 ros-one-opt-camera_2.1.28-49-gfb32bec3-2024.10.10.16.03_amd64.deb
+Files:
+ 76e90d8cf70ea7453ad9aa0c0aeb40d2 1180028 debug optional ros-one-opt-camera-dbgsym_2.1.28-49-gfb32bec3-2024.10.10.16.03_amd64.ddeb
+ 54684b00b9067f507d70d0b7c680b6a9 31583 misc optional ros-one-opt-camera_2.1.28-49-gfb32bec3-2024.10.10.16.03_amd64.buildinfo
+ 59d117e2eec2e92ec118f9c0a0a84f83 108272 misc optional ros-one-opt-camera_2.1.28-49-gfb32bec3-2024.10.10.16.03_amd64.deb

@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Mon, 24 Jul 2023 00:00:00 -0000
+Source: ros-one-laser-filters-jsk-patch
+Binary: ros-one-laser-filters-jsk-patch
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.1.28-49-gfb32bec3-2024.10.10.15.48
+Distribution: jammy
+Urgency: high
+Maintainer: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Changed-By: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Description:
+ ros-one-laser-filters-jsk-patch - laser_filters_jsk_patch
+Changes:
+ ros-one-laser-filters-jsk-patch (2.1.28-49-gfb32bec3-2024.10.10.15.48) jammy; urgency=high
+Checksums-Sha1:
+ 238df0455cf932c1b9ede257b71643175bc4a954 276432 ros-one-laser-filters-jsk-patch-dbgsym_2.1.28-49-gfb32bec3-2024.10.10.15.48_amd64.ddeb
+ 25174f0f847d84221b29f8479a5ea990a5938447 19607 ros-one-laser-filters-jsk-patch_2.1.28-49-gfb32bec3-2024.10.10.15.48_amd64.buildinfo
+ 6202281ee1c205df27b72d0589f277f138778b53 23488 ros-one-laser-filters-jsk-patch_2.1.28-49-gfb32bec3-2024.10.10.15.48_amd64.deb
+Checksums-Sha256:
+ fbf307f3380aeeb9f0dda8b3959b3e8e9b87a0c25a1809d4cc3b7f62c967985d 276432 ros-one-laser-filters-jsk-patch-dbgsym_2.1.28-49-gfb32bec3-2024.10.10.15.48_amd64.ddeb
+ 467ef0e0c6bb695c1dc89b79834752fe060b431284a03ba5201c7d5dc372b6de 19607 ros-one-laser-filters-jsk-patch_2.1.28-49-gfb32bec3-2024.10.10.15.48_amd64.buildinfo
+ bb53ae107a04942012808f856fb40b9383b795ed500ce394403bc08e8e78a6a1 23488 ros-one-laser-filters-jsk-patch_2.1.28-49-gfb32bec3-2024.10.10.15.48_amd64.deb
+Files:
+ 6cc0c1cd53fc60104b83b365578c250f 276432 debug optional ros-one-laser-filters-jsk-patch-dbgsym_2.1.28-49-gfb32bec3-2024.10.10.15.48_amd64.ddeb
+ bbdaf14e072976d35bc79bf5dd9d2689 19607 misc optional ros-one-laser-filters-jsk-patch_2.1.28-49-gfb32bec3-2024.10.10.15.48_amd64.buildinfo
+ 5f49859f75362167768b6f9e522f93e0 23488 misc optional ros-one-laser-filters-jsk-patch_2.1.28-49-gfb32bec3-2024.10.10.15.48_amd64.deb

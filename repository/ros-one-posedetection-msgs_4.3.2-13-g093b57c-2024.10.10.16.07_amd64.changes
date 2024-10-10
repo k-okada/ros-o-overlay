@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Sun, 03 May 2020 00:00:00 -0000
+Source: ros-one-posedetection-msgs
+Binary: ros-one-posedetection-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 4.3.2-13-g093b57c-2024.10.10.16.07
+Distribution: jammy
+Urgency: high
+Maintainer: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Changed-By: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Description:
+ ros-one-posedetection-msgs - posedetection_msgs provides messages and services to facilitate p
+Changes:
+ ros-one-posedetection-msgs (4.3.2-13-g093b57c-2024.10.10.16.07) jammy; urgency=high
+ .
+   * fix for noetic, need to use OpenCV2 instead of OpenCV (#26 <https://github.com/jsk-ros-pkg/jsk_common_msgs/issues/26>)
+ .
+       * add noetic test to travis.yml, update jsk_travis 0.5.10
+ .
+   * Contributors: Kei Okada
+Checksums-Sha1:
+ 9be0484c993816879586b1313ece45714e259194 1334902 ros-one-posedetection-msgs-dbgsym_4.3.2-13-g093b57c-2024.10.10.16.07_amd64.ddeb
+ 8e4dc735cab1f88eecc14863cfd2ab213dbbb3c8 27783 ros-one-posedetection-msgs_4.3.2-13-g093b57c-2024.10.10.16.07_amd64.buildinfo
+ b1da4c5b2dfda2bf580c1f6cbce1f181e2f159f0 129482 ros-one-posedetection-msgs_4.3.2-13-g093b57c-2024.10.10.16.07_amd64.deb
+Checksums-Sha256:
+ 21ac20378c09f2705f0251cdf1a00725cfb48e79c9bb2bb91656385fe5f5a6c2 1334902 ros-one-posedetection-msgs-dbgsym_4.3.2-13-g093b57c-2024.10.10.16.07_amd64.ddeb
+ 4ab37f1a55a66026ce2aab4fe318acc980766a81a5c6b9b3595d732ebc2c1b02 27783 ros-one-posedetection-msgs_4.3.2-13-g093b57c-2024.10.10.16.07_amd64.buildinfo
+ 06c1f01147400f57e5070cecf6076389b185ae6ef8871993fe2599395224fd5b 129482 ros-one-posedetection-msgs_4.3.2-13-g093b57c-2024.10.10.16.07_amd64.deb
+Files:
+ b612dbab6a33dfa8aa7f8692fe04fd8c 1334902 debug optional ros-one-posedetection-msgs-dbgsym_4.3.2-13-g093b57c-2024.10.10.16.07_amd64.ddeb
+ 1fd7bc2f85867c5301e2cf311a00c8bc 27783 misc optional ros-one-posedetection-msgs_4.3.2-13-g093b57c-2024.10.10.16.07_amd64.buildinfo
+ c1c1dbee005aeccde1666d1ca4b0b94b 129482 misc optional ros-one-posedetection-msgs_4.3.2-13-g093b57c-2024.10.10.16.07_amd64.deb

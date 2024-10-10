@@ -1,0 +1,1612 @@
+Package: ros-one-aques-talk
+Architecture: amd64
+Version: 2.1.28-49-gfb32bec3-2024.10.10.14.47
+Priority: optional
+Section: misc
+Maintainer: Kei Okada <kei.okada@gmail.com>
+Installed-Size: 35
+Depends: kakasi, nkf, ros-one-sound-play
+Filename: ./ros-one-aques-talk_2.1.28-49-gfb32bec3-2024.10.10.14.47_amd64.deb
+Size: 8068
+MD5sum: 8ecea0207df048c7819fabc307c63d54
+SHA1: 2af15ed391d530ef892816a28c815f2dd4ed896e
+SHA256: e0ec4e375ecd5216870ef305acf4df44a893ff2033585d58fd8de095f6e3b0c0
+SHA512: 3965eb0f3c666e235b4eadfe1765c99fcebd7cf21b3e08de8c30ea9f22f8a62936d5cb8914282775a3822019ab75e5febb83995603ce59ee538e775c856a7868
+Homepage: http://ros.org/wiki/aques_talk
+Description: ROS interface aques_talk demo program
+
+Package: ros-one-assimp-devel-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 2.1.28-49-gfb32bec3-2024.10.10.14.48
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-assimp-devel
+Maintainer: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Installed-Size: 20713
+Depends: ros-one-assimp-devel (= 2.1.28-49-gfb32bec3-2024.10.10.14.48)
+Filename: ./ros-one-assimp-devel-dbgsym_2.1.28-49-gfb32bec3-2024.10.10.14.48_amd64.ddeb
+Size: 19191610
+MD5sum: e18b65cd966655ef9bb6708ce1570f12
+SHA1: 28a7ec5a98ce4928b279ba6a20f4367e5853ba68
+SHA256: b9573747063622f47f9e05d227c60c4ca8f122b24dc883df9f0d69cac97c19ec
+SHA512: 2970c831e595d8363b2036f31446352bb758b2e40ff3941b505ce59467c58712c12932510154a09c32f62d8e64fd613659f6d47245008e59fee1a08e6732fdbf
+Description: debug symbols for ros-one-assimp-devel
+Build-Ids: 4978771f0328602a9a010f141d16e52137008e0c be0645e4599ba8f0478514afdc745bad8848540e
+
+Package: ros-one-assimp-devel
+Architecture: amd64
+Version: 2.1.28-49-gfb32bec3-2024.10.10.14.48
+Priority: optional
+Section: misc
+Maintainer: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Installed-Size: 5852
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), zlib1g (>= 1:1.1.4), libboost-all-dev, zlib1g-dev
+Filename: ./ros-one-assimp-devel_2.1.28-49-gfb32bec3-2024.10.10.14.48_amd64.deb
+Size: 1589702
+MD5sum: 72cab0ba96011040fe80f7a67ed26d49
+SHA1: c8e71cc37dbe2c1e64db6e81b87cbc9e0d782211
+SHA256: 9bade025c1b592bc648cd70eb00d0d1ea28d10d02029d3923717e88228dd0169
+SHA512: bf7c0c5a4fe4381121837b63f59a226951b9aca41ed4a80060bc6ff21b992e4db06ee276b73fe0ac78051f96b6f61980fe284e4312ef3cf1733c5325d60d6b5b
+Description: assimp library
+
+Package: ros-one-audio-to-spectrogram
+Architecture: amd64
+Version: 1.2.17-16-gcc31b0e5-2024.10.10.15.25
+Priority: optional
+Section: misc
+Maintainer: Naoya Yamaguchi <yamaguchi@jsk.imi.i.u-tokyo.ac.jp>
+Installed-Size: 1643
+Depends: python3-matplotlib, ros-one-audio-capture, ros-one-audio-common-msgs, ros-one-cv-bridge, ros-one-dynamic-reconfigure, ros-one-geometry-msgs, ros-one-image-view, ros-one-jsk-recognition-msgs, ros-one-jsk-topic-tools, ros-one-rostopic, ros-one-sensor-msgs, ros-one-std-msgs, ros-one-topic-tools
+Filename: ./ros-one-audio-to-spectrogram_1.2.17-16-gcc31b0e5-2024.10.10.15.25_amd64.deb
+Size: 805482
+MD5sum: f27d9628dc77bc2d433e9b3ef225c4d0
+SHA1: 33c5437dd47294aec6d4fe3ec611a5a7211615cd
+SHA256: 37949f2b0f5ec06377eb2ccb3d6b9d13734a36b47735f96035f17b8736195de1
+SHA512: 969943bb0fbd28a5086833b252864ba00b5b0bf3b4e9e26d6db22720164cdb2570aada3527322f62daddcc685ccf37931c4e9fb54978efdb64a52f44dcff5914
+Description: Convert audio (audio_common_msgs/AudioData) to spectrogram (sensor_msgs/Image)
+
+Package: ros-one-audio-video-recorder-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2024.10.10.14.54
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-audio-video-recorder
+Maintainer: Shingo Kitagawa <shingogo.5511@gmail.com>
+Installed-Size: 679
+Depends: ros-one-audio-video-recorder (= 0-2024.10.10.14.54)
+Filename: ./ros-one-audio-video-recorder-dbgsym_0-2024.10.10.14.54_amd64.ddeb
+Size: 620858
+MD5sum: 47c6627fd171803d74334373d2b0e515
+SHA1: 32e2ba201a90648a42c815d849487b1e7ed11786
+SHA256: 7100c6568548796429b2a64e354d7c7c6093f39329cd0226011bd59cff6cfe68
+SHA512: 1eeaf99c422a6f0ff69058eca16182ce53b119e21f74a8226b853bd8fa8f458f4595de7925f279643b3de7a929b4bc8be9e1c37df3eafe7da74499121415bb23
+Description: debug symbols for ros-one-audio-video-recorder
+Build-Ids: 4ee54f3708495548695a97c9773b5b48772f2fc8
+
+Package: ros-one-audio-video-recorder
+Architecture: amd64
+Version: 0-2024.10.10.14.54
+Priority: optional
+Section: misc
+Maintainer: Shingo Kitagawa <shingogo.5511@gmail.com>
+Installed-Size: 179
+Depends: libboost-thread1.74.0 (>= 1.74.0), libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libglib2.0-0 (>= 2.12.0), libgstreamer1.0-0 (>= 1.4.0), libstdc++6 (>= 11), gir1.2-gst-plugins-base-1.0, gir1.2-gstreamer-1.0, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-ugly, gstreamer1.0-tools, libgstreamer-plugins-base1.0-0, libgstreamer-plugins-good1.0-0, ros-one-audio-common-msgs, ros-one-message-filters, ros-one-roscpp, ros-one-sensor-msgs
+Filename: ./ros-one-audio-video-recorder_0-2024.10.10.14.54_amd64.deb
+Size: 48520
+MD5sum: 4c24bbf05f082122ea078a146e07fca8
+SHA1: 184b2f2a6033ad3b84868aadd0dce62c8903186e
+SHA256: e5df4aebfcad5661881857714c2e94d5cb374ed982e8fff47f979e8b6d08dc7c
+SHA512: 27caff6c42c32d9486fc1ce2f63552385b3f07434a41b5bd0f53a80e434f21b40420c56c8f7bfc35ed035fffb460bc17030dcb7eb474eabb271289d9ef3ba687
+Description: ROS package for recording image and audio synchronously
+
+Package: ros-one-bayesian-belief-networks
+Architecture: amd64
+Version: 2.1.28-49-gfb32bec3-2024.10.10.14.55
+Priority: optional
+Section: misc
+Maintainer: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Installed-Size: 553
+Depends: ros-one-message-runtime, ros-one-rospy, ros-one-std-msgs
+Filename: ./ros-one-bayesian-belief-networks_2.1.28-49-gfb32bec3-2024.10.10.14.55_amd64.deb
+Size: 92528
+MD5sum: 87523a41998721934388365557e33888
+SHA1: 1684af80c7f9d6b932ced98a49afbe0221619f31
+SHA256: 5173c58f08fd8588e9f4ae84de87883dd758c512d06c17ed25831444d94426f9
+SHA512: 2a4a54a0e56df203beb87535df2a93228e5c757fec395c360fca027b7cb04f34d61590bd9a710f6e6e371e43938f6f23bb9efe75415ab77e47ba39d5aed4d432
+Homepage: https://github.com/eBay/bayesian-belief-networks
+Description: The bayesian_belief_networks package form https://github.com/eBay/bayesian-belief-networks, Authored by Neville Newey, Anzar Afaq, Copyright 2013 eBay Software Foundation
+
+Package: ros-one-chaplus-ros
+Architecture: amd64
+Version: 2.1.28-49-gfb32bec3-2024.10.10.14.56
+Priority: optional
+Section: misc
+Maintainer: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Installed-Size: 58
+Depends: python3-requests, ros-one-rospy
+Filename: ./ros-one-chaplus-ros_2.1.28-49-gfb32bec3-2024.10.10.14.56_amd64.deb
+Size: 9934
+MD5sum: 3c19fa8d2a27b074552a6d6cb0600911
+SHA1: bbd5dd8fefcfe86e918c9f4883ceebc2a5a4f6a2
+SHA256: 1ad1b99635e03a88844bcf8db4b3027e1a67830d167eb727e2983a616c5dbb94
+SHA512: 3d45c24eff1ea669a2e26004210e6fe40172c1a06070004d66e4bd065a039abb9936e7170ae5bea372e82248687306fa0c24c9da6e4715ece5ed97d223037f5c
+Description: The ROS package for chaplus service
+
+Package: ros-one-checkerboard-detector-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 1.2.17-16-gcc31b0e5-2024.10.10.16.08
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-checkerboard-detector
+Maintainer: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Installed-Size: 4184
+Depends: ros-one-checkerboard-detector (= 1.2.17-16-gcc31b0e5-2024.10.10.16.08)
+Filename: ./ros-one-checkerboard-detector-dbgsym_1.2.17-16-gcc31b0e5-2024.10.10.16.08_amd64.ddeb
+Size: 3963132
+MD5sum: 155e1d5ca50145d7d8b539d4c41477a5
+SHA1: 7b75d7acbd8ffad57af7c80bf7e0c5407f12f0f0
+SHA256: fab240e4be2e9d694876f2713e8d9f727bce45c9e49bcd5aae4ace961bee23c5
+SHA512: f3d6bd5de0ade2d32e930d850f1ecd575cc4e8d039ae83b0ba276174ddd06bd9793ce4c48354aaa38e77031c835a969725d95ed3fe4ed8006f3baab81a2cdbda
+Description: debug symbols for ros-one-checkerboard-detector
+Build-Ids: 009b3ee69a681fde561c758e146c4b5b25a8b03d 310db74af9723eb10e8ac4e41f6c5602d4b6eff3 6a81e326e30d8e794b007367839ad2d917bf8f3e
+
+Package: ros-one-checkerboard-detector
+Architecture: amd64
+Version: 1.2.17-16-gcc31b0e5-2024.10.10.16.08
+Priority: optional
+Section: misc
+Maintainer: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Installed-Size: 872
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libgomp1 (>= 6), libopencv-calib3d4.5d (>= 4.5.4+dfsg), libopencv-core4.5d (>= 4.5.4+dfsg), libopencv-features2d4.5d (>= 4.5.4+dfsg), libopencv-highgui4.5d (>= 4.5.4+dfsg), libopencv-imgproc4.5d (>= 4.5.4+dfsg), libopencv-stitching4.5d (>= 4.5.4+dfsg), libstdc++6 (>= 11), ros-one-cv-bridge, ros-one-dynamic-reconfigure, ros-one-dynamic-tf-publisher, ros-one-eigen-conversions, ros-one-image-geometry, ros-one-image-publisher, ros-one-jsk-recognition-msgs, ros-one-message-filters, ros-one-posedetection-msgs, ros-one-rosconsole, ros-one-roscpp, ros-one-sensor-msgs, ros-one-tf, ros-one-tf2
+Filename: ./ros-one-checkerboard-detector_1.2.17-16-gcc31b0e5-2024.10.10.16.08_amd64.deb
+Size: 243280
+MD5sum: 52dadbf70047d2a7ce667699ff954f07
+SHA1: 67797e4dc525040982419483b7584879307a72ad
+SHA256: 80807e49d900b6695169cae1c9aa5ae3e7fc8adb8fb2947029941cba57dc3675
+SHA512: 113158aea076621a3778504a878178878c91b806dfbddcaad9f7e21f5abd453b36d21f9d0db918f8c2007bfa42735c7801aa53bf51d1b56c2841548cdec95e03
+Homepage: https://jsk-docs.readthedocs.io/projects/jsk_recognition/en/latest/checkerboard_detector
+Description: Uses opencv to find checkboards and compute their 6D poses with respect to the image.
+ Requires the image to be calibrated. Parameters: display - show the checkerboard detection rect%d_size_x - size of checker in x direction rect%d_size_y - size of checker in y direction grid%d_size_x - number of checkers in x direction grid%d_size_y - number of checkers in y direction There can be more than one grid%d declared, the numbers should grow consecutively starting at 0.
+
+Package: ros-one-dynamic-tf-publisher
+Architecture: amd64
+Version: 0-2024.10.10.14.58
+Priority: optional
+Section: misc
+Maintainer: Ryohei Ueda <garaemon@gmail.com>
+Installed-Size: 352
+Depends: ros-one-geometry-msgs, ros-one-message-runtime, ros-one-rospy, ros-one-tf
+Filename: ./ros-one-dynamic-tf-publisher_0-2024.10.10.14.58_amd64.deb
+Size: 35020
+MD5sum: 36d6625979dbf580c1be8e832af8770e
+SHA1: d92deeeb35da9742ada59c3c2f146b5b63a05f59
+SHA256: 88246f3ebbac0009ee2009e0af6ee696f7092747068ddcd0303cdddaf054a0a1
+SHA512: 017ef857a13e3ef51e6c7428d5507973946f34fa18caeeb765489fb1ab6eab706411ad09bc89cadb7732d35157687ec3b599de9e3e711852eeb59db012d403f7
+Homepage: http://ros.org/wiki/dynamic_tf_publisher
+Description: dynamically set the tf trensformation
+
+Package: ros-one-gdrive-ros-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 2.1.28-49-gfb32bec3-2024.10.10.15.01
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-gdrive-ros
+Maintainer: Shingo Kitagawa <shingogo.5511@gmail.com>
+Installed-Size: 604
+Depends: ros-one-gdrive-ros (= 2.1.28-49-gfb32bec3-2024.10.10.15.01)
+Filename: ./ros-one-gdrive-ros-dbgsym_2.1.28-49-gfb32bec3-2024.10.10.15.01_amd64.ddeb
+Size: 516290
+MD5sum: 1bcfba2065fd55280dca9fe012d71a75
+SHA1: 09f00cdf5f02a0c54b2e3f7a5f1b7225261eed35
+SHA256: 1a3de95a20cf2838ae7169493bbb60a819a71b8a81c47c3a414cdb1c126cc4fe
+SHA512: 402fabe6c97518aeba3c73ccef4ff57231f26875641a0c95460f16dd26c844fe003cbd8f5eb276744b74a0498e73d355483e6b2c14d24ef88606cb880ff07f4a
+Description: debug symbols for ros-one-gdrive-ros
+Build-Ids: 5aaa4f828b46a448d1da41fe89d2ae9c295b8d15 825063dd6b35ea0c359b4055e41d1ac32c89566d cc33e184d9ec38fa2227a372e8b86a87d19be329 d76aa4c36d706f65302ea60a88b544361dfe403e
+
+Package: ros-one-gdrive-ros
+Architecture: amd64
+Version: 2.1.28-49-gfb32bec3-2024.10.10.15.01
+Priority: optional
+Section: misc
+Maintainer: Shingo Kitagawa <shingogo.5511@gmail.com>
+Installed-Size: 99811
+Depends: libc6 (>= 2.14), libstdc++6 (>= 4.1.1), ros-one-message-runtime, ros-one-rospy
+Filename: ./ros-one-gdrive-ros_2.1.28-49-gfb32bec3-2024.10.10.15.01_amd64.deb
+Size: 8347368
+MD5sum: 03acdc97e967b3f92d2e81ea59d0863c
+SHA1: b2dba6dfe21b90ef4f46f4c03cf66826ce298170
+SHA256: 5e5f6959d36b55f212fece90647089d5a5fb98c774e23b318433d79ef45db9eb
+SHA512: 3a7eb320c045c9049dab6b7dc127d661795b34774b796b205f58fc27fbcf758558b2b4aba23aa33aa0e1d6ac7f0b1d96425edd876425928ab722ec1e42355bfc
+Homepage: http://ros.org/wiki/gdrive_ros
+Description: Google drive upload and download package
+
+Package: ros-one-google-chat-ros-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 2.1.28-49-gfb32bec3-2024.10.10.15.02
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-google-chat-ros
+Maintainer: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Installed-Size: 604
+Depends: ros-one-google-chat-ros (= 2.1.28-49-gfb32bec3-2024.10.10.15.02)
+Filename: ./ros-one-google-chat-ros-dbgsym_2.1.28-49-gfb32bec3-2024.10.10.15.02_amd64.ddeb
+Size: 515978
+MD5sum: 0bf492a7d130cd7d202562d72dcf2779
+SHA1: 3bb157494bf42a389e0d258bd9f498b8badb4844
+SHA256: 04c421d2c786ae81429b61abac5b3186ef797e969c525cf7ea851f539e5bda0c
+SHA512: 9bb8b8f9d432698940424c3c87ff3582d50c8ad61f68c93b66020021c0c073278e7e678b269387a9d3ec72e4f87fa218b29623841486fa8da294f662ece0b72c
+Description: debug symbols for ros-one-google-chat-ros
+Build-Ids: 458fe47960756fff74eb1f514009c353ab2b9580 501e634eb94ad50edd17b5017c2b14f0be75ee71 b2161290a682d4e730cc36d6567f94e267fd6c38 e62e8143f32c96606bcdb4de1e92f34424b3e3d8
+
+Package: ros-one-google-chat-ros
+Architecture: amd64
+Version: 2.1.28-49-gfb32bec3-2024.10.10.15.02
+Priority: optional
+Section: misc
+Maintainer: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Installed-Size: 104518
+Depends: libc6 (>= 2.16), libgcc-s1 (>= 3.0), libstdc++6 (>= 4.8), ros-one-actionlib-msgs, ros-one-dialogflow-task-executive, ros-one-gdrive-ros, ros-one-message-runtime, ros-one-rospy, ros-one-std-msgs
+Filename: ./ros-one-google-chat-ros_2.1.28-49-gfb32bec3-2024.10.10.15.02_amd64.deb
+Size: 11742588
+MD5sum: 3501a97bea42977fc903033acc9ea656
+SHA1: 48adbb19177f5ad9d4fb8421608e75b5fdfc39b6
+SHA256: 62a278b8d214c18d3245f5d82ad4ac2407aa1932741a5f1f35ac685336772cf1
+SHA512: 90639dbf9691863fe7e6b6ab231ac4b7b32dc80ae9bb06297399f67c63cba9221fd429322361059a760d79928f5d18b09c85103346fbfbfeb2ba71f2866201f0
+Description: Use Google Chat API clients via ROS
+
+Package: ros-one-google-cloud-texttospeech
+Architecture: amd64
+Version: 2.1.28-49-gfb32bec3-2024.10.10.15.05
+Priority: optional
+Section: misc
+Maintainer: Shingo Kitagawa <shingogo.5511@gmail.com>
+Installed-Size: 58
+Depends: google-cloud-texttospeech (<= 1.0.1), ros-one-sound-play
+Filename: ./ros-one-google-cloud-texttospeech_2.1.28-49-gfb32bec3-2024.10.10.15.05_amd64.deb
+Size: 10472
+MD5sum: 40c700c4df37ce7dc801fa6dd4c6171a
+SHA1: 07af58712f20b54dc89fd45d323c050b76cd4a0a
+SHA256: 5e494c6463cfd3ca01f77ccbbb080cabace29ee4761b835f0b44b8bc04aa8cb0
+SHA512: 0e4120413cdcce558c0d79f4598dc03a1ba943670b12aa927b9f7fd5c7f428067a9cfea3fdf266fa41933a204b505fd6e48bd48f9ea9d6e05e4481d23b800a05
+Homepage: http://ros.org/wiki/google_cloud_texttospeech
+Description: The google_cloud_texttospeech package
+
+Package: ros-one-image-view2-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2024.10.10.15.05
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-image-view2
+Maintainer: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Installed-Size: 4428
+Depends: ros-one-image-view2 (= 0-2024.10.10.15.05)
+Filename: ./ros-one-image-view2-dbgsym_0-2024.10.10.15.05_amd64.ddeb
+Size: 4082846
+MD5sum: 2fda7e36c0f2f2eb5006a354426dd625
+SHA1: ff7c53ec98d036998cd85970a4d8c85563364b6b
+SHA256: 348311cfff5fc12504262b849217ac5a5b256cc7f89ca22acaba37b20237faca
+SHA512: aac57ef80ecdf207676a7a40cfb7cf3f08b55563c61f2711873704d11e3006be7fe55cbd232e0745da52b2bd4666ba1b70a205a841b52ae7dfc1e31edadb786c
+Description: debug symbols for ros-one-image-view2
+Build-Ids: 0f446c3d952fbce979138745e18d41bd82df0c0e 853308003da60bd60287ff2fb4b4c94b17fb8019
+
+Package: ros-one-image-view2
+Architecture: amd64
+Version: 0-2024.10.10.15.05
+Priority: optional
+Section: misc
+Maintainer: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Installed-Size: 1313
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libopencv-core4.5d (>= 4.5.4+dfsg), libopencv-highgui4.5d (>= 4.5.4+dfsg), libopencv-imgcodecs4.5d (>= 4.5.4+dfsg), libopencv-imgproc4.5d (>= 4.5.4+dfsg), libstdc++6 (>= 11), ros-one-cv-bridge, ros-one-geometry-msgs, ros-one-image-geometry, ros-one-image-transport, ros-one-image-view, ros-one-message-filters, ros-one-message-runtime, ros-one-pcl-ros, ros-one-roscpp, ros-one-sensor-msgs, ros-one-std-msgs, ros-one-std-srvs, ros-one-tf
+Filename: ./ros-one-image-view2_0-2024.10.10.15.05_amd64.deb
+Size: 279540
+MD5sum: d7ec13d70a2032d55e51386973c81dfe
+SHA1: b29ba70871948b9d4dc14b2257ba36cfc5c558b8
+SHA256: 18995ef8a8e4f7249bdf679ee0d307677dff0162412132d5150967b84baa61c6
+SHA512: 626ee66ca232486983319e8078b23f36f145589f39514bfe1b70fe3672d21d349355236cffd6166f3831f9692d3d994b7af6a218471859ac85a14a6ca8f0b023
+Homepage: http://ros.org/wiki/image_view2
+Description: A simple viewer for ROS image topics with draw-on features
+
+Package: ros-one-influxdb-store
+Architecture: amd64
+Version: 2.1.28-49-gfb32bec3-2024.10.10.15.08
+Priority: optional
+Section: misc
+Maintainer: Shingo Kitagawa <shingogo.5511@gmail.com>
+Installed-Size: 82
+Depends: python3-influxdb, python3-tz, ros-one-pr2-msgs, ros-one-sensor-msgs
+Filename: ./ros-one-influxdb-store_2.1.28-49-gfb32bec3-2024.10.10.15.08_amd64.deb
+Size: 13348
+MD5sum: 7c09d68238ef6c0eee847ecda4c1ba03
+SHA1: 057fe1446efd1dada459fb5b68319e4813ce4a13
+SHA256: d849718b989e660189eb331282613b9d007a0922f070cfe16fc6034093988fa7
+SHA512: 0443452da07d77076d155309f8c9e4f7418738d6fe08f3c547f2d37686da155fd10feada78a3c76406abcaa80c7a449b08c4594bcd352e5b6c4401499389fd45
+Description: The influxdb_store package
+
+Package: ros-one-jsk-3rdparty
+Architecture: amd64
+Version: 2.1.28-49-gfb32bec3-2024.10.10.15.08
+Priority: optional
+Section: misc
+Maintainer: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Installed-Size: 17
+Depends: ros-one-aques-talk, ros-one-assimp-devel, ros-one-bayesian-belief-networks, ros-one-chaplus-ros, ros-one-collada-urdf-jsk-patch, ros-one-dialogflow-task-executive, ros-one-downward, ros-one-ff, ros-one-ffha, ros-one-google-chat-ros, ros-one-google-cloud-texttospeech, ros-one-influxdb-store, ros-one-julius, ros-one-julius-ros, ros-one-laser-filters-jsk-patch, ros-one-libcmt, ros-one-libsiftfast, ros-one-lpg-planner, ros-one-mini-maxwell, ros-one-nfc-ros, ros-one-nlopt, ros-one-opt-camera, ros-one-osqp, ros-one-pgm-learner, ros-one-respeaker-ros, ros-one-ros-google-cloud-language, ros-one-ros-speech-recognition, ros-one-rospatlite, ros-one-rosping, ros-one-rostwitter, ros-one-sesame-ros, ros-one-slic, ros-one-switchbot-ros, ros-one-voice-text, ros-one-webrtcvad-ros, ros-one-zdepth, ros-one-zdepth-image-transport
+Filename: ./ros-one-jsk-3rdparty_2.1.28-49-gfb32bec3-2024.10.10.15.08_amd64.deb
+Size: 4090
+MD5sum: 00f9c36ade1ecec5757b7e4642e99b98
+SHA1: 7e952d7434444371e1098f02677dcdc77026db9a
+SHA256: 3b5a1a278f3d0eafd40bc2e4a14bf93a07e8365a9da318378dd7d5e2598e7b9a
+SHA512: 2fa25aba2098e670cd2353e295672ba7c7cb6c60e682cdb0c2d56081c83b2196f4fba41926058fe98c4f978f9c6e420bfadc7a140989af77960dda55710d8f73
+Homepage: http://ros.org/wiki/jsk_3rdparty
+Description: Metapackage that contains commonly used 3rdparty toolset for jsk-ros-pkg
+
+Package: ros-one-jsk-common-msgs
+Architecture: amd64
+Version: 4.3.2-13-g093b57c-2024.10.10.15.10
+Priority: optional
+Section: misc
+Maintainer: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Installed-Size: 14
+Depends: ros-one-jsk-footstep-msgs, ros-one-jsk-gui-msgs, ros-one-jsk-hark-msgs, ros-one-posedetection-msgs, ros-one-speech-recognition-msgs
+Filename: ./ros-one-jsk-common-msgs_4.3.2-13-g093b57c-2024.10.10.15.10_amd64.deb
+Size: 2574
+MD5sum: 72f3869fc036399c41559274dbacb7dc
+SHA1: 03d83caa67d4b256fc9cd20064860be5ae8e262c
+SHA256: 824929936d370c6c49fa4a03e200a73ea6d7af1e4c98da85a3471349da43b7fe
+SHA512: 8a915126684f6aa8ccbe0750b7e1444aea910b455ed27897f62d6726e443854980be335c53a15950e40384f8180479e960a680b800a870171253c075fe3af471
+Homepage: http://ros.org/wiki/jsk_common_msgs
+Description: Metapackage that contains commonly used messages for jsk-ros-pkg
+
+Package: ros-one-jsk-common
+Architecture: amd64
+Version: 0-2024.10.10.15.09
+Priority: optional
+Section: misc
+Maintainer: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Installed-Size: 16
+Depends: ros-one-audio-video-recorder, ros-one-dynamic-tf-publisher, ros-one-image-view2, ros-one-jsk-network-tools, ros-one-jsk-tilt-laser, ros-one-jsk-tools, ros-one-jsk-topic-tools, ros-one-multi-map-server, ros-one-virtual-force-publisher
+Filename: ./ros-one-jsk-common_0-2024.10.10.15.09_amd64.deb
+Size: 2998
+MD5sum: 6cf2a51931220a7068fbb1a68dba6d19
+SHA1: 3378897e5c7bdf056792589819149198e9ad42d6
+SHA256: c6a482e4769ace7347da2d56c37cca810702e6f5a9371795ca9020b9d3d690ab
+SHA512: 611d1e84d3c6dd8677c7a72ae788e4c97563427ccba6dce1cb4cfa139513ebf320cd5f481bbf7f6e905cec53041e809356897ea4992bc8c96054dba6b69686a7
+Homepage: http://ros.org/wiki/jsk_common
+Description: Metapackage that contains commonly used toolset for jsk-ros-pkg
+
+Package: ros-one-jsk-data
+Architecture: amd64
+Version: 0-2024.10.10.15.10
+Priority: optional
+Section: misc
+Maintainer: Ryohei Ueda <ueda@jsk.t.u-tokyo.ac.jp>
+Installed-Size: 6267
+Depends: python3-click, python3-paramiko, python3-yaml, ros-one-baxter-description, ros-one-depth-image-proc, ros-one-dynamic-reconfigure, ros-one-image-transport, ros-one-jsk-topic-tools, ros-one-message-runtime, ros-one-nodelet, ros-one-openni-launch, ros-one-pr2-description, ros-one-pr2-machine, ros-one-rosbag, ros-one-rqt-bag, ros-one-rviz, ros-one-tf2-ros, ros-one-xacro
+Filename: ./ros-one-jsk-data_0-2024.10.10.15.10_amd64.deb
+Size: 1452964
+MD5sum: 218b9fe838dc1aa762f3b709583495b1
+SHA1: 58c61070d80e8f45f5d064f2fcc4621052fbda59
+SHA256: b7e917c703703e281970611c873ef2e2dffd3326793dcaf47977d184303049e9
+SHA512: 6be568e6cff5abac275836e17d86842ae9ad2601817171fc8017b7b7236bc1e35544619ad97e60e301782ec9ae965ff5f295b4506fe3b078c9cda56516fa5532
+Description: The jsk_data package
+
+Package: ros-one-jsk-footstep-msgs
+Architecture: amd64
+Version: 4.3.2-13-g093b57c-2024.10.10.15.11
+Priority: optional
+Section: misc
+Maintainer: Ryohei Ueda <ueda@jsk.t.u-tokyo.ac.jp>
+Installed-Size: 1169
+Depends: ros-one-actionlib-msgs, ros-one-geometry-msgs, ros-one-message-runtime
+Filename: ./ros-one-jsk-footstep-msgs_4.3.2-13-g093b57c-2024.10.10.15.11_amd64.deb
+Size: 55058
+MD5sum: a41be551ce5f3081d988a978b0581e6d
+SHA1: c2908b1adbcf0a046015e39d8a14340628421279
+SHA256: 905067708b44ec88ae239059c3cd5887e633452f8b1f52738dbbc9119ca4f0a3
+SHA512: fa887b59e6aba66f4c4356733452fec95ccff1ddf02f851a868db0bcb21e17a30159f4fc158bf82108a4f77eff06f5d03d32561d9127a1dbc67803b1d52af5fe
+Homepage: http://ros.org/wiki/jsk_footstep_msgs
+Description: jsk_footstep_msgs
+
+Package: ros-one-jsk-gui-msgs
+Architecture: amd64
+Version: 4.3.2-13-g093b57c-2024.10.10.15.12
+Priority: optional
+Section: misc
+Maintainer: KazutoMurase <murase@jsk.imi.i.u-tokyo.ac.jp>
+Installed-Size: 620
+Depends: ros-one-geometry-msgs, ros-one-message-runtime, ros-one-sensor-msgs, ros-one-std-msgs
+Filename: ./ros-one-jsk-gui-msgs_4.3.2-13-g093b57c-2024.10.10.15.12_amd64.deb
+Size: 52622
+MD5sum: c32b73a426ff61dd56dd641c8a822fa4
+SHA1: fd0f8aef4c18a41da92320ae9e40951fcb0d7088
+SHA256: 89c81586fd139febbb74d02b27b744a06e39060060c6597ff96f21fbe4bd34ea
+SHA512: 2da34ce3f3da87ab25b8ceaaa86f8aacd89e95d322b5eb3be48bfd7539840568d796a604650524a09c1085222c415187cd6441aab547f2bc41fdfc8a31f00951
+Description: jsk_gui_msgs
+
+Package: ros-one-jsk-hark-msgs
+Architecture: amd64
+Version: 4.3.2-13-g093b57c-2024.10.10.15.13
+Priority: optional
+Section: misc
+Maintainer: Shohei Fujii <s-fujii@jsk.t.u-tokyo.ac.jp>
+Installed-Size: 105
+Depends: ros-one-message-runtime, ros-one-std-msgs
+Filename: ./ros-one-jsk-hark-msgs_4.3.2-13-g093b57c-2024.10.10.15.13_amd64.deb
+Size: 16166
+MD5sum: fb6a38212be561f7d7496d680ecc8d20
+SHA1: 2d38a0d95912ed7c3ac63bcf2c1f9ecb49ae7e56
+SHA256: fe84d57ccc06cc4e2f7c1437b75e4d9856db5cf02eb7cd1269f97154c5f0b83f
+SHA512: d014a65eb429fdc72f77fbc5385a705c06749a5aa5ed54787c4568d03cd32eff1e7f6854ab48f3c4efdc88a5083cd298040b0bab1b12f5617f43250e260f7fa9
+Homepage: http://ros.org/wiki/jsk_hark_msgs
+Description: jsk_hark_msgs
+
+Package: ros-one-jsk-interactive-marker-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 2.1.8-67-g54b1406-2024.10.10.16.21
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-jsk-interactive-marker
+Maintainer: furuta <furuta@jsk.t.u-tokyo.ac.jp>
+Installed-Size: 34863
+Depends: ros-one-jsk-interactive-marker (= 2.1.8-67-g54b1406-2024.10.10.16.21)
+Filename: ./ros-one-jsk-interactive-marker-dbgsym_2.1.8-67-g54b1406-2024.10.10.16.21_amd64.ddeb
+Size: 33216104
+MD5sum: e45ade53d7286b806438456243bcd2e9
+SHA1: 78edb63ce2f47c5421d79e61896456dc59e4daea
+SHA256: f1e364f3b2f94cdf5e3156f45c644ae125dba41fde94b303422040dd2795c654
+SHA512: f71c0583e2f94ef9d9102a50f2e220b79d2ef14144048c46cd48c1d5de0e6ddc4faf543a87568828af7e836adc854fd24d0725ab4ae99e164599894e2f22b40f
+Description: debug symbols for ros-one-jsk-interactive-marker
+Build-Ids: 01f9ca696b28f7d7da900211446c515708e5cb41 17be041fc4b321ec9f862e5faf6c06ee894ccb2c 1b3fbb4c72ca27958d60d531388c774264e52412 3e1c66d0422f6ddd57443929d4be5f54f2109dae 6b78c93c3de349139cb10a1416c6f4659ed6da0c 8a770629a831c708078fe309fa4831164dfca1a9 8aa8d6e07b23f0dc05906f57295fd822150ac867 8dbe7b2a42267f4408f39cab4a50b05ec0131664 8e8f717c1a72d39ed4a75c6e06e74809831b3391 c7d6645d0e566b9fae8da15adbe08aeb2257a822 d0c0a8405b23cedcc8907f753c2684757d0a7894 da27ca1220c6848f5fae31bf70166ad1d60a59c2 ea6cd259baf939c955e3c7e104f872c02324750a ea7b79a1b8fda662d2095eb75319a9ba7ab1f539 f0b1f13a276ea19c7f0214b68e7237c02c043b1b f91e355b4f73ede9f810f5766b54b4d063cab4a4
+
+Package: ros-one-jsk-interactive-marker
+Architecture: amd64
+Version: 2.1.8-67-g54b1406-2024.10.10.16.21
+Priority: optional
+Section: misc
+Maintainer: furuta <furuta@jsk.t.u-tokyo.ac.jp>
+Installed-Size: 7107
+Depends: libboost-filesystem1.74.0 (>= 1.74.0), libboost-thread1.74.0 (>= 1.74.0), libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libopencv-core4.5d (>= 4.5.4+dfsg), libopencv-flann4.5d (>= 4.5.4+dfsg), libopencv-imgproc4.5d (>= 4.5.4+dfsg), libopencv-stitching4.5d (>= 4.5.4+dfsg), liborocos-kdl1.5 (>= 1.5.1), libpcl-common1.12 (>= 1.12.1+dfsg), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 11), libtinyxml2.6.2v5 (>= 2.6.2), liburdfdom-model3.0 (>= 3.0.1), libyaml-cpp0.7 (>= 0.7.0), libtinyxml-dev, libyaml-cpp-dev, ros-one-actionlib, ros-one-dynamic-reconfigure, ros-one-dynamic-tf-publisher, ros-one-eigen-conversions, ros-one-geometry-msgs, ros-one-interactive-markers, ros-one-jsk-footstep-msgs, ros-one-jsk-recognition-msgs (>= 1.0.0), ros-one-jsk-recognition-utils, ros-one-jsk-rviz-plugins, ros-one-jsk-topic-tools, ros-one-message-filters, ros-one-message-runtime, ros-one-moveit-msgs, ros-one-roscpp, ros-one-roseus, ros-one-roslib, ros-one-rviz, ros-one-sensor-msgs, ros-one-tf, ros-one-tf-conversions, ros-one-urdf, ros-one-visualization-msgs
+Filename: ./ros-one-jsk-interactive-marker_2.1.8-67-g54b1406-2024.10.10.16.21_amd64.deb
+Size: 1186848
+MD5sum: ec0ae6b57f9e814ece1a435875fd6787
+SHA1: 4bcf30f50d20bca9da4a24bbd37aad4af2e8853e
+SHA256: 5055a4effb20351c2b697415b158aa5f0a4d812a167f690017eecbd7ade332af
+SHA512: 8a2d01f80ad160ff8552bc9bab5fd2f5fa06089c6882254103d781e04a3798c78f86b4c419291c1c7f168639a63c62f49bebb624b7d134447e6b98cc68e2d6bc
+Homepage: http://ros.org/wiki/interactive_marker
+Description: jsk interactive markers
+
+Package: ros-one-jsk-interactive-test
+Architecture: amd64
+Version: 2.1.8-67-g54b1406-2024.10.10.16.30
+Priority: optional
+Section: misc
+Maintainer: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Installed-Size: 708
+Depends: ros-one-jsk-interactive, ros-one-jsk-interactive-marker, ros-one-rospy, ros-one-rviz, ros-one-visualization-msgs
+Filename: ./ros-one-jsk-interactive-test_2.1.8-67-g54b1406-2024.10.10.16.30_amd64.deb
+Size: 174282
+MD5sum: cdd24f8956c71f7e46234c9109e75d29
+SHA1: 5b88f7fb94d49d18aea89512dda583a94158a784
+SHA256: cc0af0f7df5ca250d64d7ff6f3f91c548812edf6d1d1e52f080a2ef4440f0e90
+SHA512: 74e12265b795b372e35d297c51441dc67ee7016201eb7afe1ed3582e4c3e9cd1eec00baa76bd57f1b3379abfe69961ad5d3db7b14cfff0b980f34bfa326ef9eb
+Homepage: http://ros.org/wiki/jsk_interactive_test
+Description: jsk_interactive_test
+
+Package: ros-one-jsk-interactive
+Architecture: amd64
+Version: 2.1.8-67-g54b1406-2024.10.10.16.27
+Priority: optional
+Section: misc
+Maintainer: Yusuke Furuta <furua@jsk.imi.i.u-tokyo.ac.jp>
+Installed-Size: 105
+Depends: ros-one-actionlib, ros-one-dynamic-tf-publisher, ros-one-geometry-msgs, ros-one-jsk-interactive-marker, ros-one-rospy, ros-one-visualization-msgs
+Filename: ./ros-one-jsk-interactive_2.1.8-67-g54b1406-2024.10.10.16.27_amd64.deb
+Size: 17778
+MD5sum: 9a31e744215efb91b6e868070d5b68a8
+SHA1: ead9fb97c90a99d994ff8aabf5b75ece1f101552
+SHA256: 238c812a5d4506bb597c32bdb8794f4b2f998768fd16672abc751582ea68124b
+SHA512: 45253bbe4aec2eccc4b182d8a3d7f753d38a3fc00aca513b9232a1630c1601d7f271c648f73de4707b599515ac689ba1406694d095376682646bca698cdc02b1
+Homepage: http://ros.org/wiki/jsk_interactive
+Description: jsk_interactive
+
+Package: ros-one-jsk-network-tools-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2024.10.10.15.13
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-jsk-network-tools
+Maintainer: Ryohei Ueda <ueda@jsk.t.u-tokyo.ac.jp>
+Installed-Size: 814
+Depends: ros-one-jsk-network-tools (= 0-2024.10.10.15.13)
+Filename: ./ros-one-jsk-network-tools-dbgsym_0-2024.10.10.15.13_amd64.ddeb
+Size: 725006
+MD5sum: f3b60330d9f9f533a8616b749e51b48b
+SHA1: aaf9933c918276a66cd032aba5c5a11101a8a156
+SHA256: 42593086515f8516d8f50e3bf83352e0287869018a4c188d80838bc87925959e
+SHA512: bc12d7b0312887d8e61487f441558f6efae1e44cd1a7f085633011e0a4cc152761c35a9bdc7bf755000ac284aa186c135697bc83e499d7ec0f3150389ed1df4e
+Description: debug symbols for ros-one-jsk-network-tools
+Build-Ids: cd1f1813a5fdba95f07b529e81d87364cd7ec0bd
+
+Package: ros-one-jsk-network-tools
+Architecture: amd64
+Version: 0-2024.10.10.15.13
+Priority: optional
+Section: misc
+Maintainer: Ryohei Ueda <ueda@jsk.t.u-tokyo.ac.jp>
+Installed-Size: 1007
+Depends: libboost-thread1.74.0 (>= 1.74.0), libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-one-diagnostic-msgs, ros-one-diagnostic-updater, ros-one-dynamic-reconfigure, ros-one-message-runtime, ros-one-roscpp, ros-one-rospy, ros-one-sensor-msgs, ros-one-std-msgs
+Filename: ./ros-one-jsk-network-tools_0-2024.10.10.15.13_amd64.deb
+Size: 137110
+MD5sum: d9bb5bdbed129b739214a58d4cdb0025
+SHA1: aa5a0c80213981971955bb63ac07fb8e3f4887cd
+SHA256: a4d65db4502791c4fce57081b52d8b93bcbd5dad591827cf4be454e5f130041a
+SHA512: 76e11f7f5ab29127d942895262fe6a6768bad8fd5c5bb8bdc8de1ffde51984c91abd46976374a81fd7efd448ad5fc0a99f88d3f4f041e7069112f855f59a178d
+Description: jsk_network_tools
+
+Package: ros-one-jsk-recognition-msgs
+Architecture: amd64
+Version: 1.2.17-16-gcc31b0e5-2024.10.10.15.15
+Priority: optional
+Section: misc
+Maintainer: Ryohei Ueda <ueda@jsk.t.u-tokyo.ac.jp>
+Installed-Size: 10099
+Depends: ros-one-geometry-msgs, ros-one-jsk-footstep-msgs, ros-one-message-generation, ros-one-pcl-msgs, ros-one-sensor-msgs, ros-one-std-msgs
+Filename: ./ros-one-jsk-recognition-msgs_1.2.17-16-gcc31b0e5-2024.10.10.15.15_amd64.deb
+Size: 927042
+MD5sum: 586226148bd2d9db69db8ba9f72bb1aa
+SHA1: ea4dcf481974c541debd85dea6b54d77e7554fd3
+SHA256: 789a54584cbb1a600c7d720c05e38e96d525537466c61afa178e100391e92bef
+SHA512: 2c977ad27150fe333435fb4d07d4713c69d558571b4af04bcc0d2ad58f36a82af20b34cfab9deeb6e414100f5f84dd4f5c581180bffdbf9e780781ee4eb28b44
+Homepage: https://jsk-docs.readthedocs.io/projects/jsk_recognition/en/latest/jsk_recognition_msgs
+Description: ROS messages for jsk_pcl_ros and jsk_perception.
+
+Package: ros-one-jsk-recognition-utils-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 1.2.17-16-gcc31b0e5-2024.10.10.15.26
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-jsk-recognition-utils
+Maintainer: Ryohei Ueda <ueda@jsk.t.u-tokyo.ac.jp>
+Installed-Size: 19292
+Depends: ros-one-jsk-recognition-utils (= 1.2.17-16-gcc31b0e5-2024.10.10.15.26)
+Filename: ./ros-one-jsk-recognition-utils-dbgsym_1.2.17-16-gcc31b0e5-2024.10.10.15.26_amd64.ddeb
+Size: 19299546
+MD5sum: c486cd321ccf7640b72013c7c1a9ab8e
+SHA1: 458a734876d85fc69c4085a1937da87a8fd23ee0
+SHA256: 7dcd27f5533a936d1e09a05e5a83e934ca77d11ee9b1765ce33634fff67eac12
+SHA512: dd461394ae4f53f513606cc35b54a5c3658226ce0da1d0411a48fd2d11ebe57caea3d505aad44894d3eed3a8c55d377c106f756f938ae966a273e2f180b2d5e0
+Description: debug symbols for ros-one-jsk-recognition-utils
+Build-Ids: 671f36de7f3c8c0792776b8bbed4df68465d4b9b 70e4ebb776775f0ef09b255f5ff4de324a9a15b9
+
+Package: ros-one-jsk-recognition-utils
+Architecture: amd64
+Version: 1.2.17-16-gcc31b0e5-2024.10.10.15.26
+Priority: optional
+Section: misc
+Maintainer: Ryohei Ueda <ueda@jsk.t.u-tokyo.ac.jp>
+Installed-Size: 1281
+Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libopencv-core4.5d (>= 4.5.4+dfsg), libopencv-flann4.5d (>= 4.5.4+dfsg), libopencv-imgproc4.5d (>= 4.5.4+dfsg), libopencv-stitching4.5d (>= 4.5.4+dfsg), libpcl-common1.12 (>= 1.12.1+dfsg), libpcl-search1.12 (>= 1.12.1+dfsg), libpcl-segmentation1.12 (>= 1.12.1+dfsg), libpcl-surface1.12 (>= 1.12.1+dfsg), libpcl-visualization1.12 (>= 1.12.1+dfsg), libpython3.10 (>= 3.10.0), libstdc++6 (>= 11), libyaml-cpp0.7 (>= 0.7.0), libyaml-cpp-dev, python3-shapely, python3-skimage, ros-one-cv-bridge, ros-one-eigen-conversions, ros-one-geometry-msgs, ros-one-image-geometry, ros-one-image-view, ros-one-jsk-recognition-msgs, ros-one-jsk-topic-tools, ros-one-message-runtime, ros-one-pcl-msgs, ros-one-pcl-ros, ros-one-sensor-msgs, ros-one-std-msgs, ros-one-tf, ros-one-tf-conversions, ros-one-tf2-ros, ros-one-visualization-msgs
+Filename: ./ros-one-jsk-recognition-utils_1.2.17-16-gcc31b0e5-2024.10.10.15.26_amd64.deb
+Size: 394996
+MD5sum: 0b01dc53ecf019a582f9004eaeb43612
+SHA1: ce80a62b2922ab977a37b8bc018afe8fcdeef33a
+SHA256: 940700905ac4fb3b07bb4f757651e7a773c013e023e956d20f0eaab0371d948e
+SHA512: d11031f703a7e69678ca1a91f99af6e3b034ecca3be289318bf0d6135c420c026b3f711f4921d2602330cdd58e92a640bf6b08a247822ae6c814aab567f3d33d
+Homepage: https://jsk-docs.readthedocs.io/projects/jsk_recognition/en/latest/jsk_recognition_utils
+Description: C++ library about sensor model, geometrical modeling and perception.
+
+Package: ros-one-jsk-recognition
+Architecture: amd64
+Version: 1.2.17-16-gcc31b0e5-2024.10.10.15.14
+Priority: optional
+Section: misc
+Maintainer: Ryohei Ueda <ueda@jsk.t.u-tokyo.ac.jp>
+Installed-Size: 16
+Depends: ros-one-checkerboard-detector, ros-one-imagesift, ros-one-jsk-pcl-ros, ros-one-jsk-perception, ros-one-jsk-recognition-msgs, ros-one-jsk-recognition-utils, ros-one-resized-image-transport
+Filename: ./ros-one-jsk-recognition_1.2.17-16-gcc31b0e5-2024.10.10.15.14_amd64.deb
+Size: 2928
+MD5sum: 244e6ccfe3b7b2f6c106a6f7a9dc7e10
+SHA1: 6dd6c67c7916a133d791057769d5507161f753f8
+SHA256: d372587a29f13ebabc2117a62c571684424ddf25015d5efe04d1ccdd252213c1
+SHA512: 103e08beb39551072af77e84f1911b47ff2ad4de1cad95650dbda2a69be4c77452a07ce77c94195ff32460213dbc2f029c44ef500afc25843f50c9f2aa5845ac
+Homepage: http://ros.org/wiki/jsk_recognition
+Description: Metapackage that contains recognition package for jsk-ros-pkg
+
+Package: ros-one-jsk-roseus
+Architecture: amd64
+Version: 1.7.5-90-g795e764-2024.10.10.15.17
+Priority: optional
+Section: misc
+Maintainer: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Installed-Size: 15
+Depends: ros-one-euslisp, ros-one-geneus, ros-one-roseus
+Filename: ./ros-one-jsk-roseus_1.7.5-90-g795e764-2024.10.10.15.17_amd64.deb
+Size: 2728
+MD5sum: 35db5fa8fad6ecb28613fa326c78dea6
+SHA1: 57495989026070723574adcf8460d38d13bff34d
+SHA256: 2b958814b0d7bea624d3a8ab9ff623f01617a8aa905e5cc8b2525ee076a73e12
+SHA512: 6c92e5336b92a1051f5b2fd27685ea417a1bce2b346d72ee81b8d7498643296bd48bc61223721dba937a1d9b193fe3a83420f8880f77379d21f01d368cdb906a
+Homepage: http://ros.org/wiki/jsk_roseus
+Description: Metapackage that contains roseus package for jsk-ros-pkg
+
+Package: ros-one-jsk-rqt-plugins
+Architecture: amd64
+Version: 2.1.8-67-g54b1406-2024.10.10.15.17
+Priority: optional
+Section: misc
+Maintainer: Ryohei Ueda <ueda@jsk.t.u-tokyo.ac.jp>
+Installed-Size: 851
+Depends: python3-sklearn, ros-one-cv-bridge, ros-one-image-publisher (>= 1.12.23), ros-one-image-view2, ros-one-jsk-gui-msgs (>= 4.3.0), ros-one-message-runtime, ros-one-qt-gui-py-common, ros-one-resource-retriever, ros-one-rqt-gui, ros-one-rqt-gui-py, ros-one-rqt-image-view, ros-one-rqt-plot
+Filename: ./ros-one-jsk-rqt-plugins_2.1.8-67-g54b1406-2024.10.10.15.17_amd64.deb
+Size: 608868
+MD5sum: 5fc3aaa92ecbbdf5f71f98ce04f3b32f
+SHA1: ebebf19059cff50fbcb628594a9c1668a2fa83af
+SHA256: 20755c6f672fb2c5e5a28ebb74ec66f0e3e54f9152b627a2f7641e722c0c80e1
+SHA512: 7c91bf58c9973b8ea2e8176b25da5c194ce11af44019b75215ff9ac3f629e9d21fa1d46797e2e69b96622cbbd3bb9f77dff04307ef5a1d96549b93cabe4f68d1
+Homepage: https://jsk-visualization.readthedocs.io/en/latest/jsk_rqt_plugins/index.html
+Description: The jsk_rqt_plugins package
+
+Package: ros-one-jsk-rviz-plugins-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 2.1.8-67-g54b1406-2024.10.10.15.31
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-jsk-rviz-plugins
+Maintainer: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Installed-Size: 44670
+Depends: ros-one-jsk-rviz-plugins (= 2.1.8-67-g54b1406-2024.10.10.15.31)
+Filename: ./ros-one-jsk-rviz-plugins-dbgsym_2.1.8-67-g54b1406-2024.10.10.15.31_amd64.ddeb
+Size: 43022038
+MD5sum: 58c777f1b57111ae2db6818ad457d8f5
+SHA1: b29a458fc5bad656b20de2ec4dcfc7c8c5caf369
+SHA256: 7856e5526c91edf5ac3faf59a30451a532f103d1c69d137e685afba9fabed0b5
+SHA512: d80eaab3b50071106385e17acecd62b46a96f31eec707bbe133ab7ce8f465442ed4b0881a529a4e0c9a57d3eaea00c7f665ee0b8fad2751bdf3cd598cd093fda
+Description: debug symbols for ros-one-jsk-rviz-plugins
+Build-Ids: 33db892ca299babdeeaaa637cdc8452baa68f5e8
+
+Package: ros-one-jsk-rviz-plugins
+Architecture: amd64
+Version: 2.1.8-67-g54b1406-2024.10.10.15.31
+Priority: optional
+Section: misc
+Maintainer: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Installed-Size: 6642
+Depends: libboost-filesystem1.74.0 (>= 1.74.0), libboost-thread1.74.0 (>= 1.74.0), libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libogre-1.9.0v5 (>= 1.9.0+dfsg1-9~), libopencv-core4.5d (>= 4.5.4+dfsg), libopencv-flann4.5d (>= 4.5.4+dfsg), libopencv-imgproc4.5d (>= 4.5.4+dfsg), libopencv-stitching4.5d (>= 4.5.4+dfsg), libopencv-videoio4.5d (>= 4.5.4+dfsg), libpcl-common1.12 (>= 1.12.1+dfsg), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.3.0) | libqt5gui5-gles (>= 5.3.0), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 11), python3-scipy, ros-one-cv-bridge, ros-one-diagnostic-msgs, ros-one-dynamic-reconfigure, ros-one-geometry-msgs, ros-one-image-geometry, ros-one-image-publisher, ros-one-jsk-footstep-msgs, ros-one-jsk-gui-msgs, ros-one-jsk-hark-msgs, ros-one-jsk-recognition-msgs, ros-one-jsk-recognition-utils, ros-one-jsk-topic-tools, ros-one-message-generation, ros-one-people-msgs, ros-one-posedetection-msgs, ros-one-rviz, ros-one-std-msgs, ros-one-urdfdom-py, ros-one-view-controller-msgs
+Filename: ./ros-one-jsk-rviz-plugins_2.1.8-67-g54b1406-2024.10.10.15.31_amd64.deb
+Size: 2092314
+MD5sum: 88b05a92e3e0d3f5fdd1c22a158ec57f
+SHA1: 4c86226aad580ea72968877036948f0360ce3563
+SHA256: 13c4054ac7cb4708f5d66b4b56ec09f4bc112bbdb38dd94b5e8264cf0a32719b
+SHA512: 4a1493bf5f7c13d50dab98c2a47b3f05c1b574e449ab7703168ef4e177114a8053c0779d41a1d7545f32b089e50977edbff2a1db58e13f87ba4d01be695bf4be
+Homepage: https://jsk-visualization.readthedocs.io/en/latest/jsk_rviz_plugins/index.html
+Description: The jsk_rviz_plugins package
+
+Package: ros-one-jsk-tilt-laser-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2024.10.10.15.19
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-jsk-tilt-laser
+Maintainer: YoheiKakiuchi <youhei@jsk.imi.i.u-tokyo.ac.jp>
+Installed-Size: 811
+Depends: ros-one-jsk-tilt-laser (= 0-2024.10.10.15.19)
+Filename: ./ros-one-jsk-tilt-laser-dbgsym_0-2024.10.10.15.19_amd64.ddeb
+Size: 760232
+MD5sum: 2519684c88e131e2988ef3d3d05713d5
+SHA1: 643db540070c95b4f7fcd3655d63dbbab06514a6
+SHA256: adb2c9c75f495626729cdaf75e4854af435099d11745654158ce206363c3cd9e
+SHA512: 01a6a580e0a8484dd23748b57c4d7c1926ec8d5f1f7d05863672c23c993145680b08fdea8bdea6f902cf54feb449ef2a76908ac34d9053f39985eabc6cd30613
+Description: debug symbols for ros-one-jsk-tilt-laser
+Build-Ids: 0822eba39508e1fb9a42041852c7890777fd7fca 5820c1bca7898bc078d3202f5bdc9dc359d0ff63
+
+Package: ros-one-jsk-tilt-laser
+Architecture: amd64
+Version: 0-2024.10.10.15.19
+Priority: optional
+Section: misc
+Maintainer: YoheiKakiuchi <youhei@jsk.imi.i.u-tokyo.ac.jp>
+Installed-Size: 309
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-one-multisense-lib, ros-one-dynamic-reconfigure, ros-one-dynamixel-controllers, ros-one-laser-assembler, ros-one-laser-filters, ros-one-robot-state-publisher, ros-one-sensor-msgs, ros-one-tf, ros-one-tf-conversions, ros-one-urg-node
+Filename: ./ros-one-jsk-tilt-laser_0-2024.10.10.15.19_amd64.deb
+Size: 70418
+MD5sum: 291edef7d56d6a10e87ea010fb7b19da
+SHA1: 32466ecab001eed9b164dd9cd551080137e2f3fd
+SHA256: c14ecc55be863a9cb1944f65c936c339bc6b379451ba3e8ade03145ce105bed5
+SHA512: ea7780d45e46dabfcaeb95138905d642b3dc4e28bfcc91d2ae2452ee475c86be73a6badd2e6952e36e45ed1ec5a3b8f4d3cd1c1171d699670898883e10a00aa0
+Description: The jsk_tilt_laser package
+
+Package: ros-one-jsk-tools
+Architecture: amd64
+Version: 0-2024.10.10.15.21
+Priority: optional
+Section: misc
+Maintainer: Ryohei Ueda <ueda@jsk.t.u-tokyo.ac.jp>
+Installed-Size: 380
+Depends: iproute2, percol, python3-colorama, python3-github, python3-progressbar, python3-requests, python3-rosdep2, python3-tabulate, python3-texttable, ros-one-axis-camera, ros-one-cv-bridge, ros-one-diagnostic-aggregator, ros-one-diagnostic-msgs, ros-one-diagnostic-updater, ros-one-jsk-gui-msgs, ros-one-jsk-network-tools, ros-one-jsk-topic-tools, ros-one-pr2-computer-monitor, ros-one-rosbag, ros-one-rosemacs, ros-one-rosgraph-msgs, ros-one-rospy, ros-one-rqt-reconfigure
+Filename: ./ros-one-jsk-tools_0-2024.10.10.15.21_amd64.deb
+Size: 78256
+MD5sum: 269571176d21d0480cc65fc41140ccce
+SHA1: 080631f089114579ff7a47b5ba0d485350ac9415
+SHA256: d32647f28ae077ec6bbde771afdcbab2bdcd8224da4a59b9e6c94a5349345b23
+SHA512: 77d04db50acd0bf4927d622973af1590bd3efcaf3b3bb8af800ff453718ca5b2a9642988d42a84a47461feb3d16a01a0eb56c1293b9c630f6eeee402d32f60d1
+Homepage: http://ros.org/wiki/jsk_tools
+Description: Includes emacs scripts, ros tool alias generator, and launch doc generator.
+
+Package: ros-one-jsk-topic-tools-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2024.10.10.15.22
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-jsk-topic-tools
+Maintainer: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Installed-Size: 15325
+Depends: ros-one-jsk-topic-tools (= 0-2024.10.10.15.22)
+Filename: ./ros-one-jsk-topic-tools-dbgsym_0-2024.10.10.15.22_amd64.ddeb
+Size: 11910266
+MD5sum: 6d66a5a03b37f03ef4e573c45cea0110
+SHA1: 45708923864508a2b7cc0f5767251ac1a5da044a
+SHA256: 2d4533650e44e417251417e08c95cbe56db7feacbb6cd5c58d825429f0fb8701
+SHA512: 82a7e9b6353b5815ab7499b4b18212317790359ed1b0cbde1ed45f28400af0d8f2da16b9b68bf8117e0d979e72fad4b95fed3f7989d32f070890e551ebb43d12
+Description: debug symbols for ros-one-jsk-topic-tools
+Build-Ids: 0569b9e86c9dfaf6ff2b195fdc0513ae4567b773 243243b729ebe0028ecb7e7e8ce069753d3f1151 3464385d6df33249dea9636bca2a72c6cdf60a4a 397a5baf81c982c6f6a622998cc6a80c6418e69a 55681afcbc84f1d2670767457870724f7b4938c9 59a9ea84b46979cb78c94ecd64eb21cd0b4aeaeb 76c25e924dba1f5a57b9ee8d58731e2313054ba5 794e644cb07b2727494974bc571128b8ceeae7e6 823b6d31ab6277f6c79400fb83ba15046973d5b4 ab25aea21b6eb78fd6fe690204ba7ac88b2907db afa0143209ef9cc84caf9cb27389f66ab890511c b1e8a450e0cd9090f19aa025384d4563ab5d1795 b68935e560a64091904a94d32445daddcc8e473a c8c4807d96c82e7f8351487831e93055fd3bbc87 cd3d2bf4498e392354b0a5466b7e70676c1663a3 d131c1942bf34b65951631210110f41d35396429 f13a9293f5b49f88d76b30902a9f06edeb3b7b57 f48341b83102d82a7fda9b2e9eead76af27160aa f9dd126c1eb718ff821e3c5df900da6432875122
+
+Package: ros-one-jsk-topic-tools
+Architecture: amd64
+Version: 0-2024.10.10.15.22
+Priority: optional
+Section: misc
+Maintainer: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Installed-Size: 20763
+Depends: libboost-chrono1.74.0 (>= 1.74.0), libboost-program-options1.74.0 (>= 1.74.0), libboost-thread1.74.0 (>= 1.74.0), libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), iputils-ping, python3-numpy, python3-opencv, python3-scipy, ros-one-diagnostic-aggregator, ros-one-diagnostic-msgs, ros-one-diagnostic-updater, ros-one-dynamic-reconfigure, ros-one-dynamic-tf-publisher, ros-one-eigen-conversions, ros-one-geometry-msgs, ros-one-image-transport, ros-one-message-runtime, ros-one-nodelet, ros-one-roscpp, ros-one-roslaunch, ros-one-rosnode, ros-one-rostime, ros-one-rostopic, ros-one-sensor-msgs, ros-one-sound-play, ros-one-std-msgs, ros-one-std-srvs, ros-one-tf, ros-one-topic-tools
+Filename: ./ros-one-jsk-topic-tools_0-2024.10.10.15.22_amd64.deb
+Size: 1957298
+MD5sum: 0bef6fce0fd0059d1688803af55de93e
+SHA1: 1d9e20ab935fd4e3cb3c45e8e73e9d527c71a367
+SHA256: e94cc23fd4fee410d60013a82b1c564c98109e6ea8fca089a29b08dd02db8e7e
+SHA512: 1f93ec2bb4689eaefbbb239c4e354c219d6a6ffc95c7a83c28d2460582313443adaf85d39cab7ac7eccd019bffb470e718f9029e6d78c9ac82d260436bcd80f7
+Homepage: http://ros.org/wiki/jsk_topic_tools
+Description: jsk_topic_tools
+
+Package: ros-one-jsk-visualization
+Architecture: amd64
+Version: 2.1.8-67-g54b1406-2024.10.10.15.40
+Priority: optional
+Section: misc
+Maintainer: Ryohei Ueda <ueda@jsk.t.u-tokyo.ac.jp>
+Installed-Size: 15
+Depends: ros-one-jsk-interactive, ros-one-jsk-interactive-marker, ros-one-jsk-interactive-test, ros-one-jsk-rqt-plugins, ros-one-jsk-rviz-plugins
+Filename: ./ros-one-jsk-visualization_2.1.8-67-g54b1406-2024.10.10.15.40_amd64.deb
+Size: 2316
+MD5sum: a62a8f5763b3a5338e612b849f813082
+SHA1: 2622611707fdf3af721e8ba0da2056b25b0bb0d5
+SHA256: db2b09b8353c6776320fbdc2a51f3696bb51a738082f0ad58fd65442121155df
+SHA512: 0a577239e7ee2e9f355ec1bc21a4ed2af3e24704cfa72b83e401813ca35c16b6937d7def19a188bc7d358436351ad15a975658d360bcdc68e62ed33846a5e2b3
+Homepage: http://ros.org/wiki/jsk_visualization
+Description: Metapackage that contains visualization package for jsk-ros-pkg
+
+Package: ros-one-julius-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 2.1.28-49-gfb32bec3-2024.10.10.15.40
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-julius
+Maintainer: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Installed-Size: 4868
+Depends: ros-one-julius (= 2.1.28-49-gfb32bec3-2024.10.10.15.40)
+Filename: ./ros-one-julius-dbgsym_2.1.28-49-gfb32bec3-2024.10.10.15.40_amd64.ddeb
+Size: 4467050
+MD5sum: 7fd833d17b0258ec10576d45ee8e7b11
+SHA1: 61c1a3612b95fcc9e98c67ce6088c2ad30f5e9bd
+SHA256: db2dc6e5ed4462b08d7dd58e9aae56745bb49b19fc75d9e70de6c6099d896c7f
+SHA512: 9496ffb2be1e73ddd4e5b3954e8ddfcf38c0d966910723300ace34972429425f545bf18a6855a3fd77351990456611c48149de510f7928c1a358b8364d2c8445
+Description: debug symbols for ros-one-julius
+Build-Ids: 2b934bb1ce0831e78277e20a0ca958a8dafdfed3 31ea8ac27c7f60d3110c4d36e18664ce4d20659f 32a418d178e7e491e4daa1205c492e2daa2fb781 366f82abc8cfcd0f95c27ce508c6bd49ea036df9 38b976d770911cdcd005e8ba469ca0d7376308bb 3d4f4d12df4cee79f1686acd5dfb380bb8403b4f 49814cb8c77c3402c57e413dd93acdb8c6750613 605cbef550ce1b80e89275a39ae4c3be80afef7d 705f009d3f86246361d919994d44f88ec40f215c 75531710abe11982712580afc0ee08fb91cf868b 76edcab769be64fd524675799faf7a3e26b1463c 8592d384a6573c3a86601f0be4b35411e6268b1d 8b11d6765c4d5a1d003cb986a7393e104981071e b36feae14fa357f58c2e25a957c4d949a199c5d2 f2c7af6e43f84a72af599a3d39cfe1e2a6f301d8 f71f301448ba083487693daefa55ce64f8ec0b0f
+
+Package: ros-one-julius-ros
+Architecture: amd64
+Version: 2.1.28-49-gfb32bec3-2024.10.10.15.47
+Priority: optional
+Section: misc
+Maintainer: Yuki Furuta <furushchev@jsk.imi.i.u-tokyo.ac.jp>
+Installed-Size: 110
+Depends: julius-voxforge, nkf, python3-lxml, python3-rospkg, ros-one-audio-capture, ros-one-audio-common-msgs, ros-one-julius, ros-one-rospy, ros-one-sound-play, ros-one-speech-recognition-msgs, ros-one-std-srvs, sound-theme-freedesktop
+Filename: ./ros-one-julius-ros_2.1.28-49-gfb32bec3-2024.10.10.15.47_amd64.deb
+Size: 23784
+MD5sum: b7cf794edb629b940258a0478a796b3d
+SHA1: 2646384923b6b458b342f20a1ce82a3947f263cc
+SHA256: 1965109783675352a11c021e9726bb30297ab62f3834f18a580121674abfbce9
+SHA512: c2bfaa082ee0a7002a05271d89cf7f2386280b90f904fb02cba08d3915d93f05efbc5a68c1c1919a0f065139ff48f50762f7dab5b8677df5570e9e3970d38ee1
+Description: The julius_ros package
+
+Package: ros-one-laser-filters-jsk-patch-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 2.1.28-49-gfb32bec3-2024.10.10.15.48
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-laser-filters-jsk-patch
+Maintainer: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Installed-Size: 298
+Depends: ros-one-laser-filters-jsk-patch (= 2.1.28-49-gfb32bec3-2024.10.10.15.48)
+Filename: ./ros-one-laser-filters-jsk-patch-dbgsym_2.1.28-49-gfb32bec3-2024.10.10.15.48_amd64.ddeb
+Size: 276432
+MD5sum: 6cc0c1cd53fc60104b83b365578c250f
+SHA1: 238df0455cf932c1b9ede257b71643175bc4a954
+SHA256: fbf307f3380aeeb9f0dda8b3959b3e8e9b87a0c25a1809d4cc3b7f62c967985d
+SHA512: 7656a0fe6c5140cc3b1ba983486fe81c86090e5a730859d391216c3764c15d4c1f9f01178b2f130b7d796f25d2d44d79153681032ac380cb6bc5a04613ee0e25
+Description: debug symbols for ros-one-laser-filters-jsk-patch
+Build-Ids: c2450f22f679b1d80cdf6df1085c35a90ff89b74
+
+Package: ros-one-laser-filters-jsk-patch
+Architecture: amd64
+Version: 2.1.28-49-gfb32bec3-2024.10.10.15.48
+Priority: optional
+Section: misc
+Maintainer: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Installed-Size: 86
+Depends: libc6 (>= 2.14), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-one-filters, ros-one-laser-filters
+Filename: ./ros-one-laser-filters-jsk-patch_2.1.28-49-gfb32bec3-2024.10.10.15.48_amd64.deb
+Size: 23488
+MD5sum: 5f49859f75362167768b6f9e522f93e0
+SHA1: 6202281ee1c205df27b72d0589f277f138778b53
+SHA256: bb53ae107a04942012808f856fb40b9383b795ed500ce394403bc08e8e78a6a1
+SHA512: e45e5131ec9c00322ab012733807c8256ff8080ebd1846f14c31cda4a4de661756e1a219a77c4e9b2b39786ca40c1095aa1ab11bf699e9c96531cf31744a9f41
+Homepage: http://ros.org/wiki/laser_filters_jsk_patch
+Description: laser_filters_jsk_patch
+
+Package: ros-one-libcmt-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 2.1.28-49-gfb32bec3-2024.10.10.15.49
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-libcmt
+Maintainer: Yuto Inagaki <inagaki@jsk.imi.i.u-tokyo.ac.jp>
+Installed-Size: 449
+Depends: ros-one-libcmt (= 2.1.28-49-gfb32bec3-2024.10.10.15.49)
+Filename: ./ros-one-libcmt-dbgsym_2.1.28-49-gfb32bec3-2024.10.10.15.49_amd64.ddeb
+Size: 435934
+MD5sum: 85fccae91ddb0a6c70cf97cdb3191e28
+SHA1: 660eaad5260cc76a6d61ad78871d88002f4c7029
+SHA256: c1d14a5c6fdfc3bfeb632ba00da0ef252665d6515170feeedecaeed7226de836
+SHA512: cf156ac3b90c23563dabaa0437d8bf687e8d93c02a89e569d68cb6783ba1d709708d6a21a0ada9e5a2a0a87a1e99b5a65df82730efcb56386455955820229bb4
+Description: debug symbols for ros-one-libcmt
+Build-Ids: 6fd4e7eaed26c078a688caa3f99bcdc9079715da
+
+Package: ros-one-libcmt
+Architecture: amd64
+Version: 2.1.28-49-gfb32bec3-2024.10.10.15.49
+Priority: optional
+Section: misc
+Maintainer: Yuto Inagaki <inagaki@jsk.imi.i.u-tokyo.ac.jp>
+Installed-Size: 79
+Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libopencv-core4.5d (>= 4.5.4+dfsg), libopencv-features2d4.5d (>= 4.5.4+dfsg), libopencv-stitching4.5d (>= 4.5.4+dfsg), libopencv-video4.5d (>= 4.5.4+dfsg), libstdc++6 (>= 11), ros-one-cv-bridge
+Filename: ./ros-one-libcmt_2.1.28-49-gfb32bec3-2024.10.10.15.49_amd64.deb
+Size: 28908
+MD5sum: 48fe3bc61b634e32b115e2521e844514
+SHA1: bfb7ad4dcabeb047a26fecd950665109edf5b271
+SHA256: 3fc03a4e54e54d9c94e886f3ec6019cdb456ad419923a9971fc07f8142b2340b
+SHA512: 1e836c12aa153c55580380c7ea8038747b1322b757ff5ee7c62dd8feb2c084719258233b3290f0d08f29d04acf76be0430258fb9daf5241d190c4bfc4ebfce69
+Description: libCMT ROS Wrapper
+
+Package: ros-one-mini-maxwell
+Architecture: amd64
+Version: 2.1.28-49-gfb32bec3-2024.10.10.15.53
+Priority: optional
+Section: misc
+Maintainer: Ryohei Ueda <ueda@jsk.t.u-tokyo.ac.jp>
+Installed-Size: 202
+Depends: ros-one-dynamic-reconfigure
+Filename: ./ros-one-mini-maxwell_2.1.28-49-gfb32bec3-2024.10.10.15.53_amd64.deb
+Size: 26878
+MD5sum: 1566e54b85dc6f01de2341d2ae73efaf
+SHA1: 2242cde625f90ecd3fd21166a28f712901b10b5c
+SHA256: 00d6c3d33fd7fbac2650cb59c18deb7ba6d5cdb71e926aa251fdb543a5a2e0f5
+SHA512: 7f0646b133db9c48346eac4f61b6ad6fae2fcda01637a9df8fbf4bf39394be2ef86ad5c4896832ac890ec17845b889e0725596f00aa9e7d158a7a0bf24996276
+Homepage: http://ros.org/wiki/mini_maxwell
+Description: mini_maxwell
+
+Package: ros-one-multi-map-server-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2024.10.10.15.54
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-multi-map-server
+Maintainer: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Installed-Size: 647
+Depends: ros-one-multi-map-server (= 0-2024.10.10.15.54)
+Filename: ./ros-one-multi-map-server-dbgsym_0-2024.10.10.15.54_amd64.ddeb
+Size: 589666
+MD5sum: 4320f20a3d58ea92540f7e8f01af3cfa
+SHA1: cbddcce2acc8e3b66902dc42178c75b3ded69fcc
+SHA256: 07897289ef001cd2aa6b91bbe90191686d5f69ddaa97a7b3f01592f00c8b34a3
+SHA512: 9a8c42c163b54929d28478d7333d536acc8acace71ef30ffdee65ece90cb342f19be2cb7d6e19df7c48d8aa37d43e55969e1f959cc88bfe6f453db071f72da53
+Description: debug symbols for ros-one-multi-map-server
+Build-Ids: 2f443cb208c17228a60b33f78a873c6b508746fc
+
+Package: ros-one-multi-map-server
+Architecture: amd64
+Version: 0-2024.10.10.15.54
+Priority: optional
+Section: misc
+Maintainer: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Installed-Size: 174
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libyaml-cpp0.7 (>= 0.7.0), libsdl-image1.2-dev, libyaml-cpp-dev, ros-one-map-server, ros-one-nav-msgs, ros-one-rosconsole, ros-one-roscpp, ros-one-rospy, ros-one-tf
+Filename: ./ros-one-multi-map-server_0-2024.10.10.15.54_amd64.deb
+Size: 54446
+MD5sum: 186e3a89ef4e0b27c225a5bb27adc25f
+SHA1: 0557d6662ab3352041dfb1a281f86a0fbe12b801
+SHA256: 0eca571bbd1c31016a395735c7aa4c529581ab068db3afaf69291d8b16ebb3d7
+SHA512: a8eb17d34dd669cdca4d1f15d8b6feb66d51066436df97a40fa07371353ed8e8e23869ee54d43a8e75a4189f9312223821a82f822fa459be5c80040e32c22b65
+Homepage: http://ros.org/wiki/map_server
+Description: multi_map_server provides the
+
+Package: ros-one-nfc-ros-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 2.1.28-49-gfb32bec3-2024.10.10.15.56
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-nfc-ros
+Maintainer: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Installed-Size: 555
+Depends: ros-one-nfc-ros (= 2.1.28-49-gfb32bec3-2024.10.10.15.56)
+Filename: ./ros-one-nfc-ros-dbgsym_2.1.28-49-gfb32bec3-2024.10.10.15.56_amd64.ddeb
+Size: 506132
+MD5sum: 8f9fe3dfd6678957933c12c283398658
+SHA1: de2051d94334098b592c0b135d3e7d06b63db2d6
+SHA256: 0cf7d8f648ec501d54c85de2040d07e785389adf70a008856160d5aa12ced298
+SHA512: 10cdfab1843836bea748cf309c7e19226d781ffc1fef763a37916d4104e9f671f04f352cdf2dc52a166f4b5d2565a0479d4ca466cfc5f97bbb5c6a5b251155d3
+Description: debug symbols for ros-one-nfc-ros
+Build-Ids: 16b12393c5557d6daf71030a0ac1a484fa0b246d 82c9c22b01cb86c3aa47b982f72fb0db2293dac7
+
+Package: ros-one-nfc-ros
+Architecture: amd64
+Version: 2.1.28-49-gfb32bec3-2024.10.10.15.56
+Priority: optional
+Section: misc
+Maintainer: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Installed-Size: 16622
+Depends: libc6 (>= 2.2.5), ros-one-message-generation, ros-one-message-runtime
+Filename: ./ros-one-nfc-ros_2.1.28-49-gfb32bec3-2024.10.10.15.56_amd64.deb
+Size: 2971104
+MD5sum: 4fe401cf182a0e837d6b9eaf419c821a
+SHA1: 806af80fea913fb17460e949d17e6436401b4272
+SHA256: c8fb857fb57a79090d23387e9dd56188ed7facab8902b48c9c213c773059f941
+SHA512: 4ba612b16fbad9706d6a853e0e7719474afe508d43caa58cea637915361c6d88c917b46661a47cf976f4100606ec6017f768d5bdaa25d0e906c7688a751d5ff4
+Description: The nfc_ros package
+
+Package: ros-one-nlopt-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 2.1.28-49-gfb32bec3-2024.10.10.15.58
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-nlopt
+Maintainer: Noda Shintaro <s-noda@jsk.t.u-tokyo.ac.jp>
+Installed-Size: 79
+Depends: ros-one-nlopt (= 2.1.28-49-gfb32bec3-2024.10.10.15.58)
+Filename: ./ros-one-nlopt-dbgsym_2.1.28-49-gfb32bec3-2024.10.10.15.58_amd64.ddeb
+Size: 19696
+MD5sum: e4027884260c316ff9c0ca8c9bbeb91a
+SHA1: 218646abb46f443ffdf6f6d27591fa037efc062b
+SHA256: 52a0307183cd1adb31ff76d0be3ac1a3f77ec2c32ec4ceb4d2db886c0dd1395a
+SHA512: 69294c1e692cfc3d2fda592ea8d756d84747175726f779b5f05376848e24823117b274a864f953f51a39c3606101fa6922aa9d6de04cf80dc221685307d10d37
+Description: debug symbols for ros-one-nlopt
+Build-Ids: d174c5821ab21ad44eb5fbce448ae92a87cb1bf9
+
+Package: ros-one-nlopt
+Architecture: amd64
+Version: 2.1.28-49-gfb32bec3-2024.10.10.15.58
+Priority: optional
+Section: misc
+Maintainer: Noda Shintaro <s-noda@jsk.t.u-tokyo.ac.jp>
+Installed-Size: 739
+Depends: libc6 (>= 2.29), libgcc-s1 (>= 3.0), libstdc++6 (>= 11)
+Filename: ./ros-one-nlopt_2.1.28-49-gfb32bec3-2024.10.10.15.58_amd64.deb
+Size: 178530
+MD5sum: b6d4132f826e29b1e91e6c96a06836b0
+SHA1: f87d1e4844fa2ef0e8b1b2b9f44a589c58339f87
+SHA256: 46a1c5c8dfba4f5f2cc659a60d34ec23d4bb1ebed1ba5079f88733b06c99fc65
+SHA512: 438c5fd793c6ff019e10ee80e650d8f00270e34491b71b98fdf558c126e803ac6daec1e454be9b355e56f27d77f2474fc98fca04a39d55798162846555e2ecbe
+Homepage: http://ros.org/wiki/nlopt
+Description: nlopt
+
+Package: ros-one-octomap-mapping
+Architecture: amd64
+Version: 0.6.8-2024.10.10.15.59
+Priority: optional
+Section: misc
+Maintainer: Wolfgang Merkt <opensource@wolfgangmerkt.com>
+Installed-Size: 14
+Depends: ros-one-octomap-server
+Filename: ./ros-one-octomap-mapping_0.6.8-2024.10.10.15.59_amd64.deb
+Size: 2340
+MD5sum: 0984113e7bc5491d74a3f4ea4fa6f317
+SHA1: b6b2141c199f75780f830c91f1d57499f4361d83
+SHA256: 932a7a4060bfd27189748ae60da05e7ee8aa7079887e9809b308f0c59cf4491d
+SHA512: a5c72e85cedd7402bada9441440210e365fb88c3c648c0bee731a3ae2dcf7ca9ad6f7316829db0a75d22071577f99cdf2550c3cd53e13d57463828ec7359cd54
+Homepage: http://ros.org/wiki/octomap_mapping
+Description: Mapping tools to be used with the OctoMap library, implementing a 3D occupancy grid mapping.
+
+Package: ros-one-octomap-server-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0.6.8-2024.10.10.16.00
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-octomap-server
+Maintainer: Wolfgang Merkt <opensource@wolfgangmerkt.com>
+Installed-Size: 15390
+Depends: ros-one-octomap-server (= 0.6.8-2024.10.10.16.00)
+Filename: ./ros-one-octomap-server-dbgsym_0.6.8-2024.10.10.16.00_amd64.ddeb
+Size: 12787740
+MD5sum: eead68843f08955071b7d56a303ff2c3
+SHA1: 17c869c7d2b00a16bb123a0546b0abfe70169ca1
+SHA256: c6a1a8769f30e35cea33e7819095ed4eb9ec48fb512bfae5974b01d3ca35e41c
+SHA512: 66ef82dfa112dc4d8b2dbfe4e70c7edb191fb13269ca5a058bb962852f89cad287752b1bbb2bb41f1ba22c11f8f04d2e8b046bcdddebe76f2862a35954a6e440
+Description: debug symbols for ros-one-octomap-server
+Build-Ids: 0738dd2776ea6a8496632f08bb16c336e2805948 11c6b01cdb9d8db09fe4656a02ec48440aa81ee1 1edbcc65970b30bbad3a31bd233546c5a677b63e 2fab94bb32e9c903191009c51c4380752021482a 34d4e9eae1462355c444c94c2c0fa9c242abf460 3cb69d010f79e8108738e6576467c40d6826fd1a 803af50454e39ddd56b11300610778534dee3bdc c2b87e9a58977124b61ec9c6723cda8664b69d50 e4565a23d72486e3d48e0b5c28882579c8ffff0a f6c47da5cb473054d7ee04cd79b80ee400f1cb8c
+
+Package: ros-one-octomap-server
+Architecture: amd64
+Version: 0.6.8-2024.10.10.16.00
+Priority: optional
+Section: misc
+Maintainer: Wolfgang Merkt <opensource@wolfgangmerkt.com>
+Installed-Size: 1726
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), liboctomap1.9 (>= 1.9.7+dfsg), libpcl-common1.12 (>= 1.12.1+dfsg), libpcl-filters1.12 (>= 1.12.1+dfsg), libpcl-segmentation1.12 (>= 1.12.1+dfsg), libstdc++6 (>= 11), liboctomap-dev, ros-one-dynamic-reconfigure, ros-one-nav-msgs, ros-one-nodelet, ros-one-octomap-msgs, ros-one-octomap-ros, ros-one-pcl-conversions, ros-one-pcl-ros, ros-one-roscpp, ros-one-sensor-msgs, ros-one-std-msgs, ros-one-std-srvs, ros-one-visualization-msgs
+Filename: ./ros-one-octomap-server_0.6.8-2024.10.10.16.00_amd64.deb
+Size: 338710
+MD5sum: 07a75c85bcb828a9ce43e264d4755cdf
+SHA1: 5435718866fec381b1c487cea0e44ffc567b4378
+SHA256: 758e0016026b785b791396c9fb2498d0643ede9663dee2d015d21230992186de
+SHA512: 8b07414f8d77ed9f95307d50a52533508f8e8b8636d2ed8181c2348ef2806a6f8c15696f8ad7c59f4003e7b0624b23e4a1a1a148fbf93250275f2ac940b5f5a2
+Homepage: http://www.ros.org/wiki/octomap_server
+Description: octomap_server loads a 3D map (as Octree-based OctoMap) and distributes it to other nodes in a compact binary format.
+ It also allows to incrementally build 3D OctoMaps, and provides map saving in the node octomap_saver.
+
+Package: ros-one-opt-camera-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 2.1.28-49-gfb32bec3-2024.10.10.16.03
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-opt-camera
+Maintainer: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Installed-Size: 1291
+Depends: ros-one-opt-camera (= 2.1.28-49-gfb32bec3-2024.10.10.16.03)
+Filename: ./ros-one-opt-camera-dbgsym_2.1.28-49-gfb32bec3-2024.10.10.16.03_amd64.ddeb
+Size: 1180028
+MD5sum: 76e90d8cf70ea7453ad9aa0c0aeb40d2
+SHA1: f03fb3e00b6c20bf2a9e2253870b6488b8c21480
+SHA256: 0b57db025ebfff917c9ec0618ff46077327f0fb83ddb30ca29e8c818cb085573
+SHA512: 520c9f955da9a813a6a76312bc5058fd44de8f782841d107baee5a6a9f5b32dbb5f749e148a2fb2ea44af8d792a4371faabe1db3b4e04a101fb86eeae183c44f
+Description: debug symbols for ros-one-opt-camera
+Build-Ids: 5a6ec3101d23a169f155cb53901bb27e7ca5578e fed06b2e9004ee4466b349b8cb027bd2a2c6b663
+
+Package: ros-one-opt-camera
+Architecture: amd64
+Version: 2.1.28-49-gfb32bec3-2024.10.10.16.03
+Priority: optional
+Section: misc
+Maintainer: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Installed-Size: 755
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libopencv-core4.5d (>= 4.5.4+dfsg), libopencv-imgcodecs4.5d (>= 4.5.4+dfsg), libstdc++6 (>= 11), ros-one-camera-calibration-parsers, ros-one-compressed-image-transport, ros-one-cv-bridge, ros-one-dynamic-reconfigure, ros-one-image-proc, ros-one-rospack, ros-one-sensor-msgs
+Filename: ./ros-one-opt-camera_2.1.28-49-gfb32bec3-2024.10.10.16.03_amd64.deb
+Size: 108272
+MD5sum: 59d117e2eec2e92ec118f9c0a0a84f83
+SHA1: 0b42781e09bffc4129d355dac5f2ba583b112f19
+SHA256: ced429d039bd73eaaa485cfa1c2fa8d650b2984143e9812d6a7dd6cf7a19bd68
+SHA512: 3fa5a8eb828faad90fb8d5c79fb1da3fb17b6df8aba5c6b3af88a65e311759afe3346db9b7008e0ae04912cc9fac7abac57e5dc3be0227b626847cf1ce89a13d
+Homepage: http://ros.org/wiki/opt_camera
+Description: opt_camera
+
+Package: ros-one-osqp
+Architecture: amd64
+Version: 2.1.28-49-gfb32bec3-2024.10.10.16.05
+Priority: optional
+Section: misc
+Maintainer: Moju Zhao <chou@jsk.imi.i.u-tokyo.ac.jp>
+Installed-Size: 9
+Filename: ./ros-one-osqp_2.1.28-49-gfb32bec3-2024.10.10.16.05_amd64.deb
+Size: 2332
+MD5sum: fcfa530519cad4ac47bed2804bf625e7
+SHA1: 7f8504971e5de573b7d618453fa25ed1ea55345e
+SHA256: 911be5a9a91b9e58903729b0b4b28569e39e49e6843d6e3f3febad5d1ff90aeb
+SHA512: bf8e54e3a9037358afadaf90e19e0b70fd63f31a0023db547a7cb76815caf2272840601a6756c271d94578f2aff24f5d01dac810fa674b2110c1e793e59b1f8f
+Description: ROS wrapper for OSQP
+
+Package: ros-one-pgm-learner
+Architecture: amd64
+Version: 2.1.28-49-gfb32bec3-2024.10.10.16.06
+Priority: optional
+Section: misc
+Maintainer: Yuki Furuta <furushchev@jsk.imi.i.u-tokyo.ac.jp>
+Installed-Size: 872
+Depends: libpgm, python3-scipy, ros-one-message-runtime, ros-one-rospy
+Filename: ./ros-one-pgm-learner_2.1.28-49-gfb32bec3-2024.10.10.16.06_amd64.deb
+Size: 59920
+MD5sum: cc7b382e7c2750589cc370b464e6d861
+SHA1: 03bab8cced98864740d61f7ad253575def0543f1
+SHA256: d11e6c7d803001b3e9b1e6deb0afe9356cdc6e59d0dd6e3a24347714527fadc6
+SHA512: 70d02eccec4130749ae31f109ac7b8e3ef41c9d0fff4543562ad0760492315dff46dc794b66cfa59451b0407e341b6c2ee19009cc2421b5378965858b6812b91
+Description: Parameter/Structure Estimation and Inference for Bayesian Belief Network
+
+Package: ros-one-posedetection-msgs-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 4.3.2-13-g093b57c-2024.10.10.16.07
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-posedetection-msgs
+Maintainer: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Installed-Size: 1470
+Depends: ros-one-posedetection-msgs (= 4.3.2-13-g093b57c-2024.10.10.16.07)
+Filename: ./ros-one-posedetection-msgs-dbgsym_4.3.2-13-g093b57c-2024.10.10.16.07_amd64.ddeb
+Size: 1334902
+MD5sum: b612dbab6a33dfa8aa7f8692fe04fd8c
+SHA1: 9be0484c993816879586b1313ece45714e259194
+SHA256: 21ac20378c09f2705f0251cdf1a00725cfb48e79c9bb2bb91656385fe5f5a6c2
+SHA512: 694344fb6f619b831f250698ddfbbff2deb7dd4372699e37eccb6c89c7bbeafeb57893bb378509e711293583e58f1de120a13cbc649ede0db7945ccfdfb78d70
+Description: debug symbols for ros-one-posedetection-msgs
+Build-Ids: 76b2b3a85083da3e8ba0d89454b64f6cab5ed4e0 8fc150182d3baff469f33543df9f065cfec3fc77
+
+Package: ros-one-posedetection-msgs
+Architecture: amd64
+Version: 4.3.2-13-g093b57c-2024.10.10.16.07
+Priority: optional
+Section: misc
+Maintainer: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Installed-Size: 1281
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libopencv-core4.5d (>= 4.5.4+dfsg), libopencv-highgui4.5d (>= 4.5.4+dfsg), libopencv-imgproc4.5d (>= 4.5.4+dfsg), libstdc++6 (>= 11), ros-one-cv-bridge, ros-one-geometry-msgs, ros-one-message-filters, ros-one-message-runtime, ros-one-roscpp, ros-one-sensor-msgs, ros-one-std-msgs
+Filename: ./ros-one-posedetection-msgs_4.3.2-13-g093b57c-2024.10.10.16.07_amd64.deb
+Size: 129482
+MD5sum: c1c1dbee005aeccde1666d1ca4b0b94b
+SHA1: b1da4c5b2dfda2bf580c1f6cbce1f181e2f159f0
+SHA256: 06c1f01147400f57e5070cecf6076389b185ae6ef8871993fe2599395224fd5b
+SHA512: 0acb56cd8eb910e4e847ff2c43919ad35b08f17709a507974206b58c44021f0f917974d1b5859e0a9f8c1d8dedb51c100894c04d4752553c6f13043364036ace
+Homepage: http://ros.org/wiki/posedetection_msgs
+Description: posedetection_msgs provides messages and services to facilitate passing pose detection results and features.
+
+Package: ros-one-robot-self-filter-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0.1.32-2-ga8d2e49-2024.10.10.16.14
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-robot-self-filter
+Maintainer: Devon Ash <dash@clearpathrobotics.com>
+Installed-Size: 3824
+Depends: ros-one-robot-self-filter (= 0.1.32-2-ga8d2e49-2024.10.10.16.14)
+Filename: ./ros-one-robot-self-filter-dbgsym_0.1.32-2-ga8d2e49-2024.10.10.16.14_amd64.ddeb
+Size: 3641278
+MD5sum: 4b8ace8fd6c9f976bccb17fab4837027
+SHA1: feee1790893c9c3efbbfb69a805debf66e139d53
+SHA256: 02f96167945360eade95e0f8f95b774de0f781db7831b03f9bd4289b15d8605f
+SHA512: e186b4f20fd238ba11f610b812678630632072b9d895e46208a6998c045c09f001383f51548c008076a301436e99781d24bd939c344a421c01dc6865613960ec
+Description: debug symbols for ros-one-robot-self-filter
+Build-Ids: 1fea40efa4fcd28c4e64e32f3766e81bcfed6a61 21a45c10437a265b841dd5714ab193f570de99b9 78e92a5c7eebf1b8613a054a0ca61accb7b21d11 ad65fe9c4dcc6f3886666144cb0cafa0690b85c1
+
+Package: ros-one-robot-self-filter
+Architecture: amd64
+Version: 0.1.32-2-ga8d2e49-2024.10.10.16.14
+Priority: optional
+Section: misc
+Maintainer: Devon Ash <dash@clearpathrobotics.com>
+Installed-Size: 679
+Depends: libassimp5 (>= 5.2.2~ds0), libboost-filesystem1.74.0 (>= 1.74.0), libboost-thread1.74.0 (>= 1.74.0), libbullet3.06 (>= 3.06+dfsg), libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libpcl-common1.12 (>= 1.12.1+dfsg), libstdc++6 (>= 11), libtinyxml2.6.2v5 (>= 2.6.2), liburdfdom-world3.0 (>= 3.0.1), libassimp-dev, libbullet-dev, libtinyxml-dev, ros-one-filters, ros-one-pcl-ros, ros-one-resource-retriever, ros-one-roscpp, ros-one-sensor-msgs, ros-one-tf, ros-one-urdf, ros-one-visualization-msgs
+Filename: ./ros-one-robot-self-filter_0.1.32-2-ga8d2e49-2024.10.10.16.14_amd64.deb
+Size: 185860
+MD5sum: 38e0d60f84b4afed8d33b69fa8535f5e
+SHA1: 3fa6e19eafc07b8da20292b254887a8fd31333d7
+SHA256: d85d40339ecbbe642d5fb5db383f30d1c7acebbf4913b95f78140c9559798921
+SHA512: 4a253c393f075ebee182720f532c943466717f2de1c62a182ef78c6810e96134f51e1eec8a615d6f29a79d6367c90094676d103e6c8d1af892b45c8e61cd7252
+Homepage: http://ros.org/wiki/robot_self_filter
+Description: Filters the robot's body out of point clouds.
+
+Package: ros-one-ros-google-cloud-language-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 2.1.28-49-gfb32bec3-2024.10.10.16.18
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-ros-google-cloud-language
+Maintainer: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Installed-Size: 555
+Depends: ros-one-ros-google-cloud-language (= 2.1.28-49-gfb32bec3-2024.10.10.16.18)
+Filename: ./ros-one-ros-google-cloud-language-dbgsym_2.1.28-49-gfb32bec3-2024.10.10.16.18_amd64.ddeb
+Size: 506144
+MD5sum: d15a6e9027644b2a89037a466e2dee99
+SHA1: 29b374468fa5258ecd19e22b3d6158eec0767aba
+SHA256: eff504f44f6db4925bee840954025b6ed05f6f6611885b0ced419e1409584319
+SHA512: 7d91140bcaba7d97b79083a0bcb3e999e92c1e8fa8593240ceaa11383ebc4178aae3c1e7821103c8591355c2bc836532b5606a4fc550e93032b2cb7d895a5c4a
+Description: debug symbols for ros-one-ros-google-cloud-language
+Build-Ids: 58e6d85fb19b260b634b57becee228b54fcf0856 e36720010874031188ae24e7bb701089393755ff
+
+Package: ros-one-ros-google-cloud-language
+Architecture: amd64
+Version: 2.1.28-49-gfb32bec3-2024.10.10.16.18
+Priority: optional
+Section: misc
+Maintainer: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Installed-Size: 32511
+Depends: libc6 (>= 2.16), libstdc++6 (>= 4.8), python3-unidecode, ros-one-actionlib-msgs, ros-one-diagnostic-msgs, ros-one-message-runtime, ros-one-rospy
+Filename: ./ros-one-ros-google-cloud-language_2.1.28-49-gfb32bec3-2024.10.10.16.18_amd64.deb
+Size: 6922996
+MD5sum: cd301a88c35b1dbd07fb95b89be0fe24
+SHA1: 5c74877e30c3ff12716de3e9ac2643b1780bca86
+SHA256: c3c08c3986255aa0040db3e503559a6397bdd66c973fe2633d1300f1ccef2767
+SHA512: 08eb8795395cef8434524704cc693f25e95a890ed87467d4c9a4b200fffc5e79ac0e22d2fc5cbd802c634d67355844090f8f7ec587fedb0da8b2e250297b087a
+Description: ros clinet library for google cloud language
+
+Package: ros-one-roseus-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 1.7.5-90-g795e764-2024.10.10.16.20
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-roseus
+Maintainer: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Installed-Size: 1604
+Depends: ros-one-roseus (= 1.7.5-90-g795e764-2024.10.10.16.20)
+Filename: ./ros-one-roseus-dbgsym_1.7.5-90-g795e764-2024.10.10.16.20_amd64.ddeb
+Size: 1491798
+MD5sum: 97cab6184a4364323d475b059360c9ae
+SHA1: fb70834fb34b2d879cff2cc926330c41062789ee
+SHA256: 1ad84ba933e33b04895cb34a3b9fd46dc71d38c23ce64b7106a22140e63bc1e6
+SHA512: d895b3471b3aeaab17c72261862e4328c10de0d3747adae3cd453abfded22bc275d6e6854efae51f3924de3fd4e4a18b0534b7f7f7ccb61155213819e81a94ae
+Description: debug symbols for ros-one-roseus
+Build-Ids: 8716b1a84c3b6bcd2bd5039d43c32b5f2c98dffa 8b9d4e4a55d3787cd8c055b711b4f9906ccd4fff e468ede435b96977b2255e5311cf43254835955f
+
+Package: ros-one-roseus-mongo
+Architecture: amd64
+Version: 1.7.5-90-g795e764-2024.10.10.16.34
+Priority: optional
+Section: misc
+Maintainer: Yuki Furuta <furushchev@jsk.imi.i.u-tokyo.ac.jp>
+Installed-Size: 59
+Depends: ros-one-mongodb-store, ros-one-mongodb-store-msgs, ros-one-roseus
+Filename: ./ros-one-roseus-mongo_1.7.5-90-g795e764-2024.10.10.16.34_amd64.deb
+Size: 12766
+MD5sum: a1cdff9649832fe64079a0678f53215a
+SHA1: ace5fa1f0ca38cbb9f3934f8749f9aa692c33231
+SHA256: 21da2ba074ded01151f1d4ddfe2c95b13f6c4c1e9c4853d857085fc3d0fb0dbc
+SHA512: 93fe05b8e7a62e5ae3242d162a46be7c6217cc42ddfe0ef528421c3f08c036e25f1bce0d82e31a7625a0dd198645fcf4ee5342489151440cc1c7715c09a26e2a
+Description: The roseus_mongo package
+
+Package: ros-one-roseus-smach
+Architecture: amd64
+Version: 1.7.5-90-g795e764-2024.10.10.16.35
+Priority: optional
+Section: misc
+Maintainer: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Installed-Size: 827
+Depends: ros-one-actionlib, ros-one-actionlib-tutorials, ros-one-euslisp, ros-one-message-runtime, ros-one-roseus, ros-one-rostest, ros-one-smach, ros-one-smach-msgs, ros-one-smach-ros, ros-one-std-msgs
+Filename: ./ros-one-roseus-smach_1.7.5-90-g795e764-2024.10.10.16.35_amd64.deb
+Size: 56988
+MD5sum: be953836e94c1e50a33ae302eac9a007
+SHA1: d84ef075f5d4905e34a3baac41b8dfc6e7c4e3d1
+SHA256: 6dc1651030d47f214be27f960fc25e1019023a2a2bc9a269cd8d148de5dc711e
+SHA512: d84e049718e6011be5133e3f255d3c6f4516b155114439971f1d106f6c9af6e853844622834250f9fe1d80345e9fb7c9a072a2c36275835e0e38b25fc0fc3966
+Homepage: http://ros.org/wiki/roseus_smach
+Description: roseus_smach * Euslisp state machine class.
+ it will be moved. * Message publisher for visualizing current state by smach_viewer. * Simple pickle dump script for debugging state machine. * Execute state machine as a action server.
+
+Package: ros-one-roseus
+Architecture: amd64
+Version: 1.7.5-90-g795e764-2024.10.10.16.20
+Priority: optional
+Section: misc
+Maintainer: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Installed-Size: 1202
+Depends: libboost-thread1.74.0 (>= 1.74.0), libc6 (>= 2.17), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-one-actionlib, ros-one-actionlib-msgs, ros-one-actionlib-tutorials, ros-one-dynamic-reconfigure, ros-one-euslisp, ros-one-geneus, ros-one-geometry-msgs, ros-one-jskeus, ros-one-message-runtime, ros-one-rosbash, ros-one-roscpp, ros-one-roslang, ros-one-rosmsg, ros-one-rosnode, ros-one-rospack, ros-one-rostest, ros-one-sensor-msgs, ros-one-shape-msgs, ros-one-std-msgs, ros-one-std-srvs, ros-one-tf, ros-one-tf2-ros, ros-one-visualization-msgs
+Filename: ./ros-one-roseus_1.7.5-90-g795e764-2024.10.10.16.20_amd64.deb
+Size: 222812
+MD5sum: 11f20c4e401d9b448c888d220503d6d3
+SHA1: cffad60aa2a17e93e301e5673e79641e5ffc9dae
+SHA256: d2490321ef42d09964272742c78ada428cab2931d4402fccc25fa50d2304333d
+SHA512: a05b9d6c0ee8483734d417f71755ce7e5b36594422cd7a29e0454fc71458ba12522290d5004f166c52f86bf6162bb8a5a23ad26cab0ea3a450092c21fca23740
+Homepage: http://pr.willowgarage.com/wiki/roseus
+Description: EusLisp client for ROS Robot Operating System.
+
+Package: ros-one-rospatlite
+Architecture: amd64
+Version: 2.1.28-49-gfb32bec3-2024.10.10.16.36
+Priority: optional
+Section: misc
+Maintainer: Takuya Nakaoka <nakaokat@gmail.com>
+Installed-Size: 41
+Depends: ros-one-rospy, ros-one-std-msgs
+Filename: ./ros-one-rospatlite_2.1.28-49-gfb32bec3-2024.10.10.16.36_amd64.deb
+Size: 7876
+MD5sum: e324683af2ed906c77dec8671469622b
+SHA1: 6ebf33751269307f4606c8e9e7e7bdef0f9be235
+SHA256: 3761399bb1b935d4ea46fdc3b9c21770c62aaa576f3d12f14ab66ba0264a2f75
+SHA512: fde197c34d5bbc4af2d84dfe2c79808467fb518e094252d86dd9beaf437d916b045a968216abb287a1936a901010a5c0f341ad7f709a55f15cd0949b0e9210b0
+Homepage: http://ros.org/wiki/rospatlite
+Description: rospatlite
+
+Package: ros-one-rosping-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 2.1.28-49-gfb32bec3-2024.10.10.16.37
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-rosping
+Maintainer: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Installed-Size: 834
+Depends: ros-one-rosping (= 2.1.28-49-gfb32bec3-2024.10.10.16.37)
+Filename: ./ros-one-rosping-dbgsym_2.1.28-49-gfb32bec3-2024.10.10.16.37_amd64.ddeb
+Size: 741716
+MD5sum: 03cfdf3762dfd5940f65d678b0198e43
+SHA1: 12dbd1576e1f3143a2bf2e36a5e161f9041f2e82
+SHA256: e246574b60fb2570737bff76fa20760e6dfbeda7c6822fdb0b6da075421e2568
+SHA512: 87c0e9ff618891de6a5e3ebadb43c79984e779c888c4f578490cbeda5b4a742520b580d00b100378639ee31027ca76069f5c87943b7316b28af5edabf03d0465
+Description: debug symbols for ros-one-rosping
+Build-Ids: b2f7432a68b8a0a3617133397fc51ea1cae07362
+
+Package: ros-one-rosping
+Architecture: amd64
+Version: 2.1.28-49-gfb32bec3-2024.10.10.16.37
+Priority: optional
+Section: misc
+Maintainer: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Installed-Size: 225
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-one-roscpp, ros-one-std-msgs
+Filename: ./ros-one-rosping_2.1.28-49-gfb32bec3-2024.10.10.16.37_amd64.deb
+Size: 64552
+MD5sum: bc8940bc11af33ea5d9c2e3326dccd27
+SHA1: d25f16fb320fb7c019cd20b90d62278381275ed5
+SHA256: cf59612286dd688f2e88ecb54b84851a487f30a6383ef910b1925f1db6cfbb3e
+SHA512: 9943f85ee7de345523d4630a8eb4fc453b7bc15a688303695eb9428d0050d345b23f00bf1b4f8a3af0899413156fe4151b38f8b74482f8f18544430c857cb044
+Homepage: http://ros.org/wiki/rosping
+Description: rosping is the tool to send ICMP ECHO_REQUEST to network hosts where roscore is running, and send back to you as rostopic message.
+ For echoing ROS node, use rosnode.
+
+Package: ros-one-rostwitter
+Architecture: amd64
+Version: 2.1.28-49-gfb32bec3-2024.10.10.16.38
+Priority: optional
+Section: misc
+Maintainer: k-okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Installed-Size: 582
+Depends: python3-requests, python3-requests-oauthlib, python3-simplejson, ros-one-actionlib-msgs, ros-one-dynamic-reconfigure, ros-one-message-runtime, ros-one-rospy, ros-one-sound-play, ros-one-std-msgs
+Filename: ./ros-one-rostwitter_2.1.28-49-gfb32bec3-2024.10.10.16.38_amd64.deb
+Size: 127568
+MD5sum: 6824797b98f8fcf2fb1df6b607862bfd
+SHA1: 421fb73bd215f11866f9b73ce9d149cbb2cdc57f
+SHA256: 0463c083556dcaf5548848df97b484dd2c308d62b9aa5d28c0fa13f6f1399709
+SHA512: f1e5697f7a3f93693baa6c20f1943635b5cce0c0bbe53830e4a66d69ba99006071ffc15c8c22217f5eddca064dfc1bbefc8ee6592bf6a8e4e258eac30b101f33
+Description: The rostwitter package
+
+Package: ros-one-slic
+Architecture: amd64
+Version: 2.1.28-49-gfb32bec3-2024.10.10.16.41
+Priority: optional
+Section: misc
+Maintainer: Kei Okada <k-okada@jsk.imi.i.u-tokyo.ac.jp>
+Installed-Size: 9
+Depends: libopencv-dev
+Filename: ./ros-one-slic_2.1.28-49-gfb32bec3-2024.10.10.16.41_amd64.deb
+Size: 2596
+MD5sum: 1d07b99dfb1ecb622268f078edfbc1e7
+SHA1: 902d41c97ccbd692f9219df50787186e0a62d582
+SHA256: f2af79c43633b81cb33f06356ac30ae3c067591204c037e379941dbdeac0b5db
+SHA512: cc25e0a5be24ede558233114755000ecbd6282c79f73c0667b28d0cb4919ad8e5153c654c80ac53941dacedb006717ac1bfbb8c54d0b773d6409393697f7eb00
+Description: SLIC-Superpizel ROS Wrapper This file contains the class elements of the class Slic.
+ This class is an implementation of the SLIC Superpixel algorithm by Achanta et al. [PAMI'12, vol. 34, num. 11, pp. 2274-2282]. This implementation is created for the specific purpose of creating over-segmentations in an OpenCV-based environment.
+
+Package: ros-one-speech-recognition-msgs
+Architecture: amd64
+Version: 4.3.2-13-g093b57c-2024.10.10.16.43
+Priority: optional
+Section: misc
+Maintainer: Yuki Furuta <furushchev@jsk.imi.i.u-tokyo.ac.jp>
+Installed-Size: 339
+Depends: ros-one-message-runtime, ros-one-std-msgs
+Filename: ./ros-one-speech-recognition-msgs_4.3.2-13-g093b57c-2024.10.10.16.43_amd64.deb
+Size: 31640
+MD5sum: 12d5093cbe18956f58da20d19edea1c9
+SHA1: 9fa988e356ebd773ddf69f89474676a8b3471b2c
+SHA256: c88ca172dc93b420604ae811a79b5d96d00a247bdc2cfcce453fd2f158f0f836
+SHA512: 6d848fa0eb6bca1e67f39f2527aade83b559f1fd26822af6c1a1ad525fe5050b87240a7abfced2d65ed49431bc72a2fb461d7bf02a26fa39af8d185cb15f2ae7
+Homepage: http://ros.org/wiki/speech_recognition_msgs
+Description: speech_recognition_msgs
+
+Package: ros-one-switchbot-ros-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 2.1.28-49-gfb32bec3-2024.10.10.16.46
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-switchbot-ros
+Maintainer: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Installed-Size: 555
+Depends: ros-one-switchbot-ros (= 2.1.28-49-gfb32bec3-2024.10.10.16.46)
+Filename: ./ros-one-switchbot-ros-dbgsym_2.1.28-49-gfb32bec3-2024.10.10.16.46_amd64.ddeb
+Size: 506142
+MD5sum: 346cdc9f4442e8b3a330ca8ab09981a0
+SHA1: eaea06f844620c409e00a3774f2fe108494acb8d
+SHA256: 6b27c5ad5d08a9c823a75b1a9f2a185071a27389a7f4ebadf45e9b960e9e097d
+SHA512: 02c56282e12b52a8b8d405930db19caeb14d961dedad7f19b28cd55a3c86bf5193794e45e128e321b42b8212473984fd0763c37d1626768b716e2be33b841243
+Description: debug symbols for ros-one-switchbot-ros
+Build-Ids: 86ded58281b2c195156304b495c0f540b2f75032 a0cf72369fa8fdff9b0a534dca5e63d72e1fd9a0
+
+Package: ros-one-switchbot-ros
+Architecture: amd64
+Version: 2.1.28-49-gfb32bec3-2024.10.10.16.46
+Priority: optional
+Section: misc
+Maintainer: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Installed-Size: 15653
+Depends: libc6 (>= 2.2.5), python3-requests, ros-one-actionlib, ros-one-actionlib-msgs, ros-one-message-runtime, ros-one-rospy
+Filename: ./ros-one-switchbot-ros_2.1.28-49-gfb32bec3-2024.10.10.16.46_amd64.deb
+Size: 2753982
+MD5sum: 867a1ca3de559e4559c7435dc33688f5
+SHA1: f232e956d6514f54cb3823f829f17f3409bd24c2
+SHA256: 3911ad3a88bc13b3e6581e4255f9980d1b060d8618b8023b59942d7003da4d33
+SHA512: 04b76d257f4b262a78cc36a7a664360b02a3b1a0c3da5f83ee26e856529a7abb4d266e26500677b049260ab656cb8478b9948bc5d2ed40affd6476cbd34a34e2
+Description: use switchbot with ros
+
+Package: ros-one-virtual-force-publisher-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2024.10.10.16.48
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-virtual-force-publisher
+Maintainer: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Installed-Size: 2689
+Depends: ros-one-virtual-force-publisher (= 0-2024.10.10.16.48)
+Filename: ./ros-one-virtual-force-publisher-dbgsym_0-2024.10.10.16.48_amd64.ddeb
+Size: 2665452
+MD5sum: a4f9f8fd8f8c8f63c3bdab8341098a7b
+SHA1: b308133032198c1f2fac343c2699116dadeeb36d
+SHA256: 72aed4d0a114ef52365fb95ab9e4213abe40e2e1a4c6f860c38d6adc29f633ad
+SHA512: a581b1964f6e38eff09272edd03c084ee8f6ea63fad1e4b03f64b678c8cfc7744474fa1c138229045a72e28cf1907385da295d4d6bf5f1e93a87aa698ba41b1f
+Description: debug symbols for ros-one-virtual-force-publisher
+Build-Ids: 5b419c798b18e9a3d309884a7a1f7b8055e2400d
+
+Package: ros-one-virtual-force-publisher
+Architecture: amd64
+Version: 0-2024.10.10.16.48
+Priority: optional
+Section: misc
+Maintainer: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Installed-Size: 227
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), liborocos-kdl1.5 (>= 1.5.1), libstdc++6 (>= 11), liburdfdom-world3.0 (>= 3.0.1), ros-one-geometry-msgs, ros-one-kdl-parser, ros-one-sensor-msgs, ros-one-tf-conversions, ros-one-urdf
+Filename: ./ros-one-virtual-force-publisher_0-2024.10.10.16.48_amd64.deb
+Size: 75832
+MD5sum: 8075f442b9c47f150310a7c6579e0556
+SHA1: d0ec300feb92781781ee86a9fd44f6719f9924f1
+SHA256: f0c7dd17c3b79aa9bbe68f137640dd3da17995641bed31f02b5d3dcd2d0d4b11
+SHA512: 09171510caf947ec106d0b453b30a9d0059e80dcaf42366ff17af2862ae6a67399d3b01fca3680d9925a0f08f1dd9e81884f2a9b7fdd6082586ce3574cc082a8
+Homepage: http://ros.org/wiki/virtual_force_publisher
+Description: publish end effector's force, which is estmated from joint torque value
+
+Package: ros-one-voice-text-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 2.1.28-49-gfb32bec3-2024.10.10.16.49
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-voice-text
+Maintainer: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Installed-Size: 940
+Depends: ros-one-voice-text (= 2.1.28-49-gfb32bec3-2024.10.10.16.49)
+Filename: ./ros-one-voice-text-dbgsym_2.1.28-49-gfb32bec3-2024.10.10.16.49_amd64.ddeb
+Size: 859820
+MD5sum: 6f65460cb00512f39df0964c98ff4c7f
+SHA1: e439b5205bdf4883a82143dfb2fecd64d0e1e1bd
+SHA256: a689c7fb241ce8faae1ff907b7d4119de918e163e4f8bc5e5a58e73a7ee2cd12
+SHA512: 1cae06d0d4916b188db47f2113d2c2c957640a08e6eb231ad2d15e7f8b3e624ece0dfad80744f3c949089835faeb7ea32df5b326beba285e954f0d39c11647df
+Description: debug symbols for ros-one-voice-text
+Build-Ids: 2e0cb214021a8daeb20b6e303f620b8b3259e9f2
+
+Package: ros-one-voice-text
+Architecture: amd64
+Version: 2.1.28-49-gfb32bec3-2024.10.10.16.49
+Priority: optional
+Section: misc
+Maintainer: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Installed-Size: 342
+Depends: libboost-filesystem1.74.0 (>= 1.74.0), libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), nkf, ros-one-dynamic-reconfigure, ros-one-message-runtime, ros-one-sound-play
+Filename: ./ros-one-voice-text_2.1.28-49-gfb32bec3-2024.10.10.16.49_amd64.deb
+Size: 84854
+MD5sum: 97230eaeedd5983f7544c1cf6749e952
+SHA1: 8cd261c6bb6ca998c6c90ead2c66a9396a25a756
+SHA256: 5d050210935b689e5d78feb73137cc5d59d6b45fd3ef349a2e9fd4a95c285d12
+SHA512: 821b8b6f5492121f1e6ed33d2d339c38a49ae61db6fe4846dbf181f5ea56cda66e95bee465dde7a2216758a7ac5159b28873867b02a18af346e8f157bc8098e2
+Homepage: http://ros.org/wiki/voice_text
+Description: voice_text (www.voicetext.jp)
+
+Package: ros-one-webrtcvad-ros
+Architecture: amd64
+Version: 2.1.28-49-gfb32bec3-2024.10.10.16.51
+Priority: optional
+Section: misc
+Maintainer: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Installed-Size: 29
+Depends: ros-one-audio-common-msgs, ros-one-rospy, webrtcvad
+Filename: ./ros-one-webrtcvad-ros_2.1.28-49-gfb32bec3-2024.10.10.16.51_amd64.deb
+Size: 6026
+MD5sum: c64e888a1107d4d6e3f67765e46847cc
+SHA1: 705ef3702261d205de421d117579bfad05f321e8
+SHA256: 2a512c2c27b557350f447a91c7902fea8356ddd3b53830fa6735c4f5e61a70a3
+SHA512: 7c13dd46324953b14f8fb35da7e243b32811fd0d432b04da764ae954b5512837b3e23f8ead0e0d418de8aa4906a7e2465b39a376b5965c87728bd141a2aacf47
+Description: This package provides a wrapper node for webrtcvad.
+ It subscribes an audio topic and publish a flag if curretly speeched or not with VAD.
+
+Package: ros-one-zdepth-image-transport
+Architecture: amd64
+Version: 2.1.28-49-gfb32bec3-2024.10.10.16.52
+Priority: optional
+Section: misc
+Maintainer: Shingo Kitagawa <shingogo.5511@gmail.com>
+Installed-Size: 115
+Depends: ros-one-image-transport, ros-one-message-runtime, ros-one-pluginlib, ros-one-roscpp, ros-one-sensor-msgs, ros-one-std-msgs, ros-one-zdepth
+Filename: ./ros-one-zdepth-image-transport_2.1.28-49-gfb32bec3-2024.10.10.16.52_amd64.deb
+Size: 17448
+MD5sum: fd76d5ef8260083edfb517903caa85f3
+SHA1: 13485c0294e3c1413f72949129b083abee233f2f
+SHA256: cd8c65a706c2b6823713f60bdb800cb69a6fe19b656d62f4de815eb09da88b40
+SHA512: 2982fcf965c97aed57cdc2afb30afa4985f5229528b99eb096f75eafe0623a2cf9cc1ae72e5b9b41c1b3a86956c42b0ca4653d1e8675f5cae094e825909b47ea
+Description: The zdepth_image_transport package
+
+Package: ros-one-zdepth
+Architecture: amd64
+Version: 2.1.28-49-gfb32bec3-2024.10.10.16.52
+Priority: optional
+Section: misc
+Maintainer: Shingo Kitagawa <shingogo.5511@gmail.com>
+Installed-Size: 9
+Filename: ./ros-one-zdepth_2.1.28-49-gfb32bec3-2024.10.10.16.52_amd64.deb
+Size: 2390
+MD5sum: 2f2a93b345129008589468f322d2cb6f
+SHA1: 316597c1dde46c860f0c897856ca22de9051dffe
+SHA256: d319b9e29f1a5a0e09dada057bc439c84284866eff850a65c2c2314a7d7cfc43
+SHA512: 8b166bdaf4ef2949dade8196754a42e92b7c8a8773e307049d85c002e68120732b162309703b3a97f2219591bcb797badde59883bf8bc5821ed40a415eb6d4e3
+Description: The zdepth package
+

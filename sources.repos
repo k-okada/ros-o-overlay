@@ -1,0 +1,33 @@
+repositories:
+  jsk_3rdparty:
+    type: git
+    url: https://github.com/jsk-ros-pkg/jsk_3rdparty.git
+    version: fb32bec386022cfd5b745f5e8370a3f33cf701e2
+  jsk_common:
+    type: git
+    url: https://github.com/ros-o/jsk_common.git
+    version: 1ddd7669d3ea44af37a6fd991abdf50789feb7a3
+  jsk_common_msgs:
+    type: git
+    url: https://github.com/jsk-ros-pkg/jsk_common_msgs.git
+    version: 093b57cdb4519cfc75099b4460a9354dc57981e5
+  jsk_recognition:
+    type: git
+    url: https://github.com/jsk-ros-pkg/jsk_recognition.git
+    version: cc31b0e55e0cabcb25933cb259b36b02d2995d19
+  jsk_roseus:
+    type: git
+    url: https://github.com/jsk-ros-pkg/jsk_roseus.git
+    version: 795e764c037e5e14726f3987c5133f762dcb2228
+  jsk_visualization:
+    type: git
+    url: https://github.com/ros-o/jsk_visualization.git
+    version: 54b14067daa01c4ac6a8f15e1c5342472b37a04a
+  octomap_mapping:
+    type: git
+    url: https://github.com/OctoMap/octomap_mapping.git
+    version: 0.6.8
+  robot_self_filter:
+    type: git
+    url: https://github.com/PR2/robot_self_filter.git
+    version: a8d2e49f11be6517ec1619a39960d6b47cb6a4f4

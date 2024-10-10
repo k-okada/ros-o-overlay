@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Tue, 11 Jan 2022 00:00:00 -0000
+Source: ros-one-jsk-interactive-test
+Binary: ros-one-jsk-interactive-test
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.1.8-67-g54b1406-2024.10.10.16.30
+Distribution: jammy
+Urgency: high
+Maintainer: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Changed-By: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Description:
+ ros-one-jsk-interactive-test - jsk_interactive_test
+Changes:
+ ros-one-jsk-interactive-test (2.1.8-67-g54b1406-2024.10.10.16.30) jammy; urgency=high
+Checksums-Sha1:
+ eafb9a6889390624f671d73d16a07081d79cc667 50041 ros-one-jsk-interactive-test_2.1.8-67-g54b1406-2024.10.10.16.30_amd64.buildinfo
+ 5b88f7fb94d49d18aea89512dda583a94158a784 174282 ros-one-jsk-interactive-test_2.1.8-67-g54b1406-2024.10.10.16.30_amd64.deb
+Checksums-Sha256:
+ b97359fdf1c2dba0ed2f4472bf866cd666db6baa6f6a0cd2d35640a3da50401c 50041 ros-one-jsk-interactive-test_2.1.8-67-g54b1406-2024.10.10.16.30_amd64.buildinfo
+ cc0af0f7df5ca250d64d7ff6f3f91c548812edf6d1d1e52f080a2ef4440f0e90 174282 ros-one-jsk-interactive-test_2.1.8-67-g54b1406-2024.10.10.16.30_amd64.deb
+Files:
+ 5a5d4542996a049c1f7872c5cd9c1ce7 50041 misc optional ros-one-jsk-interactive-test_2.1.8-67-g54b1406-2024.10.10.16.30_amd64.buildinfo
+ cdd24f8956c71f7e46234c9109e75d29 174282 misc optional ros-one-jsk-interactive-test_2.1.8-67-g54b1406-2024.10.10.16.30_amd64.deb

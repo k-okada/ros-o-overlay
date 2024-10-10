@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Mon, 24 Jul 2023 00:00:00 -0000
+Source: ros-one-gdrive-ros
+Binary: ros-one-gdrive-ros
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.1.28-49-gfb32bec3-2024.10.10.15.01
+Distribution: jammy
+Urgency: high
+Maintainer: Shingo Kitagawa <shingogo.5511@gmail.com>
+Changed-By: Shingo Kitagawa <shingogo.5511@gmail.com>
+Description:
+ ros-one-gdrive-ros - Google drive upload and download package
+Changes:
+ ros-one-gdrive-ros (2.1.28-49-gfb32bec3-2024.10.10.15.01) jammy; urgency=high
+ .
+   * use query with folder + title, instead of list all files then apply filters (#481 <https://github.com/jsk-ros-pkg/jsk_3rdparty/issues/481>)
+   * Contributors: Kei Okada
+Checksums-Sha1:
+ 09f00cdf5f02a0c54b2e3f7a5f1b7225261eed35 516290 ros-one-gdrive-ros-dbgsym_2.1.28-49-gfb32bec3-2024.10.10.15.01_amd64.ddeb
+ d583ff26bc04dc26466f7a8117e557665f3fea75 13954 ros-one-gdrive-ros_2.1.28-49-gfb32bec3-2024.10.10.15.01_amd64.buildinfo
+ b2dba6dfe21b90ef4f46f4c03cf66826ce298170 8347368 ros-one-gdrive-ros_2.1.28-49-gfb32bec3-2024.10.10.15.01_amd64.deb
+Checksums-Sha256:
+ 1a3de95a20cf2838ae7169493bbb60a819a71b8a81c47c3a414cdb1c126cc4fe 516290 ros-one-gdrive-ros-dbgsym_2.1.28-49-gfb32bec3-2024.10.10.15.01_amd64.ddeb
+ 25ca5bf2f0391412b919b1a02c2b3e247038b3cbb9a99810008924758dc3b782 13954 ros-one-gdrive-ros_2.1.28-49-gfb32bec3-2024.10.10.15.01_amd64.buildinfo
+ 5e5f6959d36b55f212fece90647089d5a5fb98c774e23b318433d79ef45db9eb 8347368 ros-one-gdrive-ros_2.1.28-49-gfb32bec3-2024.10.10.15.01_amd64.deb
+Files:
+ 1bcfba2065fd55280dca9fe012d71a75 516290 debug optional ros-one-gdrive-ros-dbgsym_2.1.28-49-gfb32bec3-2024.10.10.15.01_amd64.ddeb
+ 015de69872110fdf176ee889fe64b9e6 13954 misc optional ros-one-gdrive-ros_2.1.28-49-gfb32bec3-2024.10.10.15.01_amd64.buildinfo
+ 03acdc97e967b3f92d2e81ea59d0863c 8347368 misc optional ros-one-gdrive-ros_2.1.28-49-gfb32bec3-2024.10.10.15.01_amd64.deb

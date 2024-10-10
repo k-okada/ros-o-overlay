@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Tue, 14 Nov 2023 00:00:00 -0000
+Source: ros-one-jsk-recognition-utils
+Binary: ros-one-jsk-recognition-utils
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.2.17-16-gcc31b0e5-2024.10.10.15.26
+Distribution: jammy
+Urgency: high
+Maintainer: Ryohei Ueda <ueda@jsk.t.u-tokyo.ac.jp>
+Changed-By: Ryohei Ueda <ueda@jsk.t.u-tokyo.ac.jp>
+Description:
+ ros-one-jsk-recognition-utils - C++ library about sensor model, geometrical modeling and percepti
+Changes:
+ ros-one-jsk-recognition-utils (1.2.17-16-gcc31b0e5-2024.10.10.15.26) jammy; urgency=high
+ .
+   * https://github.com/jsk-ros-pkg/jsk_recognition/pull/2648 requires jsk_data package (#2805 <https://github.com/jsk-ros-pkg/jsk_recognition/issues/2805>)
+   * Contributors: Kei Okada
+Checksums-Sha1:
+ 458a734876d85fc69c4085a1937da87a8fd23ee0 19299546 ros-one-jsk-recognition-utils-dbgsym_1.2.17-16-gcc31b0e5-2024.10.10.15.26_amd64.ddeb
+ ae0b7ad9118347b432264638a76143d4a0f3e263 50265 ros-one-jsk-recognition-utils_1.2.17-16-gcc31b0e5-2024.10.10.15.26_amd64.buildinfo
+ ce80a62b2922ab977a37b8bc018afe8fcdeef33a 394996 ros-one-jsk-recognition-utils_1.2.17-16-gcc31b0e5-2024.10.10.15.26_amd64.deb
+Checksums-Sha256:
+ 7dcd27f5533a936d1e09a05e5a83e934ca77d11ee9b1765ce33634fff67eac12 19299546 ros-one-jsk-recognition-utils-dbgsym_1.2.17-16-gcc31b0e5-2024.10.10.15.26_amd64.ddeb
+ a6143adfd2a0067037ce894b86cc2877daf91e5aa6bd024b22b90c9fd011386e 50265 ros-one-jsk-recognition-utils_1.2.17-16-gcc31b0e5-2024.10.10.15.26_amd64.buildinfo
+ 940700905ac4fb3b07bb4f757651e7a773c013e023e956d20f0eaab0371d948e 394996 ros-one-jsk-recognition-utils_1.2.17-16-gcc31b0e5-2024.10.10.15.26_amd64.deb
+Files:
+ c486cd321ccf7640b72013c7c1a9ab8e 19299546 debug optional ros-one-jsk-recognition-utils-dbgsym_1.2.17-16-gcc31b0e5-2024.10.10.15.26_amd64.ddeb
+ 5827dae32c2892f78845597067b13e8c 50265 misc optional ros-one-jsk-recognition-utils_1.2.17-16-gcc31b0e5-2024.10.10.15.26_amd64.buildinfo
+ 0b01dc53ecf019a582f9004eaeb43612 394996 misc optional ros-one-jsk-recognition-utils_1.2.17-16-gcc31b0e5-2024.10.10.15.26_amd64.deb

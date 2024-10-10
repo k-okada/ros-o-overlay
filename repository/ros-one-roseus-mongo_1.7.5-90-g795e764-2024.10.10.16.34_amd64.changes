@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Mon, 13 Dec 2021 00:00:00 -0000
+Source: ros-one-roseus-mongo
+Binary: ros-one-roseus-mongo
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.7.5-90-g795e764-2024.10.10.16.34
+Distribution: jammy
+Urgency: high
+Maintainer: Yuki Furuta <furushchev@jsk.imi.i.u-tokyo.ac.jp>
+Changed-By: Yuki Furuta <furushchev@jsk.imi.i.u-tokyo.ac.jp>
+Description:
+ ros-one-roseus-mongo - The roseus_mongo package
+Changes:
+ ros-one-roseus-mongo (1.7.5-90-g795e764-2024.10.10.16.34) jammy; urgency=high
+ .
+   * add tests for encode-vector (#618 <https://github.com/jsk-ros-pkg/jsk_roseus/issues/618>)
+   * Contributors: Hirokazu Ishida
+Checksums-Sha1:
+ 91474e1455778ab5275fb73fdf2afd0b059bbe80 21099 ros-one-roseus-mongo_1.7.5-90-g795e764-2024.10.10.16.34_amd64.buildinfo
+ ace5fa1f0ca38cbb9f3934f8749f9aa692c33231 12766 ros-one-roseus-mongo_1.7.5-90-g795e764-2024.10.10.16.34_amd64.deb
+Checksums-Sha256:
+ a92c26089713ec4cd280daab3c621514a416770a930ae6c3b6f6c2ef879b6aa8 21099 ros-one-roseus-mongo_1.7.5-90-g795e764-2024.10.10.16.34_amd64.buildinfo
+ 21da2ba074ded01151f1d4ddfe2c95b13f6c4c1e9c4853d857085fc3d0fb0dbc 12766 ros-one-roseus-mongo_1.7.5-90-g795e764-2024.10.10.16.34_amd64.deb
+Files:
+ e99906c70e5c8ed0e0114d0482fb42aa 21099 misc optional ros-one-roseus-mongo_1.7.5-90-g795e764-2024.10.10.16.34_amd64.buildinfo
+ a1cdff9649832fe64079a0678f53215a 12766 misc optional ros-one-roseus-mongo_1.7.5-90-g795e764-2024.10.10.16.34_amd64.deb

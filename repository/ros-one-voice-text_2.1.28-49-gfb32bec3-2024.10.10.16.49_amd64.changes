@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Mon, 24 Jul 2023 00:00:00 -0000
+Source: ros-one-voice-text
+Binary: ros-one-voice-text
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.1.28-49-gfb32bec3-2024.10.10.16.49
+Distribution: jammy
+Urgency: high
+Maintainer: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Changed-By: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Description:
+ ros-one-voice-text - voice_text (www.voicetext.jp)
+Changes:
+ ros-one-voice-text (2.1.28-49-gfb32bec3-2024.10.10.16.49) jammy; urgency=high
+Checksums-Sha1:
+ e439b5205bdf4883a82143dfb2fecd64d0e1e1bd 859820 ros-one-voice-text-dbgsym_2.1.28-49-gfb32bec3-2024.10.10.16.49_amd64.ddeb
+ 3202379124de4b2f71f26899845057ce6c316cb5 15384 ros-one-voice-text_2.1.28-49-gfb32bec3-2024.10.10.16.49_amd64.buildinfo
+ 8cd261c6bb6ca998c6c90ead2c66a9396a25a756 84854 ros-one-voice-text_2.1.28-49-gfb32bec3-2024.10.10.16.49_amd64.deb
+Checksums-Sha256:
+ a689c7fb241ce8faae1ff907b7d4119de918e163e4f8bc5e5a58e73a7ee2cd12 859820 ros-one-voice-text-dbgsym_2.1.28-49-gfb32bec3-2024.10.10.16.49_amd64.ddeb
+ 4c3c1cfbaa00381e7be345af23c1dee346890164b3c0f90702f7b1fd1b940c07 15384 ros-one-voice-text_2.1.28-49-gfb32bec3-2024.10.10.16.49_amd64.buildinfo
+ 5d050210935b689e5d78feb73137cc5d59d6b45fd3ef349a2e9fd4a95c285d12 84854 ros-one-voice-text_2.1.28-49-gfb32bec3-2024.10.10.16.49_amd64.deb
+Files:
+ 6f65460cb00512f39df0964c98ff4c7f 859820 debug optional ros-one-voice-text-dbgsym_2.1.28-49-gfb32bec3-2024.10.10.16.49_amd64.ddeb
+ 564bbda593070b14264b45640f455c27 15384 misc optional ros-one-voice-text_2.1.28-49-gfb32bec3-2024.10.10.16.49_amd64.buildinfo
+ 97230eaeedd5983f7544c1cf6749e952 84854 misc optional ros-one-voice-text_2.1.28-49-gfb32bec3-2024.10.10.16.49_amd64.deb

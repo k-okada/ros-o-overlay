@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Mon, 24 Jul 2023 00:00:00 -0000
+Source: ros-one-zdepth
+Binary: ros-one-zdepth
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.1.28-49-gfb32bec3-2024.10.10.16.52
+Distribution: jammy
+Urgency: high
+Maintainer: Shingo Kitagawa <shingogo.5511@gmail.com>
+Changed-By: Shingo Kitagawa <shingogo.5511@gmail.com>
+Description:
+ ros-one-zdepth - The zdepth package
+Changes:
+ ros-one-zdepth (2.1.28-49-gfb32bec3-2024.10.10.16.52) jammy; urgency=high
+ .
+   * fix build farm : ROS_DISTRO needs ros_environment (#487 <https://github.com/jsk-ros-pkg/jsk_3rdparty/issues/487>)
+   * Contributors: Kei Okada
+Checksums-Sha1:
+ 94d366174d31ba1df36c22e1aeb475d7ac4a2fff 8258 ros-one-zdepth_2.1.28-49-gfb32bec3-2024.10.10.16.52_amd64.buildinfo
+ 316597c1dde46c860f0c897856ca22de9051dffe 2390 ros-one-zdepth_2.1.28-49-gfb32bec3-2024.10.10.16.52_amd64.deb
+Checksums-Sha256:
+ 1a0d51dbdec3a34c242679344ae7df5d67d0f0bb5f497b6db6500f604ac370a3 8258 ros-one-zdepth_2.1.28-49-gfb32bec3-2024.10.10.16.52_amd64.buildinfo
+ d319b9e29f1a5a0e09dada057bc439c84284866eff850a65c2c2314a7d7cfc43 2390 ros-one-zdepth_2.1.28-49-gfb32bec3-2024.10.10.16.52_amd64.deb
+Files:
+ 3bf5decdb94cb5299d66e3f6860e20bf 8258 misc optional ros-one-zdepth_2.1.28-49-gfb32bec3-2024.10.10.16.52_amd64.buildinfo
+ 2f2a93b345129008589468f322d2cb6f 2390 misc optional ros-one-zdepth_2.1.28-49-gfb32bec3-2024.10.10.16.52_amd64.deb
