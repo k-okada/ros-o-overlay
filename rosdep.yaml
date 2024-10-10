@@ -4,6 +4,10 @@
 #    - catkin-tools
 
 # ignore pip dependencies for tests
+python-chainer-pip:
+  ubuntu: []
+python-fcn-pip:
+  ubuntu: []
 python-gdown-pip:
   ubuntu: []
 python-pygithub3:
