@@ -1,6 +1,13 @@
-# example entry
+# does not exist in ubuntu jammy, only added in noble
 python3-catkin-tools:
-  ubuntu:
-    - catkin-tools
+  ubuntu: - catkin-tools
+
+# ignore pip dependencies for tests
 python-gdown-pip:
+  ubuntu: []
+python-pygithub3:
+  ubuntu: []
+python-slacker-cli:
+  ubuntu: []
+python-tabulate-pip:
   ubuntu: []
