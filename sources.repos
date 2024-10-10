@@ -1,4 +1,8 @@
 repositories:
+  octomap_mapping:
+    type: git
+    url: https://github.com/OctoMap/octomap_mapping.git
+    version: kinetic-devel
   jsk_3rdparty:
     type: git
     url: https://github.com/jsk-ros-pkg/jsk_3rdparty.git
