@@ -1,0 +1,183 @@
+Package: ros-one-libmavconn-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 1.20.0-1-g08142be7-2024.12.24.16.44
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-libmavconn
+Maintainer: Vladimir Ermakov <vooon341@gmail.com>
+Installed-Size: 2082
+Depends: ros-one-libmavconn (= 1.20.0-1-g08142be7-2024.12.24.16.44)
+Filename: ./ros-one-libmavconn-dbgsym_1.20.0-1-g08142be7-2024.12.24.16.44_amd64.ddeb
+Size: 1936070
+MD5sum: 47e3e113107eb7843176f04422e7b736
+SHA1: 9a0d681ca540e3c2c952859918a20c9f2e309e85
+SHA256: 583ee9d3f34eb34f42564836bfd14d3f5ad8497af3952a7e56d50e229b9db96a
+SHA512: 8c35401d4b30e3e18978135e3e59b9b168ee3ae7d6dfdb102ed8e812f2821cdff20c51287b82a74da4886795e5f4369f4a1b2f97c6fc2f64fb55f02793305e67
+Description: debug symbols for ros-one-libmavconn
+Build-Ids: bbc401815e53adf9f81dc3536300f234e3cb0dba
+
+Package: ros-one-libmavconn
+Architecture: amd64
+Version: 1.20.0-1-g08142be7-2024.12.24.16.44
+Priority: optional
+Section: misc
+Maintainer: Vladimir Ermakov <vooon341@gmail.com>
+Installed-Size: 406
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libboost-all-dev, libconsole-bridge-dev, ros-one-mavlink
+Filename: ./ros-one-libmavconn_1.20.0-1-g08142be7-2024.12.24.16.44_amd64.deb
+Size: 112854
+MD5sum: 755ff30a58bef39b4475465cc501d0dc
+SHA1: 8e85b6ba2ab0bf545cf54625e28652dfd52d18fd
+SHA256: 20617eb883fb05042a1c9b7fadb5019bc2767d40545fed844b5be5bf609c5c99
+SHA512: 1734a29df900d05b8e329444b7741833fa4f93439a3fecfb5d33b506aa7454a7b95ff6c12d775f101f11c41b993ace7f1ecdf848497ed91c4c7de59e2259b53e
+Homepage: http://wiki.ros.org/mavros
+Description: MAVLink communication library.
+ This library provide unified connection handling classes and URL to connection object mapper. This library can be used in standalone programs.
+
+Package: ros-one-mavlink
+Architecture: amd64
+Version: 2024.10.10-1-2024.12.24.16.43
+Priority: optional
+Section: misc
+Maintainer: Vladimir Ermakov <vooon341@gmail.com>
+Installed-Size: 20563
+Depends: catkin, libgmock-dev, libgtest-dev
+Filename: ./ros-one-mavlink_2024.10.10-1-2024.12.24.16.43_amd64.deb
+Size: 946272
+MD5sum: 9ec28ce1574ef2ed20ee8aed034a02cb
+SHA1: dc4ee40f54a67bfe47390f1f1285b06138af04bf
+SHA256: 3bff02ad259bc710d9bd01f8246e1d3766113c97ebd647eadf94bda1688fa636
+SHA512: d437862dd2f1c902d6afe84f03bc9f7c09e99125e050d809edbdd636292e002a3570f16409a88d29a60dbc94229bafce1622bcd2d27dedd762d32d8579828255
+Homepage: https://mavlink.io/en/
+Description: MAVLink message marshaling library.
+ This package provides C-headers and C++11 library for both 1.0 and 2.0 versions of protocol. For pymavlink use separate install via rosdep (python-pymavlink).
+
+Package: ros-one-mavros-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 1.20.0-1-g08142be7-2024.12.24.16.46
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-mavros
+Maintainer: Vladimir Ermakov <vooon341@gmail.com>
+Installed-Size: 24832
+Depends: ros-one-mavros (= 1.20.0-1-g08142be7-2024.12.24.16.46)
+Filename: ./ros-one-mavros-dbgsym_1.20.0-1-g08142be7-2024.12.24.16.46_amd64.ddeb
+Size: 23442598
+MD5sum: 945e68081f9a54cab5c53ad6d75e17bc
+SHA1: 5e127c1f9cfc853a50d99023a066281b9dad2a76
+SHA256: fbbd524c0bf6416ad9c3c9ed2620a9d306a89111727378f3c6108bb82a45e028
+SHA512: 07e1c3d788eab29ff92e4fb4d96556659ddb9812b35a247e6e8d033c12a643c088cd576005e30d502c9e477d58a466f0413958a851f4f3b419d47510efd2d783
+Description: debug symbols for ros-one-mavros
+Build-Ids: 2aca3ab3d5ebb65bd52778d7697144edd718c84b 4a05c0f4ad6959b09a1fbdebfd29eedf6ae6bfd0 954abbf2936011fd36372fcb177be8621e44f751 9f5e0ae0e230626221d4b389eec0b568e6edacd4
+
+Package: ros-one-mavros-extras-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 1.20.0-1-g08142be7-2024.12.24.16.50
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-mavros-extras
+Maintainer: Vladimir Ermakov <vooon341@gmail.com>
+Installed-Size: 17102
+Depends: ros-one-mavros-extras (= 1.20.0-1-g08142be7-2024.12.24.16.50)
+Filename: ./ros-one-mavros-extras-dbgsym_1.20.0-1-g08142be7-2024.12.24.16.50_amd64.ddeb
+Size: 16498466
+MD5sum: 1a0dbe974081bc43b4566cc146b7e7ce
+SHA1: 2a70c2474edc90275944ad4a48ecef5d1beb4753
+SHA256: dadca3634b6801e765cc6e9b23b02a9ed5aa3eca972297e9a0978531720acad9
+SHA512: 2379dfe5a6babe1ed9c757577b799be473d5e3dbbca31c085d40a68c95c0945c50e46c28c89531f5279241fb41251f17dd84ed77c81595a9a47060676dde83c1
+Description: debug symbols for ros-one-mavros-extras
+Build-Ids: 3b43c65c99b4cc9de4ec4705bcb000b132106116 5fe386084126283d3f659b97ef430e0ae521541c ed710b938697d0e90e9e4f1ff68f0bb333a49caf
+
+Package: ros-one-mavros-extras
+Architecture: amd64
+Version: 1.20.0-1-g08142be7-2024.12.24.16.50
+Priority: optional
+Section: misc
+Maintainer: Vladimir Ermakov <vooon341@gmail.com>
+Installed-Size: 1585
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.4), libgeographic19 (>= 1.46), libstdc++6 (>= 11), liburdfdom-world3.0 (>= 3.0.1), ros-one-geometry-msgs, ros-one-mavros, ros-one-mavros-msgs, ros-one-roscpp, ros-one-sensor-msgs, ros-one-std-msgs, ros-one-std-srvs, ros-one-tf, ros-one-tf2-eigen, ros-one-urdf, ros-one-visualization-msgs
+Filename: ./ros-one-mavros-extras_1.20.0-1-g08142be7-2024.12.24.16.50_amd64.deb
+Size: 376840
+MD5sum: 0bb709a5015f6b4c18821bebb9da25fb
+SHA1: 110cd3ccbe6cffa3f6d0ed30ef206ac7bca5e0df
+SHA256: a6bb71959ed7b6a4b5b8466cfa5af8516b3d02e91ed45bcedc66c020bd64e947
+SHA512: 84c4b43c930974a1d077b0e9faf0e786ead44437cc7a00981d8393023f410a8a5f9a3ae6521e54157c17e39655fbf0007677e148e7eeb993cd3b79d6d9da0dfd
+Homepage: http://wiki.ros.org/mavros_extras
+Description: Extra nodes and plugins for MAVROS.
+
+Package: ros-one-mavros-msgs
+Architecture: amd64
+Version: 1.20.0-1-g08142be7-2024.12.24.16.45
+Priority: optional
+Section: misc
+Maintainer: Vladimir Ermakov <vooon341@gmail.com>
+Installed-Size: 6218
+Depends: ros-one-geographic-msgs, ros-one-geometry-msgs, ros-one-message-runtime, ros-one-sensor-msgs, ros-one-std-msgs
+Filename: ./ros-one-mavros-msgs_1.20.0-1-g08142be7-2024.12.24.16.45_amd64.deb
+Size: 374224
+MD5sum: 7e7ebbf4b84c54ff47c912d1b42aca07
+SHA1: d0a722c91207c56cee7fa85fe9939fc31179c458
+SHA256: 0774f348bc2439ad461f78f808dbb7e24a16946dd3b020d22aacf072e96ad49e
+SHA512: ea07c90676c767ca778376fac42d2f293b8328a6d9d8ea6098d57d04d03d1606aee3d645b525f07f73c542b8677014f39dc0ef4c5a2accb1751a6a540aa0854e
+Homepage: http://wiki.ros.org/mavros_msgs
+Description: mavros_msgs defines messages for MAVROS.
+
+Package: ros-one-mavros
+Architecture: amd64
+Version: 1.20.0-1-g08142be7-2024.12.24.16.46
+Priority: optional
+Section: misc
+Maintainer: Vladimir Ermakov <vooon341@gmail.com>
+Installed-Size: 3604
+Depends: libboost-filesystem1.74.0 (>= 1.74.0), libboost-thread1.74.0 (>= 1.74.0), libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libgeographic19 (>= 1.46), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), geographiclib-tools, libboost-all-dev, libeigen3-dev, libgeographic-dev, ros-one-diagnostic-msgs, ros-one-diagnostic-updater, ros-one-eigen-conversions, ros-one-geographic-msgs, ros-one-geometry-msgs, ros-one-libmavconn, ros-one-mavlink, ros-one-mavros-msgs, ros-one-message-runtime, ros-one-nav-msgs, ros-one-pluginlib, ros-one-rosconsole-bridge, ros-one-roscpp, ros-one-rospy, ros-one-sensor-msgs, ros-one-std-msgs, ros-one-std-srvs, ros-one-tf2-eigen, ros-one-tf2-ros, ros-one-trajectory-msgs
+Filename: ./ros-one-mavros_1.20.0-1-g08142be7-2024.12.24.16.46_amd64.deb
+Size: 835388
+MD5sum: b7abc21974227ebd4c2fd5640ce3d038
+SHA1: 0241cf1bb6e26484315cfba8b6b301cc0a909980
+SHA256: f7f4985119df6de591ea830442b46af2add8a864112e4c820d1248785e22a7f4
+SHA512: ca8fb58ef85ecc5e9716ed65279da1bd65466743079001b88f41ba4051d81e9c8ebb9504cd9002046a6d001a5e4cbdb3188f8e7b85294c1e4870e3729dff6458
+Homepage: http://wiki.ros.org/mavros
+Description: MAVROS -- MAVLink extendable communication node for ROS with proxy for Ground Control Station.
+
+Package: ros-one-test-mavros-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 1.20.0-1-g08142be7-2024.12.24.16.54
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-test-mavros
+Maintainer: Vladimir Ermakov <vooon341@gmail.com>
+Installed-Size: 1044
+Depends: ros-one-test-mavros (= 1.20.0-1-g08142be7-2024.12.24.16.54)
+Filename: ./ros-one-test-mavros-dbgsym_1.20.0-1-g08142be7-2024.12.24.16.54_amd64.ddeb
+Size: 998772
+MD5sum: 2db0bdd5db3f0878bbe7ee5f0c62a640
+SHA1: cef03a0dc2d06ff2a8aebe418938293087b80643
+SHA256: 2796d9edd19fea89eace2d7ac8b12087f58f88cd2405670e89a63fd90f7d3bc8
+SHA512: 5cb8931310e969c9eece0ab4455948b97e4a35b7181bb19359118094636266b3ee52079327384e9cdb560442e5d814612c0913a0976f4a529acb80c46ff7e830
+Description: debug symbols for ros-one-test-mavros
+Build-Ids: 5c56059fd0ac315916c692416b454741d89cc9db 705b169d6af5e26e4d303aa5479299782bdc7868
+
+Package: ros-one-test-mavros
+Architecture: amd64
+Version: 1.20.0-1-g08142be7-2024.12.24.16.54
+Priority: optional
+Section: misc
+Maintainer: Vladimir Ermakov <vooon341@gmail.com>
+Installed-Size: 209
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libeigen3-dev, ros-one-control-toolbox, ros-one-eigen-conversions, ros-one-geometry-msgs, ros-one-mavros, ros-one-mavros-extras, ros-one-roscpp, ros-one-std-msgs, ros-one-tf2-ros
+Filename: ./ros-one-test-mavros_1.20.0-1-g08142be7-2024.12.24.16.54_amd64.deb
+Size: 52752
+MD5sum: 19467ca6f7c223404c469bfe8bcfc66b
+SHA1: 7e04c1fc4bfbf9edf8c475235c006414dc7154d8
+SHA256: 1d79bb41aeca15ccc157e2d2fc1b378a26040711c509617ce231f92faa65aee7
+SHA512: 3e8c9f03808b6d14b78c56098fa9db40aa887c030d80e43e361c1de2612deb4e04c840b9901fb5550928e37111397c771e265753aba1621b86d6eae61d595757
+Description: Tests for MAVROS package
+

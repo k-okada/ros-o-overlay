@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Thu, 10 Oct 2024 00:00:00 -0000
+Source: ros-one-test-mavros
+Binary: ros-one-test-mavros
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.20.0-1-g08142be7-2024.12.24.16.54
+Distribution: jammy
+Urgency: high
+Maintainer: Vladimir Ermakov <vooon341@gmail.com>
+Changed-By: Vladimir Ermakov <vooon341@gmail.com>
+Description:
+ ros-one-test-mavros - Tests for MAVROS package
+Changes:
+ ros-one-test-mavros (1.20.0-1-g08142be7-2024.12.24.16.54) jammy; urgency=high
+Checksums-Sha1:
+ cef03a0dc2d06ff2a8aebe418938293087b80643 998772 ros-one-test-mavros-dbgsym_1.20.0-1-g08142be7-2024.12.24.16.54_amd64.ddeb
+ 4c2e96e7505100ef74057e5316852e809e331da5 25079 ros-one-test-mavros_1.20.0-1-g08142be7-2024.12.24.16.54_amd64.buildinfo
+ 7e04c1fc4bfbf9edf8c475235c006414dc7154d8 52752 ros-one-test-mavros_1.20.0-1-g08142be7-2024.12.24.16.54_amd64.deb
+Checksums-Sha256:
+ 2796d9edd19fea89eace2d7ac8b12087f58f88cd2405670e89a63fd90f7d3bc8 998772 ros-one-test-mavros-dbgsym_1.20.0-1-g08142be7-2024.12.24.16.54_amd64.ddeb
+ af7ebc02d4566607d4e52a21f35431affe44df697a0f1d40bfc356e365f811a0 25079 ros-one-test-mavros_1.20.0-1-g08142be7-2024.12.24.16.54_amd64.buildinfo
+ 1d79bb41aeca15ccc157e2d2fc1b378a26040711c509617ce231f92faa65aee7 52752 ros-one-test-mavros_1.20.0-1-g08142be7-2024.12.24.16.54_amd64.deb
+Files:
+ 2db0bdd5db3f0878bbe7ee5f0c62a640 998772 debug optional ros-one-test-mavros-dbgsym_1.20.0-1-g08142be7-2024.12.24.16.54_amd64.ddeb
+ ae8d29edbdb7cd90b7f8e231547afac6 25079 misc optional ros-one-test-mavros_1.20.0-1-g08142be7-2024.12.24.16.54_amd64.buildinfo
+ 19467ca6f7c223404c469bfe8bcfc66b 52752 misc optional ros-one-test-mavros_1.20.0-1-g08142be7-2024.12.24.16.54_amd64.deb

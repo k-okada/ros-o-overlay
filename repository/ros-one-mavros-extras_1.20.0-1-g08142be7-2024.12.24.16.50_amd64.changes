@@ -1,0 +1,35 @@
+Format: 1.8
+Date: Thu, 10 Oct 2024 00:00:00 -0000
+Source: ros-one-mavros-extras
+Binary: ros-one-mavros-extras
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.20.0-1-g08142be7-2024.12.24.16.50
+Distribution: jammy
+Urgency: high
+Maintainer: Vladimir Ermakov <vooon341@gmail.com>
+Changed-By: Vladimir Ermakov <vooon341@gmail.com>
+Description:
+ ros-one-mavros-extras - Extra nodes and plugins for MAVROS.
+Changes:
+ ros-one-mavros-extras (1.20.0-1-g08142be7-2024.12.24.16.50) jammy; urgency=high
+ .
+   * Add missing std_srvs dependency
+   * add param to odom plugin
+   * add frame_id parameter
+   * Fix compile error when compiling with gcc 13
+     The error is:
+     src/plugins/mag_calibration_status.cpp:64:22: error: ‘bitset’ is not a member of ‘std’
+   * Contributors: EnderMandS, Michal Sojka, Roland Arsenault
+Checksums-Sha1:
+ 2a70c2474edc90275944ad4a48ecef5d1beb4753 16498466 ros-one-mavros-extras-dbgsym_1.20.0-1-g08142be7-2024.12.24.16.50_amd64.ddeb
+ 584cf4a87093e8466bd620b54152b0681d4c02ae 24728 ros-one-mavros-extras_1.20.0-1-g08142be7-2024.12.24.16.50_amd64.buildinfo
+ 110cd3ccbe6cffa3f6d0ed30ef206ac7bca5e0df 376840 ros-one-mavros-extras_1.20.0-1-g08142be7-2024.12.24.16.50_amd64.deb
+Checksums-Sha256:
+ dadca3634b6801e765cc6e9b23b02a9ed5aa3eca972297e9a0978531720acad9 16498466 ros-one-mavros-extras-dbgsym_1.20.0-1-g08142be7-2024.12.24.16.50_amd64.ddeb
+ 249e727a7314e9c155c8e5f8d90cbc327514e2c20f2ba6cc65b8adffc2cafbbf 24728 ros-one-mavros-extras_1.20.0-1-g08142be7-2024.12.24.16.50_amd64.buildinfo
+ a6bb71959ed7b6a4b5b8466cfa5af8516b3d02e91ed45bcedc66c020bd64e947 376840 ros-one-mavros-extras_1.20.0-1-g08142be7-2024.12.24.16.50_amd64.deb
+Files:
+ 1a0dbe974081bc43b4566cc146b7e7ce 16498466 debug optional ros-one-mavros-extras-dbgsym_1.20.0-1-g08142be7-2024.12.24.16.50_amd64.ddeb
+ 489014832037a4e9181015ac6ad17d2b 24728 misc optional ros-one-mavros-extras_1.20.0-1-g08142be7-2024.12.24.16.50_amd64.buildinfo
+ 0bb709a5015f6b4c18821bebb9da25fb 376840 misc optional ros-one-mavros-extras_1.20.0-1-g08142be7-2024.12.24.16.50_amd64.deb

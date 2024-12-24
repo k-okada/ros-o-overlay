@@ -1,0 +1,18 @@
+mavlink:
+  ubuntu:
+  - ros-one-mavlink
+libmavconn:
+  ubuntu:
+  - ros-one-libmavconn
+mavros_msgs:
+  ubuntu:
+  - ros-one-mavros-msgs
+mavros:
+  ubuntu:
+  - ros-one-mavros
+mavros_extras:
+  ubuntu:
+  - ros-one-mavros-extras
+test_mavros:
+  ubuntu:
+  - ros-one-test-mavros
