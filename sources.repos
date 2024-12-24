@@ -1,33 +1,9 @@
 repositories:
-  robot_self_filter:
+  mavlink:
     type: git
-    url: https://github.com/PR2/robot_self_filter.git
-    version: indigo-devel
-  octomap_mapping:
+    url: https://github.com/mavlink/mavlink-gbp-release.git
+    version: release/noetic/mavlink
+  mavros:
     type: git
-    url: https://github.com/OctoMap/octomap_mapping.git
-    version: kinetic-devel
-  jsk_3rdparty:
-    type: git
-    url: https://github.com/jsk-ros-pkg/jsk_3rdparty.git
-    version: master
-  jsk_roseus:
-    type: git
-    url: https://github.com/jsk-ros-pkg/jsk_roseus.git
-    version: master
-  jsk_common_msgs:
-    type: git
-    url: https://github.com/jsk-ros-pkg/jsk_common_msgs.git
-    version: master
-  jsk_common:
-    type: git
-    url: https://github.com/ros-o/jsk_common.git
-    version: obese-devel
-  jsk_recognition:
-    type: git
-    url: https://github.com/jsk-ros-pkg/jsk_recognition.git
-    version: master
-  jsk_visualization:
-    type: git
-    url: https://github.com/ros-o/jsk_visualization.git
+    url: https://github.com/ros-o/mavros.git
     version: obese-devel
