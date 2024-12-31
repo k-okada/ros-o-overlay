@@ -1,0 +1,3 @@
+jsk_rosbag_tools:
+  ubuntu:
+  - ros-one-jsk-rosbag-tools

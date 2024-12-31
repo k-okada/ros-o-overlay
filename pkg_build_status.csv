@@ -1,0 +1,2 @@
+Package,Version,URL,Status,Bloom Log,Build Log,Deb File,Installed Files
+jsk_rosbag_tools,2.2.15-4-2024.12.31.08.58,https://github.com/tork-a/jsk_common-release/tree/HEAD,success,jsk_rosbag_tools_2.2.15-4-2024.12.31.08.58-bloom_generate.log,ros-one-jsk-rosbag-tools_2.2.15-4-2024.12.31.08.58_amd64-2024-12-31T08:58:19Z.build,ros-one-jsk-rosbag-tools_2.2.15-4-2024.12.31.08.58_amd64.deb,ros-one-jsk-rosbag-tools_2.2.15-4-2024.12.31.08.58_amd64.files

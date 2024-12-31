@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 13 Dec 2024 00:00:00 -0000
+Source: ros-one-jsk-rosbag-tools
+Binary: ros-one-jsk-rosbag-tools
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.2.15-4-2024.12.31.08.58
+Distribution: jammy
+Urgency: high
+Maintainer: Iori Yanokura <yanokura@jsk.imi.i.u-tokyo.ac.jp>
+Changed-By: Iori Yanokura <yanokura@jsk.imi.i.u-tokyo.ac.jp>
+Description:
+ ros-one-jsk-rosbag-tools - The rosbag tools
+Changes:
+ ros-one-jsk-rosbag-tools (2.2.15-4-2024.12.31.08.58) jammy; urgency=high
+Checksums-Sha1:
+ cee9906ca436d168a52946c8e3d680708f4e2986 10272764 ros-one-jsk-rosbag-tools-dbgsym_2.2.15-4-2024.12.31.08.58_amd64.ddeb
+ 3ed7aacd8f6df54c910e40d5c15dd9d00f4b7cfc 14184 ros-one-jsk-rosbag-tools_2.2.15-4-2024.12.31.08.58_amd64.buildinfo
+ aa194f5c8bacb2f8ecd546f87db2a247a0195452 77824800 ros-one-jsk-rosbag-tools_2.2.15-4-2024.12.31.08.58_amd64.deb
+Checksums-Sha256:
+ f90bcacebd03d5540f9ce8ca567e7ccc33a90128f6b0acde000243d54988aef1 10272764 ros-one-jsk-rosbag-tools-dbgsym_2.2.15-4-2024.12.31.08.58_amd64.ddeb
+ 00017d8dd30836cdbb56f7e8e71aa19b89cc0552538618ba08449c429d9a7210 14184 ros-one-jsk-rosbag-tools_2.2.15-4-2024.12.31.08.58_amd64.buildinfo
+ e37c3c4b813ba06f085baa57bcab263246d7f6f7d7aa81542f0e406b93d7dec7 77824800 ros-one-jsk-rosbag-tools_2.2.15-4-2024.12.31.08.58_amd64.deb
+Files:
+ fbac7e7334ae082b43336d27949e0699 10272764 debug optional ros-one-jsk-rosbag-tools-dbgsym_2.2.15-4-2024.12.31.08.58_amd64.ddeb
+ d464a0fdba42694af55732a06278f3c4 14184 misc optional ros-one-jsk-rosbag-tools_2.2.15-4-2024.12.31.08.58_amd64.buildinfo
+ f3aad732356aa17bb8053517592281f0 77824800 misc optional ros-one-jsk-rosbag-tools_2.2.15-4-2024.12.31.08.58_amd64.deb
