@@ -1,0 +1,37 @@
+Package: ros-one-collada-urdf-jsk-patch-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 2.1.28-1-2025.01.02.08.45
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-collada-urdf-jsk-patch
+Maintainer: Yohei Kakiuchi <youhei@jsk.t.u-tokyo.ac.jp>
+Installed-Size: 729
+Depends: ros-one-collada-urdf-jsk-patch (= 2.1.28-1-2025.01.02.08.45)
+Filename: ./ros-one-collada-urdf-jsk-patch-dbgsym_2.1.28-1-2025.01.02.08.45_amd64.ddeb
+Size: 675724
+MD5sum: 22048def5eeb3bc46a5c719d6680f9ca
+SHA1: 938eaf60ac258dd3aa699bd16f824247f8b29388
+SHA256: b51fd16447461ac11d25347c0c240d3f91d74799aa7213cc43d598fc6e02f31c
+SHA512: 10cf7959cd6ac2632539f2f9be832f784220a097d3e23d2b45f43ef8ef662c180b8bb6c9496e13b57904e7c5174ad2ef7cfb2a578b07232719dbcb1925bc8a12
+Description: debug symbols for ros-one-collada-urdf-jsk-patch
+Build-Ids: 24f44db089796d40b9738418e6fea4f95de3d0e6 66d9a7add58d69e6745d81ae0c38b50900891f28
+
+Package: ros-one-collada-urdf-jsk-patch
+Architecture: amd64
+Version: 2.1.28-1-2025.01.02.08.45
+Priority: optional
+Section: misc
+Maintainer: Yohei Kakiuchi <youhei@jsk.t.u-tokyo.ac.jp>
+Installed-Size: 185
+Depends: libboost-filesystem1.74.0 (>= 1.74.0), libboost-program-options1.74.0 (>= 1.74.0), libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), liburdfdom-model3.0 (>= 3.0.1), liburdfdom-world3.0 (>= 3.0.1), ros-one-assimp-devel, libcollada-dom2.4-dp-dev, libgts-dev, python3-catkin-tools, ros-one-angles, ros-one-class-loader, ros-one-collada-parser, ros-one-collada-urdf, ros-one-geometric-shapes, ros-one-kdl-parser, ros-one-pluginlib, ros-one-resource-retriever, ros-one-roscpp, ros-one-tf, ros-one-urdf
+Filename: ./ros-one-collada-urdf-jsk-patch_2.1.28-1-2025.01.02.08.45_amd64.deb
+Size: 53492
+MD5sum: 9c66af5be6faaad6100e9fcef747a24a
+SHA1: 5d0db4c899c0e38d2840565d86534866a81150bc
+SHA256: cc046c6b39d7b78c8957464284f64d9efa4cd64a467b086fcf9e6ce3c52f9cc7
+SHA512: 96c538c591d87a74b43414a9acb81af045792da8bb73df5acb326cc70e3e8f530469910d1a8ba9f2a2520a51953ddca897fe4bffd5364a5547e8facc7f13cde7
+Homepage: http://ros.org/wiki/collada_urdf_jsk_patch
+Description: unaccepted patch for collada_urdf
+

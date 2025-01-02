@@ -1,0 +1,2 @@
+Package,Version,URL,Status,Bloom Log,Build Log,Deb File,Installed Files
+collada_urdf_jsk_patch,2.1.28-1-2025.01.02.08.45,https://github.com/tork-a/jsk_3rdparty-release/tree/HEAD,success,collada_urdf_jsk_patch_2.1.28-1-2025.01.02.08.45-bloom_generate.log,ros-one-collada-urdf-jsk-patch_2.1.28-1-2025.01.02.08.45_amd64-2025-01-02T08:45:21Z.build,ros-one-collada-urdf-jsk-patch_2.1.28-1-2025.01.02.08.45_amd64.deb,ros-one-collada-urdf-jsk-patch_2.1.28-1-2025.01.02.08.45_amd64.files

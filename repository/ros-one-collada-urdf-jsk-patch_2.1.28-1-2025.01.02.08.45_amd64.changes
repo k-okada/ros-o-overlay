@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Mon, 24 Jul 2023 00:00:00 -0000
+Source: ros-one-collada-urdf-jsk-patch
+Binary: ros-one-collada-urdf-jsk-patch
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.1.28-1-2025.01.02.08.45
+Distribution: jammy
+Urgency: high
+Maintainer: Yohei Kakiuchi <youhei@jsk.t.u-tokyo.ac.jp>
+Changed-By: Yohei Kakiuchi <youhei@jsk.t.u-tokyo.ac.jp>
+Description:
+ ros-one-collada-urdf-jsk-patch - unaccepted patch for collada_urdf
+Changes:
+ ros-one-collada-urdf-jsk-patch (2.1.28-1-2025.01.02.08.45) jammy; urgency=high
+Checksums-Sha1:
+ 938eaf60ac258dd3aa699bd16f824247f8b29388 675724 ros-one-collada-urdf-jsk-patch-dbgsym_2.1.28-1-2025.01.02.08.45_amd64.ddeb
+ c74a2b7271e66ba9b414558a198426119d9da089 25904 ros-one-collada-urdf-jsk-patch_2.1.28-1-2025.01.02.08.45_amd64.buildinfo
+ 5d0db4c899c0e38d2840565d86534866a81150bc 53492 ros-one-collada-urdf-jsk-patch_2.1.28-1-2025.01.02.08.45_amd64.deb
+Checksums-Sha256:
+ b51fd16447461ac11d25347c0c240d3f91d74799aa7213cc43d598fc6e02f31c 675724 ros-one-collada-urdf-jsk-patch-dbgsym_2.1.28-1-2025.01.02.08.45_amd64.ddeb
+ 308086ebbd29c6b31a1e962468630b3f67551ce3a5191530948856ab6f6e66a4 25904 ros-one-collada-urdf-jsk-patch_2.1.28-1-2025.01.02.08.45_amd64.buildinfo
+ cc046c6b39d7b78c8957464284f64d9efa4cd64a467b086fcf9e6ce3c52f9cc7 53492 ros-one-collada-urdf-jsk-patch_2.1.28-1-2025.01.02.08.45_amd64.deb
+Files:
+ 22048def5eeb3bc46a5c719d6680f9ca 675724 debug optional ros-one-collada-urdf-jsk-patch-dbgsym_2.1.28-1-2025.01.02.08.45_amd64.ddeb
+ aab26e76d99bf7a634fec50bedc6e950 25904 misc optional ros-one-collada-urdf-jsk-patch_2.1.28-1-2025.01.02.08.45_amd64.buildinfo
+ 9c66af5be6faaad6100e9fcef747a24a 53492 misc optional ros-one-collada-urdf-jsk-patch_2.1.28-1-2025.01.02.08.45_amd64.deb
