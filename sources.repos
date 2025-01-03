@@ -1,5 +1,5 @@
 repositories:
-  collada_urdf_jsk_patch:
+  jsk_recognition:
     type: git
-    url: https://github.com/tork-a/jsk_3rdparty-release.git
-    version: release/noetic/collada_urdf_jsk_patch/2.1.28-1
+    url: https://github.com/ros-o/jsk_recognition.git
+    version: obese-devel
