@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Tue, 14 Nov 2023 00:00:00 -0000
+Source: ros-one-checkerboard-detector
+Binary: ros-one-checkerboard-detector
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.2.17-42-g7816812a-2025.01.06.11.07
+Distribution: jammy
+Urgency: high
+Maintainer: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Changed-By: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Description:
+ ros-one-checkerboard-detector - Uses opencv to find checkboards and compute their 6D poses with r
+Changes:
+ ros-one-checkerboard-detector (1.2.17-42-g7816812a-2025.01.06.11.07) jammy; urgency=high
+Checksums-Sha1:
+ 0bc299a9d1276686477b970a38c7dd8a22c84f3b 3962860 ros-one-checkerboard-detector-dbgsym_1.2.17-42-g7816812a-2025.01.06.11.07_amd64.ddeb
+ 4260ec57f51d5226ce988ad91c18ea7df147128c 40461 ros-one-checkerboard-detector_1.2.17-42-g7816812a-2025.01.06.11.07_amd64.buildinfo
+ 2655b805cefb8583e8e879e971fa1ab2720816dd 243276 ros-one-checkerboard-detector_1.2.17-42-g7816812a-2025.01.06.11.07_amd64.deb
+Checksums-Sha256:
+ c35e96b0d8ace3d31fcd6eafb75a6222e7279a793b7747e549e784133b109ee7 3962860 ros-one-checkerboard-detector-dbgsym_1.2.17-42-g7816812a-2025.01.06.11.07_amd64.ddeb
+ 5cc1be1747961085c30c6dcde445fb26a4621d94657c08b1674c1730f2385e4b 40461 ros-one-checkerboard-detector_1.2.17-42-g7816812a-2025.01.06.11.07_amd64.buildinfo
+ 6c6a2f2a4fbd64efe3abfaeed5eb5d3423c2847aec90abcfd0d5e8af7e5d964a 243276 ros-one-checkerboard-detector_1.2.17-42-g7816812a-2025.01.06.11.07_amd64.deb
+Files:
+ b61a0a6893d07cd0cf6ad7ae59f25695 3962860 debug optional ros-one-checkerboard-detector-dbgsym_1.2.17-42-g7816812a-2025.01.06.11.07_amd64.ddeb
+ 930de9a9cd53365f6a52fbe34fcecaa5 40461 misc optional ros-one-checkerboard-detector_1.2.17-42-g7816812a-2025.01.06.11.07_amd64.buildinfo
+ 1c69f3459de7dd73b82916bad0b1ee4c 243276 misc optional ros-one-checkerboard-detector_1.2.17-42-g7816812a-2025.01.06.11.07_amd64.deb

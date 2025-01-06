@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Tue, 14 Nov 2023 00:00:00 -0000
+Source: ros-one-jsk-recognition-msgs
+Binary: ros-one-jsk-recognition-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.2.17-42-g7816812a-2025.01.06.11.02
+Distribution: jammy
+Urgency: high
+Maintainer: Ryohei Ueda <ueda@jsk.t.u-tokyo.ac.jp>
+Changed-By: Ryohei Ueda <ueda@jsk.t.u-tokyo.ac.jp>
+Description:
+ ros-one-jsk-recognition-msgs - ROS messages for jsk_pcl_ros and jsk_perception.
+Changes:
+ ros-one-jsk-recognition-msgs (1.2.17-42-g7816812a-2025.01.06.11.02) jammy; urgency=high
+Checksums-Sha1:
+ a0e7fa3cf53bcce41df59fc77182ad7d9eb5932e 13275 ros-one-jsk-recognition-msgs_1.2.17-42-g7816812a-2025.01.06.11.02_amd64.buildinfo
+ 2096b1ca368c1460d88713d7f82daf4abacac66f 926952 ros-one-jsk-recognition-msgs_1.2.17-42-g7816812a-2025.01.06.11.02_amd64.deb
+Checksums-Sha256:
+ 9cdbe2bbdd12781d2df0ae3b6d80b1b987a895209b6fb9e78fe9ab3f581239c6 13275 ros-one-jsk-recognition-msgs_1.2.17-42-g7816812a-2025.01.06.11.02_amd64.buildinfo
+ 64ce4dbede1185d3a0fce15120db717e254e761bd261e7733b3f33bbcec41345 926952 ros-one-jsk-recognition-msgs_1.2.17-42-g7816812a-2025.01.06.11.02_amd64.deb
+Files:
+ ebedde16b65ba18dd982072c3c9e9128 13275 misc optional ros-one-jsk-recognition-msgs_1.2.17-42-g7816812a-2025.01.06.11.02_amd64.buildinfo
+ 40c15eee6094d9fba1f5427d797e6406 926952 misc optional ros-one-jsk-recognition-msgs_1.2.17-42-g7816812a-2025.01.06.11.02_amd64.deb

@@ -1,0 +1,39 @@
+audio_to_spectrogram:
+  ubuntu:
+  - ros-one-audio-to-spectrogram
+jsk_recognition:
+  ubuntu:
+  - ros-one-jsk-recognition
+jsk_recognition_msgs:
+  ubuntu:
+  - ros-one-jsk-recognition-msgs
+jsk_topic_tools:
+  ubuntu:
+  - ros-one-jsk-topic-tools
+checkerboard_detector:
+  ubuntu:
+  - ros-one-checkerboard-detector
+jsk_recognition_utils:
+  ubuntu:
+  - ros-one-jsk-recognition-utils
+jsk_perception:
+  ubuntu:
+  - ros-one-jsk-perception
+libsiftfast:
+  ubuntu:
+  - ros-one-libsiftfast
+imagesift:
+  ubuntu:
+  - ros-one-imagesift
+jsk_pcl_ros_utils:
+  ubuntu:
+  - ros-one-jsk-pcl-ros-utils
+jsk_pcl_ros:
+  ubuntu:
+  - ros-one-jsk-pcl-ros
+resized_image_transport:
+  ubuntu:
+  - ros-one-resized-image-transport
+sound_classification:
+  ubuntu:
+  - ros-one-sound-classification

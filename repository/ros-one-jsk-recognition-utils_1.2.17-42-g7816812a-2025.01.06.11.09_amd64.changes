@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Tue, 14 Nov 2023 00:00:00 -0000
+Source: ros-one-jsk-recognition-utils
+Binary: ros-one-jsk-recognition-utils
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.2.17-42-g7816812a-2025.01.06.11.09
+Distribution: jammy
+Urgency: high
+Maintainer: Ryohei Ueda <ueda@jsk.t.u-tokyo.ac.jp>
+Changed-By: Ryohei Ueda <ueda@jsk.t.u-tokyo.ac.jp>
+Description:
+ ros-one-jsk-recognition-utils - C++ library about sensor model, geometrical modeling and percepti
+Changes:
+ ros-one-jsk-recognition-utils (1.2.17-42-g7816812a-2025.01.06.11.09) jammy; urgency=high
+ .
+   * https://github.com/jsk-ros-pkg/jsk_recognition/pull/2648 requires jsk_data package (#2805 <https://github.com/jsk-ros-pkg/jsk_recognition/issues/2805>)
+   * Contributors: Kei Okada
+Checksums-Sha1:
+ b7dc369ee7d790a764fc64f08ea964846686ae2f 19299380 ros-one-jsk-recognition-utils-dbgsym_1.2.17-42-g7816812a-2025.01.06.11.09_amd64.ddeb
+ c842b69395291c6304e60e85a28c2bdf41a6ecfd 50390 ros-one-jsk-recognition-utils_1.2.17-42-g7816812a-2025.01.06.11.09_amd64.buildinfo
+ c7f50adc026b93a60bd47ad01f054033be6d2083 394994 ros-one-jsk-recognition-utils_1.2.17-42-g7816812a-2025.01.06.11.09_amd64.deb
+Checksums-Sha256:
+ 056e0e6ba2a570d422981d7c31d48db47118539d538c90618a1cc36f43cd0088 19299380 ros-one-jsk-recognition-utils-dbgsym_1.2.17-42-g7816812a-2025.01.06.11.09_amd64.ddeb
+ 486cf96c059838d6e2d69592ff20f6bf66c0b770da03af341422a0f243273806 50390 ros-one-jsk-recognition-utils_1.2.17-42-g7816812a-2025.01.06.11.09_amd64.buildinfo
+ 7ab7b010fb8ce3b20e1488ce41845ce7574089cb9141ddde78bbcaef216fab83 394994 ros-one-jsk-recognition-utils_1.2.17-42-g7816812a-2025.01.06.11.09_amd64.deb
+Files:
+ ab06370ff2eb75ef3522e2dbdf9c0277 19299380 debug optional ros-one-jsk-recognition-utils-dbgsym_1.2.17-42-g7816812a-2025.01.06.11.09_amd64.ddeb
+ 6af75881a96bed0dd0cc96ef07730130 50390 misc optional ros-one-jsk-recognition-utils_1.2.17-42-g7816812a-2025.01.06.11.09_amd64.buildinfo
+ 09cb3fc359bde4ff320b5e4034a70460 394994 misc optional ros-one-jsk-recognition-utils_1.2.17-42-g7816812a-2025.01.06.11.09_amd64.deb
