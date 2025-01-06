@@ -23,6 +23,6 @@ python-pytesseract-pip:
   ubuntu: []
 
 jskeus:
-  ubuntu: [jskeus]
+  ubuntu: [jskeus-dev]
 euslisp:
-  ubuntu: [euslisp]
+  ubuntu: [euslisp-dev]
