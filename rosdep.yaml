@@ -21,3 +21,8 @@ python-dlib:
   ubuntu: []
 python-pytesseract-pip:
   ubuntu: []
+
+jskeus:
+  ubuntu: [jskeus]
+euslisp:
+  ubuntu: [euslisp]
