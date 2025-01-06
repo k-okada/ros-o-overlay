@@ -17,3 +17,7 @@ python-slacker-cli:
 python-tabulate-pip:
   ubuntu:
     - python3-tabulate
+python-dlib:
+  ubuntu: []
+python-pytesseract-pip:
+  ubuntu: []
