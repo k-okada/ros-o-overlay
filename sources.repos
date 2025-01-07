@@ -1,13 +1,5 @@
 repositories:
-  jsk_recognition:
+  jsk_3rdparty:
     type: git
-    url: https://github.com/ros-o/jsk_recognition.git
-    version: obese-devel
-  libsiftfast:
-    type: git
-    url: https://github.com/tork-a/jsk_3rdparty-release.git
-    version: release/noetic/libsiftfast/2.1.29-1
-  jsk_topic_tools:
-    type: git
-    url: https://github.com/tork-a/jsk_common-release.git
-    version: release/noetic/jsk_topic_tools/2.2.16-1
+    url: https://github.com/jsk-ros-pkg/jsk_3rdparty.git
+    version: master
