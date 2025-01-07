@@ -1,13 +1,37 @@
 repositories:
-  jsk_recognition:
+  willow_maps:
     type: git
-    url: https://github.com/ros-o/jsk_recognition.git
+    url: https://github.com/pr2/willow_maps.git
+    version: kinetic-devel
+  pr2_simulator:
+    type: git
+    url: https://github.com/PR2/pr2_simulator.git
+    version: kinetic-devel
+  pr2_navigation:
+    type: git
+    url: https://github.com/ros-o/pr2_navigation.git
     version: obese-devel
-  libsiftfast:
+  pr2_common_actions:
     type: git
-    url: https://github.com/tork-a/jsk_3rdparty-release.git
-    version: release/noetic/libsiftfast/2.1.29-1
-  jsk_topic_tools:
+    url: https://github.com/pr2/pr2_common_actions.git
+    version: kinetic-devel
+  pr2_apps:
     type: git
-    url: https://github.com/tork-a/jsk_common-release.git
-    version: release/noetic/jsk_topic_tools/2.2.16-1
+    url: https://github.com/pr2/pr2_apps.git
+    version: melodic-devel
+  moveit_pr2:
+    type: git
+    url: https://github.com/ros-o/moveit_pr2.git
+    version: obese-devel
+  jsk_pr2eus:
+    type: git
+    url: https://github.com/jsk-ros-pkg/jsk_pr2eus.git
+    version: master
+  jsk_model_tools:
+    type: git
+    url: https://github.com/jsk-ros-pkg/jsk_model_tools.git
+    version: master
+  joystick_drivers:
+    type: git
+    url: https://github.com/ros-o/joystick_drivers.git
+    version: obese-devel
