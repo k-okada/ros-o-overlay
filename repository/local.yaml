@@ -1,0 +1,3 @@
+rqt_joint_trajectory_plot:
+  ubuntu:
+  - ros-one-rqt-joint-trajectory-plot

@@ -1,0 +1,5 @@
+repositories:
+  rqt_joint_trajectory_plot:
+    type: git
+    url: https://github.com/tork-a/rqt_joint_trajectory_plot.git
+    version: 508ce2423d658f726f5ca0287e9cecde8dc893bf

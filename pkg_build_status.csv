@@ -1,0 +1,2 @@
+Package,Version,URL,Status,Bloom Log,Build Log,Deb File,Installed Files
+rqt_joint_trajectory_plot,0.0.5-31-g508ce24-2025.01.07.13.01,https://github.com/tork-a/rqt_joint_trajectory_plot/tree/master,success,rqt_joint_trajectory_plot_0.0.5-31-g508ce24-2025.01.07.13.01-bloom_generate.log,ros-one-rqt-joint-trajectory-plot_0.0.5-31-g508ce24-2025.01.07.13.01_amd64-2025-01-07T13:01:55Z.build,ros-one-rqt-joint-trajectory-plot_0.0.5-31-g508ce24-2025.01.07.13.01_amd64.deb,ros-one-rqt-joint-trajectory-plot_0.0.5-31-g508ce24-2025.01.07.13.01_amd64.files

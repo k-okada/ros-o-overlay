@@ -1,0 +1,16 @@
+Package: ros-one-rqt-joint-trajectory-plot
+Architecture: amd64
+Version: 0.0.5-31-g508ce24-2025.01.07.13.01
+Priority: optional
+Section: misc
+Maintainer: Tokyo Opensource Robotics Kyokai (TORK) Developer Team <dev@opensource-robotics.tokyo.jp>
+Installed-Size: 80
+Depends: python3-matplotlib, ros-one-control-msgs, ros-one-moveit-msgs, ros-one-rospy, ros-one-rqt-gui, ros-one-rqt-gui-py, ros-one-rqt-py-common, ros-one-trajectory-msgs
+Filename: ./ros-one-rqt-joint-trajectory-plot_0.0.5-31-g508ce24-2025.01.07.13.01_amd64.deb
+Size: 15822
+MD5sum: b24bfd54cf8b604cd97ea332d67598ab
+SHA1: 84235adcd99f4a253b99ccbf3c60f5948cd0272c
+SHA256: 1d5a6fca4c217b3c66493a8d6a9728e044d662370a02a1021b51e6a4cf78c3fe
+SHA512: ae79f718acfa8a6dc7c05b7ba5d72d015fe42a2d422d78b4722407bff0ce011977b53981ccb5dfdfcfef56807ef841fabbb85fe2116056c2336f275434070b10
+Description: The rqt_joint_trajectory_plot package
+
