@@ -3,3 +3,11 @@ repositories:
     type: git
     url: https://github.com/jsk-ros-pkg/jsk_roseus.git
     version: master
+  ar_track_alvar:
+    type: git
+    url: https://github.com/ros-o/ar_track_alvar.git
+    version: obese-devel
+  camera_umd:
+    type: git
+    url: https://github.com/ros-drivers/camera_umd.git
+    version: master
