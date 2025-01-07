@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Wed, 18 May 2022 00:00:00 -0000
+Source: ros-one-pr2-navigation-perception
+Binary: ros-one-pr2-navigation-perception
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.07.15.45
+Distribution: jammy
+Urgency: high
+Maintainer: David Feil-Seifer <dave@cse.unr.edu>
+Changed-By: David Feil-Seifer <dave@cse.unr.edu>
+Description:
+ ros-one-pr2-navigation-perception - This package holds navigation-specific sensor configuration optio
+Changes:
+ ros-one-pr2-navigation-perception (0-2025.01.07.15.45) jammy; urgency=high
+ .
+   * updated maintainer
+   * Contributors: Dave Feil-Seifer
+Checksums-Sha1:
+ 2450d286cef441b7e57a5482c1be02da9f31545e 1176018 ros-one-pr2-navigation-perception-dbgsym_0-2025.01.07.15.45_amd64.ddeb
+ d4a83e831558cf1c93e8bd896ebe24b1426200be 39520 ros-one-pr2-navigation-perception_0-2025.01.07.15.45_amd64.buildinfo
+ 4b97728c0b45ea817f63a8b64654cba49457f7e3 46896 ros-one-pr2-navigation-perception_0-2025.01.07.15.45_amd64.deb
+Checksums-Sha256:
+ 404d4cb90a8cbf976f9acfb427164af5be5075f2d16db33dd7b6a136157bd0a2 1176018 ros-one-pr2-navigation-perception-dbgsym_0-2025.01.07.15.45_amd64.ddeb
+ 59533c3805d8c92515a2a27ba4f1fa900b96a19455bd03432f8f05ee88508105 39520 ros-one-pr2-navigation-perception_0-2025.01.07.15.45_amd64.buildinfo
+ 7720438b950fa4f007e98e9104969eb2681249499dd0c3608f2295e3521cb89b 46896 ros-one-pr2-navigation-perception_0-2025.01.07.15.45_amd64.deb
+Files:
+ 75d37cb2a934aa0859b5a0ded15c2cb4 1176018 debug optional ros-one-pr2-navigation-perception-dbgsym_0-2025.01.07.15.45_amd64.ddeb
+ abcebcf1110cc1cd8032ac1e8f33c4a3 39520 misc optional ros-one-pr2-navigation-perception_0-2025.01.07.15.45_amd64.buildinfo
+ 157933ab310d957a32058caefd882fd6 46896 misc optional ros-one-pr2-navigation-perception_0-2025.01.07.15.45_amd64.deb

@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Thu, 20 May 2021 00:00:00 -0000
+Source: ros-one-joint-trajectory-generator
+Binary: ros-one-joint-trajectory-generator
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.0.12-5-g7f34d64-2025.01.07.15.07
+Distribution: jammy
+Urgency: high
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Changed-By: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Description:
+ ros-one-joint-trajectory-generator - joint_trajectory_generator action takes in a trajectory specified
+Changes:
+ ros-one-joint-trajectory-generator (0.0.12-5-g7f34d64-2025.01.07.15.07) jammy; urgency=high
+ .
+   * Merge pull request #41 <https://github.com/PR2/pr2_common_actions//issues/41> from k-okada/fix_travis
+   * joint_trajectory_generator/package.xml: use liborocos-kdl for noetic
+   * joint_trajectory_generator/package.xml: update to format=3
+   * Contributors: Kei Okada
+Checksums-Sha1:
+ 1723540a4e08d7380e289b62806e14d6f79f4fd5 1794038 ros-one-joint-trajectory-generator-dbgsym_0.0.12-5-g7f34d64-2025.01.07.15.07_amd64.ddeb
+ a846f552337c02dfeea1e1a9a775e1484f8461eb 15809 ros-one-joint-trajectory-generator_0.0.12-5-g7f34d64-2025.01.07.15.07_amd64.buildinfo
+ c15bcfc0a3e98acc63e1e0b1c8ea1361404db55e 155770 ros-one-joint-trajectory-generator_0.0.12-5-g7f34d64-2025.01.07.15.07_amd64.deb
+Checksums-Sha256:
+ 9aaae12e9a3b30f5476ec0ed693b62edc41104347df4942f2ec4afb7635fcfd8 1794038 ros-one-joint-trajectory-generator-dbgsym_0.0.12-5-g7f34d64-2025.01.07.15.07_amd64.ddeb
+ 139be24bb8e001f89e19533b725c17c8e83b74530ba4d42010fd2e123c9d6100 15809 ros-one-joint-trajectory-generator_0.0.12-5-g7f34d64-2025.01.07.15.07_amd64.buildinfo
+ 7a212d80708c3d64fef4f83abd25cb7799e48a98eaf4f5c59dee1f1ecc7e1874 155770 ros-one-joint-trajectory-generator_0.0.12-5-g7f34d64-2025.01.07.15.07_amd64.deb
+Files:
+ 88ddf65045f2469ecfe89513a0ca7442 1794038 debug optional ros-one-joint-trajectory-generator-dbgsym_0.0.12-5-g7f34d64-2025.01.07.15.07_amd64.ddeb
+ 74a255be5c2fa8bd71c53c8b293169fa 15809 misc optional ros-one-joint-trajectory-generator_0.0.12-5-g7f34d64-2025.01.07.15.07_amd64.buildinfo
+ faa615b06c5900901e08d1b7a0fa5481 155770 misc optional ros-one-joint-trajectory-generator_0.0.12-5-g7f34d64-2025.01.07.15.07_amd64.deb

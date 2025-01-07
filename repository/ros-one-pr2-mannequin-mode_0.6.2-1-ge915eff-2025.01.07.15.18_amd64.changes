@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Fri, 21 May 2021 00:00:00 -0000
+Source: ros-one-pr2-mannequin-mode
+Binary: ros-one-pr2-mannequin-mode
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.6.2-1-ge915eff-2025.01.07.15.18
+Distribution: jammy
+Urgency: high
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Changed-By: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Description:
+ ros-one-pr2-mannequin-mode - The pr2_mannequin_mode package
+Changes:
+ ros-one-pr2-mannequin-mode (0.6.2-1-ge915eff-2025.01.07.15.18) jammy; urgency=high
+ .
+   * Merge pull request #42 <https://github.com/pr2/pr2_apps/issues/42> from k-okada/fix_travis
+   * 2to3 -w -f print .
+   * Merge pull request #40 <https://github.com/pr2/pr2_apps/issues/40> from k-okada/add_roslaunch_add_file_check
+     add test for roslaunch_add_file_check
+   * Merge remote-tracking branch 'Affonso-Gui/fix_controllers_nohead' into add_roslaunch_add_file_check
+   * add test for roslaunch_add_file_check
+   * Use unspawner instead of stop on controllers_nohead
+   * Fix paths to config and launch on controllers_nohead
+   * Contributors: Guilherme Affonso, Kei Okada, Michael Görner
+Checksums-Sha1:
+ 6c7ed0830e0f18d0e68890792856041cd3fde06f 19934 ros-one-pr2-mannequin-mode_0.6.2-1-ge915eff-2025.01.07.15.18_amd64.buildinfo
+ ad4963550e7bfa47f588d43c98d6056fb63399f9 26480 ros-one-pr2-mannequin-mode_0.6.2-1-ge915eff-2025.01.07.15.18_amd64.deb
+Checksums-Sha256:
+ 6fcc82ce3839a6448da0af9fda3e2871cc095c70e47a25b958c5fc305228af6a 19934 ros-one-pr2-mannequin-mode_0.6.2-1-ge915eff-2025.01.07.15.18_amd64.buildinfo
+ b73b55e6ee6c3018176e25987c5aa28438933f7fdcc41d67714b3d1e6d28676a 26480 ros-one-pr2-mannequin-mode_0.6.2-1-ge915eff-2025.01.07.15.18_amd64.deb
+Files:
+ 93fe2655308a52d9d4f61faef489708e 19934 misc optional ros-one-pr2-mannequin-mode_0.6.2-1-ge915eff-2025.01.07.15.18_amd64.buildinfo
+ 5592d1de6e86549a2e46902f9bf60df7 26480 misc optional ros-one-pr2-mannequin-mode_0.6.2-1-ge915eff-2025.01.07.15.18_amd64.deb

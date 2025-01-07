@@ -1,0 +1,40 @@
+Format: 1.8
+Date: Wed, 18 May 2022 00:00:00 -0000
+Source: ros-one-pr2-navigation-self-filter
+Binary: ros-one-pr2-navigation-self-filter
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.07.15.26
+Distribution: jammy
+Urgency: high
+Maintainer: David Feil-Seifer <dave@cse.unr.edu>
+Changed-By: David Feil-Seifer <dave@cse.unr.edu>
+Description:
+ ros-one-pr2-navigation-self-filter - Filters the robot's body out of point clouds.
+Changes:
+ ros-one-pr2-navigation-self-filter (0-2025.01.07.15.26) jammy; urgency=high
+ .
+   * fix build in noetic (#44 <https://github.com/pr2/pr2_navigation/issues/44>)
+     I'm not claiming that any of these packages work as they should on
+     noetic. Claiming they worked on kinetic might be a stretch.
+   * fixed CMake files for compile in kinetic (#38 <https://github.com/pr2/pr2_navigation/issues/38>)
+ .
+       * updated pr2_navigation_self_filter to fix unstable build warning with c++11 arg to gcc
+       * updated CMakeLists.txt to fix CMake warnings and compile warnigns causing unstable build:
+         * removed eigen dependency from semantic_point_aggregator
+         * added c++11 compile option to pr2_navigation_self_filter
+ .
+   * updated maintainer
+   * Contributors: David Feil-Seifer, Michael Görner
+Checksums-Sha1:
+ 61b747ac761fa3d8a29ded0317ede1e650fd63e8 3655922 ros-one-pr2-navigation-self-filter-dbgsym_0-2025.01.07.15.26_amd64.ddeb
+ 9e952fbbabbd9163020ec222e17421828593afcc 38870 ros-one-pr2-navigation-self-filter_0-2025.01.07.15.26_amd64.buildinfo
+ 3a6d18ba324f169720b2f2b1ae5bb4ad640fd11b 188546 ros-one-pr2-navigation-self-filter_0-2025.01.07.15.26_amd64.deb
+Checksums-Sha256:
+ a2c2a847e01ad7a91fa9556ca61a50343cfe16228b9c86c3d1249b17a3f1fecf 3655922 ros-one-pr2-navigation-self-filter-dbgsym_0-2025.01.07.15.26_amd64.ddeb
+ cdb53444f1f16f86c58079a9923bb7a6fc280e27a1016f1bcf711990d6dd02c9 38870 ros-one-pr2-navigation-self-filter_0-2025.01.07.15.26_amd64.buildinfo
+ 6a0eab9fe4f9ba5db770584b02017699bf30b25f568253c3770d791070ed07c6 188546 ros-one-pr2-navigation-self-filter_0-2025.01.07.15.26_amd64.deb
+Files:
+ 3c4cc17e35428763fc265bb0850eda5d 3655922 debug optional ros-one-pr2-navigation-self-filter-dbgsym_0-2025.01.07.15.26_amd64.ddeb
+ 6440405d6136e4370e33603293792801 38870 misc optional ros-one-pr2-navigation-self-filter_0-2025.01.07.15.26_amd64.buildinfo
+ ccd1a50149d2a667e6723c665c8affcb 188546 misc optional ros-one-pr2-navigation-self-filter_0-2025.01.07.15.26_amd64.deb

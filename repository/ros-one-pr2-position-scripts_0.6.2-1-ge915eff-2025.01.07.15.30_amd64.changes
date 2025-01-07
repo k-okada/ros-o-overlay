@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Fri, 21 May 2021 00:00:00 -0000
+Source: ros-one-pr2-position-scripts
+Binary: ros-one-pr2-position-scripts
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.6.2-1-ge915eff-2025.01.07.15.30
+Distribution: jammy
+Urgency: high
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Changed-By: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Description:
+ ros-one-pr2-position-scripts - This package contains a number of scripts to set various componen
+Changes:
+ ros-one-pr2-position-scripts (0.6.2-1-ge915eff-2025.01.07.15.30) jammy; urgency=high
+ .
+   * Merge pull request #42 <https://github.com/pr2/pr2_apps/issues/42> from k-okada/fix_travis
+   * pr2_position_scripts/scripts/torso_up.py: fix wrong new line
+   * 2to3 -w -f print .
+   * Merge pull request #40 <https://github.com/pr2/pr2_apps/issues/40> from k-okada/add_roslaunch_add_file_check
+     add test for roslaunch_add_file_check
+   * add test for roslaunch_add_file_check
+   * Contributors: Kei Okada, Michael Görner
+Checksums-Sha1:
+ 96290b1ffa5bb3896203c0cc8a3d86374d895a80 18304 ros-one-pr2-position-scripts_0.6.2-1-ge915eff-2025.01.07.15.30_amd64.buildinfo
+ e08cb6d6a254506dc777cf2cb963ea27c37828aa 6630 ros-one-pr2-position-scripts_0.6.2-1-ge915eff-2025.01.07.15.30_amd64.deb
+Checksums-Sha256:
+ 0fda0e3f696fd4bdefe5b80e33c3bde07f016ed46dc8e6ee52dabda229318951 18304 ros-one-pr2-position-scripts_0.6.2-1-ge915eff-2025.01.07.15.30_amd64.buildinfo
+ 02cdb0f259d5203cc633b8e683ad6e8cd792eb0d191887b47f7aa1f3b243d39b 6630 ros-one-pr2-position-scripts_0.6.2-1-ge915eff-2025.01.07.15.30_amd64.deb
+Files:
+ 2b611811a5c10856945edcf66d1e32d9 18304 misc optional ros-one-pr2-position-scripts_0.6.2-1-ge915eff-2025.01.07.15.30_amd64.buildinfo
+ 5a50cd5406dc0d3df242dada00d91bb8 6630 misc optional ros-one-pr2-position-scripts_0.6.2-1-ge915eff-2025.01.07.15.30_amd64.deb

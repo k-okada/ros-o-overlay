@@ -1,0 +1,36 @@
+Format: 1.8
+Date: Wed, 14 Feb 2018 00:00:00 -0000
+Source: ros-one-willow-maps
+Binary: ros-one-willow-maps
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.0.3-1-g45e3424-2025.01.07.15.49
+Distribution: jammy
+Urgency: high
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Changed-By: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Description:
+ ros-one-willow-maps - Holds maps of Willow Garage that can be used for a number of diff
+Changes:
+ ros-one-willow-maps (1.0.3-1-g45e3424-2025.01.07.15.49) jammy; urgency=high
+ .
+   * Merge pull request #2 <https://github.com/pr2/willow_maps/issues/2> from k-okada/fix_cmake
+     Fix cmake
+   * Merge pull request #1 <https://github.com/pr2/willow_maps/issues/1> from k-okada/orph
+     change maintainer to ROS orphaned package maintainer
+   * update CMake files
+     use download.ros.org instead of code.ros.org/svn
+     remove willow-2010-02-18-0.025.pgm and willow-sans-whitelab-2010-02-18-0.025.pgm, whcih are not found in download.ros.org
+     add code to install .xml and .pgm files
+   * change maintainer to ROS orphaned package maintainer
+   * Changed willow maps names
+   * Contributors: Kei Okada, TheDash
+Checksums-Sha1:
+ a6a0dcbcddb9cc2e7b00d88e86271651e4e88ecd 8171 ros-one-willow-maps_1.0.3-1-g45e3424-2025.01.07.15.49_amd64.buildinfo
+ e06533ea7937c172a0627fe9f06b94f5fbf92e82 1612746 ros-one-willow-maps_1.0.3-1-g45e3424-2025.01.07.15.49_amd64.deb
+Checksums-Sha256:
+ e7b1f711d42cfff49ab24d1f876edff6b1bc53a5e43132f00bfe199e1f437a16 8171 ros-one-willow-maps_1.0.3-1-g45e3424-2025.01.07.15.49_amd64.buildinfo
+ 7d4e63c87033d2287e38dd80ee2a3bd90f34d28ad6ab3ed35ce10bad31603b04 1612746 ros-one-willow-maps_1.0.3-1-g45e3424-2025.01.07.15.49_amd64.deb
+Files:
+ bb77dfcb6e7a022aed4be37d4cdb6c57 8171 misc optional ros-one-willow-maps_1.0.3-1-g45e3424-2025.01.07.15.49_amd64.buildinfo
+ 67075cacbeffc89688cb39dc51cf8fe6 1612746 misc optional ros-one-willow-maps_1.0.3-1-g45e3424-2025.01.07.15.49_amd64.deb

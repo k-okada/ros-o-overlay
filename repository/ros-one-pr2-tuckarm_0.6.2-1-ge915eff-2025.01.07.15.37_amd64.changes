@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Fri, 21 May 2021 00:00:00 -0000
+Source: ros-one-pr2-tuckarm
+Binary: ros-one-pr2-tuckarm
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.6.2-1-ge915eff-2025.01.07.15.37
+Distribution: jammy
+Urgency: high
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Changed-By: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Description:
+ ros-one-pr2-tuckarm - Tucks the arms of the PR2 robot into a safe position for moving t
+Changes:
+ ros-one-pr2-tuckarm (0.6.2-1-ge915eff-2025.01.07.15.37) jammy; urgency=high
+ .
+   * Merge pull request #42 <https://github.com/pr2/pr2_apps/issues/42> from k-okada/fix_travis
+   * 2to3 -w -f print .
+   * Merge pull request #40 <https://github.com/pr2/pr2_apps/issues/40> from k-okada/add_roslaunch_add_file_check
+     add test for roslaunch_add_file_check
+   * add test for roslaunch_add_file_check
+   * Contributors: Kei Okada, Michael Görner
+Checksums-Sha1:
+ 815cbd690be76a45b3fa1ab11afd3e5a47d230e2 12936 ros-one-pr2-tuckarm_0.6.2-1-ge915eff-2025.01.07.15.37_amd64.buildinfo
+ a3e77db0152da9bb5126d95637c5cdf7cfebfd84 94244 ros-one-pr2-tuckarm_0.6.2-1-ge915eff-2025.01.07.15.37_amd64.deb
+Checksums-Sha256:
+ 33b1b38dadfa361d3731641b9e2ace48e7113b4bcd2d4422713d8521828b5385 12936 ros-one-pr2-tuckarm_0.6.2-1-ge915eff-2025.01.07.15.37_amd64.buildinfo
+ ea5a01f1531e85a14c99159271f5046a205360c089f047f87d661ca6f95aaca7 94244 ros-one-pr2-tuckarm_0.6.2-1-ge915eff-2025.01.07.15.37_amd64.deb
+Files:
+ fdba2416aaab8cd2be6db7bba950b7ef 12936 misc optional ros-one-pr2-tuckarm_0.6.2-1-ge915eff-2025.01.07.15.37_amd64.buildinfo
+ adaaab7a9742681eaeb9159cbd0463f8 94244 misc optional ros-one-pr2-tuckarm_0.6.2-1-ge915eff-2025.01.07.15.37_amd64.deb

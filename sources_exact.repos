@@ -1,0 +1,29 @@
+repositories:
+  joystick_drivers:
+    type: git
+    url: https://github.com/ros-o/joystick_drivers.git
+    version: ff625547c979a8c590eed70f2b9e8043548b11d4
+  moveit_pr2:
+    type: git
+    url: https://github.com/ros-o/moveit_pr2.git
+    version: f7a1e359f6bbb62f0076042c867c3aea87be8bb7
+  pr2_apps:
+    type: git
+    url: https://github.com/pr2/pr2_apps.git
+    version: e915eff56b7b5fa4e614eecd32ef59a2a9af2324
+  pr2_common_actions:
+    type: git
+    url: https://github.com/pr2/pr2_common_actions.git
+    version: 7f34d644411d7ccf58e8b72abc2312b96ee087c7
+  pr2_navigation:
+    type: git
+    url: https://github.com/ros-o/pr2_navigation.git
+    version: 0cc51a95b4bfa9e5145559c84455758589cc5004
+  pr2_simulator:
+    type: git
+    url: https://github.com/PR2/pr2_simulator.git
+    version: 2.1.0
+  willow_maps:
+    type: git
+    url: https://github.com/pr2/willow_maps.git
+    version: 45e34248426291d1b15211f24b4b2e9a87d046ec

@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Wed, 18 May 2022 00:00:00 -0000
+Source: ros-one-laser-tilt-controller-filter
+Binary: ros-one-laser-tilt-controller-filter
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.07.15.10
+Distribution: jammy
+Urgency: high
+Maintainer: David Feil-Seifer <dave@cse.unr.edu>
+Changed-By: David Feil-Seifer <dave@cse.unr.edu>
+Description:
+ ros-one-laser-tilt-controller-filter - laser_tilt_controller_filter
+Changes:
+ ros-one-laser-tilt-controller-filter (0-2025.01.07.15.10) jammy; urgency=high
+ .
+   * updated maintainer
+   * fixed CMake files for compile in kinetic
+   * Contributors: Dave Feil-Seifer
+Checksums-Sha1:
+ 83ada67781be1daf5a1164ba9a0f63314551225b 392364 ros-one-laser-tilt-controller-filter-dbgsym_0-2025.01.07.15.10_amd64.ddeb
+ 49552f8ab13d9e8a162a1e56def5c69697e1facb 13913 ros-one-laser-tilt-controller-filter_0-2025.01.07.15.10_amd64.buildinfo
+ 06f89a7891187b0af57afc2d163dac823c2d5496 37788 ros-one-laser-tilt-controller-filter_0-2025.01.07.15.10_amd64.deb
+Checksums-Sha256:
+ 46e8e38b1218381fbb926e222af329117cf16c205e249a7213f678e42354c111 392364 ros-one-laser-tilt-controller-filter-dbgsym_0-2025.01.07.15.10_amd64.ddeb
+ 528e14d1a8f0212bd1645577b79a7f2e7afb46884cd3c910920555f5051d8c5a 13913 ros-one-laser-tilt-controller-filter_0-2025.01.07.15.10_amd64.buildinfo
+ e4dd3c434a648a2b36900c9114006fb814e4b524fc3292e52c79fb6b1fb0e833 37788 ros-one-laser-tilt-controller-filter_0-2025.01.07.15.10_amd64.deb
+Files:
+ 826ff1ea0dba01a708b77bc583f42203 392364 debug optional ros-one-laser-tilt-controller-filter-dbgsym_0-2025.01.07.15.10_amd64.ddeb
+ 7f5bfd3aead37806f9c271ca43b20a1b 13913 misc optional ros-one-laser-tilt-controller-filter_0-2025.01.07.15.10_amd64.buildinfo
+ c6295d6efa5c476543385120d1f5ef3e 37788 misc optional ros-one-laser-tilt-controller-filter_0-2025.01.07.15.10_amd64.deb

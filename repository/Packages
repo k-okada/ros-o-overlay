@@ -1,0 +1,927 @@
+Package: ros-one-joint-trajectory-action-tools
+Architecture: amd64
+Version: 0.0.12-5-g7f34d64-2025.01.07.15.06
+Priority: optional
+Section: misc
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Installed-Size: 45
+Depends: ros-one-joint-trajectory-action, ros-one-pr2-controllers-msgs, ros-one-roslib, ros-one-rospy, ros-one-trajectory-msgs
+Filename: ./ros-one-joint-trajectory-action-tools_0.0.12-5-g7f34d64-2025.01.07.15.06_amd64.deb
+Size: 7906
+MD5sum: 10fb87377a6121a2b4406721adf9cbcb
+SHA1: 4dd924da03493e03b4d784d6e08cf23d38e9e13f
+SHA256: cc14a6a563543b48b0b36bd21d4408d6824059961db84d2a029c55f39cdc6b86
+SHA512: 8c8486ebe1aac9ecef19784f4e939ae43a1c1e864f979c204370d679932369a62cf5b3c1a6e1a715dc6bc90a241ba09738ba3164d3ef3ea95d22d2a811726290
+Homepage: http://ros.org/wiki/joint_trajectory_action_tools
+Description: joint_trajectory_action_tools
+
+Package: ros-one-joint-trajectory-generator-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0.0.12-5-g7f34d64-2025.01.07.15.07
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-joint-trajectory-generator
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Installed-Size: 2022
+Depends: ros-one-joint-trajectory-generator (= 0.0.12-5-g7f34d64-2025.01.07.15.07)
+Filename: ./ros-one-joint-trajectory-generator-dbgsym_0.0.12-5-g7f34d64-2025.01.07.15.07_amd64.ddeb
+Size: 1794038
+MD5sum: 88ddf65045f2469ecfe89513a0ca7442
+SHA1: 1723540a4e08d7380e289b62806e14d6f79f4fd5
+SHA256: 9aaae12e9a3b30f5476ec0ed693b62edc41104347df4942f2ec4afb7635fcfd8
+SHA512: f3731aa91390d49f58acffa098e379a298cd2c68413ca51d29ddeef3397c30eb72c9753d26a775526fd4a3f3d9328d0f6a219ef3535eef1c9ce43fe40a19d8a1
+Description: debug symbols for ros-one-joint-trajectory-generator
+Build-Ids: 4813fa5c80969813e21f0e0e24dcd7ccec6e8a55 8d3f1cdcc395605903b426527842deebe1458e51
+
+Package: ros-one-joint-trajectory-generator
+Architecture: amd64
+Version: 0.0.12-5-g7f34d64-2025.01.07.15.07
+Priority: optional
+Section: misc
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Installed-Size: 581
+Depends: libboost-thread1.74.0 (>= 1.74.0), libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), liborocos-kdl1.5 (>= 1.5.1), libstdc++6 (>= 11), liburdfdom-world3.0 (>= 3.0.1), liborocos-kdl-dev, ros-one-actionlib, ros-one-angles, ros-one-joint-trajectory-action, ros-one-pr2-controllers-msgs, ros-one-roscpp, ros-one-urdf
+Filename: ./ros-one-joint-trajectory-generator_0.0.12-5-g7f34d64-2025.01.07.15.07_amd64.deb
+Size: 155770
+MD5sum: faa615b06c5900901e08d1b7a0fa5481
+SHA1: c15bcfc0a3e98acc63e1e0b1c8ea1361404db55e
+SHA256: 7a212d80708c3d64fef4f83abd25cb7799e48a98eaf4f5c59dee1f1ecc7e1874
+SHA512: 2a2c3c2c9958ca8c1d5317431a7794359b795c011e3b441bf11dc12797375f73919e7dd420592ec4aa2e72deda60c002d3d59b5692db180cb710ed37a45e6ee6
+Homepage: http://ros.org/wiki/joint_trajectory_generator
+Description: joint_trajectory_generator action takes in a trajectory specified by a number of joint positions, and it generates a new smooth trajectory through these joint positions.
+
+Package: ros-one-joy-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2025.01.07.15.08
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-joy
+Maintainer: Jonathan Bohren <jbo@jhu.edu>
+Installed-Size: 722
+Depends: ros-one-joy (= 0-2025.01.07.15.08)
+Filename: ./ros-one-joy-dbgsym_0-2025.01.07.15.08_amd64.ddeb
+Size: 665500
+MD5sum: 399277ab1b3f9847c499724a5a510181
+SHA1: 5c59d8594860991dd34f4f787e528f3dc612520e
+SHA256: 389257f925d04e059d3415af963da407b4bccf4f81e981c592219aaac610e3a0
+SHA512: 247a02578ecfd06aafa8b1d7ea72549b0feb9bc6a122eae162176eb7297b0d2ffff01d4b45eb6661251078eabb7d9473d0ec8211e52aac29e7274fb00a4ad670
+Description: debug symbols for ros-one-joy
+Build-Ids: ce3b6c673941ed1a2edcb914634ddfef5b4b32fc
+
+Package: ros-one-joy
+Architecture: amd64
+Version: 0-2025.01.07.15.08
+Priority: optional
+Section: misc
+Maintainer: Jonathan Bohren <jbo@jhu.edu>
+Installed-Size: 185
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), joystick, ros-one-diagnostic-updater, ros-one-roscpp, ros-one-sensor-msgs
+Filename: ./ros-one-joy_0-2025.01.07.15.08_amd64.deb
+Size: 59656
+MD5sum: 561b0587d3c8d8a1f53f0199b68c4c12
+SHA1: 8ab3618815f64151533bbbece953530e9c29f4ff
+SHA256: 03af4b143aba657ce54e5200315abb8411587193fa51043dd9eb3f3804585cd5
+SHA512: 806a27fafdc0d33d931475bb0615b13547c6ae7331edd39fa357e0235cb0525159146d140b9509a008df939e25d3b0a12119e930bd107a0021a588ca49a30467
+Homepage: http://www.ros.org/wiki/joy
+Description: ROS driver for a generic Linux joystick.
+ The joy package contains joy_node, a node that interfaces a generic Linux joystick to ROS. This node publishes a &quot;Joy&quot; message, which contains the current state of each one of the joystick's buttons and axes.
+
+Package: ros-one-joystick-drivers
+Architecture: amd64
+Version: 0-2025.01.07.15.09
+Priority: optional
+Section: misc
+Maintainer: Jonathan Bohren <jbo@jhu.edu>
+Installed-Size: 14
+Depends: ros-one-joy, ros-one-spacenav-node
+Filename: ./ros-one-joystick-drivers_0-2025.01.07.15.09_amd64.deb
+Size: 2066
+MD5sum: d6cbee6e9a5de1202c933e099d7e6e3d
+SHA1: 4cfb6457d5f327f221b878be209ff9141b8d78fb
+SHA256: fbdca16d6d9840607bf63eb1f5a15ec662bf38a5157a61fd3b3e10a0452a0dba
+SHA512: 92190ada6a449b46df4df331e1a71695265ecc7147263e8351a3eede3b510a092fe0cf973c88f1a43c4f340f29982a0baec03bc381864cf1f15225d738df8074
+Homepage: http://www.ros.org/wiki/joystick_drivers
+Description: This metapackage depends on packages for interfacing common joysticks and human input devices with ROS.
+
+Package: ros-one-laser-tilt-controller-filter-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2025.01.07.15.10
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-laser-tilt-controller-filter
+Maintainer: David Feil-Seifer <dave@cse.unr.edu>
+Installed-Size: 430
+Depends: ros-one-laser-tilt-controller-filter (= 0-2025.01.07.15.10)
+Filename: ./ros-one-laser-tilt-controller-filter-dbgsym_0-2025.01.07.15.10_amd64.ddeb
+Size: 392364
+MD5sum: 826ff1ea0dba01a708b77bc583f42203
+SHA1: 83ada67781be1daf5a1164ba9a0f63314551225b
+SHA256: 46e8e38b1218381fbb926e222af329117cf16c205e249a7213f678e42354c111
+SHA512: ceccec4ff4c68807ebf570ed4a19b912ce1f2ac30c144fc244ee426194d34fd3cdb26a12417832c7eb5f5482eab7abc3155937bb958e1820b4a98dde50eb3e65
+Description: debug symbols for ros-one-laser-tilt-controller-filter
+Build-Ids: 64a18f01b4967049af7301afb00a8f944d945e79
+
+Package: ros-one-laser-tilt-controller-filter
+Architecture: amd64
+Version: 0-2025.01.07.15.10
+Priority: optional
+Section: misc
+Maintainer: David Feil-Seifer <dave@cse.unr.edu>
+Installed-Size: 133
+Depends: libc6 (>= 2.14), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-one-filters, ros-one-pluginlib, ros-one-pr2-msgs, ros-one-roscpp, ros-one-sensor-msgs
+Filename: ./ros-one-laser-tilt-controller-filter_0-2025.01.07.15.10_amd64.deb
+Size: 37788
+MD5sum: c6295d6efa5c476543385120d1f5ef3e
+SHA1: 06f89a7891187b0af57afc2d163dac823c2d5496
+SHA256: e4dd3c434a648a2b36900c9114006fb814e4b524fc3292e52c79fb6b1fb0e833
+SHA512: 0e5d1e201860bf5a9127846c9442230eb57905c1aeacd5432611c1c71e5566434bae5fcabaee01064c509e60c59c5164e1b318273ca4428f3ae7789c24b08b9e
+Homepage: http://ros.org/wiki/laser_tilt_controller_filter
+Description: laser_tilt_controller_filter
+
+Package: ros-one-moveit-pr2
+Architecture: amd64
+Version: 0.7.3-5-gf7a1e35-2025.01.07.15.10
+Priority: optional
+Section: misc
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Installed-Size: 15
+Depends: ros-one-pr2-moveit-config, ros-one-pr2-moveit-plugins
+Filename: ./ros-one-moveit-pr2_0.7.3-5-gf7a1e35-2025.01.07.15.10_amd64.deb
+Size: 2662
+MD5sum: 417ad5befbd952432cbbda15473879e9
+SHA1: 21bbfa577292c87a4ec47086e446780f92f0a4f8
+SHA256: b55a18b49bb9e168e2050d5ed6298123d41d8e0b32d50920b780e994450a1048
+SHA512: d97e195c2d8d8714ebf65b916e4fddc097472e2eb85340f518f07f1241441c3da9ace7e2bbd577fac81ba1388542a1ad6386854ab5be57c50d716f831a24d406
+Homepage: http://moveit.ros.org
+Description: All PR2-specific packages for MoveIt
+
+Package: ros-one-pr2-app-manager
+Architecture: amd64
+Version: 0.6.2-1-ge915eff-2025.01.07.15.11
+Priority: optional
+Section: misc
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Installed-Size: 44
+Depends: ros-one-app-manager, ros-one-willow-maps
+Filename: ./ros-one-pr2-app-manager_0.6.2-1-ge915eff-2025.01.07.15.11_amd64.deb
+Size: 8986
+MD5sum: aa849421341b91124602ee6b095ef8c1
+SHA1: 54f206a44bf2163a3a58ecac6ef24e658e0d3682
+SHA256: f2519dde873efae38e6c41568ecec6c4024721fb9cb57d9ed85f8bf39948a1be
+SHA512: 15ead6a16290313098df04fe5449d39cf5891e65ab3a1747a044b77e934ca8fe6d8a8befd141699cea40cb187bdb9e427d1e246bad9264594f9204086bc5e97f
+Homepage: http://ros.org/wiki/application_manager
+Description: Scripts and tools for running the application manager on the PR2.
+
+Package: ros-one-pr2-apps
+Architecture: amd64
+Version: 0.6.2-1-ge915eff-2025.01.07.15.12
+Priority: optional
+Section: misc
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Installed-Size: 14
+Depends: ros-one-pr2-app-manager, ros-one-pr2-kinematics, ros-one-pr2-mannequin-mode, ros-one-pr2-position-scripts, ros-one-pr2-teleop-general, ros-one-pr2-tuckarm
+Filename: ./ros-one-pr2-apps_0.6.2-1-ge915eff-2025.01.07.15.12_amd64.deb
+Size: 2380
+MD5sum: 3ab63c610220ab2c4f28aea29b1f4493
+SHA1: 60d414daf4b54f67cef14a1b411816000cd44fd7
+SHA256: fe1c01d14bf951167927b37c8c9b75beb6067651260e4678d907d37de04f16eb
+SHA512: a96bfed0fd1ed1f10d4e3f92c0112a44a6f28592b432ca8eaad31905c65124617ab3fbcedb9f94f3ab68ba8774498e895f9b0691765bd48608e2213a1e06ad6a
+Homepage: http://ros.org/wiki/pr2_apps
+Description: Basic applications for the PR2 robot
+
+Package: ros-one-pr2-arm-move-ik
+Architecture: amd64
+Version: 0.0.12-5-g7f34d64-2025.01.07.15.13
+Priority: optional
+Section: misc
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Installed-Size: 30
+Depends: ros-one-actionlib, ros-one-actionlib-msgs, ros-one-geometry-msgs, ros-one-pr2-common-action-msgs, ros-one-pr2-controllers-msgs, ros-one-roscpp, ros-one-tf, ros-one-urdf
+Filename: ./ros-one-pr2-arm-move-ik_0.0.12-5-g7f34d64-2025.01.07.15.13_amd64.deb
+Size: 5258
+MD5sum: c7856df063e953a607b2dad711405562
+SHA1: 044bd3844d06b481d9012d3f81f2100f98e3588f
+SHA256: f9ccbe4e3d23c8ebf89ccc3984d46e43bb6f8647e9bf2eff66eda5fbe2919e5d
+SHA512: 22da402c46fa4eb546a37ff2ba08cc4e1432542ae4a65ffe98cd3ca7d72f544f89fa8e6143c3f4f16fea67df9b3f691bbb4a5e8f4bed017c288846eabe0b674d
+Homepage: http://ros.org/wiki/pr2_arm_move_ik
+Description: Move the pr2 arm using inverse kinematics
+
+Package: ros-one-pr2-common-action-msgs
+Architecture: amd64
+Version: 0.0.12-5-g7f34d64-2025.01.07.15.12
+Priority: optional
+Section: misc
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Installed-Size: 845
+Depends: ros-one-actionlib-msgs, ros-one-geometry-msgs, ros-one-message-runtime, ros-one-sensor-msgs
+Filename: ./ros-one-pr2-common-action-msgs_0.0.12-5-g7f34d64-2025.01.07.15.12_amd64.deb
+Size: 45588
+MD5sum: e84c5d80ccb46aff5316f65c446a596b
+SHA1: df09192d3032b71bc94bb9bc5bc687fbf62c22c1
+SHA256: bb0f838c5bbfa0b3333e012bcedf82253afe63210b5d667e83323742ee872a86
+SHA512: c345b8824204c5da7728235d8953c79893d086ef7df972bfb69b455c2d83b319b38afcf3e4316ad2dc7a4d84600203443cd5972447e8363ac76c20eaecb62fe3
+Homepage: http://wiki.ros.org/pr2_common_action_msgs
+Description: The pr2_common_action_msgs package
+
+Package: ros-one-pr2-common-actions
+Architecture: amd64
+Version: 0.0.12-5-g7f34d64-2025.01.07.15.14
+Priority: optional
+Section: misc
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Installed-Size: 15
+Depends: ros-one-joint-trajectory-action-tools, ros-one-joint-trajectory-generator, ros-one-pr2-arm-move-ik, ros-one-pr2-common-action-msgs, ros-one-pr2-tilt-laser-interface, ros-one-pr2-tuck-arms-action
+Filename: ./ros-one-pr2-common-actions_0.0.12-5-g7f34d64-2025.01.07.15.14_amd64.deb
+Size: 2238
+MD5sum: 3e850171faa2e70d865b5bd62e43aa91
+SHA1: 9ed430c3089c3ff6c8f79dd87a1520b2a2400a97
+SHA256: 8ec147834bd11c7606d08807ff5e8065ebd1abefb5a526d9fdb59164fa59f77a
+SHA512: 2db538a4454f15203255d0c05fd2806b0555936b49b9cf80500619a81db12cb6af98987f96c568b12d41f82c80bca0622f0f01c1f4b068b59e0e7696b7f20bda
+Homepage: http://wiki.ros.org/pr2_common_actions
+Description: Various actions which help in moving the arms of the PR2 or getting data from its tilting laser.
+
+Package: ros-one-pr2-controller-configuration-gazebo
+Architecture: amd64
+Version: 2.1.0-2025.01.07.15.15
+Priority: optional
+Section: misc
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Installed-Size: 63
+Depends: gazebo, ros-one-pr2-controller-manager, ros-one-pr2-gripper-action, ros-one-pr2-head-action, ros-one-single-joint-position-action
+Filename: ./ros-one-pr2-controller-configuration-gazebo_2.1.0-2025.01.07.15.15_amd64.deb
+Size: 9320
+MD5sum: 2c58cb35a0fdee431a27c7f71d081d64
+SHA1: b4126fb93e69981a9058e3a12bfb931555515e29
+SHA256: 7d35bf1766615aff025dfc8d603aed6f4550610b628a20e2d990c27c3677ff04
+SHA512: a8fbecdc12004c01dad31bd2c81664fd32fb74fbca9e73df0f64642811d717fb49e40148b26336dbc99996319ea305afa420449a424c9075a0daccf816767179
+Homepage: http://ros.org/wiki/pr2_controller_configuration_gazebo
+Description: A copy of the pr2_controller_configuration package, for use in the PR2 simulator.
+ We maintain two copies to allow for controller gains to be set differently between hardware and simulation.
+
+Package: ros-one-pr2-gazebo-plugins-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 2.1.0-2025.01.07.15.15
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-pr2-gazebo-plugins
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Installed-Size: 3009
+Depends: ros-one-pr2-gazebo-plugins (= 2.1.0-2025.01.07.15.15)
+Filename: ./ros-one-pr2-gazebo-plugins-dbgsym_2.1.0-2025.01.07.15.15_amd64.ddeb
+Size: 2839704
+MD5sum: f12e6c88629f6e24957574cf478a42f8
+SHA1: 734c9142071b4fac45f3851a9b38204490c3afea
+SHA256: 8f21233f54ba86c1447ee8e3bfa779e0415eb90659e9fe6c7c64e906a7794820
+SHA512: 4d1de4a9f1be37bc47e5272299736021dc7d55be5774efe6b22ce5f2acb6d83b1cde99579537734823949792e51d1aed1ecd1c7b88670bf3ba12d1b746c8bb30
+Description: debug symbols for ros-one-pr2-gazebo-plugins
+Build-Ids: 01e37851f3c717e3f72cf27527e70c3c6f6ccd5e c8555b6de7d50d72c5a77239c18f787e801a7902
+
+Package: ros-one-pr2-gazebo-plugins
+Architecture: amd64
+Version: 2.1.0-2025.01.07.15.15
+Priority: optional
+Section: misc
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Installed-Size: 757
+Depends: libboost-thread1.74.0 (>= 1.74.0), libc6 (>= 2.34), libgazebo11 (>= 11.10.2+dfsg), libgcc-s1 (>= 3.3.1), libsdformat9-9 (>= 9.7.0+ds), libstdc++6 (>= 11), libtinyxml2.6.2v5 (>= 2.6.2), liborocos-kdl1.5, ros-one-angles, ros-one-cv-bridge, ros-one-diagnostic-msgs, ros-one-diagnostic-updater, ros-one-gazebo-msgs, ros-one-gazebo-plugins, ros-one-gazebo-ros, ros-one-geometry-msgs, ros-one-image-transport, ros-one-message-generation, ros-one-message-runtime, ros-one-nav-msgs, ros-one-polled-camera, ros-one-pr2-controller-manager, ros-one-pr2-hardware-interface, ros-one-pr2-mechanism-model, ros-one-pr2-msgs, ros-one-roscpp, ros-one-rospy, ros-one-sensor-msgs, ros-one-std-msgs, ros-one-tf, ros-one-urdf
+Filename: ./ros-one-pr2-gazebo-plugins_2.1.0-2025.01.07.15.15_amd64.deb
+Size: 153616
+MD5sum: 3c0809156b2ba89983c2b117ebe24fa6
+SHA1: dce2dfdfd5c20ea5dc4b39704f19a68eb1fca2f4
+SHA256: 7770c43364a38c667b968cfb02ec70a564925b57342a1922b449977525bb0578
+SHA512: 4c8165ec350b28954a1cba908e4304f433ddc1aa4af8edb3076112db2d52255a814f8b1c2ba5976fe1d8e9bbdb63e63ce4d7f5bbbad4dbcfe98a06c062c777b6
+Homepage: http://ros.org/wiki/pr2_gazebo_plugins
+Description: Gazebo Plugins for various PR2-specific sensors and actuators on the robot.
+
+Package: ros-one-pr2-gazebo
+Architecture: amd64
+Version: 2.1.0-2025.01.07.15.38
+Priority: optional
+Section: misc
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Installed-Size: 103
+Depends: gazebo, ros-one-diagnostic-aggregator, ros-one-fingertip-pressure, ros-one-gazebo-plugins, ros-one-gazebo-ros, ros-one-geometry-msgs, ros-one-image-proc, ros-one-joint-trajectory-action, ros-one-pr2-controller-configuration-gazebo, ros-one-pr2-controller-manager, ros-one-pr2-dashboard-aggregator, ros-one-pr2-description, ros-one-pr2-gazebo-plugins, ros-one-pr2-gripper-action, ros-one-pr2-head-action, ros-one-pr2-mechanism-controllers, ros-one-pr2-msgs, ros-one-robot-mechanism-controllers, ros-one-robot-pose-ekf, ros-one-robot-state-publisher, ros-one-rospy, ros-one-rostopic, ros-one-single-joint-position-action, ros-one-std-msgs, ros-one-stereo-image-proc, ros-one-tf2-ros, ros-one-topic-tools, ros-one-xacro
+Filename: ./ros-one-pr2-gazebo_2.1.0-2025.01.07.15.38_amd64.deb
+Size: 16122
+MD5sum: 6951c3a6325d78ecf25d265f5a7e792e
+SHA1: b7507a6853256021d082df23fee9ce80b804c372
+SHA256: ce0f5e041b1076c6848545dea1fbcf427af78e2366c7a77243a994af38354d9e
+SHA512: ca212d193670382d58b7f6311ef49b6a759b321e05b844d1658201fd63af5df5318082d2219ed1c74a98e61c63634e88d25e12c6861e13c6931612fe5c698e94
+Homepage: http://ros.org/wiki/pr2_gazebo
+Description: Launch scripts for simulating the PR2 in gazebo.
+ The simulation equivalent of pr2.launch is found here. pr2_fingertip_pressure_contact_translator produces the same ROS topics as fingertip_pressure package for simulated PR2.
+
+Package: ros-one-pr2-mannequin-mode
+Architecture: amd64
+Version: 0.6.2-1-ge915eff-2025.01.07.15.18
+Priority: optional
+Section: misc
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Installed-Size: 65
+Depends: ros-one-pr2-controller-manager, ros-one-pr2-controllers-msgs, ros-one-trajectory-msgs
+Filename: ./ros-one-pr2-mannequin-mode_0.6.2-1-ge915eff-2025.01.07.15.18_amd64.deb
+Size: 26480
+MD5sum: 5592d1de6e86549a2e46902f9bf60df7
+SHA1: ad4963550e7bfa47f588d43c98d6056fb63399f9
+SHA256: b73b55e6ee6c3018176e25987c5aa28438933f7fdcc41d67714b3d1e6d28676a
+SHA512: 567db65ceb291064fdb5e6f35f13651c4ff8b362cfb98ead82b5f1f3c7583d381717ac55c14f09602c97066e842d99ff1bf123c9ff73dcb37e99476ea58ddae9
+Homepage: http://wiki.ros.org/pr2_mannequin_mode
+Description: The pr2_mannequin_mode package
+
+Package: ros-one-pr2-move-base
+Architecture: amd64
+Version: 0-2025.01.07.15.19
+Priority: optional
+Section: misc
+Maintainer: David Feil-Seifer <dave@cse.unr.edu>
+Installed-Size: 40
+Depends: ros-one-actionlib, ros-one-actionlib-msgs, ros-one-dynamic-reconfigure, ros-one-move-base-msgs, ros-one-pr2-common-action-msgs, ros-one-pr2-controllers-msgs, ros-one-pr2-msgs, ros-one-rospy
+Filename: ./ros-one-pr2-move-base_0-2025.01.07.15.19_amd64.deb
+Size: 8614
+MD5sum: 639fc0cd0a6f2b1f1274754753813fe4
+SHA1: f8311e6225d4e10e2b003efe0efc0fc4f80b1683
+SHA256: 48f7e278cfbbcd793cfef8b8731774e951f3dae98c6ed88ecd7257d5d82f5690
+SHA512: 8477b477ae3f8e16b068488dd65b4a4e4dda9e7c88fb90a0d463c17844c5e62e3f59f525faa7db4189fff3a9a23a8f56c89f172a91f40e5d8608e3f93dcbc4e4
+Homepage: http://ros.org/wiki/pr2_move_base
+Description: pr2_move_base
+
+Package: ros-one-pr2-moveit-config
+Architecture: amd64
+Version: 0.7.3-5-gf7a1e35-2025.01.07.15.20
+Priority: optional
+Section: misc
+Maintainer: MoveIt Setup Assistant <assistant@moveit.ros.org>
+Installed-Size: 218
+Depends: ros-one-joint-state-publisher, ros-one-moveit-ros-move-group, ros-one-pr2-description, ros-one-pr2-moveit-plugins, ros-one-robot-state-publisher
+Filename: ./ros-one-pr2-moveit-config_0.7.3-5-gf7a1e35-2025.01.07.15.20_amd64.deb
+Size: 20474
+MD5sum: eb8cd30a5c1e14c6779b0c4e8d717771
+SHA1: dcd59992bc8851b1d466c477ed60531c18ede18d
+SHA256: e281944e453437114d1f98480fe6dd63593d651ff4118796a7c28db45a11fce1
+SHA512: b05d92567c76dc5ac6fd1b53ab5588b27722ed5792894459c4280ac021e1faa9b624e6a5a2a819a12c705b56e58752856193e93912eafd3436515ac4e5a636e1
+Homepage: http://moveit.ros.org/
+Description: An automatically generated package with all the configuration and launch files for using the pr2 with the MoveIt Motion Planning Framework
+
+Package: ros-one-pr2-moveit-plugins-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0.7.3-5-gf7a1e35-2025.01.07.15.20
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-pr2-moveit-plugins
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Installed-Size: 5087
+Depends: ros-one-pr2-moveit-plugins (= 0.7.3-5-gf7a1e35-2025.01.07.15.20)
+Filename: ./ros-one-pr2-moveit-plugins-dbgsym_0.7.3-5-gf7a1e35-2025.01.07.15.20_amd64.ddeb
+Size: 4648008
+MD5sum: 7bec27e7cf1d3d96318808ab81beb5eb
+SHA1: 4ac5af4937d1c3e53ba8b6e6bdb7a24ff3f8a8f5
+SHA256: d1a069ef01a5a66c14340c72975f99d34c75fa43a83015d4ab7ed0e4f359c62f
+SHA512: 8a1b3d87f81212dc9c5e3f314eb5b1757c81463c606507c947305f35d60a67c4fd0bc20ad5ea5bc0bdadac435149ea934097d02a770790dafb5ccd7cab401fc8
+Description: debug symbols for ros-one-pr2-moveit-plugins
+Build-Ids: 1fa2b7eff3a456e73ca4c7b08c87150491c2588f a1ae95b5d36756a482fb53993f7668fcad7a7aab d743d78f5c085a74434251ecef20edef4ebcba9a
+
+Package: ros-one-pr2-moveit-plugins
+Architecture: amd64
+Version: 0.7.3-5-gf7a1e35-2025.01.07.15.20
+Priority: optional
+Section: misc
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Installed-Size: 1148
+Depends: libboost-thread1.74.0 (>= 1.74.0), libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), liborocos-kdl1.5 (>= 1.5.1), libstdc++6 (>= 11), libtinyxml2.6.2v5 (>= 2.6.2), liburdfdom-world3.0 (>= 3.0.1), ros-one-moveit-core, ros-one-actionlib, ros-one-angles, ros-one-control-msgs, ros-one-eigen-conversions, ros-one-kdl-parser, ros-one-pluginlib, ros-one-pr2-controllers-msgs, ros-one-pr2-mechanism-msgs, ros-one-rosconsole, ros-one-roscpp, ros-one-tf, ros-one-tf-conversions, ros-one-urdf
+Filename: ./ros-one-pr2-moveit-plugins_0.7.3-5-gf7a1e35-2025.01.07.15.20_amd64.deb
+Size: 267564
+MD5sum: b42d6d1acc47a1e122003d5c3860fd1f
+SHA1: 3d0bc5696ddf10532d1a855f21e8f50e4cd69067
+SHA256: 482fd20eecc9d85af39fc8adc22ffa326e267962cadd7d9c30c79f5497031210
+SHA512: 756849cfd3d5f234b30b099026f89954acb94d5353bfe966f44b61e2aabc2fb996c122a9c8afcdc4fb5a745a79816919d7d827eff48667da2b7a832e20f3ac3f
+Homepage: http://moveit.ros.org
+Description: PR2 specific plugins for MoveIt
+
+Package: ros-one-pr2-moveit-tests
+Architecture: amd64
+Version: 0.7.3-5-gf7a1e35-2025.01.07.15.22
+Priority: optional
+Section: misc
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Installed-Size: 29
+Depends: ros-one-moveit-core, ros-one-moveit-ros-planning, ros-one-pluginlib
+Filename: ./ros-one-pr2-moveit-tests_0.7.3-5-gf7a1e35-2025.01.07.15.22_amd64.deb
+Size: 5632
+MD5sum: 52ce529c8cb671875a35fd8e5cea1d1e
+SHA1: 5de19a471142f73087eadcb80672ea4a3c182cd2
+SHA256: 1dca1d8391e9c668eac70d7f2bc5f925e7aebbaf8b2007915a778d1fab3caedc
+SHA512: ece0238bdf5557f49fbd5f11436bc81dbc87fb2559a7b048896f2a596999a84d0c95a5c0f55463def576d20d981aa55f2f80c97de345992d5a8cffee389849fc
+Description: The pr2_moveit_tests package
+
+Package: ros-one-pr2-navigation-config
+Architecture: amd64
+Version: 0-2025.01.07.15.24
+Priority: optional
+Section: misc
+Maintainer: David Feil-Seifer <dave@cse.unr.edu>
+Installed-Size: 37
+Depends: ros-one-move-base
+Filename: ./ros-one-pr2-navigation-config_0-2025.01.07.15.24_amd64.deb
+Size: 7310
+MD5sum: f6b03d5adb0314647c7c273c36a9b392
+SHA1: f680392fdef1983cdb2f6ed4b36a72d79f72ace3
+SHA256: a6b6d79dd7533235e2a8ebd96e55d25695ba519d155e7252feeb705758e0ab73
+SHA512: 6410f5339f6fb341929b6ba2da4c694b97663d5776a0a7a9556e491438a77e2195daed036466984c09019596cb73541f57221606c27db0b0711fda7d3ecbf170
+Homepage: http://pr.willowgarage.com/wiki
+Description: This package holds common configuration files for running the
+
+Package: ros-one-pr2-navigation-global
+Architecture: amd64
+Version: 0-2025.01.07.15.25
+Priority: optional
+Section: misc
+Maintainer: David Feil-Seifer <dave@cse.unr.edu>
+Installed-Size: 81
+Depends: ros-one-amcl, ros-one-joint-trajectory-generator, ros-one-move-base, ros-one-pr2-machine, ros-one-pr2-move-base, ros-one-pr2-navigation-config, ros-one-pr2-tuck-arms-action, ros-one-topic-tools
+Filename: ./ros-one-pr2-navigation-global_0-2025.01.07.15.25_amd64.deb
+Size: 12268
+MD5sum: 662e336b07002bb1f6b2b7e73fd855d7
+SHA1: 7186b46bc76f96cfa8e98d25ae9b12c023de44a4
+SHA256: 46fd873546bfc19da1185a7f70033facc8e972958c51532721bbb409f6abd779
+SHA512: 52904b1ce39ab5548f9ad66b69f49f290c51526350c19670bed84ea7c795c75ba9b9ff5759a31fe0c6742a420bc0c53acc3d31225bc03a83834761451d7f8aad
+Homepage: http://ros.org/wiki/pr2_navigation_global
+Description: This package holds XML files for running the
+
+Package: ros-one-pr2-navigation-local
+Architecture: amd64
+Version: 0-2025.01.07.15.26
+Priority: optional
+Section: misc
+Maintainer: David Feil-Seifer <dave@cse.unr.edu>
+Installed-Size: 82
+Depends: ros-one-joint-trajectory-generator, ros-one-move-base, ros-one-pr2-machine, ros-one-pr2-move-base, ros-one-pr2-navigation-config, ros-one-pr2-tuck-arms-action, ros-one-topic-tools
+Filename: ./ros-one-pr2-navigation-local_0-2025.01.07.15.26_amd64.deb
+Size: 11986
+MD5sum: e515b5db91bf5edb6bfd2716db095340
+SHA1: 64f00ed10436fcea05cec8007403ee594f5fa005
+SHA256: 49dfdbeaefaa2ce660c2dba10f5650d6f398af9bf49a6f6e6da8be2edb6bb050
+SHA512: 3a26c2b7736792ffce18db780f2ccd66b1d35c2aa9b4c006ed0cc6c5e983fa85eb98ffd5998f90971bc01a1fc7e25b085aaaf30fd872125f152a557fb909731e
+Homepage: http://ros.org/wiki/pr2_navigation_local
+Description: This package holds xml files for running the
+
+Package: ros-one-pr2-navigation-perception-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2025.01.07.15.45
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-pr2-navigation-perception
+Maintainer: David Feil-Seifer <dave@cse.unr.edu>
+Installed-Size: 1201
+Depends: ros-one-pr2-navigation-perception (= 0-2025.01.07.15.45)
+Filename: ./ros-one-pr2-navigation-perception-dbgsym_0-2025.01.07.15.45_amd64.ddeb
+Size: 1176018
+MD5sum: 75d37cb2a934aa0859b5a0ded15c2cb4
+SHA1: 2450d286cef441b7e57a5482c1be02da9f31545e
+SHA256: 404d4cb90a8cbf976f9acfb427164af5be5075f2d16db33dd7b6a136157bd0a2
+SHA512: d5c1cf9e442a6b8e2cbd59ebfd34e77f8c916e646b1e664fb9bca2b3faf904eac73906ec8dcfd43f400ee56460587f4fb51ebc194bdec832907fc141df0fb921
+Description: debug symbols for ros-one-pr2-navigation-perception
+Build-Ids: ad59598d995b14097976f9549f8c48c974a18a0f
+
+Package: ros-one-pr2-navigation-perception
+Architecture: amd64
+Version: 0-2025.01.07.15.45
+Priority: optional
+Section: misc
+Maintainer: David Feil-Seifer <dave@cse.unr.edu>
+Installed-Size: 162
+Depends: libboost-thread1.74.0 (>= 1.74.0), libc6 (>= 2.14), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libpcl-common1.12 (>= 1.12.1+dfsg), libstdc++6 (>= 5.2), ros-one-dynamic-reconfigure, ros-one-filters, ros-one-geometry-msgs, ros-one-laser-filters, ros-one-laser-geometry, ros-one-laser-tilt-controller-filter, ros-one-message-filters, ros-one-pcl-ros, ros-one-pr2-machine, ros-one-pr2-navigation-self-filter, ros-one-roscpp, ros-one-semantic-point-annotator, ros-one-sensor-msgs, ros-one-tf, ros-one-topic-tools
+Filename: ./ros-one-pr2-navigation-perception_0-2025.01.07.15.45_amd64.deb
+Size: 46896
+MD5sum: 157933ab310d957a32058caefd882fd6
+SHA1: 4b97728c0b45ea817f63a8b64654cba49457f7e3
+SHA256: 7720438b950fa4f007e98e9104969eb2681249499dd0c3608f2295e3521cb89b
+SHA512: fe6ea198eac50d9653ac936be552481de9976b77f1e9085a8488bd78253113ddcd037c787e085e2356db7874e2ca35ad01d4338fe3893ee9a1a457c012d1858b
+Homepage: http://ros.org/wiki/pr2_navigation_perception
+Description: This package holds navigation-specific sensor configuration options and launch files for the PR2.
+
+Package: ros-one-pr2-navigation-self-filter-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2025.01.07.15.26
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-pr2-navigation-self-filter
+Maintainer: David Feil-Seifer <dave@cse.unr.edu>
+Installed-Size: 3834
+Depends: ros-one-pr2-navigation-self-filter (= 0-2025.01.07.15.26)
+Filename: ./ros-one-pr2-navigation-self-filter-dbgsym_0-2025.01.07.15.26_amd64.ddeb
+Size: 3655922
+MD5sum: 3c4cc17e35428763fc265bb0850eda5d
+SHA1: 61b747ac761fa3d8a29ded0317ede1e650fd63e8
+SHA256: a2c2a847e01ad7a91fa9556ca61a50343cfe16228b9c86c3d1249b17a3f1fecf
+SHA512: 817de51e61365dccbfbc17c90ad7bf4c22162ac4ccc172b16cc274dbded12ce08b1b5d3690d6edb5c14a1a5b5ee802d323009574d2472d62000aa7dcca41af9b
+Description: debug symbols for ros-one-pr2-navigation-self-filter
+Build-Ids: 31b0dde158f94ba5eaadc6061c78ebc2ebb01e90 7425a9e0ccf166966e988179784c6e577c231fa2 7850f1d0b22ac4d9f65179beda056b2f59e68082 dab9d7edc4814fbf809401d61e04c24bc3392a49
+
+Package: ros-one-pr2-navigation-self-filter
+Architecture: amd64
+Version: 0-2025.01.07.15.26
+Priority: optional
+Section: misc
+Maintainer: David Feil-Seifer <dave@cse.unr.edu>
+Installed-Size: 674
+Depends: libassimp5 (>= 5.2.2~ds0), libboost-filesystem1.74.0 (>= 1.74.0), libboost-thread1.74.0 (>= 1.74.0), libbullet3.06 (>= 3.06+dfsg), libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libpcl-common1.12 (>= 1.12.1+dfsg), libstdc++6 (>= 11), libtinyxml2.6.2v5 (>= 2.6.2), liburdfdom-world3.0 (>= 3.0.1), libassimp-dev, libbullet-dev, ros-one-filters, ros-one-pcl-ros, ros-one-resource-retriever, ros-one-roscpp, ros-one-sensor-msgs, ros-one-tf, ros-one-urdf, ros-one-visualization-msgs
+Filename: ./ros-one-pr2-navigation-self-filter_0-2025.01.07.15.26_amd64.deb
+Size: 188546
+MD5sum: ccd1a50149d2a667e6723c665c8affcb
+SHA1: 3a6d18ba324f169720b2f2b1ae5bb4ad640fd11b
+SHA256: 6a0eab9fe4f9ba5db770584b02017699bf30b25f568253c3770d791070ed07c6
+SHA512: 5b9cecc36da9f33a5d7b009d09022d983b37148bf0ed5c8aadf0b449163c508cd6afbc005593d709f5f73f68683619aad33ec43d253d263a69611cf8783d7695
+Homepage: http://ros.org/wiki/pr2_navigation_self_filter
+Description: Filters the robot's body out of point clouds.
+
+Package: ros-one-pr2-navigation-slam
+Architecture: amd64
+Version: 0-2025.01.07.15.29
+Priority: optional
+Section: misc
+Maintainer: David Feil-Seifer <dave@cse.unr.edu>
+Installed-Size: 82
+Depends: ros-one-gmapping, ros-one-joint-trajectory-generator, ros-one-move-base, ros-one-pr2-machine, ros-one-pr2-move-base, ros-one-pr2-navigation-config, ros-one-pr2-tuck-arms-action, ros-one-topic-tools
+Filename: ./ros-one-pr2-navigation-slam_0-2025.01.07.15.29_amd64.deb
+Size: 12246
+MD5sum: 0ed4f6a718879e4f177c422de34f1549
+SHA1: 1a1b53120f6d908e866630fe30650e870b9fe015
+SHA256: 1e696a666e3ea3afcd334aaff53e25bea730fcd8cae453a57a97c140a9f91de0
+SHA512: dbdecb955d296be567bb852c5a54fb2fe57ef9ad190fe11ace3be2f04f70703767de9808f01f3f6a076a72e529da8f64cb8f99a89b24b380739017e2eac3e89a
+Homepage: http://ros.org/wiki/pr2_navigation_slam
+Description: This package holds launch files for running the
+
+Package: ros-one-pr2-navigation-teleop
+Architecture: amd64
+Version: 0-2025.01.07.15.33
+Priority: optional
+Section: misc
+Maintainer: David Feil-Seifer <dave@cse.unr.edu>
+Installed-Size: 31
+Depends: ros-one-pr2-machine, ros-one-pr2-teleop, ros-one-topic-tools
+Filename: ./ros-one-pr2-navigation-teleop_0-2025.01.07.15.33_amd64.deb
+Size: 6090
+MD5sum: 26f1747c5d4c163efba18af42cdd3025
+SHA1: 9ce5914f47295d076b1353298ca6f2dbed867b52
+SHA256: 485bfa350aae039138782c13df03382b2f17f9bee4291559e8b655b6e46b4904
+SHA512: 97228cb7b5a703c26404e7918f776756ecf597a611eb0e2fd2fd5a0e3128547d48209212ad9313ae441b58df16c4fc1c0ef680e5f71c768e5b8df963fcab4e6e
+Homepage: http://ros.org/wiki/pr2_navigation_teleop
+Description: This package holds a special teleop configuration for the PR2 robot that should be used when running applications that use autonomous navigation.
+
+Package: ros-one-pr2-navigation
+Architecture: amd64
+Version: 0-2025.01.07.15.23
+Priority: optional
+Section: misc
+Maintainer: David Feil-Seifer <dave@cse.unr.edu>
+Installed-Size: 14
+Depends: ros-one-dwa-local-planner, ros-one-laser-tilt-controller-filter, ros-one-pr2-move-base, ros-one-pr2-navigation-config, ros-one-pr2-navigation-global, ros-one-pr2-navigation-local, ros-one-pr2-navigation-perception, ros-one-pr2-navigation-self-filter, ros-one-pr2-navigation-slam, ros-one-pr2-navigation-teleop, ros-one-semantic-point-annotator
+Filename: ./ros-one-pr2-navigation_0-2025.01.07.15.23_amd64.deb
+Size: 2270
+MD5sum: 1a63a1a7f265ca1dae87cf32423ddeab
+SHA1: 1791036ca80eee8fc7529cdbf6782d222c62220c
+SHA256: 17f8f88d2d224f2f827465c86deccc9a6c58aa7d23af40fd17056119394fcdfc
+SHA512: 03fb0c05ae98175803bdae814ee343864c8d62e2b9c1b9c1c7f1092c799beb8984cc1c78714e3d349bacd27c6660d2748535321be502b59ed97aba052bf5499b
+Homepage: http://ros.org/wiki/pr2_navigation
+Description: The pr2_navigation stack holds common configuration options for running the
+
+Package: ros-one-pr2-position-scripts
+Architecture: amd64
+Version: 0.6.2-1-ge915eff-2025.01.07.15.30
+Priority: optional
+Section: misc
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Installed-Size: 35
+Depends: ros-one-actionlib, ros-one-pr2-controllers-msgs, ros-one-rospy, ros-one-tf
+Filename: ./ros-one-pr2-position-scripts_0.6.2-1-ge915eff-2025.01.07.15.30_amd64.deb
+Size: 6630
+MD5sum: 5a50cd5406dc0d3df242dada00d91bb8
+SHA1: e08cb6d6a254506dc777cf2cb963ea27c37828aa
+SHA256: 02cdb0f259d5203cc633b8e683ad6e8cd792eb0d191887b47f7aa1f3b243d39b
+SHA512: 3f46f150ce4b290699d67b2959a65ed2b645fd1eaf8f21ed615c9274d36bc89cbfe8fc079b31ef6ea676a7e0cee7c08caf1d430d6110f59ac0fa671e9d69dec2
+Homepage: http://ros.org/wiki/pr2_position_scripts
+Description: This package contains a number of scripts to set various components of the PR2.
+ They are used in the apps to improve usablity.
+
+Package: ros-one-pr2-simulator
+Architecture: amd64
+Version: 2.1.0-2025.01.07.15.31
+Priority: optional
+Section: misc
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Installed-Size: 15
+Depends: ros-one-pr2-controller-configuration-gazebo, ros-one-pr2-gazebo, ros-one-pr2-gazebo-plugins
+Filename: ./ros-one-pr2-simulator_2.1.0-2025.01.07.15.31_amd64.deb
+Size: 2434
+MD5sum: 3542d01844798c1c06dbb19df92eae5c
+SHA1: 144285e19272c9d03e12e2e883dbbdab018f4f86
+SHA256: d12bf1476ad13679c87147ff4a199f4409159a5eb2435231aa2231337a2ea7d2
+SHA512: 7d6ccb46326b5f64195c77c84533454616490dd461045b28f8f7ec2a2ddaba75ea0eb4e5745fdd03af877c7333de13ac10823dbc17974f1e414c77fd5759c713
+Description: The pr2_simulator package
+
+Package: ros-one-pr2-teleop-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0.6.2-1-ge915eff-2025.01.07.15.31
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-pr2-teleop
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Installed-Size: 1145
+Depends: ros-one-pr2-teleop (= 0.6.2-1-ge915eff-2025.01.07.15.31)
+Filename: ./ros-one-pr2-teleop-dbgsym_0.6.2-1-ge915eff-2025.01.07.15.31_amd64.ddeb
+Size: 1047252
+MD5sum: 6b0c265805f7b76c3488923980a1767a
+SHA1: 136b3e566f485632b8f4289eb5a3a07c9d07f41f
+SHA256: d7e6745edf084ec457bf8d19aa37c3e2a72cc0c019ec008fa27ec31d9cea940d
+SHA512: 76b3cc0400da03b08583190f6f3671ea8b7276e0398009e654cbc8a1292ff695f368aadcf782c688c68b0d10dc6b3a780e88a6922a931557f341d6f23c84b32a
+Description: debug symbols for ros-one-pr2-teleop
+Build-Ids: 60d264fc317cf62f6f16a305a9fa9e34e098b96a 8d26c2d6702fd1c0d9dd72f560f613d05d4dc7b9 cedf4dae8bc30b4c31ac25975231d80127f3c6d6
+
+Package: ros-one-pr2-teleop-general-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0.6.2-1-ge915eff-2025.01.07.15.40
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-pr2-teleop-general
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Installed-Size: 4514
+Depends: ros-one-pr2-teleop-general (= 0.6.2-1-ge915eff-2025.01.07.15.40)
+Filename: ./ros-one-pr2-teleop-general-dbgsym_0.6.2-1-ge915eff-2025.01.07.15.40_amd64.ddeb
+Size: 4043780
+MD5sum: 913d559c3fa627b8f59e9dc66b92b430
+SHA1: c74ca334cd083886e91b8719b910c60ead375731
+SHA256: ffac9ba4ed9f27ac2dc3d2a6aa0562f571feb2ded61d1ceb3943ab333d96380d
+SHA512: 096dcf55c365f36311001f932168d0068b5d9edfb5df4ea017e2c6a56980185b5fc6e2fe429a38d55ec18dfa599a0a81b94978550ce14d7a388e1962f63bf34c
+Description: debug symbols for ros-one-pr2-teleop-general
+Build-Ids: 27781c12fbc4a707b77dc19542bf7d6ce45c7f06 3d6eab36986c94e49580ca63874e6b656a5126e3 a8b484103338c1e473a436662a86dfe0631a1ee0
+
+Package: ros-one-pr2-teleop-general
+Architecture: amd64
+Version: 0.6.2-1-ge915eff-2025.01.07.15.40
+Priority: optional
+Section: misc
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Installed-Size: 1277
+Depends: libboost-thread1.74.0 (>= 1.74.0), libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), liburdfdom-world3.0 (>= 3.0.1), ros-one-actionlib, ros-one-actionlib-msgs, ros-one-angles, ros-one-geometry-msgs, ros-one-moveit-msgs, ros-one-polled-camera, ros-one-pr2-arm-kinematics, ros-one-pr2-common-action-msgs, ros-one-pr2-controller-manager, ros-one-pr2-controllers-msgs, ros-one-pr2-mannequin-mode, ros-one-pr2-mechanism-msgs, ros-one-pr2-msgs, ros-one-pr2-tuck-arms-action, ros-one-ps3joy, ros-one-roscpp, ros-one-sensor-msgs, ros-one-tf, ros-one-urdf
+Filename: ./ros-one-pr2-teleop-general_0.6.2-1-ge915eff-2025.01.07.15.40_amd64.deb
+Size: 282812
+MD5sum: 10321062cc28ec7704e9ac8e4c3571e9
+SHA1: 4e2d1904d6b2f8c327647560df42089d1034e356
+SHA256: 8e5c60615a689ef54810db1596cfc4d288fc928b61021a5369077f458b00820b
+SHA512: 6ef555fb436d4c3caaa42e3020f44cc2a563e00d2a1907dc2ab718f3689c5ed8201990211356e5ca84fcaa2afd3fb111b2397689e5e0d19e24ce802eb51b8b2e
+Homepage: http://ros.org/wiki/pr2_teleop_general
+Description: pr2_teleop_general
+
+Package: ros-one-pr2-teleop
+Architecture: amd64
+Version: 0.6.2-1-ge915eff-2025.01.07.15.31
+Priority: optional
+Section: misc
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Installed-Size: 300
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-one-actionlib, ros-one-geometry-msgs, ros-one-pr2-controllers-msgs, ros-one-roscpp, ros-one-rospy, ros-one-std-msgs, ros-one-tf, ros-one-topic-tools
+Filename: ./ros-one-pr2-teleop_0.6.2-1-ge915eff-2025.01.07.15.31_amd64.deb
+Size: 91660
+MD5sum: eb06a0c37add6b413e8ade7222cb509c
+SHA1: 48b6095e7a62691d5ebe88696c93a791142d4c44
+SHA256: 494cc0a6642d1b45c4074e31e2bfd119cd84bbe98a93705b429d6dc40c7bdca6
+SHA512: 671e29588416966402938e614c824417bb6d84e0e4e9c3a2445638391f60effb0e3d3e79d0256427c608362e291fc5904028460aabe5c080ed45930f0f253a30
+Description: The pr2_teleop package
+
+Package: ros-one-pr2-tilt-laser-interface
+Architecture: amd64
+Version: 0.0.12-5-g7f34d64-2025.01.07.15.34
+Priority: optional
+Section: misc
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Installed-Size: 547
+Depends: libeigen3-dev, ros-one-actionlib, ros-one-actionlib-msgs, ros-one-laser-geometry, ros-one-message-runtime, ros-one-pcl-conversions, ros-one-pcl-ros, ros-one-pr2-msgs, ros-one-roscpp, ros-one-sensor-msgs
+Filename: ./ros-one-pr2-tilt-laser-interface_0.0.12-5-g7f34d64-2025.01.07.15.34_amd64.deb
+Size: 35066
+MD5sum: 35746e0b2b3bca668bb36918aabc5946
+SHA1: e787cb4ff2160bb33e969568fe32d743febc71d0
+SHA256: d783e979adb5cdda390d8cf6acfc49ba86ee30ad92b058beafa22e687aa138f0
+SHA512: b12574d9129210abbb82858a2fe88cc298850ce790ffce0a66b20907548a007634ac2ee9485bdcac7f8c87ae3d0c774381dceef69f371ffb31edc976f7806dbd
+Homepage: http://ros.org/wiki/pr2_tilt_laser
+Description: Provides a set of tools/actions for manipulating the pr2's tilting laser.
+ Simplifies previously complex tasks, such as fetching a single sweep, given a set of desired parameters for both the laser driver and tilting platform.
+
+Package: ros-one-pr2-tuck-arms-action
+Architecture: amd64
+Version: 0.0.12-5-g7f34d64-2025.01.07.15.36
+Priority: optional
+Section: misc
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Installed-Size: 84
+Depends: ros-one-actionlib, ros-one-actionlib-msgs, ros-one-pr2-common-action-msgs, ros-one-pr2-controllers-msgs, ros-one-rospy, ros-one-trajectory-msgs
+Filename: ./ros-one-pr2-tuck-arms-action_0.0.12-5-g7f34d64-2025.01.07.15.36_amd64.deb
+Size: 12718
+MD5sum: 6679144f7205b3b3c74de4f09a2a9ffd
+SHA1: 08009ee22db0fc1479ae6e21b818922f5901a367
+SHA256: 49686ec939cafc4a6374f2fb735431a8dd5d219098dea0df9f3d6e1bbf8a9e2f
+SHA512: 3f6bfec87125616f53db1afa0fb4675bd2d4f7c8aba2b59057276d0e27bfc852bee33a516e1ae5bb5a25569c7ead87982bac7bb8a980eb333fb2d4377e56aabd
+Homepage: http://wiki.ros.org/pr2_tuck_arms_action
+Description: The pr2_tuck_arms_action package
+
+Package: ros-one-pr2-tuckarm
+Architecture: amd64
+Version: 0.6.2-1-ge915eff-2025.01.07.15.37
+Priority: optional
+Section: misc
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Installed-Size: 126
+Depends: ros-one-pr2-mechanism-msgs, ros-one-pr2-tuck-arms-action, ros-one-rospy, ros-one-trajectory-msgs
+Filename: ./ros-one-pr2-tuckarm_0.6.2-1-ge915eff-2025.01.07.15.37_amd64.deb
+Size: 94244
+MD5sum: adaaab7a9742681eaeb9159cbd0463f8
+SHA1: a3e77db0152da9bb5126d95637c5cdf7cfebfd84
+SHA256: ea5a01f1531e85a14c99159271f5046a205360c089f047f87d661ca6f95aaca7
+SHA512: 494c999531fd8b2b8de5b404edd2ba5276bf5de48c697d9161511cd3b28ebd112a2bbfdee763100ee6d24130c5d343254ba77831a1ae869512b83957a7edfd1e
+Homepage: http://ros.org/wiki/pr2_tuckarm
+Description: Tucks the arms of the PR2 robot into a safe position for moving the base of the robot.
+ This also moves the arms out of the view of the tilting laser scanner, as much as possible.
+
+Package: ros-one-ps3joy-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2025.01.07.15.40
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-ps3joy
+Maintainer: Jonathan Bohren <jbo@jhu.edu>
+Installed-Size: 23
+Depends: ros-one-ps3joy (= 0-2025.01.07.15.40)
+Filename: ./ros-one-ps3joy-dbgsym_0-2025.01.07.15.40_amd64.ddeb
+Size: 8072
+MD5sum: 0e63c9129b50bb558014ab94e57e8312
+SHA1: 3b0da530f1d050f33cfb678dd6cb9d10421bc8bf
+SHA256: 68ab83a3bff14be3dedf59bb88819907009d1b767cb8bdf5a66c1214276a350a
+SHA512: f070ade7f5b13dacf8c3fc75e2245efc581af38739b626f98fb028c292e9ab26f3aa598df78141e34809facd32486b6630ac1d00d77ff023fbb1259ae3486000
+Description: debug symbols for ros-one-ps3joy
+Build-Ids: 5a16ec560f726053cf06cfb939b7cb77e881f66f
+
+Package: ros-one-ps3joy
+Architecture: amd64
+Version: 0-2025.01.07.15.40
+Priority: optional
+Section: misc
+Maintainer: Jonathan Bohren <jbo@jhu.edu>
+Installed-Size: 98
+Depends: libc6 (>= 2.34), libusb-0.1-4 (>= 2:0.1.12), bluez, joystick, libusb-dev, python3-bluez, ros-one-diagnostic-msgs, ros-one-rosgraph, ros-one-rospy, ros-one-sensor-msgs
+Filename: ./ros-one-ps3joy_0-2025.01.07.15.40_amd64.deb
+Size: 18334
+MD5sum: 05fb3e5abfbb52fcabdacfd7fc052f04
+SHA1: 46035350bcd7d846e05ebe8cab6ac1da3b90f3db
+SHA256: 9b4dd5db40a6aeeb20045350182234855b8b0054c39e90d873272f10c3281bbb
+SHA512: 0d19f2471ada14eb2952a784d18aaad56a922cbe11566ee3fe55fe362c48c437a16b1cdf54309c3f31c317601dbd59b51c1f0b125cd1c80d316a525572183a55
+Homepage: http://www.ros.org/wiki/ps3joy
+Description: Playstation 3 SIXAXIS or DUAL SHOCK 3 joystick driver.
+ Driver for the Sony PlayStation 3 SIXAXIS or DUAL SHOCK 3 joysticks. In its current state, this driver is not compatible with the use of other Bluetooth HID devices. The driver listens for a connection on the HID ports, starts the joystick streaming data, and passes the data to the Linux uinput device so that it shows up as a normal joystick.
+
+Package: ros-one-semantic-point-annotator-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2025.01.07.15.42
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-semantic-point-annotator
+Maintainer: David Feil-Seifer <dave@cse.unr.edu>
+Installed-Size: 2915
+Depends: ros-one-semantic-point-annotator (= 0-2025.01.07.15.42)
+Filename: ./ros-one-semantic-point-annotator-dbgsym_0-2025.01.07.15.42_amd64.ddeb
+Size: 2836992
+MD5sum: f4098b7c4498918e29bb3fe9ee713238
+SHA1: 98d1ba3f3630df0cb1a334697ec9e6f4774087c9
+SHA256: aef740c7d07fd7404b9ce040b73790f62a04d16ef0f50d226ee049d9f33b4596
+SHA512: d1afffd2455a7415b382849595c6253a14f98f7cf6302b7e67dfbfc72e63be5d0233dce57a7850b41ddb33ce13b1c5f0ec35be467aeee3a99e1391c7816a5f63
+Description: debug symbols for ros-one-semantic-point-annotator
+Build-Ids: 4b00d146a1edc0d3269c4f27d35c2f803bb263da
+
+Package: ros-one-semantic-point-annotator
+Architecture: amd64
+Version: 0-2025.01.07.15.42
+Priority: optional
+Section: misc
+Maintainer: David Feil-Seifer <dave@cse.unr.edu>
+Installed-Size: 317
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libpcl-common1.12 (>= 1.12.1+dfsg), libstdc++6 (>= 11), libeigen3-dev, ros-one-pcl-ros, ros-one-roscpp, ros-one-tf
+Filename: ./ros-one-semantic-point-annotator_0-2025.01.07.15.42_amd64.deb
+Size: 100544
+MD5sum: 7591dc5dc82364a44c0fec9f7c2c8d8e
+SHA1: 4e4b69a6df5cd97b05b0b26a9110faca131d5a67
+SHA256: 96cd29f2ded28e0bf54e4980fe19852f4637bf8912f1c614baf44484ccca348b
+SHA512: 67778b7f862f123f5f6311571eff565b8fa4b96010f3484ddc6c983396eb731650999120ea486c285f85c623d735a2177256432e4f5da1519b72d6ba657caf5c
+Homepage: http://pr.willowgarage.com
+Description: A node which annotates 3D point cloud data with semantic labels.
+
+Package: ros-one-spacenav-node-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2025.01.07.15.47
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-spacenav-node
+Maintainer: Jonathan Bohren <jbo@jhu.edu>
+Installed-Size: 305
+Depends: ros-one-spacenav-node (= 0-2025.01.07.15.47)
+Filename: ./ros-one-spacenav-node-dbgsym_0-2025.01.07.15.47_amd64.ddeb
+Size: 278520
+MD5sum: bff48d3bc49bc680ccff9a4ec1523028
+SHA1: 66cef27d10d91abf834214eb52c1365ed662171e
+SHA256: 1968adfc62de42c1014c4bce4cbd06aa085ed358a55dd5ead2402701e5ab3552
+SHA512: 59481f5ed176492692482ba32a1ba0049b52692743735b8073093238e17264768823fe80905f4642b29e5cb608c31a73123a75510b44dad53f6f71910d0640f4
+Description: debug symbols for ros-one-spacenav-node
+Build-Ids: 64e7594ad1ae2f1590b6378db3fb15db73b42d38
+
+Package: ros-one-spacenav-node
+Architecture: amd64
+Version: 0-2025.01.07.15.47
+Priority: optional
+Section: misc
+Maintainer: Jonathan Bohren <jbo@jhu.edu>
+Installed-Size: 88
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libspnav0 (>= 0.2.2), libstdc++6 (>= 11), libspnav-dev, libx11-dev, ros-one-geometry-msgs, ros-one-roscpp, ros-one-sensor-msgs, spacenavd
+Filename: ./ros-one-spacenav-node_0-2025.01.07.15.47_amd64.deb
+Size: 23988
+MD5sum: d51ef3e62e7caae1c81fa1b07654c156
+SHA1: 1908a3f2b5d1b60d379882d8e0184efb188af8e1
+SHA256: 0d772f40f664fb2140081c75969617871993b9060f4d12b2bf9dbf75750ed1e5
+SHA512: d0b0be1c772d955b0bbcb57ff80c1e63be344f8d8ac6afd46c990a739c41d6a2abe70bb4e33bf3f599f12e70aee1d4c036ace98d5b3b9cfb6b6702676c945343
+Homepage: http://www.ros.org/wiki/spacenav_node
+Description: ROS interface to the 3Dconnexion SpaceNavigator 6DOF joystick.
+
+Package: ros-one-wiimote-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2025.01.07.15.48
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-wiimote
+Maintainer: Jonathan Bohren <jbo@jhu.edu>
+Installed-Size: 674
+Depends: ros-one-wiimote (= 0-2025.01.07.15.48)
+Filename: ./ros-one-wiimote-dbgsym_0-2025.01.07.15.48_amd64.ddeb
+Size: 613990
+MD5sum: af778a7b55d7327e1c87e72dd3dfdfac
+SHA1: f2cf31785c38511a2e6c0fc03acbea9c8999cc1d
+SHA256: 082954905a3dc7f28326227245576098328159bb29da0f71995ad8d49df1170f
+SHA512: b9cd504bb6473aae87ae5553ce19201028120bff6381b0dcbb0181e28953e4759a0ebea0b50601b353013fb70cfe89b7d0dc7ce86410d73d1b2b970c0715e2fb
+Description: debug symbols for ros-one-wiimote
+Build-Ids: bec2650f9cf55f388672dfdb4765da5ebe7dce49
+
+Package: ros-one-wiimote
+Architecture: amd64
+Version: 0-2025.01.07.15.48
+Priority: optional
+Section: misc
+Maintainer: Jonathan Bohren <jbo@jhu.edu>
+Installed-Size: 584
+Depends: libbluetooth3 (>= 4.91), libc6 (>= 2.34), libcwiid1 (>= 0.6.00+svn201), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libcwiid-dev, python3-numpy, ros-one-geometry-msgs, ros-one-message-runtime, ros-one-roscpp, ros-one-roslib, ros-one-rospy, ros-one-sensor-msgs, ros-one-std-msgs, ros-one-std-srvs
+Filename: ./ros-one-wiimote_0-2025.01.07.15.48_amd64.deb
+Size: 110796
+MD5sum: 1dadcbdffd3ea951d268ef54709864ff
+SHA1: b6a6d06995600f3fca44fb48eaf29caed1b601c5
+SHA256: 38e3945b2f2f6822fca6642a4b572ca0032cf73093dd148e1cf13781a524c20e
+SHA512: b3fa2173eb6ff4cfd39fd2f070b86c04f55abcbfd072721e58956db0bb6bea7936b742c231e55373610f21cfe602a08df348a7a944f217184c0a617025b89cc3
+Homepage: http://www.ros.org/wiki/wiimote
+Description: The wiimote package allows ROS nodes to communicate with a Nintendo Wiimote and its related peripherals, including the Nunchuk, Motion Plus, and (experimentally) the Classic.
+ The package implements a ROS node that uses Bluetooth to communicate with the Wiimote device, obtaining accelerometer and gyro data, the state of LEDs, the IR camera, rumble (vibrator), buttons, joystick, and battery state. The node additionally enables ROS nodes to control the Wiimote's LEDs and vibration for feedback to the human Wiimote operator. LEDs and vibration may be switched on and off, or made to operate according to a timed pattern.
+
+Package: ros-one-willow-maps
+Architecture: amd64
+Version: 1.0.3-1-g45e3424-2025.01.07.15.49
+Priority: optional
+Section: misc
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Installed-Size: 29691
+Filename: ./ros-one-willow-maps_1.0.3-1-g45e3424-2025.01.07.15.49_amd64.deb
+Size: 1612746
+MD5sum: 67075cacbeffc89688cb39dc51cf8fe6
+SHA1: e06533ea7937c172a0627fe9f06b94f5fbf92e82
+SHA256: 7d4e63c87033d2287e38dd80ee2a3bd90f34d28ad6ab3ed35ce10bad31603b04
+SHA512: 39b1f0ada74ffb08ed3900c3d5e819e6b9ff5bd48bcadcc82589ca548399e2ee610025e7f3dad7f506eaae7ea6896c6e7fc223db9349b024c9e2d7c722c8fba5
+Homepage: http://pr.willowgarage.com/wiki/willow_maps
+Description: Holds maps of Willow Garage that can be used for a number of different applications.
+

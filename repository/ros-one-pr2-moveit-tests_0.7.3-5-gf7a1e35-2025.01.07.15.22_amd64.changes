@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Sun, 06 Oct 2019 00:00:00 -0000
+Source: ros-one-pr2-moveit-tests
+Binary: ros-one-pr2-moveit-tests
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.7.3-5-gf7a1e35-2025.01.07.15.22
+Distribution: jammy
+Urgency: high
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Changed-By: Bence Magyar <bence.magyar.robotics@gmail.com>
+Description:
+ ros-one-pr2-moveit-tests - The pr2_moveit_tests package
+Changes:
+ ros-one-pr2-moveit-tests (0.7.3-5-gf7a1e35-2025.01.07.15.22) jammy; urgency=high
+ .
+   * Remove KDL plugin test (has changed API in MoveIt)
+   * Contributors: Robert Haschke
+Checksums-Sha1:
+ 74f1715f8ecceea56a864009df42682ff53e9cde 23571 ros-one-pr2-moveit-tests_0.7.3-5-gf7a1e35-2025.01.07.15.22_amd64.buildinfo
+ 5de19a471142f73087eadcb80672ea4a3c182cd2 5632 ros-one-pr2-moveit-tests_0.7.3-5-gf7a1e35-2025.01.07.15.22_amd64.deb
+Checksums-Sha256:
+ 7c03bda4be000c36a2bbf50460ee581116412e416d0af549978fbd0356627ad0 23571 ros-one-pr2-moveit-tests_0.7.3-5-gf7a1e35-2025.01.07.15.22_amd64.buildinfo
+ 1dca1d8391e9c668eac70d7f2bc5f925e7aebbaf8b2007915a778d1fab3caedc 5632 ros-one-pr2-moveit-tests_0.7.3-5-gf7a1e35-2025.01.07.15.22_amd64.deb
+Files:
+ 809a384e0dd88930d010d4620cc9fd09 23571 misc optional ros-one-pr2-moveit-tests_0.7.3-5-gf7a1e35-2025.01.07.15.22_amd64.buildinfo
+ 52ce529c8cb671875a35fd8e5cea1d1e 5632 misc optional ros-one-pr2-moveit-tests_0.7.3-5-gf7a1e35-2025.01.07.15.22_amd64.deb

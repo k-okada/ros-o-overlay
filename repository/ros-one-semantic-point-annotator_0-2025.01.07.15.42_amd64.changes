@@ -1,0 +1,36 @@
+Format: 1.8
+Date: Wed, 18 May 2022 00:00:00 -0000
+Source: ros-one-semantic-point-annotator
+Binary: ros-one-semantic-point-annotator
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.07.15.42
+Distribution: jammy
+Urgency: high
+Maintainer: David Feil-Seifer <dave@cse.unr.edu>
+Changed-By: David Feil-Seifer <dave@cse.unr.edu>
+Description:
+ ros-one-semantic-point-annotator - A node which annotates 3D point cloud data with semantic labels.
+Changes:
+ ros-one-semantic-point-annotator (0-2025.01.07.15.42) jammy; urgency=high
+ .
+   * fix build in noetic (#44 <https://github.com/pr2/pr2_navigation/issues/44>)
+     I'm not claiming that any of these packages work as they should on
+     noetic. Claiming they worked on kinetic might be a stretch.
+   * updated CMakeLists.txt to fix CMake warnings and compile warnigns causing unstable build: (#38 <https://github.com/pr2/pr2_navigation/issues/38>)
+     * removed eigen dependency from semantic_point_aggregator
+     * added c++11 compile option to pr2_navigation_self_filter
+     * updated maintainer
+   * Contributors: David Feil-Seifer, Michael Görner
+Checksums-Sha1:
+ 98d1ba3f3630df0cb1a334697ec9e6f4774087c9 2836992 ros-one-semantic-point-annotator-dbgsym_0-2025.01.07.15.42_amd64.ddeb
+ 7d2a95de97988e6dd9352ac4ddb5570b414f0d0b 38100 ros-one-semantic-point-annotator_0-2025.01.07.15.42_amd64.buildinfo
+ 4e4b69a6df5cd97b05b0b26a9110faca131d5a67 100544 ros-one-semantic-point-annotator_0-2025.01.07.15.42_amd64.deb
+Checksums-Sha256:
+ aef740c7d07fd7404b9ce040b73790f62a04d16ef0f50d226ee049d9f33b4596 2836992 ros-one-semantic-point-annotator-dbgsym_0-2025.01.07.15.42_amd64.ddeb
+ 35ae573eb9afb47b2c106ef933ae0e473597043e9c01dd9b0e579e1a41f40759 38100 ros-one-semantic-point-annotator_0-2025.01.07.15.42_amd64.buildinfo
+ 96cd29f2ded28e0bf54e4980fe19852f4637bf8912f1c614baf44484ccca348b 100544 ros-one-semantic-point-annotator_0-2025.01.07.15.42_amd64.deb
+Files:
+ f4098b7c4498918e29bb3fe9ee713238 2836992 debug optional ros-one-semantic-point-annotator-dbgsym_0-2025.01.07.15.42_amd64.ddeb
+ 9b4d95c3cb47fea967717f4ee3375d51 38100 misc optional ros-one-semantic-point-annotator_0-2025.01.07.15.42_amd64.buildinfo
+ 7591dc5dc82364a44c0fec9f7c2c8d8e 100544 misc optional ros-one-semantic-point-annotator_0-2025.01.07.15.42_amd64.deb

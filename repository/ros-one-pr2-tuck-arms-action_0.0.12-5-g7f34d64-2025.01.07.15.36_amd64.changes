@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Thu, 20 May 2021 00:00:00 -0000
+Source: ros-one-pr2-tuck-arms-action
+Binary: ros-one-pr2-tuck-arms-action
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.0.12-5-g7f34d64-2025.01.07.15.36
+Distribution: jammy
+Urgency: high
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Changed-By: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Description:
+ ros-one-pr2-tuck-arms-action - The pr2_tuck_arms_action package
+Changes:
+ ros-one-pr2-tuck-arms-action (0.0.12-5-g7f34d64-2025.01.07.15.36) jammy; urgency=high
+ .
+   * Merge pull request #41 <https://github.com/PR2/pr2_common_actions//issues/41> from k-okada/fix_travis
+   * pr2_tuck_arms_action: fix for noetic with catkin_install_python, see http://wiki.ros.org/noetic/Migration and http://wiki.ros.org/UsingPython3/SourceCodeChanges
+   * 2to3 -w -f print .
+   * Contributors: Kei Okada
+Checksums-Sha1:
+ 68883baa31ef24fc3eaf10dcdff88e4f7a1e5504 13501 ros-one-pr2-tuck-arms-action_0.0.12-5-g7f34d64-2025.01.07.15.36_amd64.buildinfo
+ 08009ee22db0fc1479ae6e21b818922f5901a367 12718 ros-one-pr2-tuck-arms-action_0.0.12-5-g7f34d64-2025.01.07.15.36_amd64.deb
+Checksums-Sha256:
+ bfea47310f5bd89eea80e835837c4c2ada5a1f90bd8a929d60debaaeaf0f759a 13501 ros-one-pr2-tuck-arms-action_0.0.12-5-g7f34d64-2025.01.07.15.36_amd64.buildinfo
+ 49686ec939cafc4a6374f2fb735431a8dd5d219098dea0df9f3d6e1bbf8a9e2f 12718 ros-one-pr2-tuck-arms-action_0.0.12-5-g7f34d64-2025.01.07.15.36_amd64.deb
+Files:
+ c5e5e506acf3c986e7d73ba233dff0ff 13501 misc optional ros-one-pr2-tuck-arms-action_0.0.12-5-g7f34d64-2025.01.07.15.36_amd64.buildinfo
+ 6679144f7205b3b3c74de4f09a2a9ffd 12718 misc optional ros-one-pr2-tuck-arms-action_0.0.12-5-g7f34d64-2025.01.07.15.36_amd64.deb

@@ -1,0 +1,35 @@
+Format: 1.8
+Date: Tue, 12 Apr 2022 00:00:00 -0000
+Source: ros-one-pr2-gazebo
+Binary: ros-one-pr2-gazebo
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.1.0-2025.01.07.15.38
+Distribution: jammy
+Urgency: high
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Changed-By: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Description:
+ ros-one-pr2-gazebo - Launch scripts for simulating the PR2 in gazebo.
+Changes:
+ ros-one-pr2-gazebo (2.1.0-2025.01.07.15.38) jammy; urgency=high
+ .
+   * Support Noetic (#150 <https://github.com/pr2/pr2_simulator/issues/150>)
+     test/sensors/test_camera.py: noetic does not need to str(image.data) and rotate()
+     use bigger cup
+     relax hztest in hztest_pr2_scan.launch
+     fix for python3: 2to3 -w -f except .
+     fix for python3: 2to3 -w -f print .
+     remove rosdep update from CMakeLists.txt
+     hztest_pr2_image.launch: relax hzerror for caemra test
+     add robot_state_publisher to pr2_gazebo/package.xml
+   * Contributors: Kei Okada
+Checksums-Sha1:
+ a79445020185afe7d08c61f63d4bbe4008a03315 44626 ros-one-pr2-gazebo_2.1.0-2025.01.07.15.38_amd64.buildinfo
+ b7507a6853256021d082df23fee9ce80b804c372 16122 ros-one-pr2-gazebo_2.1.0-2025.01.07.15.38_amd64.deb
+Checksums-Sha256:
+ df106aeddd57ef5010ddce2370b53bb01bae2d0425855149d595a6a25d550d5c 44626 ros-one-pr2-gazebo_2.1.0-2025.01.07.15.38_amd64.buildinfo
+ ce0f5e041b1076c6848545dea1fbcf427af78e2366c7a77243a994af38354d9e 16122 ros-one-pr2-gazebo_2.1.0-2025.01.07.15.38_amd64.deb
+Files:
+ 698bbf52598bfcbe36b9123ba4174ba3 44626 misc optional ros-one-pr2-gazebo_2.1.0-2025.01.07.15.38_amd64.buildinfo
+ 6951c3a6325d78ecf25d265f5a7e792e 16122 misc optional ros-one-pr2-gazebo_2.1.0-2025.01.07.15.38_amd64.deb

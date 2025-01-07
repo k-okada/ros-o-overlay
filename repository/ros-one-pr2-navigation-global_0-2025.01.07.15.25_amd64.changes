@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Wed, 18 May 2022 00:00:00 -0000
+Source: ros-one-pr2-navigation-global
+Binary: ros-one-pr2-navigation-global
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.07.15.25
+Distribution: jammy
+Urgency: high
+Maintainer: David Feil-Seifer <dave@cse.unr.edu>
+Changed-By: David Feil-Seifer <dave@cse.unr.edu>
+Description:
+ ros-one-pr2-navigation-global - This package holds XML files for running the
+Changes:
+ ros-one-pr2-navigation-global (0-2025.01.07.15.25) jammy; urgency=high
+ .
+   * do not publish voxelmap (#43 <https://github.com/pr2/pr2_navigation/issues/43>)
+     This saves some cycles of the memcpy to the message
+     and thus frees some resources in move_base.
+   * updated maintainer
+   * fixed CMake files for compile in kinetic
+   * Contributors: Dave Feil-Seifer, Michael Görner
+Checksums-Sha1:
+ 30c76b48524f3ea70d39d85de719b5c399e6f95e 8155 ros-one-pr2-navigation-global_0-2025.01.07.15.25_amd64.buildinfo
+ 7186b46bc76f96cfa8e98d25ae9b12c023de44a4 12268 ros-one-pr2-navigation-global_0-2025.01.07.15.25_amd64.deb
+Checksums-Sha256:
+ 664d414a7ac19573e8465f7713a0c65bca228a94f597d3ad5b6a03e54d01d102 8155 ros-one-pr2-navigation-global_0-2025.01.07.15.25_amd64.buildinfo
+ 46fd873546bfc19da1185a7f70033facc8e972958c51532721bbb409f6abd779 12268 ros-one-pr2-navigation-global_0-2025.01.07.15.25_amd64.deb
+Files:
+ a78c356e7b5eec23bcd8af3e5b99ef20 8155 misc optional ros-one-pr2-navigation-global_0-2025.01.07.15.25_amd64.buildinfo
+ 662e336b07002bb1f6b2b7e73fd855d7 12268 misc optional ros-one-pr2-navigation-global_0-2025.01.07.15.25_amd64.deb
