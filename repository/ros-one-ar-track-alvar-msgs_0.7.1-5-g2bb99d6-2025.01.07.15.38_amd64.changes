@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Wed, 14 Jun 2017 00:00:00 -0000
+Source: ros-one-ar-track-alvar-msgs
+Binary: ros-one-ar-track-alvar-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.7.1-5-g2bb99d6-2025.01.07.15.38
+Distribution: jammy
+Urgency: high
+Maintainer: Scott Niekum <sniekum@cs.umass.edu>
+Changed-By: Scott Niekum <sniekum@cs.umass.edu>
+Description:
+ ros-one-ar-track-alvar-msgs - This package is a ROS wrapper for Alvar, an open source AR tag tr
+Changes:
+ ros-one-ar-track-alvar-msgs (0.7.1-5-g2bb99d6-2025.01.07.15.38) jammy; urgency=high
+ .
+   * [maintenance] Remove unnecessary metapkg.
+Checksums-Sha1:
+ b16d766d4f199c5f2504fa47b00986098c3b4ba3 9860 ros-one-ar-track-alvar-msgs_0.7.1-5-g2bb99d6-2025.01.07.15.38_amd64.buildinfo
+ 8a2ab28ff6e8d14e9be2e7e7bd7fe058a4feea88 19454 ros-one-ar-track-alvar-msgs_0.7.1-5-g2bb99d6-2025.01.07.15.38_amd64.deb
+Checksums-Sha256:
+ 588c53a89deb40364b0e1cb79188ebeed02755ccc280a8e41bb8957ba1c5c3b7 9860 ros-one-ar-track-alvar-msgs_0.7.1-5-g2bb99d6-2025.01.07.15.38_amd64.buildinfo
+ 92552c64812936d968b323d0f9488c5e36988d25cc285b80277e52daaebd777e 19454 ros-one-ar-track-alvar-msgs_0.7.1-5-g2bb99d6-2025.01.07.15.38_amd64.deb
+Files:
+ dde31272c0bdf2ad4a45c7cc5ed7099c 9860 misc optional ros-one-ar-track-alvar-msgs_0.7.1-5-g2bb99d6-2025.01.07.15.38_amd64.buildinfo
+ 11157221b10d4affe48c86491c4bacd8 19454 misc optional ros-one-ar-track-alvar-msgs_0.7.1-5-g2bb99d6-2025.01.07.15.38_amd64.deb

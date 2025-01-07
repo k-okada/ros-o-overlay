@@ -1,0 +1,30 @@
+ar_track_alvar_msgs:
+  ubuntu:
+  - ros-one-ar-track-alvar-msgs
+ar_track_alvar:
+  ubuntu:
+  - ros-one-ar-track-alvar
+camera_umd:
+  ubuntu:
+  - ros-one-camera-umd
+jpeg_streamer:
+  ubuntu:
+  - ros-one-jpeg-streamer
+jsk_roseus:
+  ubuntu:
+  - ros-one-jsk-roseus
+roseus:
+  ubuntu:
+  - ros-one-roseus
+roseus_mongo:
+  ubuntu:
+  - ros-one-roseus-mongo
+roseus_smach:
+  ubuntu:
+  - ros-one-roseus-smach
+roseus_tutorials:
+  ubuntu:
+  - ros-one-roseus-tutorials
+uvc_camera:
+  ubuntu:
+  - ros-one-uvc-camera

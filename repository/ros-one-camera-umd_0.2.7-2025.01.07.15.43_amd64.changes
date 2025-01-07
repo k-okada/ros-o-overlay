@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Thu, 30 Aug 2018 00:00:00 -0000
+Source: ros-one-camera-umd
+Binary: ros-one-camera-umd
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.2.7-2025.01.07.15.43
+Distribution: jammy
+Urgency: high
+Maintainer: Ken Tossell <ken@tossell.net>
+Changed-By: Ken Tossell <ken@tossell.net>
+Description:
+ ros-one-camera-umd - UMD camera metapackage
+Changes:
+ ros-one-camera-umd (0.2.7-2025.01.07.15.43) jammy; urgency=high
+Checksums-Sha1:
+ 0019474bc1b53abc2e8d2c776e15a54e8ea55080 8113 ros-one-camera-umd_0.2.7-2025.01.07.15.43_amd64.buildinfo
+ 5436f361d13eedd812041c06b1aa6a1cf110752c 2270 ros-one-camera-umd_0.2.7-2025.01.07.15.43_amd64.deb
+Checksums-Sha256:
+ f9391b41743a8a5d5210ce9d5d28b16a5126f7331537316f3c1eb54031293bb8 8113 ros-one-camera-umd_0.2.7-2025.01.07.15.43_amd64.buildinfo
+ 76fb1d7ac7f646331f652a45aaf74f77a0012069c32236010a14cdae4a7d9cff 2270 ros-one-camera-umd_0.2.7-2025.01.07.15.43_amd64.deb
+Files:
+ 8f3b71a795485ab3799fdcf38a63aeea 8113 misc optional ros-one-camera-umd_0.2.7-2025.01.07.15.43_amd64.buildinfo
+ d7b07d569030d1d51d2c32e277e8a38f 2270 misc optional ros-one-camera-umd_0.2.7-2025.01.07.15.43_amd64.deb

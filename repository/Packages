@@ -1,0 +1,250 @@
+Package: ros-one-ar-track-alvar-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0.7.1-5-g2bb99d6-2025.01.07.15.39
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-ar-track-alvar
+Maintainer: Scott Niekum <sniekum@cs.umass.edu>
+Installed-Size: 13527
+Depends: ros-one-ar-track-alvar (= 0.7.1-5-g2bb99d6-2025.01.07.15.39)
+Filename: ./ros-one-ar-track-alvar-dbgsym_0.7.1-5-g2bb99d6-2025.01.07.15.39_amd64.ddeb
+Size: 13025670
+MD5sum: d7f8ccedfbb78b1c203d13c989b8ea4f
+SHA1: 9c69f85e0ebc76c60f6670cc89ff3d68d45b1c9f
+SHA256: cdade2d0c22a6030d12d5a06c5883bc23468b3b35c51441b319a5e9dc31d7778
+SHA512: 0b47b391ba74a6d1102ce4eadf76d6728822125abe7a162a8ae6f1f2d0834183e9c51b29f5b30caaf15fae9d36f026375c542f0c9769eaab85fffe5e24093249
+Description: debug symbols for ros-one-ar-track-alvar
+Build-Ids: 5035ccde701e7ebdfac963858ffc994294d3a7ad 6d787dc4015edfd5950020287c9bdcfe549e2be1 7a5adfa86e010a52dd4f7ee435e3675b0001865b 825200edc76a89ee230707f3551cb4efa0824f05 8d72ab2a6216e1ca2eac445dca84a936fb97bf15 912aec93d415b6620fba5f9eafcc82cb91b0d789 b6693225b756f61cd700d63d01f2639200f4db45 b77821247763857cfbb37116d9f4897f64260a6b f9eb45fe3e85f8e2e4a76e154752b746b62d6f4f
+
+Package: ros-one-ar-track-alvar-msgs
+Architecture: amd64
+Version: 0.7.1-5-g2bb99d6-2025.01.07.15.38
+Priority: optional
+Section: misc
+Maintainer: Scott Niekum <sniekum@cs.umass.edu>
+Installed-Size: 164
+Depends: ros-one-geometry-msgs, ros-one-message-runtime, ros-one-std-msgs
+Filename: ./ros-one-ar-track-alvar-msgs_0.7.1-5-g2bb99d6-2025.01.07.15.38_amd64.deb
+Size: 19454
+MD5sum: 11157221b10d4affe48c86491c4bacd8
+SHA1: 8a2ab28ff6e8d14e9be2e7e7bd7fe058a4feea88
+SHA256: 92552c64812936d968b323d0f9488c5e36988d25cc285b80277e52daaebd777e
+SHA512: 93edd6cfaece71d8d888a12f23088b05acf6012f007eea906c2da40913ce2414a04b90055061fe1b2850b0a4ed40d28d6d25089a85dff3825d315b01af9ccc72
+Homepage: http://ros.org/wiki/ar_track_alvar
+Description: This package is a ROS wrapper for Alvar, an open source AR tag tracking library.
+
+Package: ros-one-ar-track-alvar
+Architecture: amd64
+Version: 0.7.1-5-g2bb99d6-2025.01.07.15.39
+Priority: optional
+Section: misc
+Maintainer: Scott Niekum <sniekum@cs.umass.edu>
+Installed-Size: 2169
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libopencv-calib3d4.5d (>= 4.5.4+dfsg), libopencv-core4.5d (>= 4.5.4+dfsg), libopencv-highgui4.5d (>= 4.5.4+dfsg), libopencv-imgcodecs4.5d (>= 4.5.4+dfsg), libopencv-imgproc4.5d (>= 4.5.4+dfsg), libpcl-common1.12 (>= 1.12.1+dfsg), libpcl-filters1.12 (>= 1.12.1+dfsg), libpcl-segmentation1.12 (>= 1.12.1+dfsg), libstdc++6 (>= 11), libtinyxml2.6.2v5 (>= 2.6.2), libtinyxml-dev, ros-one-ar-track-alvar-msgs, ros-one-cv-bridge, ros-one-dynamic-reconfigure, ros-one-geometry-msgs, ros-one-image-transport, ros-one-message-runtime, ros-one-pcl-conversions, ros-one-pcl-ros, ros-one-resource-retriever, ros-one-roscpp, ros-one-rospy, ros-one-sensor-msgs, ros-one-std-msgs, ros-one-tf, ros-one-tf2, ros-one-visualization-msgs
+Filename: ./ros-one-ar-track-alvar_0.7.1-5-g2bb99d6-2025.01.07.15.39_amd64.deb
+Size: 493828
+MD5sum: 8f5c1b0bacee905e5106584741a8b163
+SHA1: ec6e5a3eaed6ca17efc9ad958f6311b2cc837345
+SHA256: 85ba206d94a5d96f3b6a7448944bf5f00480e0ef86e508d2595582d55a4674e6
+SHA512: c0da2a21e3308b6239a9fd527122d116a68bd7b5aaeeee1ad4c3a623b140b8827bfd26fb5d99d9101ae00f325d66012f9ca5d681eb85d3da63be78143d754564
+Homepage: http://ros.org/wiki/ar_track_alvar
+Description: This package is a ROS wrapper for Alvar, an open source AR tag tracking library.
+
+Package: ros-one-camera-umd
+Architecture: amd64
+Version: 0.2.7-2025.01.07.15.43
+Priority: optional
+Section: misc
+Maintainer: Ken Tossell <ken@tossell.net>
+Installed-Size: 16
+Depends: ros-one-jpeg-streamer, ros-one-uvc-camera
+Filename: ./ros-one-camera-umd_0.2.7-2025.01.07.15.43_amd64.deb
+Size: 2270
+MD5sum: d7b07d569030d1d51d2c32e277e8a38f
+SHA1: 5436f361d13eedd812041c06b1aa6a1cf110752c
+SHA256: 76fb1d7ac7f646331f652a45aaf74f77a0012069c32236010a14cdae4a7d9cff
+SHA512: f31a644c238bf942db1dd27f5006168b707e17907e6379d3940387e24e6512efe5ccdf78a10aa131456fc4c536e69d0630e3621ea3937574ff97dd49f4211c92
+Description: UMD camera metapackage
+
+Package: ros-one-jpeg-streamer-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0.2.7-2025.01.07.15.43
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-jpeg-streamer
+Maintainer: Ken Tossell <ken@tossell.net>
+Installed-Size: 650
+Depends: ros-one-jpeg-streamer (= 0.2.7-2025.01.07.15.43)
+Filename: ./ros-one-jpeg-streamer-dbgsym_0.2.7-2025.01.07.15.43_amd64.ddeb
+Size: 593620
+MD5sum: e16b945afc06fd5454b093a65c66b159
+SHA1: c2c082d654ea8d7a4a47a532e932cc94d119acc3
+SHA256: 0dc946776f6e70cd954786a92aa709b2fb1fd495030d73ba000ae831dba7e5fd
+SHA512: b614c4eb7eff90be7dfcabc9762bbfbba620a1fd6d858b6f89d099c9a6fc7943c525c500b215c6fd76e79429626de0e7be10932825887eabe83c8a34215309b0
+Description: debug symbols for ros-one-jpeg-streamer
+Build-Ids: e3c18884eca823b5f7c643744c9286f49ec24edc
+
+Package: ros-one-jpeg-streamer
+Architecture: amd64
+Version: 0.2.7-2025.01.07.15.43
+Priority: optional
+Section: misc
+Maintainer: Ken Tossell <ken@tossell.net>
+Installed-Size: 203
+Depends: libboost-thread1.74.0 (>= 1.74.0), libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-one-image-transport, ros-one-roscpp, ros-one-sensor-msgs
+Filename: ./ros-one-jpeg-streamer_0.2.7-2025.01.07.15.43_amd64.deb
+Size: 68534
+MD5sum: 82a7964942af1687cf9c5827dc34c374
+SHA1: b4ae61d33d61c85d12f748f60061348c3f07c99f
+SHA256: 51d6e498c90ec9560a577c18334fed6fd1d8c1f257688c11234689fd253c1c78
+SHA512: 1242738a39f48c7b2e981bc28361cecb85af82c0c525a3ad9c8a4aa46e2fa9b7bad7959ca8499e642f6202eaeb8d5700defaad5a0b33fcf8fb9ed1207930a3d8
+Homepage: http://ros.org/wiki/jpeg_streamer
+Description: tools for streaming JPEG-formatted CompressedImage topics over HTTP
+
+Package: ros-one-jsk-roseus
+Architecture: amd64
+Version: 1.7.5-95-gb7ba716-2025.01.07.15.44
+Priority: optional
+Section: misc
+Maintainer: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Installed-Size: 15
+Depends: euslisp-dev, ros-one-geneus, ros-one-roseus
+Filename: ./ros-one-jsk-roseus_1.7.5-95-gb7ba716-2025.01.07.15.44_amd64.deb
+Size: 2730
+MD5sum: 7a35b83ed790eaaede7e536201a117a5
+SHA1: 26b2deff05d98c05e386fba7ef8b373cad2b213e
+SHA256: 664c7963e8e8a5b4352986afca8833f22bf00edf5a7fdfdb585c8f98c60159e2
+SHA512: 4af0de1e51f0a8c44572169231d3ebf26858c3c2f55adea59fcc1c3603716c4c3ab751193531e572e8383c64356bb4c16577f86d6dcff7283d515b4c2642e691
+Homepage: http://ros.org/wiki/jsk_roseus
+Description: Metapackage that contains roseus package for jsk-ros-pkg
+
+Package: ros-one-roseus-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 1.7.5-95-gb7ba716-2025.01.07.15.45
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-roseus
+Maintainer: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Installed-Size: 1604
+Depends: ros-one-roseus (= 1.7.5-95-gb7ba716-2025.01.07.15.45)
+Filename: ./ros-one-roseus-dbgsym_1.7.5-95-gb7ba716-2025.01.07.15.45_amd64.ddeb
+Size: 1491570
+MD5sum: 134d6775182b29e4d67d8fb99877d142
+SHA1: d7c681041f0de645ece757c4910a60ddfd5924ca
+SHA256: 3ea1f715ed3b9fd810203dd8234171412c74285973e626c6980063ef6ef28e0d
+SHA512: df991022a90a0cb5eafc7b765a224c13c4c9917ab8e5d9bd651721d58b29643bdad90b554aa571ac69e9b75c6266b8bb96b8e9f61aec40ad030ec795e9e89e13
+Description: debug symbols for ros-one-roseus
+Build-Ids: 08f9e0ea1b498490406d8fecab075c956700c52e 93dad56672855d2ccd0ce59b371b1731c3522f06 b98b88fb26de8de6d66b2d67e307f7267e6145cf
+
+Package: ros-one-roseus-mongo
+Architecture: amd64
+Version: 1.7.5-95-gb7ba716-2025.01.07.15.46
+Priority: optional
+Section: misc
+Maintainer: Yuki Furuta <furushchev@jsk.imi.i.u-tokyo.ac.jp>
+Installed-Size: 59
+Depends: ros-one-mongodb-store, ros-one-mongodb-store-msgs, ros-one-roseus
+Filename: ./ros-one-roseus-mongo_1.7.5-95-gb7ba716-2025.01.07.15.46_amd64.deb
+Size: 12780
+MD5sum: 800ac69f8d312e874fb32243cba63cc7
+SHA1: 5a8f024ed78fffed71930e9e412f4bfde3043863
+SHA256: dcc1198a03d2fde8e9a040df7dec4a4a8d5bd696b8266c0b98d13287db5d4f59
+SHA512: 43c25e2409301e669dd1cc2b299d1458ad5e5d4af99fab57254a19636dff61d79d07ba295dc5ebf086a8ec7957f0adfe9e5c282ba0af2e16e966d57865908a71
+Description: The roseus_mongo package
+
+Package: ros-one-roseus-smach
+Architecture: amd64
+Version: 1.7.5-95-gb7ba716-2025.01.07.15.47
+Priority: optional
+Section: misc
+Maintainer: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Installed-Size: 828
+Depends: euslisp-dev, ros-one-actionlib, ros-one-actionlib-tutorials, ros-one-message-runtime, ros-one-roseus, ros-one-rostest, ros-one-smach, ros-one-smach-msgs, ros-one-smach-ros, ros-one-std-msgs
+Filename: ./ros-one-roseus-smach_1.7.5-95-gb7ba716-2025.01.07.15.47_amd64.deb
+Size: 57016
+MD5sum: 5ad8e1ff7dd74473243df8c0e4256413
+SHA1: 1563a9cae074d6f80f046b4709b43b5025fa8f14
+SHA256: abe398170b232e9d955a8819b56ab46d0ddf43f56e1cfe926d72f0b5e6f40e22
+SHA512: 33256144c4dabfd562d100e89c99add6c7f4bca78d1ed2325f3db6196d087009af4851232dd4dfb760c0c55daf8a5195149bc0688f5f8c4cf545485097290d79
+Homepage: http://ros.org/wiki/roseus_smach
+Description: roseus_smach * Euslisp state machine class.
+ it will be moved. * Message publisher for visualizing current state by smach_viewer. * Simple pickle dump script for debugging state machine. * Execute state machine as a action server.
+
+Package: ros-one-roseus-tutorials
+Architecture: amd64
+Version: 1.7.5-95-gb7ba716-2025.01.07.15.49
+Priority: optional
+Section: misc
+Maintainer: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Installed-Size: 312
+Depends: ros-one-ar-track-alvar, ros-one-checkerboard-detector, ros-one-image-proc, ros-one-image-view2, ros-one-jsk-recognition-msgs, ros-one-opencv-apps, ros-one-posedetection-msgs, ros-one-uvc-camera, ros-one-visualization-msgs
+Filename: ./ros-one-roseus-tutorials_1.7.5-95-gb7ba716-2025.01.07.15.49_amd64.deb
+Size: 176626
+MD5sum: d74da8be6f3633d8d8489c90f77e2762
+SHA1: 71c57e36170089dfab1b8e06fda3fbd90ab85cd0
+SHA256: d118dd219f0161f8a7d026d6968c994debd971b426c04192dcbf92e5725aaa73
+SHA512: 7b6e74739845114d7adfcbedd6dcc016a06801a3ebcba0f36b360fbef5c3fa7086fa6a6471c9d1aa68b68eeb6b7a09df812352ad180d34072480956235a8399f
+Homepage: http://ros.org/wiki/roseus_tutorials
+Description: roseus_tutorials
+
+Package: ros-one-roseus
+Architecture: amd64
+Version: 1.7.5-95-gb7ba716-2025.01.07.15.45
+Priority: optional
+Section: misc
+Maintainer: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Installed-Size: 1209
+Depends: libboost-thread1.74.0 (>= 1.74.0), libc6 (>= 2.17), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), euslisp-dev, jskeus-dev, ros-one-actionlib, ros-one-actionlib-msgs, ros-one-actionlib-tutorials, ros-one-dynamic-reconfigure, ros-one-geneus, ros-one-geometry-msgs, ros-one-message-runtime, ros-one-rosbash, ros-one-roscpp, ros-one-roslang, ros-one-rosmsg, ros-one-rosnode, ros-one-rospack, ros-one-rostest, ros-one-sensor-msgs, ros-one-shape-msgs, ros-one-std-msgs, ros-one-std-srvs, ros-one-tf, ros-one-tf2-ros, ros-one-visualization-msgs
+Filename: ./ros-one-roseus_1.7.5-95-gb7ba716-2025.01.07.15.45_amd64.deb
+Size: 222974
+MD5sum: cb6a0d9e5404dbb2d7e016ab9fe5c679
+SHA1: 10c3eb8ffb449743dd1454cdee1c40b346377269
+SHA256: 3d9b71a32d35a559bdfd277fbf213f72c190c81a8bbc5f739593225f748f1395
+SHA512: 395e6346af6b9f8c640c4dad831c6a1ca6de63f37ea84e21cb26f64c0c97afdb185ad0b6e703de64b467d8728bde232ea4ecdccbc5f248da244a56040b7f8970
+Homepage: http://pr.willowgarage.com/wiki/roseus
+Description: EusLisp client for ROS Robot Operating System.
+
+Package: ros-one-uvc-camera-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0.2.7-2025.01.07.15.51
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-uvc-camera
+Maintainer: Ken Tossell <ken@tossell.net>
+Installed-Size: 2749
+Depends: ros-one-uvc-camera (= 0.2.7-2025.01.07.15.51)
+Filename: ./ros-one-uvc-camera-dbgsym_0.2.7-2025.01.07.15.51_amd64.ddeb
+Size: 2565712
+MD5sum: ed4169e563329d84995095c94e0ef44a
+SHA1: b89f164de44a853aacf21d4bc0202f85c9416994
+SHA256: a53ab271c85b958f2672cdff606093861b47e5bcd5713d143ce267c36a8a58aa
+SHA512: 2eb6bc559c974825b857a61fc258850c3f903ea1ef7b509a77c2b94b31665dacb1336b0eb5fa4a33940f1e3685221eedbd9c61419430962cdca516026d9dfd0e
+Description: debug symbols for ros-one-uvc-camera
+Build-Ids: 30b82d3a1ccb0baa2ac75e35657a863660a8920b 662a9438a70713438ae4a94a752470981279e8fa d16577fa10abe66b2ecf7db6b6b823ab51b311be
+
+Package: ros-one-uvc-camera
+Architecture: amd64
+Version: 0.2.7-2025.01.07.15.51
+Priority: optional
+Section: misc
+Maintainer: Ken Tossell <ken@tossell.net>
+Installed-Size: 487
+Depends: libboost-thread1.74.0 (>= 1.74.0), libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5.2), libv4l-0 (>= 0.5.0), libv4l-dev, ros-one-camera-info-manager, ros-one-image-transport, ros-one-nodelet, ros-one-roscpp, ros-one-sensor-msgs
+Filename: ./ros-one-uvc-camera_0.2.7-2025.01.07.15.51_amd64.deb
+Size: 105244
+MD5sum: be11c22ed6b5fddd87240d77a87d222a
+SHA1: 62f28dcc114ad06726fadcb7705b282c575781ab
+SHA256: 8dec2b844e3d26fcc2dc3d702fcf380fcdb2985d9fd8c2a49b81b90a5b9fccb6
+SHA512: c73bd7658ac8106c57f49a35091a2246f7430b96691572cd4b94982d4f9b0cd4ffe94b57f0c14f1d4f36b6d6a5a609600783109241e4536c6628e2bc81f6fc6b
+Homepage: http://ros.org/wiki/uvc_camera
+Description: A collection of node(let)s that stream images from USB cameras (UVC) and provide CameraInfo messages to consumers.
+ Includes a two-camera node that provides rough synchronization for stereo vision. Currently uses the base driver from Morgan Quigley's uvc_cam package.
+

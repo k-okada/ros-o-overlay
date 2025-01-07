@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Mon, 13 Dec 2021 00:00:00 -0000
+Source: ros-one-roseus-tutorials
+Binary: ros-one-roseus-tutorials
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.7.5-95-gb7ba716-2025.01.07.15.49
+Distribution: jammy
+Urgency: high
+Maintainer: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Changed-By: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Description:
+ ros-one-roseus-tutorials - roseus_tutorials
+Changes:
+ ros-one-roseus-tutorials (1.7.5-95-gb7ba716-2025.01.07.15.49) jammy; urgency=high
+ .
+   * [roseus_tutorials/src/aques-talk.l, roseus_tutorials/src/vision-action-example] add SoundRequest.volume for kinetic (#620 <https://github.com/jsk-ros-pkg/jsk_roseus/issues/620>)
+   * [roseus_tutorials/launch/hsi_color_filter.launch] Add euslisp example using hsi_color_filter (#615 <https://github.com/jsk-ros-pkg/jsk_roseus/issues/615>)
+   * Contributors: Kei Okada, Yuto Uchimi
+Checksums-Sha1:
+ 83525e816c2f2283161056f4c835e505f6b1f84c 53614 ros-one-roseus-tutorials_1.7.5-95-gb7ba716-2025.01.07.15.49_amd64.buildinfo
+ 71c57e36170089dfab1b8e06fda3fbd90ab85cd0 176626 ros-one-roseus-tutorials_1.7.5-95-gb7ba716-2025.01.07.15.49_amd64.deb
+Checksums-Sha256:
+ 21a18ec6dd7777d8eb7a3222073bf6be2ee4465904360df81164b34bc7bdca76 53614 ros-one-roseus-tutorials_1.7.5-95-gb7ba716-2025.01.07.15.49_amd64.buildinfo
+ d118dd219f0161f8a7d026d6968c994debd971b426c04192dcbf92e5725aaa73 176626 ros-one-roseus-tutorials_1.7.5-95-gb7ba716-2025.01.07.15.49_amd64.deb
+Files:
+ 692f4c3ce5ddeee8b807cc74adb6c687 53614 misc optional ros-one-roseus-tutorials_1.7.5-95-gb7ba716-2025.01.07.15.49_amd64.buildinfo
+ d74da8be6f3633d8d8489c90f77e2762 176626 misc optional ros-one-roseus-tutorials_1.7.5-95-gb7ba716-2025.01.07.15.49_amd64.deb

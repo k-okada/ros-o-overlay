@@ -1,0 +1,13 @@
+repositories:
+  ar_track_alvar:
+    type: git
+    url: https://github.com/ros-o/ar_track_alvar.git
+    version: 2bb99d6aa2dfdb87abd1b2905dd5086fa9e71ec6
+  camera_umd:
+    type: git
+    url: https://github.com/ros-drivers/camera_umd.git
+    version: 0.2.7
+  jsk_roseus:
+    type: git
+    url: https://github.com/jsk-ros-pkg/jsk_roseus.git
+    version: b7ba716c4f491fc37bffab38d7758ac9b34a0da8

@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Thu, 30 Aug 2018 00:00:00 -0000
+Source: ros-one-uvc-camera
+Binary: ros-one-uvc-camera
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.2.7-2025.01.07.15.51
+Distribution: jammy
+Urgency: high
+Maintainer: Ken Tossell <ken@tossell.net>
+Changed-By: Ken Tossell <ken@tossell.net>
+Description:
+ ros-one-uvc-camera - A collection of node(let)s that stream images from USB cameras (U
+Changes:
+ ros-one-uvc-camera (0.2.7-2025.01.07.15.51) jammy; urgency=high
+ .
+   * Merge pull request #22 <https://github.com/ros-drivers/camera_umd/issues/22> from ros-drivers/fix_9
+     install launch files
+   * install launch files
+   * Contributors: Kei Okada
+Checksums-Sha1:
+ b89f164de44a853aacf21d4bc0202f85c9416994 2565712 ros-one-uvc-camera-dbgsym_0.2.7-2025.01.07.15.51_amd64.ddeb
+ 78fe2e44c674d04ca2313fd06327a0bbe736daa0 19831 ros-one-uvc-camera_0.2.7-2025.01.07.15.51_amd64.buildinfo
+ 62f28dcc114ad06726fadcb7705b282c575781ab 105244 ros-one-uvc-camera_0.2.7-2025.01.07.15.51_amd64.deb
+Checksums-Sha256:
+ a53ab271c85b958f2672cdff606093861b47e5bcd5713d143ce267c36a8a58aa 2565712 ros-one-uvc-camera-dbgsym_0.2.7-2025.01.07.15.51_amd64.ddeb
+ 991d281d09f62e9386a6d5a3e243a755c5c0e61f2a95a81ee0b39b0b9e80c484 19831 ros-one-uvc-camera_0.2.7-2025.01.07.15.51_amd64.buildinfo
+ 8dec2b844e3d26fcc2dc3d702fcf380fcdb2985d9fd8c2a49b81b90a5b9fccb6 105244 ros-one-uvc-camera_0.2.7-2025.01.07.15.51_amd64.deb
+Files:
+ ed4169e563329d84995095c94e0ef44a 2565712 debug optional ros-one-uvc-camera-dbgsym_0.2.7-2025.01.07.15.51_amd64.ddeb
+ a2aad4a2ece8c0872abca17d3a987bbd 19831 misc optional ros-one-uvc-camera_0.2.7-2025.01.07.15.51_amd64.buildinfo
+ be11c22ed6b5fddd87240d77a87d222a 105244 misc optional ros-one-uvc-camera_0.2.7-2025.01.07.15.51_amd64.deb
