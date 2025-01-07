@@ -23,14 +23,6 @@ repositories:
     type: git
     url: https://github.com/ros-o/moveit_pr2.git
     version: obese-devel
-  jsk_pr2eus:
-    type: git
-    url: https://github.com/jsk-ros-pkg/jsk_pr2eus.git
-    version: master
-  jsk_model_tools:
-    type: git
-    url: https://github.com/jsk-ros-pkg/jsk_model_tools.git
-    version: master
   joystick_drivers:
     type: git
     url: https://github.com/ros-o/joystick_drivers.git

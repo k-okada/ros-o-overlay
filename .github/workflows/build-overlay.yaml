@@ -25,10 +25,8 @@ jobs:
           ROSDEP_SOURCE: |
             rosdep.yaml
             ${{ env.UPSTREAM }}/local.yaml
-            https://raw.githubusercontent.com/k-okada/ros-o-overlay/check_jsk_recognition-jammy-one/repository/local.yaml
           DEB_REPOSITORY: |
             deb [trusted=yes] ${{ env.UPSTREAM }} ./
-            deb [trusted=yes] https://raw.githubusercontent.com/k-okada/ros-o-overlay/check_jsk_recognition-jammy-one/repository ./
           SBUILD_CONF: "$enable_network = 1;"
           CONTINUE_ON_ERROR: true
           PUSH_ON_ERROR: true
