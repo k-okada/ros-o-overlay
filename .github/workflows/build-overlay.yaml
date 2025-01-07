@@ -16,7 +16,7 @@ jobs:
         run: |
           sudo add-apt-repository -y ppa:v-launchpad-jochen-sprickerhof-de/ros
           sudo apt update
-      - uses: k-okada/ros-deb-builder-action@roso-noble
+      - uses: v4hn/ros-deb-builder-action@roso-noble
         with:
           ROS_DISTRO: ${{ env.ROS_DISTRO }}
           DEB_DISTRO: ${{ env.DEB_DISTRO }}
