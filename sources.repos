@@ -25,12 +25,12 @@ repositories:
     version: obese-devel
   jsk_pr2eus:
     type: git
-    url: https://github.com/jsk-ros-pkg/jsk_pr2eus.git
-    version: master
+    url: https://github.com/k-okada/jsk_pr2eus.git
+    version: skip_circular_dependency
   jsk_model_tools:
     type: git
-    url: https://github.com/jsk-ros-pkg/jsk_model_tools.git
-    version: master
+    url: https://github.com/k-okada/jsk_model_tools.git
+    version: skip_test
   joystick_drivers:
     type: git
     url: https://github.com/ros-o/joystick_drivers.git
