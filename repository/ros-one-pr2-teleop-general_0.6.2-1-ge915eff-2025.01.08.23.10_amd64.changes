@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Fri, 21 May 2021 00:00:00 -0000
+Source: ros-one-pr2-teleop-general
+Binary: ros-one-pr2-teleop-general
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.6.2-1-ge915eff-2025.01.08.23.10
+Distribution: jammy
+Urgency: high
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Changed-By: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Description:
+ ros-one-pr2-teleop-general - pr2_teleop_general
+Changes:
+ ros-one-pr2-teleop-general (0.6.2-1-ge915eff-2025.01.08.23.10) jammy; urgency=high
+ .
+   * Merge pull request #40 <https://github.com/pr2/pr2_apps/issues/40> from k-okada/add_roslaunch_add_file_check
+     add test for roslaunch_add_file_check
+   * add test for roslaunch_add_file_check
+   * Contributors: Kei Okada, Michael Görner
+Checksums-Sha1:
+ 94d40cd017cf1ca4c0ce1b070557fc48d229c266 4043804 ros-one-pr2-teleop-general-dbgsym_0.6.2-1-ge915eff-2025.01.08.23.10_amd64.ddeb
+ 8cbcbd54c5998e2375bb2dc0485197fb947ff2c4 22416 ros-one-pr2-teleop-general_0.6.2-1-ge915eff-2025.01.08.23.10_amd64.buildinfo
+ b9d6ced411011edd40992f04a8ff2844ba36958b 282802 ros-one-pr2-teleop-general_0.6.2-1-ge915eff-2025.01.08.23.10_amd64.deb
+Checksums-Sha256:
+ 2203469fca3f7eb3117101091f8dccea34319d1fd1c2286e0bc53793707af92d 4043804 ros-one-pr2-teleop-general-dbgsym_0.6.2-1-ge915eff-2025.01.08.23.10_amd64.ddeb
+ d150685b8bf7725091ab1b0fc5a033e19f1c26b900e8bfb01ae3c969db07a5f7 22416 ros-one-pr2-teleop-general_0.6.2-1-ge915eff-2025.01.08.23.10_amd64.buildinfo
+ 7323eebfe6f5efc9d180d5af59bc7c458e6fa86af8136539036c68bb51a115ee 282802 ros-one-pr2-teleop-general_0.6.2-1-ge915eff-2025.01.08.23.10_amd64.deb
+Files:
+ 9a87b6f73f6f13ac373941af4cee7566 4043804 debug optional ros-one-pr2-teleop-general-dbgsym_0.6.2-1-ge915eff-2025.01.08.23.10_amd64.ddeb
+ 40c9fbc8089423897a5534b4642a6215 22416 misc optional ros-one-pr2-teleop-general_0.6.2-1-ge915eff-2025.01.08.23.10_amd64.buildinfo
+ 91548600d50ae9742f12c6fbf139788b 282802 misc optional ros-one-pr2-teleop-general_0.6.2-1-ge915eff-2025.01.08.23.10_amd64.deb

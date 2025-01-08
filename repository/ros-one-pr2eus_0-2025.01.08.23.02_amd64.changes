@@ -1,0 +1,61 @@
+Format: 1.8
+Date: Mon, 17 Apr 2023 00:00:00 -0000
+Source: ros-one-pr2eus
+Binary: ros-one-pr2eus
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.08.23.02
+Distribution: jammy
+Urgency: high
+Maintainer: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Changed-By: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Description:
+ ros-one-pr2eus - pr2eus
+Changes:
+ ros-one-pr2eus (0-2025.01.08.23.02) jammy; urgency=high
+ .
+   * Add *enable-roseus-resume* for installing default interruption handlers (#488 <https://github.com/jsk-ros-pkg/jsk_pr2eus/issues/488>)
+   * add displaying error msg method to controller-action-client in robot-interface.l (#460 <https://github.com/jsk-ros-pkg/jsk_pr2eus/issues/460>)
+   * .github/workflows/config.yml: enable noetic USE_DEB=true (#484 <https://github.com/jsk-ros-pkg/jsk_pr2eus/issues/484>)
+   * Enable either-or tuckarm-pose (#475 <https://github.com/jsk-ros-pkg/jsk_pr2eus/issues/475>)
+   * Allow to set :use-torso in :move-end-pos (#476 <https://github.com/jsk-ros-pkg/jsk_pr2eus/issues/476>)
+   * disable doc generation if 'catkin bt -vi --cmake-args -DDISABLE_DOCUMENTATION=1' (#482 <https://github.com/jsk-ros-pkg/jsk_pr2eus/issues/482>)
+   * [pr2eus] Fix typo :cmd-vel-topi -> :cmd-vel-topic (#480 <https://github.com/jsk-ros-pkg/jsk_pr2eus/issues/480>)
+   * [pr2eus] Add key topic-name to :send-cmd-vel-raw (#481 <https://github.com/jsk-ros-pkg/jsk_pr2eus/issues/481>)
+   * install pr2-send-joints.l pr2-read-state.l with original permissions (#478 <https://github.com/jsk-ros-pkg/jsk_pr2eus/issues/478>)
+   * integrate all .github/workflows/*.yml to config.yml, fix permission issue (#479 <https://github.com/jsk-ros-pkg/jsk_pr2eus/issues/479>)
+   * add dummy_jta_server.py and pr2-ri-jta for example code of (#460 <https://github.com/jsk-ros-pkg/jsk_pr2eus/issues/460>)
+   * add comments to :move-to (#470 <https://github.com/jsk-ros-pkg/jsk_pr2eus/issues/470>)
+   * add test code for (pr2) and (instance pr2-robot :init) (instance r2-sensor-robot :init) (#466 <https://github.com/jsk-ros-pkg/jsk_pr2eus/issues/466>)
+   * add test code for #461 <https://github.com/jsk-ros-pkg/jsk_pr2eus/issues/461> (#468 <https://github.com/jsk-ros-pkg/jsk_pr2eus/issues/468>)
+   * Fix wide_stereo camera model parameters (#426 <https://github.com/jsk-ros-pkg/jsk_pr2eus/issues/426>)
+   * [pr2eus] Fix doc about timeout of :wait-interpolation (#445 <https://github.com/jsk-ros-pkg/jsk_pr2eus/issues/445>)
+   * Add minjerk-interpolation to :angle-vector and :angle-vector-sequence (#456 <https://github.com/jsk-ros-pkg/jsk_pr2eus/issues/456>)
+   * [pr2eus] remove j_robotsound advertise (#450 <https://github.com/jsk-ros-pkg/jsk_pr2eus/issues/450>)
+   * [pr2eus] add provide in pr2-interface.l and pr2-utils.l (#441 <https://github.com/jsk-ros-pkg/jsk_pr2eus/issues/441>)
+   * fix to support namespace (#440 <https://github.com/jsk-ros-pkg/jsk_pr2eus/issues/440>)
+   * define methods for interpolation (#443 <https://github.com/jsk-ros-pkg/jsk_pr2eus/issues/443>)
+   * add pr2-ri-test-namespace.launch to check (#439 <https://github.com/jsk-ros-pkg/jsk_pr2eus/issues/439>)
+   * Fix bug on joint-move-over-180 with tm :fast (#422 <https://github.com/jsk-ros-pkg/jsk_pr2eus/issues/422>)
+   * add pr2-ri-test-simple.l to test/pr2-ri-test.launch (#430 <https://github.com/jsk-ros-pkg/jsk_pr2eus/issues/430>)
+   * Updates to :stop-motion (#402 <https://github.com/jsk-ros-pkg/jsk_pr2eus/issues/402>)
+   * Fix typo move-to-no-wait -> move-to-wait (#409 <https://github.com/jsk-ros-pkg/jsk_pr2eus/issues/409>)
+   * [pr2eus] Add correction arg in :move-to-wait (#418 <https://github.com/jsk-ros-pkg/jsk_pr2eus/issues/418>)
+   * Fix tilt laser mux topic for obstacle observation (#408 <https://github.com/jsk-ros-pkg/jsk_pr2eus/issues/408>)
+   * [pr2eus] add gain key in :stop-grasp (#415 <https://github.com/jsk-ros-pkg/jsk_pr2eus/issues/415>)
+   * Fix return value of clear-costmap function (#396 <https://github.com/jsk-ros-pkg/jsk_pr2eus/issues/396>)
+   * update :go-velocity, :go-pos-unsafe-no-wait for robto without move-base-trajectory-action, add :send-cmd-vel-raw (#425 <https://github.com/jsk-ros-pkg/jsk_pr2eus/issues/425>)
+   * enable to test navigation in gazebo for  pr2-ri-test (#420 <https://github.com/jsk-ros-pkg/jsk_pr2eus/issues/420>)
+   * Fix confirmation on warningp (#395 <https://github.com/jsk-ros-pkg/jsk_pr2eus/issues/395>)
+   * Avoid unnecessary convex-hull-3d calculation on :start-grasp (#398 <https://github.com/jsk-ros-pkg/jsk_pr2eus/issues/398>)
+   * Fix typos in comments about :fast utility in :angle-vector* (#391 <https://github.com/jsk-ros-pkg/jsk_pr2eus/issues/391>)
+   * Contributors: Aoi Nakane, Guilherme Affonso, Hiro Ishida, Kei Okada, Naoki Hiraoka, Naoto Tsukamoto, Naoya Yamaguchi, Shingo Kitagawa, Shumpei Wakabayashi, Shun Hasegawa, Yuto Uchimi, Taichi Higashide
+Checksums-Sha1:
+ 545eb1546102868839552d97aa2ba6f834b729d3 50761 ros-one-pr2eus_0-2025.01.08.23.02_amd64.buildinfo
+ c828b972814b29742fd7b6651f9162d771621b3e 1031790 ros-one-pr2eus_0-2025.01.08.23.02_amd64.deb
+Checksums-Sha256:
+ 48e18f6238e5ae8c02af314a600733c653cb2e9fdd02f84d77fc6c88cb621c6b 50761 ros-one-pr2eus_0-2025.01.08.23.02_amd64.buildinfo
+ 8523c335007a724eddc9d5b145351ba74f78af3ca0ccb45723904b43f6109702 1031790 ros-one-pr2eus_0-2025.01.08.23.02_amd64.deb
+Files:
+ 71da0c32107d023544434272cfe1aa67 50761 misc optional ros-one-pr2eus_0-2025.01.08.23.02_amd64.buildinfo
+ d97441040679aad0a7f9551815ee751a 1031790 misc optional ros-one-pr2eus_0-2025.01.08.23.02_amd64.deb

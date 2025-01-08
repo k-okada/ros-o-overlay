@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Wed, 18 May 2022 00:00:00 -0000
+Source: ros-one-pr2-navigation
+Binary: ros-one-pr2-navigation
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.08.22.44
+Distribution: jammy
+Urgency: high
+Maintainer: David Feil-Seifer <dave@cse.unr.edu>
+Changed-By: David Feil-Seifer <dave@cse.unr.edu>
+Description:
+ ros-one-pr2-navigation - The pr2_navigation stack holds common configuration options for r
+Changes:
+ ros-one-pr2-navigation (0-2025.01.08.22.44) jammy; urgency=high
+ .
+   * updated maintainer
+   * Contributors: Dave Feil-Seifer
+Checksums-Sha1:
+ e233e9f69cf33733046a397976ffd850c79ecb40 8117 ros-one-pr2-navigation_0-2025.01.08.22.44_amd64.buildinfo
+ 592369e686cc7073c0bfb27ce8d2431eb92226d9 2270 ros-one-pr2-navigation_0-2025.01.08.22.44_amd64.deb
+Checksums-Sha256:
+ d8ba4c55c2916eef638a4f659f8dd9f26a1c0142cc5203e884a9dded38d288e4 8117 ros-one-pr2-navigation_0-2025.01.08.22.44_amd64.buildinfo
+ 2acdfaf99e6bf9760166ac9a515b6620a6da6654f21241504005db284eb106d7 2270 ros-one-pr2-navigation_0-2025.01.08.22.44_amd64.deb
+Files:
+ 0a84a97673674b6be4b03261e84f8ea8 8117 misc optional ros-one-pr2-navigation_0-2025.01.08.22.44_amd64.buildinfo
+ e99a58695d7e77a394fec270eee26640 2270 misc optional ros-one-pr2-navigation_0-2025.01.08.22.44_amd64.deb

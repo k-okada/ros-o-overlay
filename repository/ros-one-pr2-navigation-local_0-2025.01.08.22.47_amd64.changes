@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Wed, 18 May 2022 00:00:00 -0000
+Source: ros-one-pr2-navigation-local
+Binary: ros-one-pr2-navigation-local
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.08.22.47
+Distribution: jammy
+Urgency: high
+Maintainer: David Feil-Seifer <dave@cse.unr.edu>
+Changed-By: David Feil-Seifer <dave@cse.unr.edu>
+Description:
+ ros-one-pr2-navigation-local - This package holds xml files for running the
+Changes:
+ ros-one-pr2-navigation-local (0-2025.01.08.22.47) jammy; urgency=high
+ .
+   * updated maintainer
+   * fixed CMake files for compile in kinetic
+   * Contributors: Dave Feil-Seifer
+Checksums-Sha1:
+ 7e48502f7be01fb23e2fc1748ccda6f1c1efcd81 8150 ros-one-pr2-navigation-local_0-2025.01.08.22.47_amd64.buildinfo
+ ce9ec01471532eaccd2be4f9b78d64a380858d05 11984 ros-one-pr2-navigation-local_0-2025.01.08.22.47_amd64.deb
+Checksums-Sha256:
+ 0dcf146ef0f9a79122425083b5c7dd9c223ff75fc8b93e5372f74ae32e6d8016 8150 ros-one-pr2-navigation-local_0-2025.01.08.22.47_amd64.buildinfo
+ ae275b29a9ba67d27022235863d4eac7c72f602ef571d0285048f8db5a96572e 11984 ros-one-pr2-navigation-local_0-2025.01.08.22.47_amd64.deb
+Files:
+ 400bde551b6c5df2d2f7281ace13432e 8150 misc optional ros-one-pr2-navigation-local_0-2025.01.08.22.47_amd64.buildinfo
+ 1d838cb28e293130b0bab0ab0268839a 11984 misc optional ros-one-pr2-navigation-local_0-2025.01.08.22.47_amd64.deb

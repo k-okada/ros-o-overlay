@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Tue, 12 Apr 2022 00:00:00 -0000
+Source: ros-one-pr2-simulator
+Binary: ros-one-pr2-simulator
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.1.0-2025.01.08.22.53
+Distribution: jammy
+Urgency: high
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Changed-By: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Description:
+ ros-one-pr2-simulator - The pr2_simulator package
+Changes:
+ ros-one-pr2-simulator (2.1.0-2025.01.08.22.53) jammy; urgency=high
+Checksums-Sha1:
+ ee83868a6c0126e869f7069bf257bfb55be1b308 8128 ros-one-pr2-simulator_2.1.0-2025.01.08.22.53_amd64.buildinfo
+ f66d4c2f6c913136b980b3b2c5205b00c3201c49 2428 ros-one-pr2-simulator_2.1.0-2025.01.08.22.53_amd64.deb
+Checksums-Sha256:
+ 7229f89019ae082f131181e81cf36137b0351f260ca3c4d8450c941c3dc8da7c 8128 ros-one-pr2-simulator_2.1.0-2025.01.08.22.53_amd64.buildinfo
+ 3e389ca4f38e55083d5c94c57dbb5f27d679437f2822aa888b76d85a37be34f6 2428 ros-one-pr2-simulator_2.1.0-2025.01.08.22.53_amd64.deb
+Files:
+ 05312fc0f78923093cf9b6c7e849a950 8128 misc optional ros-one-pr2-simulator_2.1.0-2025.01.08.22.53_amd64.buildinfo
+ 1e244c59f1b6cb5ebfe93114388ec586 2428 misc optional ros-one-pr2-simulator_2.1.0-2025.01.08.22.53_amd64.deb

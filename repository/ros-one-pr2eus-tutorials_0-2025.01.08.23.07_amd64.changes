@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Mon, 17 Apr 2023 00:00:00 -0000
+Source: ros-one-pr2eus-tutorials
+Binary: ros-one-pr2eus-tutorials
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.08.23.07
+Distribution: jammy
+Urgency: high
+Maintainer: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Changed-By: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Description:
+ ros-one-pr2eus-tutorials - pr2eus_tutorials
+Changes:
+ ros-one-pr2eus-tutorials (0-2025.01.08.23.07) jammy; urgency=high
+ .
+   * integrate all .github/workflows/*.yml to config.yml, fix permission issue (#479 <https://github.com/jsk-ros-pkg/jsk_pr2eus/issues/479>)
+   * [pr2eus_tutorials] fix look-at-hand (#472 <https://github.com/jsk-ros-pkg/jsk_pr2eus/issues/472>)
+   * [pr2eus_tutorials] fix pr2_tabletop.launch for remote PC (#459 <https://github.com/jsk-ros-pkg/jsk_pr2eus/issues/459>)
+   * [pr2eus_tutorials] Fix publish status (#464 <https://github.com/jsk-ros-pkg/jsk_pr2eus/issues/464>)
+   * [pr2eus_tutorials] Select grasp position via 2D image (#437 <https://github.com/jsk-ros-pkg/jsk_pr2eus/issues/437>)
+   * Update pr2eus_tutorials README (#389 <https://github.com/jsk-ros-pkg/jsk_pr2eus/issues/389>)
+   * [pr2eus_tutorials] add pr2 tabletop demo test and sample (#387 <https://github.com/jsk-ros-pkg/jsk_pr2eus/issues/387>)
+   * Contributors: Furushchev, Kei Okada, Naoto Tsukamoto, Naoya Yamaguchi, Shingo Kitagawa, Shumpei Wakabayashi, Yuki Furuta
+Checksums-Sha1:
+ 8f273660f14a3eb4ad9daca328baf22221baf7b0 30704 ros-one-pr2eus-tutorials_0-2025.01.08.23.07_amd64.buildinfo
+ 1e249b1b07e5fefebb378cf84724b8636876f9e4 26756 ros-one-pr2eus-tutorials_0-2025.01.08.23.07_amd64.deb
+Checksums-Sha256:
+ 65b8fe80fe3118e18fa60af32d620125f6bfea03a253ba43610997d4d1ab09f5 30704 ros-one-pr2eus-tutorials_0-2025.01.08.23.07_amd64.buildinfo
+ 0d09e6aedf00786a97765c997ee0a6c7140ce4c10280962a7bb441d609098c3f 26756 ros-one-pr2eus-tutorials_0-2025.01.08.23.07_amd64.deb
+Files:
+ 50ae344b1f2f1bca16b1c0142955ac71 30704 misc optional ros-one-pr2eus-tutorials_0-2025.01.08.23.07_amd64.buildinfo
+ 89b2b775e50c42847bd83941de0a3ea5 26756 misc optional ros-one-pr2eus-tutorials_0-2025.01.08.23.07_amd64.deb

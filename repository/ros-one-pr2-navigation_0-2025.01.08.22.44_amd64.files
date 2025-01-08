@@ -1,0 +1,13 @@
+drwxr-xr-x root/root         0 2022-05-18 00:00 ./
+drwxr-xr-x root/root         0 2022-05-18 00:00 ./opt/
+drwxr-xr-x root/root         0 2022-05-18 00:00 ./opt/ros/
+drwxr-xr-x root/root         0 2022-05-18 00:00 ./opt/ros/one/
+drwxr-xr-x root/root         0 2022-05-18 00:00 ./opt/ros/one/share/
+drwxr-xr-x root/root         0 2022-05-18 00:00 ./opt/ros/one/share/pr2_navigation/
+-rw-r--r-- root/root       977 2022-05-18 00:00 ./opt/ros/one/share/pr2_navigation/package.xml
+drwxr-xr-x root/root         0 2022-05-18 00:00 ./usr/
+drwxr-xr-x root/root         0 2022-05-18 00:00 ./usr/share/
+drwxr-xr-x root/root         0 2022-05-18 00:00 ./usr/share/doc/
+drwxr-xr-x root/root         0 2022-05-18 00:00 ./usr/share/doc/ros-one-pr2-navigation/
+-rw-r--r-- root/root       576 2022-05-18 00:00 ./usr/share/doc/ros-one-pr2-navigation/changelog.Debian.gz
+-rw-r--r-- root/root       283 2022-05-18 00:00 ./usr/share/doc/ros-one-pr2-navigation/copyright

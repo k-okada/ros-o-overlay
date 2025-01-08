@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Thu, 30 Nov 2023 00:00:00 -0000
+Source: ros-one-eus-assimp
+Binary: ros-one-eus-assimp
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.08.22.16
+Distribution: jammy
+Urgency: high
+Maintainer: Yohei Kakiuchi <youhei@jsk.imi.i.u-tokyo.ac.jp>
+Changed-By: Yohei Kakiuchi <youhei@jsk.imi.i.u-tokyo.ac.jp>
+Description:
+ ros-one-eus-assimp - eus_assimp
+Changes:
+ ros-one-eus-assimp (0-2025.01.08.22.16) jammy; urgency=high
+Checksums-Sha1:
+ 86f325c6df3227876ce58529f7dc9e1e4a586d36 141226 ros-one-eus-assimp-dbgsym_0-2025.01.08.22.16_amd64.ddeb
+ d661e8cb70bf170d2ddceb7c67c8ee19156c5865 17839 ros-one-eus-assimp_0-2025.01.08.22.16_amd64.buildinfo
+ 8b7255c76109a50d9e9a2c9931742ff91d17b85c 27638 ros-one-eus-assimp_0-2025.01.08.22.16_amd64.deb
+Checksums-Sha256:
+ bcd3dac008840e723941a12ed31d750f22ece18c63d142b367388aaf95fd4405 141226 ros-one-eus-assimp-dbgsym_0-2025.01.08.22.16_amd64.ddeb
+ 3b8ca845e815687901d1206fca55c3365bc478d5367e3f48f64e96b42c21ccb5 17839 ros-one-eus-assimp_0-2025.01.08.22.16_amd64.buildinfo
+ 9f5cdaf3796ef01619c2c441639b95b925f451e77870d74514b58ce838967bd8 27638 ros-one-eus-assimp_0-2025.01.08.22.16_amd64.deb
+Files:
+ 9e0af1b82cbb9d956c0509dd9b278c7b 141226 debug optional ros-one-eus-assimp-dbgsym_0-2025.01.08.22.16_amd64.ddeb
+ 33287c51428914451def9d31209e9634 17839 misc optional ros-one-eus-assimp_0-2025.01.08.22.16_amd64.buildinfo
+ a91e578f75a8c449c34fe1aa14fc99e1 27638 misc optional ros-one-eus-assimp_0-2025.01.08.22.16_amd64.deb

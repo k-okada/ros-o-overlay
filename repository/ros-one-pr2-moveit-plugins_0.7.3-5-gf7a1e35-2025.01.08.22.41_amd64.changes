@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Sun, 06 Oct 2019 00:00:00 -0000
+Source: ros-one-pr2-moveit-plugins
+Binary: ros-one-pr2-moveit-plugins
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.7.3-5-gf7a1e35-2025.01.08.22.41
+Distribution: jammy
+Urgency: high
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Changed-By: Bence Magyar <bence.magyar.robotics@gmail.com>
+Description:
+ ros-one-pr2-moveit-plugins - PR2 specific plugins for MoveIt
+Changes:
+ ros-one-pr2-moveit-plugins (0.7.3-5-gf7a1e35-2025.01.08.22.41) jammy; urgency=high
+ .
+   * [fix] Add missing package: angles
+   * Contributors: Robert Haschke
+Checksums-Sha1:
+ f496a382c6513da81ecfd19c08a7d4d4ef133c50 4648120 ros-one-pr2-moveit-plugins-dbgsym_0.7.3-5-gf7a1e35-2025.01.08.22.41_amd64.ddeb
+ 66b170fbf8cce0404cc01acfbe0db86177bf6f99 26043 ros-one-pr2-moveit-plugins_0.7.3-5-gf7a1e35-2025.01.08.22.41_amd64.buildinfo
+ 073a653ccac60976a5a43f5ea808efdccaa9eab3 267556 ros-one-pr2-moveit-plugins_0.7.3-5-gf7a1e35-2025.01.08.22.41_amd64.deb
+Checksums-Sha256:
+ 27edff1d7e962164167a74eb000392d8c3bfec936f6925731ecb9aff4116d2d9 4648120 ros-one-pr2-moveit-plugins-dbgsym_0.7.3-5-gf7a1e35-2025.01.08.22.41_amd64.ddeb
+ 77f871fd551bfc0f7fe52c944670356dac81cda8a7c10cfb7f2a225becdb0365 26043 ros-one-pr2-moveit-plugins_0.7.3-5-gf7a1e35-2025.01.08.22.41_amd64.buildinfo
+ e9720b8fa57d5d20d5c3a77a7c40307e23bfdac46c90221e4fe4fd9946726625 267556 ros-one-pr2-moveit-plugins_0.7.3-5-gf7a1e35-2025.01.08.22.41_amd64.deb
+Files:
+ 6af334387f0330c1ac1585d1aca5f9af 4648120 debug optional ros-one-pr2-moveit-plugins-dbgsym_0.7.3-5-gf7a1e35-2025.01.08.22.41_amd64.ddeb
+ 6fd4098b50bd5c5aba2a36ee0e70a91b 26043 misc optional ros-one-pr2-moveit-plugins_0.7.3-5-gf7a1e35-2025.01.08.22.41_amd64.buildinfo
+ 33c4603b8971198bb0e86cb648664900 267556 misc optional ros-one-pr2-moveit-plugins_0.7.3-5-gf7a1e35-2025.01.08.22.41_amd64.deb

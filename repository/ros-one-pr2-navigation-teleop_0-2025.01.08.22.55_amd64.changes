@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Wed, 18 May 2022 00:00:00 -0000
+Source: ros-one-pr2-navigation-teleop
+Binary: ros-one-pr2-navigation-teleop
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.08.22.55
+Distribution: jammy
+Urgency: high
+Maintainer: David Feil-Seifer <dave@cse.unr.edu>
+Changed-By: David Feil-Seifer <dave@cse.unr.edu>
+Description:
+ ros-one-pr2-navigation-teleop - This package holds a special teleop configuration for the PR2 rob
+Changes:
+ ros-one-pr2-navigation-teleop (0-2025.01.08.22.55) jammy; urgency=high
+ .
+   * updated maintainer
+   * fixed CMake files for compile in kinetic
+   * Contributors: Dave Feil-Seifer
+Checksums-Sha1:
+ 2d039c7dcf17808c6784c86ccf40d479efdd0a9f 18358 ros-one-pr2-navigation-teleop_0-2025.01.08.22.55_amd64.buildinfo
+ afa10826c99e3cbecda99b454dfd0555bac6312f 6078 ros-one-pr2-navigation-teleop_0-2025.01.08.22.55_amd64.deb
+Checksums-Sha256:
+ 1f3676b90aad628c5ec394275ab0c78d6499dd3d45d7cdbef02c70c5411b2f42 18358 ros-one-pr2-navigation-teleop_0-2025.01.08.22.55_amd64.buildinfo
+ d3f8bac7ed6b2a5bb88b5760eb944c2dfae84d29c8594fd129aaa5c58958ff45 6078 ros-one-pr2-navigation-teleop_0-2025.01.08.22.55_amd64.deb
+Files:
+ d1e9fbec03fe13db41ea2cb403026fde 18358 misc optional ros-one-pr2-navigation-teleop_0-2025.01.08.22.55_amd64.buildinfo
+ 3dcd0204aa60991c1438be75ca32277b 6078 misc optional ros-one-pr2-navigation-teleop_0-2025.01.08.22.55_amd64.deb

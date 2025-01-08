@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Thu, 20 May 2021 00:00:00 -0000
+Source: ros-one-pr2-tilt-laser-interface
+Binary: ros-one-pr2-tilt-laser-interface
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.0.12-5-g7f34d64-2025.01.08.22.56
+Distribution: jammy
+Urgency: high
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Changed-By: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Description:
+ ros-one-pr2-tilt-laser-interface - Provides a set of tools/actions for manipulating the pr2's tiltin
+Changes:
+ ros-one-pr2-tilt-laser-interface (0.0.12-5-g7f34d64-2025.01.08.22.56) jammy; urgency=high
+ .
+   * Merge pull request #39 <https://github.com/PR2/pr2_common_actions//issues/39> from lopsided98/remove-boost-signals
+     pr2_tilt_laser_interface: remove unused Boost signals dependency
+   * pr2_tilt_laser_interface: remove unused Boost signals dependency
+   * Contributors: Ben Wolsieffer, Michael Görner
+Checksums-Sha1:
+ 205a01f29ccefbcabdbdfb4705898dc6e0c2422d 38126 ros-one-pr2-tilt-laser-interface_0.0.12-5-g7f34d64-2025.01.08.22.56_amd64.buildinfo
+ 5927132a768750226e36eb1eaaa5be089250f707 35076 ros-one-pr2-tilt-laser-interface_0.0.12-5-g7f34d64-2025.01.08.22.56_amd64.deb
+Checksums-Sha256:
+ 77c46ed2fc1d23015b719a5c2d29445dba6c99bb98ebdb58dd1622f090631364 38126 ros-one-pr2-tilt-laser-interface_0.0.12-5-g7f34d64-2025.01.08.22.56_amd64.buildinfo
+ 39d26094c9deb81de4d8901114eaeacb7cf49eb9f7e9420a155f11ce374cb604 35076 ros-one-pr2-tilt-laser-interface_0.0.12-5-g7f34d64-2025.01.08.22.56_amd64.deb
+Files:
+ 6eef4f6f49a5345f6dd7787e649fbd0b 38126 misc optional ros-one-pr2-tilt-laser-interface_0.0.12-5-g7f34d64-2025.01.08.22.56_amd64.buildinfo
+ 434572126cb2043965d6eaa49927d442 35076 misc optional ros-one-pr2-tilt-laser-interface_0.0.12-5-g7f34d64-2025.01.08.22.56_amd64.deb

@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Thu, 30 Nov 2023 00:00:00 -0000
+Source: ros-one-jsk-model-tools
+Binary: ros-one-jsk-model-tools
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.08.22.27
+Distribution: jammy
+Urgency: high
+Maintainer: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Changed-By: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Description:
+ ros-one-jsk-model-tools - Metapackage that contains model_tools package for jsk-ros-pkg
+Changes:
+ ros-one-jsk-model-tools (0-2025.01.08.22.27) jammy; urgency=high
+Checksums-Sha1:
+ ee33fd7fabe4a2454ec69af8472ddf51397029e0 8122 ros-one-jsk-model-tools_0-2025.01.08.22.27_amd64.buildinfo
+ 47e21df145ef0d975f82b5cc8849faa33a8b3259 2174 ros-one-jsk-model-tools_0-2025.01.08.22.27_amd64.deb
+Checksums-Sha256:
+ 3636b60633a3cae9c078978556fd52738532631ca2aff6f9e6322a7c1d288460 8122 ros-one-jsk-model-tools_0-2025.01.08.22.27_amd64.buildinfo
+ 3de0eb526e4f6ac9ea02ef9550bcec4cb5770a238f054698484cf1a3d066b785 2174 ros-one-jsk-model-tools_0-2025.01.08.22.27_amd64.deb
+Files:
+ f56363fb01cb6200652e4b3f4cae9bdd 8122 misc optional ros-one-jsk-model-tools_0-2025.01.08.22.27_amd64.buildinfo
+ 5f18b82da2d15c38ef5226939592b079 2174 misc optional ros-one-jsk-model-tools_0-2025.01.08.22.27_amd64.deb

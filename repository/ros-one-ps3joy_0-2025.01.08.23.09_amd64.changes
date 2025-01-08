@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Mon, 12 Oct 2020 00:00:00 -0000
+Source: ros-one-ps3joy
+Binary: ros-one-ps3joy
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.08.23.09
+Distribution: jammy
+Urgency: high
+Maintainer: Jonathan Bohren <jbo@jhu.edu>
+Changed-By: Jonathan Bohren <jbo@jhu.edu>
+Description:
+ ros-one-ps3joy - Playstation 3 SIXAXIS or DUAL SHOCK 3 joystick driver.
+Changes:
+ ros-one-ps3joy (0-2025.01.08.23.09) jammy; urgency=high
+Checksums-Sha1:
+ 196065142a584a8d6cf914f3dd3380d29554256b 8072 ros-one-ps3joy-dbgsym_0-2025.01.08.23.09_amd64.ddeb
+ 57021979b73137ed1644d230fd967cf8b87b0c73 14713 ros-one-ps3joy_0-2025.01.08.23.09_amd64.buildinfo
+ 48bf6ba702a9f4dcb5353ea5da66a187ed2e3c64 18328 ros-one-ps3joy_0-2025.01.08.23.09_amd64.deb
+Checksums-Sha256:
+ 0f7c0c58d14d1f36241de67906427f03528bc53497591e8d6816f8bc25a8ff8d 8072 ros-one-ps3joy-dbgsym_0-2025.01.08.23.09_amd64.ddeb
+ 9dac3de6bb20dde1763bf40a03ee17e8158a770538197c9e15ff3cf7f656c17c 14713 ros-one-ps3joy_0-2025.01.08.23.09_amd64.buildinfo
+ f76cb3b3e82b51ae7c24e723302b19f8d41decdec3c212ae013c3aa1b04a4ee3 18328 ros-one-ps3joy_0-2025.01.08.23.09_amd64.deb
+Files:
+ 12e2b298d6496ad251f89e36a5debd18 8072 debug optional ros-one-ps3joy-dbgsym_0-2025.01.08.23.09_amd64.ddeb
+ 4ca8e4a91af29f3da859de626435fec1 14713 misc optional ros-one-ps3joy_0-2025.01.08.23.09_amd64.buildinfo
+ ca3cc05eb6288203fed4fa55b94c072a 18328 misc optional ros-one-ps3joy_0-2025.01.08.23.09_amd64.deb

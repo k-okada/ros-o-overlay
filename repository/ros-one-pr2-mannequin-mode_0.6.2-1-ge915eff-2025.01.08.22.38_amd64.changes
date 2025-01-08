@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Fri, 21 May 2021 00:00:00 -0000
+Source: ros-one-pr2-mannequin-mode
+Binary: ros-one-pr2-mannequin-mode
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.6.2-1-ge915eff-2025.01.08.22.38
+Distribution: jammy
+Urgency: high
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Changed-By: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Description:
+ ros-one-pr2-mannequin-mode - The pr2_mannequin_mode package
+Changes:
+ ros-one-pr2-mannequin-mode (0.6.2-1-ge915eff-2025.01.08.22.38) jammy; urgency=high
+ .
+   * Merge pull request #42 <https://github.com/pr2/pr2_apps/issues/42> from k-okada/fix_travis
+   * 2to3 -w -f print .
+   * Merge pull request #40 <https://github.com/pr2/pr2_apps/issues/40> from k-okada/add_roslaunch_add_file_check
+     add test for roslaunch_add_file_check
+   * Merge remote-tracking branch 'Affonso-Gui/fix_controllers_nohead' into add_roslaunch_add_file_check
+   * add test for roslaunch_add_file_check
+   * Use unspawner instead of stop on controllers_nohead
+   * Fix paths to config and launch on controllers_nohead
+   * Contributors: Guilherme Affonso, Kei Okada, Michael Görner
+Checksums-Sha1:
+ 4f1a71d6475cf39056619b30d2b4c2a78956c6d3 19934 ros-one-pr2-mannequin-mode_0.6.2-1-ge915eff-2025.01.08.22.38_amd64.buildinfo
+ b0c551b7f043f3d1e0fda07b218a6432bea7cf97 26474 ros-one-pr2-mannequin-mode_0.6.2-1-ge915eff-2025.01.08.22.38_amd64.deb
+Checksums-Sha256:
+ 4c7d7a3da4c391eaaf8f9bd2ee3f921ace6ae95980c0252d4474e176d567c279 19934 ros-one-pr2-mannequin-mode_0.6.2-1-ge915eff-2025.01.08.22.38_amd64.buildinfo
+ ac3cfd5ba0f89cd755adb2d6a875c3d2fb303a0de05ffa0a6a650c01df29df83 26474 ros-one-pr2-mannequin-mode_0.6.2-1-ge915eff-2025.01.08.22.38_amd64.deb
+Files:
+ 30447abdab68f588e77430a4668ab310 19934 misc optional ros-one-pr2-mannequin-mode_0.6.2-1-ge915eff-2025.01.08.22.38_amd64.buildinfo
+ c0fcfb5190a7a936935d5b6c8f6f4c12 26474 misc optional ros-one-pr2-mannequin-mode_0.6.2-1-ge915eff-2025.01.08.22.38_amd64.deb

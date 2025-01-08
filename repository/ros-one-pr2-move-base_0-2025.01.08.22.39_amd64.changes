@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Wed, 18 May 2022 00:00:00 -0000
+Source: ros-one-pr2-move-base
+Binary: ros-one-pr2-move-base
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.08.22.39
+Distribution: jammy
+Urgency: high
+Maintainer: David Feil-Seifer <dave@cse.unr.edu>
+Changed-By: David Feil-Seifer <dave@cse.unr.edu>
+Description:
+ ros-one-pr2-move-base - pr2_move_base
+Changes:
+ ros-one-pr2-move-base (0-2025.01.08.22.39) jammy; urgency=high
+ .
+   * update .travis.yml (#45 <https://github.com/pr2/pr2_navigation/issues/45>)
+ .
+       * 2to3 -w -f except .
+ .
+   * updated maintainer
+   * fixed CMake files for compile in kinetic
+   * Contributors: David Feil-Seifer, Kei Okada, Michael Görner
+Checksums-Sha1:
+ 1a000479c2ab6ee2d97b17430e0a582c78d12ba9 16188 ros-one-pr2-move-base_0-2025.01.08.22.39_amd64.buildinfo
+ 52044d26ec74955985d80b8c647273db794d08d0 8610 ros-one-pr2-move-base_0-2025.01.08.22.39_amd64.deb
+Checksums-Sha256:
+ 1df11360949e32cdf29bd6f9ec72dcd059146eff6cb11e08c38e3471974d603c 16188 ros-one-pr2-move-base_0-2025.01.08.22.39_amd64.buildinfo
+ e10f3dc318f24372c32214b1598ef47c77afbb80b0828f7d20ce488770a208e2 8610 ros-one-pr2-move-base_0-2025.01.08.22.39_amd64.deb
+Files:
+ cd6646d344d00fa026a2a5a5821e662e 16188 misc optional ros-one-pr2-move-base_0-2025.01.08.22.39_amd64.buildinfo
+ 208be2b08b9708f053df704be9bbd38f 8610 misc optional ros-one-pr2-move-base_0-2025.01.08.22.39_amd64.deb

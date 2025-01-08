@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Thu, 30 Nov 2023 00:00:00 -0000
+Source: ros-one-eusurdf
+Binary: ros-one-eusurdf
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.08.22.19
+Distribution: jammy
+Urgency: high
+Maintainer: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Changed-By: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Description:
+ ros-one-eusurdf - urdf models converted from euslisp
+Changes:
+ ros-one-eusurdf (0-2025.01.08.22.19) jammy; urgency=high
+Checksums-Sha1:
+ 783a1d86fd2953965d4043ce6ac898a47c60d22e 39867 ros-one-eusurdf_0-2025.01.08.22.19_amd64.buildinfo
+ 58a561e9bc320828c98c916ee7f588200430d096 5172876 ros-one-eusurdf_0-2025.01.08.22.19_amd64.deb
+Checksums-Sha256:
+ bb03e52e4e2e1b5a15e8a78901f26ebcb13a243198f074ab55d3a884f99c5030 39867 ros-one-eusurdf_0-2025.01.08.22.19_amd64.buildinfo
+ 4e97fcd686ac1f5c7a864cd39f7f6539d6731ebdcde8a4c40a792e8b37dd7c2d 5172876 ros-one-eusurdf_0-2025.01.08.22.19_amd64.deb
+Files:
+ 4210c64fb26f727c859b57ab8d681d62 39867 misc optional ros-one-eusurdf_0-2025.01.08.22.19_amd64.buildinfo
+ 8c57720a97f496e09b9532f9e70ae5a7 5172876 misc optional ros-one-eusurdf_0-2025.01.08.22.19_amd64.deb

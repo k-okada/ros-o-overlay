@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Fri, 21 May 2021 00:00:00 -0000
+Source: ros-one-pr2-apps
+Binary: ros-one-pr2-apps
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.6.2-1-ge915eff-2025.01.08.22.31
+Distribution: jammy
+Urgency: high
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Changed-By: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Description:
+ ros-one-pr2-apps - Basic applications for the PR2 robot
+Changes:
+ ros-one-pr2-apps (0.6.2-1-ge915eff-2025.01.08.22.31) jammy; urgency=high
+ .
+   * remove superfluous test_depends
+     catkin build complains about these in melodic
+   * Merge pull request #40 <https://github.com/pr2/pr2_apps/issues/40> from k-okada/add_roslaunch_add_file_check
+     add test for roslaunch_add_file_check
+   * add test for roslaunch_add_file_check
+   * Contributors: Kei Okada, Michael Görner, v4hn
+Checksums-Sha1:
+ 5b54ca5a4102fe475c26f34cf443c038065886b2 8147 ros-one-pr2-apps_0.6.2-1-ge915eff-2025.01.08.22.31_amd64.buildinfo
+ e73db69c8bbabef959031d334a734d8fe2b81a75 2374 ros-one-pr2-apps_0.6.2-1-ge915eff-2025.01.08.22.31_amd64.deb
+Checksums-Sha256:
+ 1174850ef74a5c1f1631cd18f4a1594d3106257edfd5e5ce8b3a47572631a2f9 8147 ros-one-pr2-apps_0.6.2-1-ge915eff-2025.01.08.22.31_amd64.buildinfo
+ 4f1dfa12ac3d2aca27e1eeba602c3303c7b0ac5e1f132b0539a7d952ceac27bf 2374 ros-one-pr2-apps_0.6.2-1-ge915eff-2025.01.08.22.31_amd64.deb
+Files:
+ a1b88874f2a0df47c3556b42c653d47f 8147 misc optional ros-one-pr2-apps_0.6.2-1-ge915eff-2025.01.08.22.31_amd64.buildinfo
+ 497d157491d4a3560a09368a4de89b0f 2374 misc optional ros-one-pr2-apps_0.6.2-1-ge915eff-2025.01.08.22.31_amd64.deb

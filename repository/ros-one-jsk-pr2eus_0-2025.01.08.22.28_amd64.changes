@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Mon, 17 Apr 2023 00:00:00 -0000
+Source: ros-one-jsk-pr2eus
+Binary: ros-one-jsk-pr2eus
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.08.22.28
+Distribution: jammy
+Urgency: high
+Maintainer: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Changed-By: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Description:
+ ros-one-jsk-pr2eus - Metapackage that contains robot eus client package for jsk-ros-pk
+Changes:
+ ros-one-jsk-pr2eus (0-2025.01.08.22.28) jammy; urgency=high
+Checksums-Sha1:
+ e926b39dfd951529346f49ef96600aeca4d7959e 8097 ros-one-jsk-pr2eus_0-2025.01.08.22.28_amd64.buildinfo
+ 5c1c787ff20774c04e97e09286301da1e002b0bd 2002 ros-one-jsk-pr2eus_0-2025.01.08.22.28_amd64.deb
+Checksums-Sha256:
+ 8151b823984317fa7884e455f307b0b1ee58775176a454c969d186cbba0ea17b 8097 ros-one-jsk-pr2eus_0-2025.01.08.22.28_amd64.buildinfo
+ e2d8978926091a910666f624404fa236becc1866c8bb793c1e922bc6e498a783 2002 ros-one-jsk-pr2eus_0-2025.01.08.22.28_amd64.deb
+Files:
+ d8b9ebb420725a918fcd8257c1231ebc 8097 misc optional ros-one-jsk-pr2eus_0-2025.01.08.22.28_amd64.buildinfo
+ 5dd7a73e611567e616c614c9eeeade95 2002 misc optional ros-one-jsk-pr2eus_0-2025.01.08.22.28_amd64.deb
