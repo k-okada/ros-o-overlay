@@ -1,0 +1,14 @@
+drwxr-xr-x root/root         0 2025-01-05 00:00 ./
+drwxr-xr-x root/root         0 2025-01-05 00:00 ./opt/
+drwxr-xr-x root/root         0 2025-01-05 00:00 ./opt/ros/
+drwxr-xr-x root/root         0 2025-01-05 00:00 ./opt/ros/one/
+drwxr-xr-x root/root         0 2025-01-05 00:00 ./opt/ros/one/share/
+drwxr-xr-x root/root         0 2025-01-05 00:00 ./opt/ros/one/share/collada_urdf_jsk_patch/
+-rw-r--r-- root/root         0 2025-01-05 00:00 ./opt/ros/one/share/collada_urdf_jsk_patch/CATKIN_IGNORE
+-rw-r--r-- root/root      2466 2025-01-05 00:00 ./opt/ros/one/share/collada_urdf_jsk_patch/package.xml
+drwxr-xr-x root/root         0 2025-01-05 00:00 ./usr/
+drwxr-xr-x root/root         0 2025-01-05 00:00 ./usr/share/
+drwxr-xr-x root/root         0 2025-01-05 00:00 ./usr/share/doc/
+drwxr-xr-x root/root         0 2025-01-05 00:00 ./usr/share/doc/ros-one-collada-urdf-jsk-patch/
+-rw-r--r-- root/root      3697 2025-01-05 00:00 ./usr/share/doc/ros-one-collada-urdf-jsk-patch/changelog.Debian.gz
+-rw-r--r-- root/root       291 2025-01-05 00:00 ./usr/share/doc/ros-one-collada-urdf-jsk-patch/copyright

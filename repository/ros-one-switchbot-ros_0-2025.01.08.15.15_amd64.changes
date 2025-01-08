@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Sun, 05 Jan 2025 00:00:00 -0000
+Source: ros-one-switchbot-ros
+Binary: ros-one-switchbot-ros
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.08.15.15
+Distribution: jammy
+Urgency: high
+Maintainer: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Changed-By: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Description:
+ ros-one-switchbot-ros - use switchbot with ros
+Changes:
+ ros-one-switchbot-ros (0-2025.01.08.15.15) jammy; urgency=high
+ .
+   * add codes for publishing switchbot CO2 meter status. (#513 <https://github.com/jsk-ros-pkg/jsk_3rdparty/issues/513>)
+   * switchbot_ros: use --cert for catkin_virtualenv for indigo (#507 <https://github.com/jsk-ros-pkg/jsk_3rdparty/issues/507>)
+   * Add switchbot status publisher. (#505 <https://github.com/jsk-ros-pkg/jsk_3rdparty/issues/505>)
+   * Mod for switchbot api 1.1 (#491 <https://github.com/jsk-ros-pkg/jsk_3rdparty/issues/491>)
+   * [switchbot_ros] force to use python3 for lambda string sort (#495 <https://github.com/jsk-ros-pkg/jsk_3rdparty/issues/495>)
+   * Contributors: Yoshiki Obinata, Yosuke Yamamoto
+Checksums-Sha1:
+ 658b1a42a4171cb4845d984f54f851c9359d4929 506108 ros-one-switchbot-ros-dbgsym_0-2025.01.08.15.15_amd64.ddeb
+ 5bc0d840e5244948cdecccf470aec823b47e2866 14022 ros-one-switchbot-ros_0-2025.01.08.15.15_amd64.buildinfo
+ cc06b695d920126c1af40a6c4939b1b6f6e20d64 2766454 ros-one-switchbot-ros_0-2025.01.08.15.15_amd64.deb
+Checksums-Sha256:
+ 73143e2a9974b5aea709e5a38b2408682e00af686c6b89e59176d96058dfe944 506108 ros-one-switchbot-ros-dbgsym_0-2025.01.08.15.15_amd64.ddeb
+ 8913e7bc497610eabf1a402021dd4f687100fb7c71722b25bba27c76c96dbd67 14022 ros-one-switchbot-ros_0-2025.01.08.15.15_amd64.buildinfo
+ 37dff210104f920ea3d8a3a307b90cd4e11849c0d63fdf5fd92daaee8ef59374 2766454 ros-one-switchbot-ros_0-2025.01.08.15.15_amd64.deb
+Files:
+ fe142efe8f55afe3787bce68d110f8f1 506108 debug optional ros-one-switchbot-ros-dbgsym_0-2025.01.08.15.15_amd64.ddeb
+ 251da19b354d987037f6cf4dd626030e 14022 misc optional ros-one-switchbot-ros_0-2025.01.08.15.15_amd64.buildinfo
+ acbeb890e4e600835e4492cb44552cd5 2766454 misc optional ros-one-switchbot-ros_0-2025.01.08.15.15_amd64.deb

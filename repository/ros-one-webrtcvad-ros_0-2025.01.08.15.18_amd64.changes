@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Sun, 05 Jan 2025 00:00:00 -0000
+Source: ros-one-webrtcvad-ros
+Binary: ros-one-webrtcvad-ros
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.08.15.18
+Distribution: jammy
+Urgency: high
+Maintainer: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Changed-By: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Description:
+ ros-one-webrtcvad-ros - This package provides a wrapper node for webrtcvad.
+Changes:
+ ros-one-webrtcvad-ros (0-2025.01.08.15.18) jammy; urgency=high
+Checksums-Sha1:
+ 1b30f26724719d06f2eed6b7c3c0ea7f5ec23b64 8112 ros-one-webrtcvad-ros_0-2025.01.08.15.18_amd64.buildinfo
+ 91b9238a9f4389f524951da5e2c84bb36f2681cb 6026 ros-one-webrtcvad-ros_0-2025.01.08.15.18_amd64.deb
+Checksums-Sha256:
+ 1c61b8b828976c1ae5df43060b2c1419f371cf1f0fa1e3649b7aea1d8c2c94fd 8112 ros-one-webrtcvad-ros_0-2025.01.08.15.18_amd64.buildinfo
+ f31fec168cc423c358fd5ca6008f035c9cc66bd9141466b8c33fe135c281ad65 6026 ros-one-webrtcvad-ros_0-2025.01.08.15.18_amd64.deb
+Files:
+ 6899d3a74a542b5a244333f69cb34747 8112 misc optional ros-one-webrtcvad-ros_0-2025.01.08.15.18_amd64.buildinfo
+ d06f8a938ff51729c87a020637fa0742 6026 misc optional ros-one-webrtcvad-ros_0-2025.01.08.15.18_amd64.deb

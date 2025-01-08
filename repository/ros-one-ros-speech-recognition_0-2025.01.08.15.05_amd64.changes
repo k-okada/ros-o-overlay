@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Sun, 05 Jan 2025 00:00:00 -0000
+Source: ros-one-ros-speech-recognition
+Binary: ros-one-ros-speech-recognition
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.08.15.05
+Distribution: jammy
+Urgency: high
+Maintainer: Yuki Furuta <furushchev@jsk.imi.i.u-tokyo.ac.jp>
+Changed-By: Yuki Furuta <furushchev@jsk.imi.i.u-tokyo.ac.jp>
+Description:
+ ros-one-ros-speech-recognition - ROS wrapper for Python SpeechRecognition library
+Changes:
+ ros-one-ros-speech-recognition (0-2025.01.08.15.05) jammy; urgency=high
+ .
+   * [doc] fix typo in jsk_3rdparty/ros_speech_recognition/README.md (#499 <https://github.com/jsk-ros-pkg/jsk_3rdparty/issues/499>)
+   * Contributors: Yukina Iwata
+Checksums-Sha1:
+ 0be4d2c21ed55038a6fa79f6b52fd43043b3d8e9 1758068 ros-one-ros-speech-recognition-dbgsym_0-2025.01.08.15.05_amd64.ddeb
+ 120153ce6e2bb888a5f3fc2b629ce0d3f7d4ac93 42258 ros-one-ros-speech-recognition_0-2025.01.08.15.05_amd64.buildinfo
+ 503be148e0f3283207815465f7ba119eb8aaeac3 37588732 ros-one-ros-speech-recognition_0-2025.01.08.15.05_amd64.deb
+Checksums-Sha256:
+ 303135f467172c782311728aa305162c84456ad9d0ce0dd26910de05c255187a 1758068 ros-one-ros-speech-recognition-dbgsym_0-2025.01.08.15.05_amd64.ddeb
+ cc31870830f27d9c5acf7f63c897c4dedf0e2fb8ed70a79ca5e472eeb7483e2b 42258 ros-one-ros-speech-recognition_0-2025.01.08.15.05_amd64.buildinfo
+ 56ddac8e8fb09d61a818777be497475f35e03cf417ce8afea22cc3d9faad3c41 37588732 ros-one-ros-speech-recognition_0-2025.01.08.15.05_amd64.deb
+Files:
+ 082f312b3e9ae1a4141337b158b5f2c5 1758068 debug optional ros-one-ros-speech-recognition-dbgsym_0-2025.01.08.15.05_amd64.ddeb
+ 7944401f4f36d8aaa626c277b92b9bbb 42258 misc optional ros-one-ros-speech-recognition_0-2025.01.08.15.05_amd64.buildinfo
+ 55f5f9861f7ba1e45719f4bfa5716a85 37588732 misc optional ros-one-ros-speech-recognition_0-2025.01.08.15.05_amd64.deb

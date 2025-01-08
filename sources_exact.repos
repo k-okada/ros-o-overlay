@@ -1,0 +1,5 @@
+repositories:
+  jsk_3rdparty:
+    type: git
+    url: https://github.com/k-okada/jsk_3rdparty.git
+    version: 491f2a9f02c85055862fab6e9cae5d6059ad312f

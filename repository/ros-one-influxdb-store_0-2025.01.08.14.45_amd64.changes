@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Sun, 05 Jan 2025 00:00:00 -0000
+Source: ros-one-influxdb-store
+Binary: ros-one-influxdb-store
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.08.14.45
+Distribution: jammy
+Urgency: high
+Maintainer: Shingo Kitagawa <shingogo.5511@gmail.com>
+Changed-By: Shingo Kitagawa <shingogo.5511@gmail.com>
+Description:
+ ros-one-influxdb-store - The influxdb_store package
+Changes:
+ ros-one-influxdb-store (0-2025.01.08.14.45) jammy; urgency=high
+Checksums-Sha1:
+ 6d0eb75ab94d3c326b2c0895c8fd542c59e10541 8120 ros-one-influxdb-store_0-2025.01.08.14.45_amd64.buildinfo
+ 2b8fa4e4cc64d57233780b4f2cb1bd9d34212b9c 13352 ros-one-influxdb-store_0-2025.01.08.14.45_amd64.deb
+Checksums-Sha256:
+ 3a8423e1e45c3acf78ffa949e0c5a5d7f1f4d50389e667dd191f7c38867a8c66 8120 ros-one-influxdb-store_0-2025.01.08.14.45_amd64.buildinfo
+ 6c96cc2ce9ca02c54efdeb298a7be12a0e5672438b0ec305f9d6caacaa0738c0 13352 ros-one-influxdb-store_0-2025.01.08.14.45_amd64.deb
+Files:
+ 3552eaab11190a48a3496d969675def5 8120 misc optional ros-one-influxdb-store_0-2025.01.08.14.45_amd64.buildinfo
+ e398f0ea6c45fad4fb04e535a4d34808 13352 misc optional ros-one-influxdb-store_0-2025.01.08.14.45_amd64.deb

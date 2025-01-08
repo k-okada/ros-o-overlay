@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Sun, 05 Jan 2025 00:00:00 -0000
+Source: ros-one-julius-ros
+Binary: ros-one-julius-ros
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.08.14.47
+Distribution: jammy
+Urgency: high
+Maintainer: Yuki Furuta <furushchev@jsk.imi.i.u-tokyo.ac.jp>
+Changed-By: Yuki Furuta <furushchev@jsk.imi.i.u-tokyo.ac.jp>
+Description:
+ ros-one-julius-ros - The julius_ros package
+Changes:
+ ros-one-julius-ros (0-2025.01.08.14.47) jammy; urgency=high
+ .
+   * GA: relax failed test dialogflow_task_executive, julius_ros (#497 <https://github.com/jsk-ros-pkg/jsk_3rdparty/issues/497>)
+   * Contributors: Kei Okada
+Checksums-Sha1:
+ ae9db46b007e41372c9869085675174078685c84 12871 ros-one-julius-ros_0-2025.01.08.14.47_amd64.buildinfo
+ 839e32b8cdc55883a628b0cc046a89eb3ed81cf4 23942 ros-one-julius-ros_0-2025.01.08.14.47_amd64.deb
+Checksums-Sha256:
+ 2c8a39b277d07f69a3a440c9c50fe2531d19f819f3f5807b17031466144bdb18 12871 ros-one-julius-ros_0-2025.01.08.14.47_amd64.buildinfo
+ 193ee5eaa3195b614db8f0468ee8dfe630608da532157914245edeb47111a050 23942 ros-one-julius-ros_0-2025.01.08.14.47_amd64.deb
+Files:
+ 65619b5601e681c806d0f7a40dbbbadd 12871 misc optional ros-one-julius-ros_0-2025.01.08.14.47_amd64.buildinfo
+ d6d3fb8679ae52297a26aca1155edd84 23942 misc optional ros-one-julius-ros_0-2025.01.08.14.47_amd64.deb

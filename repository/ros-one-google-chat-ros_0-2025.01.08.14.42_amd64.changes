@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Sun, 05 Jan 2025 00:00:00 -0000
+Source: ros-one-google-chat-ros
+Binary: ros-one-google-chat-ros
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.08.14.42
+Distribution: jammy
+Urgency: high
+Maintainer: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Changed-By: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Description:
+ ros-one-google-chat-ros - Use Google Chat API clients via ROS
+Changes:
+ ros-one-google-chat-ros (0-2025.01.08.14.42) jammy; urgency=high
+ .
+   * [google_chat_ros] check whether google_chat_button's parameters include NoneType object for avoiding rospy serialization error (#501 <https://github.com/jsk-ros-pkg/jsk_3rdparty/issues/501>)
+   * [google_chat_ros] Fix an error message typo; https ==> url (#492 <https://github.com/jsk-ros-pkg/jsk_3rdparty/issues/492>)
+   * Contributors: Kei Okada, Naoto Tsukamoto
+Checksums-Sha1:
+ 36b054189f99e73f5c5d8058e818c8e5aff8e1ac 516238 ros-one-google-chat-ros-dbgsym_0-2025.01.08.14.42_amd64.ddeb
+ 9b17071e9cb0c3a2aa130d3fd571b7a436779fa9 13949 ros-one-google-chat-ros_0-2025.01.08.14.42_amd64.buildinfo
+ 25e208e4d028eb43d728caef59aa7724d44fdf59 11758938 ros-one-google-chat-ros_0-2025.01.08.14.42_amd64.deb
+Checksums-Sha256:
+ 45da46b9a079a038875cbce26373c387c6ff02274a3690ac28bc8270867471ab 516238 ros-one-google-chat-ros-dbgsym_0-2025.01.08.14.42_amd64.ddeb
+ ece521c5d81b7fdec42d3ca3ef061f75c78bf2a7fa48f3757e76b928d1f2c204 13949 ros-one-google-chat-ros_0-2025.01.08.14.42_amd64.buildinfo
+ 0f9a7cc2925949a5f8fc932dca7ee5be64b12897329a1a8adde5d7d5508ebe88 11758938 ros-one-google-chat-ros_0-2025.01.08.14.42_amd64.deb
+Files:
+ a0b68bb9bf1a87c01ae993d3dbd89f1f 516238 debug optional ros-one-google-chat-ros-dbgsym_0-2025.01.08.14.42_amd64.ddeb
+ aee7304c4ec6e77f880715264c8a75f1 13949 misc optional ros-one-google-chat-ros_0-2025.01.08.14.42_amd64.buildinfo
+ d68aa3fb656d9e0be46dbf24b76762f9 11758938 misc optional ros-one-google-chat-ros_0-2025.01.08.14.42_amd64.deb

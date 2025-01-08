@@ -1,0 +1,35 @@
+Format: 1.8
+Date: Sun, 05 Jan 2025 00:00:00 -0000
+Source: ros-one-dialogflow-task-executive
+Binary: ros-one-dialogflow-task-executive
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.08.14.32
+Distribution: jammy
+Urgency: high
+Maintainer: Shingo Kitagawa <shingogo.5511@gmail.com>
+Changed-By: Shingo Kitagawa <shingogo.5511@gmail.com>
+Description:
+ ros-one-dialogflow-task-executive - A ROS package for Google Dialogflow and launching apps via Dialog
+Changes:
+ ros-one-dialogflow-task-executive (0-2025.01.08.14.32) jammy; urgency=high
+ .
+   * Support ros-o / Ubuntu 22.04 (#512 <https://github.com/jsk-ros-pkg/jsk_3rdparty/issues/512>)
+ .
+       * [respeaker_ros][diamondback] [ros-o] only use STREQUAL to compare ROS_DISTRO in cmake
+ .
+   * fix CMake: install apps/samples/config (#504 <https://github.com/jsk-ros-pkg/jsk_3rdparty/issues/504>)
+   * GA: relax failed test dialogflow_task_executive, julius_ros (#497 <https://github.com/jsk-ros-pkg/jsk_3rdparty/issues/497>)
+   * Contributors: Kei Okada
+Checksums-Sha1:
+ 8f8908153ea81b6c01cdaebefc1f2eee5f884525 515990 ros-one-dialogflow-task-executive-dbgsym_0-2025.01.08.14.32_amd64.ddeb
+ d8098be047ca13e5508944b757b05de8a5ac6ab1 14036 ros-one-dialogflow-task-executive_0-2025.01.08.14.32_amd64.buildinfo
+ bfa61460b3cf0f0aa67dcf7aade656fe3a38c7ef 8675572 ros-one-dialogflow-task-executive_0-2025.01.08.14.32_amd64.deb
+Checksums-Sha256:
+ c92e50ab1ddd14661f854def0f0d91a305591bd75cdd850fc5dd1b302615f528 515990 ros-one-dialogflow-task-executive-dbgsym_0-2025.01.08.14.32_amd64.ddeb
+ f46dee48ef2ffc5f3e41483b722d2c3c7de2b630e470f89fac43266d769bde85 14036 ros-one-dialogflow-task-executive_0-2025.01.08.14.32_amd64.buildinfo
+ 3462c7a0b7e55956cc87d2e7775094e63e3ad7d6b58bd059141dbfea00e0da33 8675572 ros-one-dialogflow-task-executive_0-2025.01.08.14.32_amd64.deb
+Files:
+ 08426fb933595c4a166238fb2acb4d64 515990 debug optional ros-one-dialogflow-task-executive-dbgsym_0-2025.01.08.14.32_amd64.ddeb
+ 956005bf4196cd2a46fe65eaec75bf82 14036 misc optional ros-one-dialogflow-task-executive_0-2025.01.08.14.32_amd64.buildinfo
+ 3d596a8f43c466d1efbbf0db1cea55cc 8675572 misc optional ros-one-dialogflow-task-executive_0-2025.01.08.14.32_amd64.deb

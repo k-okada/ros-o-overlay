@@ -1,0 +1,117 @@
+aques_talk:
+  ubuntu:
+  - ros-one-aques-talk
+assimp_devel:
+  ubuntu:
+  - ros-one-assimp-devel
+bayesian_belief_networks:
+  ubuntu:
+  - ros-one-bayesian-belief-networks
+chaplus_ros:
+  ubuntu:
+  - ros-one-chaplus-ros
+collada_urdf_jsk_patch:
+  ubuntu:
+  - ros-one-collada-urdf-jsk-patch
+dialogflow_task_executive:
+  ubuntu:
+  - ros-one-dialogflow-task-executive
+downward:
+  ubuntu:
+  - ros-one-downward
+ff:
+  ubuntu:
+  - ros-one-ff
+ffha:
+  ubuntu:
+  - ros-one-ffha
+gdrive_ros:
+  ubuntu:
+  - ros-one-gdrive-ros
+google_chat_ros:
+  ubuntu:
+  - ros-one-google-chat-ros
+google_cloud_texttospeech:
+  ubuntu:
+  - ros-one-google-cloud-texttospeech
+influxdb_store:
+  ubuntu:
+  - ros-one-influxdb-store
+jsk_3rdparty:
+  ubuntu:
+  - ros-one-jsk-3rdparty
+julius:
+  ubuntu:
+  - ros-one-julius
+julius_ros:
+  ubuntu:
+  - ros-one-julius-ros
+laser_filters_jsk_patch:
+  ubuntu:
+  - ros-one-laser-filters-jsk-patch
+libcmt:
+  ubuntu:
+  - ros-one-libcmt
+libsiftfast:
+  ubuntu:
+  - ros-one-libsiftfast
+lpg_planner:
+  ubuntu:
+  - ros-one-lpg-planner
+mini_maxwell:
+  ubuntu:
+  - ros-one-mini-maxwell
+nfc_ros:
+  ubuntu:
+  - ros-one-nfc-ros
+nlopt:
+  ubuntu:
+  - ros-one-nlopt
+opt_camera:
+  ubuntu:
+  - ros-one-opt-camera
+osqp:
+  ubuntu:
+  - ros-one-osqp
+pgm_learner:
+  ubuntu:
+  - ros-one-pgm-learner
+respeaker_ros:
+  ubuntu:
+  - ros-one-respeaker-ros
+ros_google_cloud_language:
+  ubuntu:
+  - ros-one-ros-google-cloud-language
+ros_speech_recognition:
+  ubuntu:
+  - ros-one-ros-speech-recognition
+rospatlite:
+  ubuntu:
+  - ros-one-rospatlite
+rosping:
+  ubuntu:
+  - ros-one-rosping
+rostwitter:
+  ubuntu:
+  - ros-one-rostwitter
+sesame_ros:
+  ubuntu:
+  - ros-one-sesame-ros
+slic:
+  ubuntu:
+  - ros-one-slic
+switchbot_ros:
+  ubuntu:
+  - ros-one-switchbot-ros
+voice_text:
+  ubuntu:
+  - ros-one-voice-text
+webrtcvad_ros:
+  ubuntu:
+  - ros-one-webrtcvad-ros
+zdepth:
+  ubuntu:
+  - ros-one-zdepth
+zdepth_image_transport:
+  ubuntu:
+  - ros-one-zdepth-image-transport

@@ -1,0 +1,39 @@
+Format: 1.8
+Date: Sun, 05 Jan 2025 00:00:00 -0000
+Source: ros-one-downward
+Binary: ros-one-downward
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.08.14.34
+Distribution: jammy
+Urgency: high
+Maintainer: Yohei Kakiuchi <youhei@jsk.t.u-tokyo.ac.jp>
+Changed-By: Yohei Kakiuchi <youhei@jsk.t.u-tokyo.ac.jp>
+Description:
+ ros-one-downward - fast downward: PDDL Planner (http://www.fast-downward.org)
+Changes:
+ ros-one-downward (0-2025.01.08.14.34) jammy; urgency=high
+ .
+   * Fix for ROS-O (#515 <https://github.com/jsk-ros-pkg/jsk_3rdparty/issues/515>)
+ .
+       * [.github/workflows/config.yml: disable installing recommends in apt-get install
+       * [3rdparty/downward/package.xml: add linbfl-dev for FlexLexer.h
+ .
+   * Support ros-o / Ubuntu 22.04 (#512 <https://github.com/jsk-ros-pkg/jsk_3rdparty/issues/512>)
+ .
+       * [downward] [ros-o] add -Wno-maybe-uninitialized
+       * [downward] patching to fix std::vector namespace
+ .
+   * Contributors: Kei Okada, Yoshiki Obinata
+Checksums-Sha1:
+ 109ea590cd55af10046066b0352ca80f98a6f3c6 19498238 ros-one-downward-dbgsym_0-2025.01.08.14.34_amd64.ddeb
+ 2f7c660f4908b53d9373b1760660e207cc73076b 13392 ros-one-downward_0-2025.01.08.14.34_amd64.buildinfo
+ 68da0b9ab1b602c86d14912907035fd78971b86c 1861362 ros-one-downward_0-2025.01.08.14.34_amd64.deb
+Checksums-Sha256:
+ 87d47043009c7f0c0af125ee8225dc18b0519d7fc232c58a9f0ae8a43b637b1d 19498238 ros-one-downward-dbgsym_0-2025.01.08.14.34_amd64.ddeb
+ 6d33627a8cc782f526ee0bd81dff52d17d26364d62f65850a48b934b230cd65d 13392 ros-one-downward_0-2025.01.08.14.34_amd64.buildinfo
+ f977c863bf74a9e8fb99febc2e83f67ff7b4555b70c44c3be6f53e37f4bde8c4 1861362 ros-one-downward_0-2025.01.08.14.34_amd64.deb
+Files:
+ 6cfc335db47cd012b6d8b23eb61db003 19498238 debug optional ros-one-downward-dbgsym_0-2025.01.08.14.34_amd64.ddeb
+ a55eae8d26f642aaaba7ad9b0fd1557f 13392 misc optional ros-one-downward_0-2025.01.08.14.34_amd64.buildinfo
+ f3f4b5ccc3f211224f03065f228e3357 1861362 misc optional ros-one-downward_0-2025.01.08.14.34_amd64.deb

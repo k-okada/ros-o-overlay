@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Sun, 05 Jan 2025 00:00:00 -0000
+Source: ros-one-rostwitter
+Binary: ros-one-rostwitter
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.08.15.11
+Distribution: jammy
+Urgency: high
+Maintainer: k-okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Changed-By: k-okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Description:
+ ros-one-rostwitter - The rostwitter package
+Changes:
+ ros-one-rostwitter (0-2025.01.08.15.11) jammy; urgency=high
+Checksums-Sha1:
+ b8b3c6ae2561dd40c28d2c88ee1258015d01c192 15900 ros-one-rostwitter_0-2025.01.08.15.11_amd64.buildinfo
+ 1e9ebe1461b6e4d2a8b8578dbfc814dbc4bf7a84 127618 ros-one-rostwitter_0-2025.01.08.15.11_amd64.deb
+Checksums-Sha256:
+ 3b04a6b7334aa1c02b7a705723d4874f5dcd52170fb3bfd233ef64e1b8c9e132 15900 ros-one-rostwitter_0-2025.01.08.15.11_amd64.buildinfo
+ 549c3a663a7df130eb52246b43e7a161f7dbc51333fc74f74501b23fb3e31953 127618 ros-one-rostwitter_0-2025.01.08.15.11_amd64.deb
+Files:
+ ed671a8f8242a0e380d5746c8f626be8 15900 misc optional ros-one-rostwitter_0-2025.01.08.15.11_amd64.buildinfo
+ 0369d4399c400cbef3f0b391bd0a2db1 127618 misc optional ros-one-rostwitter_0-2025.01.08.15.11_amd64.deb
