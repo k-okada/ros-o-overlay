@@ -1,9 +1,13 @@
 repositories:
-  hpp-fcl:
+  setup_files:
     type: git
-    url: https://github.com/humanoid-path-planner/hpp-fcl.git
-    version: devel
-  pinocchio:
+    url: https://github.com/v4hn/setup_files.git
+    version: main
+  ros_environment:
     type: git
-    url: https://github.com/stack-of-tasks/pinocchio.git
-    version: master
+    url: https://github.com/ros-o/ros_environment.git
+    version: debian
+  roscpp_core:
+    type: git
+    url: https://github.com/ros-o/roscpp_core.git
+    version: obese-devel
